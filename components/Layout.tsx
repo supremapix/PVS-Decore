@@ -242,7 +242,12 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           </div>
 
           <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-xs">
-            <p>&copy; {new Date().getFullYear()} PVS Decore. Todos os direitos reservados.</p>
+            <div className="flex flex-col sm:flex-row items-center gap-4">
+              <p>&copy; {new Date().getFullYear()} PVS Decore. Todos os direitos reservados.</p>
+              <span className="hidden sm:block text-gray-700">|</span>
+              <Link to="/mapa-do-site" className="text-gray-500 hover:text-brand-orange transition">Mapa do Site</Link>
+            </div>
+            
             <p className="flex items-center gap-1 mt-4 md:mt-0">
               Desenvolvido <span className="text-red-500 animate-heartbeat">❤️</span> por 
               <a href="https://supremasite.com.br" target="_blank" rel="noopener noreferrer" className="font-bold text-white hover:text-brand-orange transition">

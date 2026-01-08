@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import LocationPage from './pages/LocationPage';
 import GenericPage from './pages/GenericPage';
 import ContactPage from './pages/ContactPage';
+import SitemapPage from './pages/SitemapPage';
 import ScrollToTop from './components/ScrollToTop';
 
 function AnimatedRoutes() {
@@ -24,6 +25,9 @@ function AnimatedRoutes() {
         
         {/* Contact Page */}
         <Route path="/contato" element={<ContactPage />} />
+
+        {/* Sitemap Page */}
+        <Route path="/mapa-do-site" element={<SitemapPage />} />
         
         {/* Fallback */}
         <Route path="*" element={<Navigate to="/" replace />} />
