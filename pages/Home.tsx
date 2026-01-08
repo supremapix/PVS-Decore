@@ -7,10 +7,10 @@ import PageTransition from '../components/PageTransition';
 import HeroBackground from '../components/HeroBackground';
 import ServiceContactWidget from '../components/ServiceContactWidget';
 import LocationMarquee from '../components/LocationMarquee';
-import TestimonialMarquee from '../components/TestimonialMarquee'; // New
-import FAQSection from '../components/FAQSection'; // New
-import MapSection from '../components/MapSection'; // New
-import ImageGallery from '../components/ImageGallery'; // New
+import TestimonialMarquee from '../components/TestimonialMarquee';
+import FAQSection from '../components/FAQSection';
+import MapSection from '../components/MapSection';
+import ImageGallery from '../components/ImageGallery';
 import TypewriterEffect from '../components/TypewriterEffect';
 import PartnersMarquee from '../components/PartnersMarquee';
 import { motion } from 'framer-motion';
@@ -28,6 +28,30 @@ const Home = () => {
     }
   };
 
+  // Premium Animation Variants
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.2,
+        delayChildren: 0.3
+      }
+    }
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: 30 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.8,
+        ease: [0.25, 0.1, 0.25, 1.0] // Cubic Bezier for smooth premium feel
+      }
+    }
+  };
+
   return (
     <PageTransition>
       <SEO 
@@ -42,40 +66,36 @@ const Home = () => {
         
         <div className="container mx-auto px-4 relative z-10 grid lg:grid-cols-12 gap-12 items-center py-20">
           
-          {/* Left Column: Sales Copy */}
+          {/* Left Column: Sales Copy with Premium Animations */}
           <motion.div 
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
+            variants={containerVariants}
+            initial="hidden"
+            animate="visible"
             className="lg:col-span-7 space-y-8 text-center lg:text-left"
           >
-            <motion.div 
-              initial={{ y: -20, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ delay: 0.2 }}
-              className="inline-flex items-center gap-2 bg-white/10 border border-white/20 backdrop-blur-md text-brand-orange px-5 py-2 rounded-full text-xs font-bold uppercase tracking-widest shadow-lg"
-            >
-              <Star size={12} fill="currentColor" /> Instalação Técnica Especializada • Revenda Oficial
+            <motion.div variants={itemVariants}>
+              <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 backdrop-blur-md text-brand-orange px-5 py-2 rounded-full text-xs font-bold uppercase tracking-widest shadow-lg">
+                <Star size={12} fill="currentColor" /> Instalação Técnica Especializada • Revenda Oficial
+              </div>
             </motion.div>
             
-            <h1 className="text-4xl md:text-5xl lg:text-7xl font-black leading-tight drop-shadow-2xl tracking-tight">
+            <motion.h1 
+              variants={itemVariants}
+              className="text-4xl md:text-5xl lg:text-7xl font-black leading-tight drop-shadow-2xl tracking-tight"
+            >
               Pisos que Transformam <br className="hidden md:block"/>
               <TypewriterEffect />
-            </h1>
+            </motion.h1>
 
             <motion.p 
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.5 }}
+              variants={itemVariants}
               className="text-gray-200 text-lg md:text-2xl max-w-2xl mx-auto lg:mx-0 leading-relaxed font-light drop-shadow-lg"
             >
               Sua casa merece o melhor. Unimos a <strong className="text-white font-bold decoration-brand-orange underline decoration-2 underline-offset-4">maior variedade de marcas</strong> (Quick-Step, Tarkett) a uma <strong className="text-white font-bold decoration-brand-orange underline decoration-2 underline-offset-4">instalação técnica própria</strong>. Garantia de obra limpa, rápida e acabamento perfeito.
             </motion.p>
             
             <motion.div 
-              initial={{ y: 20, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ delay: 0.8 }}
+              variants={itemVariants}
               className="flex flex-col sm:flex-row gap-5 justify-center lg:justify-start pt-8"
             >
                 <button 
@@ -96,9 +116,7 @@ const Home = () => {
             </motion.div>
 
             <motion.div 
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 1.2 }}
+              variants={itemVariants}
               className="mt-8 flex flex-wrap justify-center lg:justify-start gap-4 text-xs md:text-sm text-gray-300 font-medium"
             >
                <span className="flex items-center gap-2 bg-black/40 px-4 py-2 rounded-lg backdrop-blur-md border border-white/5 hover:border-brand-orange/50 transition-colors"><CheckCircle2 size={16} className="text-green-400" /> Laminado Click</span>
@@ -111,7 +129,7 @@ const Home = () => {
           <motion.div 
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.5 }}
+            transition={{ duration: 0.8, delay: 0.8, ease: "easeOut" }}
             className="lg:col-span-5 hidden lg:block h-full"
           >
              <div className="transform hover:scale-[1.02] transition duration-500 h-full">
