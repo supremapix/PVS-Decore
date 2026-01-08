@@ -48,10 +48,12 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       {/* Top Bar */}
       <div className="bg-brand-dark text-white text-xs py-2 px-4 text-center sm:text-left">
         <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
-          <span className="hidden sm:inline flex items-center gap-1">
-             <MapPin size={12} className="text-brand-orange" /> Sede em São José dos Pinhais - Atendemos num raio de 30km
+          {/* Correction: Use sm:flex instead of sm:inline flex to ensure row alignment and prevent stacking */}
+          <span className="hidden sm:flex items-center gap-2">
+             <MapPin size={14} className="text-brand-orange" /> 
+             <span>Sede em São José dos Pinhais - Atendemos num raio de 30km</span>
           </span>
-          <div className="flex gap-4">
+          <div className="flex gap-4 justify-center sm:justify-end w-full sm:w-auto">
             <a href={`mailto:${CONTACT_EMAIL}`} className="hover:text-brand-orange transition flex items-center gap-1">
               <Mail size={12} /> {CONTACT_EMAIL}
             </a>
