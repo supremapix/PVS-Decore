@@ -50,12 +50,12 @@ const Home = () => {
               initial={{ y: -20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.2 }}
-              className="inline-flex items-center gap-2 bg-brand-orange/20 border border-brand-orange/40 backdrop-blur-md text-brand-orange px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest animate-pulse shadow-lg shadow-orange-500/20"
+              className="inline-flex items-center gap-2 bg-white/10 border border-white/20 backdrop-blur-md text-brand-orange px-5 py-2 rounded-full text-xs font-bold uppercase tracking-widest shadow-lg"
             >
-              <Star size={12} fill="currentColor" /> Instalação Premium • 10 a 25 Anos de Garantia
+              <Star size={12} fill="currentColor" /> Instalação Técnica Especializada • Revenda Oficial
             </motion.div>
             
-            <h1 className="text-4xl md:text-5xl lg:text-7xl font-black leading-tight drop-shadow-2xl">
+            <h1 className="text-4xl md:text-5xl lg:text-7xl font-black leading-tight drop-shadow-2xl tracking-tight">
               Pisos que Transformam <br className="hidden md:block"/>
               <TypewriterEffect />
             </h1>
@@ -64,31 +64,31 @@ const Home = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5 }}
-              className="text-gray-200 text-lg md:text-2xl max-w-2xl mx-auto lg:mx-0 leading-relaxed font-light drop-shadow-md"
+              className="text-gray-200 text-lg md:text-2xl max-w-2xl mx-auto lg:mx-0 leading-relaxed font-light drop-shadow-lg"
             >
-              Especialistas em <strong className="text-white font-bold bg-white/10 px-1 rounded">Laminados Quick-Step</strong> e <strong className="text-white font-bold bg-white/10 px-1 rounded">Vinílicos Tarkett</strong>. Instalação rápida, limpa e com acabamento de alto padrão.
+              Sua casa merece o melhor. Unimos a <strong className="text-white font-bold decoration-brand-orange underline decoration-2 underline-offset-4">maior variedade de marcas</strong> (Quick-Step, Tarkett) a uma <strong className="text-white font-bold decoration-brand-orange underline decoration-2 underline-offset-4">instalação técnica própria</strong>. Garantia de obra limpa, rápida e acabamento perfeito.
             </motion.p>
             
             <motion.div 
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.8 }}
-              className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-6"
+              className="flex flex-col sm:flex-row gap-5 justify-center lg:justify-start pt-8"
             >
                 <button 
                   onClick={handleHeroWhatsApp}
-                  className="relative overflow-hidden bg-brand-orange hover:bg-orange-600 text-white font-black text-xl px-10 py-5 rounded-full shadow-[0_0_40px_-10px_rgba(249,115,22,0.5)] hover:shadow-[0_0_60px_-15px_rgba(249,115,22,0.7)] transform hover:-translate-y-1 hover:scale-105 transition-all duration-300 flex items-center justify-center gap-3 group border-2 border-orange-400 animate-[pulse_3s_infinite]"
+                  className="relative overflow-hidden bg-brand-orange hover:bg-orange-600 text-white font-black text-xl px-12 py-5 rounded-full shadow-[0_0_50px_-10px_rgba(249,115,22,0.6)] hover:shadow-[0_0_70px_-5px_rgba(249,115,22,0.8)] transform hover:-translate-y-1 hover:scale-105 transition-all duration-300 flex items-center justify-center gap-3 group border border-orange-400 ring-4 ring-orange-500/20"
                 >
                    <div className="absolute inset-0 bg-white/20 w-full h-full skew-x-12 -translate-x-full group-hover:animate-[shimmer_1.5s_infinite]"></div>
                    <MessageCircle size={28} className="group-hover:rotate-12 transition-transform relative z-10" />
-                   <span className="relative z-10">ORÇAMENTO RÁPIDO</span>
+                   <span className="relative z-10 tracking-wide">ORÇAMENTO RÁPIDO</span>
                 </button>
                 <a 
                   href="#footer-contact"
                   onClick={handleScrollToContact}
-                  className="px-8 py-5 rounded-full border-2 border-white/30 hover:bg-white hover:text-gray-900 hover:border-white backdrop-blur-sm transition-all font-bold text-lg flex items-center justify-center shadow-lg hover:shadow-white/20"
+                  className="px-10 py-5 rounded-full border border-white/30 bg-white/5 backdrop-blur-md hover:bg-white hover:text-gray-900 hover:border-white transition-all duration-300 font-bold text-lg flex items-center justify-center shadow-lg group"
                 >
-                    Fale Conosco
+                    <span className="group-hover:translate-x-1 transition-transform">Fale Conosco</span>
                 </a>
             </motion.div>
 
@@ -98,9 +98,9 @@ const Home = () => {
               transition={{ delay: 1.2 }}
               className="mt-8 flex flex-wrap justify-center lg:justify-start gap-4 text-xs md:text-sm text-gray-300 font-medium"
             >
-               <span className="flex items-center gap-1 bg-black/30 px-3 py-1 rounded-lg backdrop-blur-sm border border-white/10 hover:bg-brand-orange/20 transition-colors"><CheckCircle2 size={14} className="text-green-400" /> Laminado Click</span>
-               <span className="flex items-center gap-1 bg-black/30 px-3 py-1 rounded-lg backdrop-blur-sm border border-white/10 hover:bg-brand-orange/20 transition-colors"><CheckCircle2 size={14} className="text-green-400" /> Vinílico Colado</span>
-               <span className="flex items-center gap-1 bg-black/30 px-3 py-1 rounded-lg backdrop-blur-sm border border-white/10 hover:bg-brand-orange/20 transition-colors"><CheckCircle2 size={14} className="text-green-400" /> Rodapés Santa Luzia</span>
+               <span className="flex items-center gap-2 bg-black/40 px-4 py-2 rounded-lg backdrop-blur-md border border-white/5 hover:border-brand-orange/50 transition-colors"><CheckCircle2 size={16} className="text-green-400" /> Laminado Click</span>
+               <span className="flex items-center gap-2 bg-black/40 px-4 py-2 rounded-lg backdrop-blur-md border border-white/5 hover:border-brand-orange/50 transition-colors"><CheckCircle2 size={16} className="text-green-400" /> Vinílico Colado</span>
+               <span className="flex items-center gap-2 bg-black/40 px-4 py-2 rounded-lg backdrop-blur-md border border-white/5 hover:border-brand-orange/50 transition-colors"><CheckCircle2 size={16} className="text-green-400" /> Rodapés Santa Luzia</span>
             </motion.div>
           </motion.div>
 
