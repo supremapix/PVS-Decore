@@ -14,11 +14,14 @@ const GenericPage = () => {
     return <Navigate to="/" replace />;
   }
 
+  // Enhanced description logic to ensure persuasive tone and benefits are always present
+  const persuasiveDescription = `${data.seoDescription} Escolha a PVS Decore: Referência em instalação técnica especializada, acabamento impecável e garantia total para sua obra em Curitiba e São José dos Pinhais.`;
+
   return (
     <PageTransition>
       <SEO 
         title={`${data.title} | PVS Decore`}
-        description={data.seoDescription}
+        description={persuasiveDescription}
         url={`/${data.type}/${slug}`}
         type={data.type}
       />
