@@ -5,6 +5,7 @@ import Layout from './components/Layout';
 import Home from './pages/Home';
 import LocationPage from './pages/LocationPage';
 import GenericPage from './pages/GenericPage';
+import ContactPage from './pages/ContactPage';
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -19,6 +20,9 @@ function AnimatedRoutes() {
         {/* New Product and Service Routes */}
         <Route path="/product/:slug" element={<GenericPage />} />
         <Route path="/service/:slug" element={<GenericPage />} />
+        
+        {/* Contact Page */}
+        <Route path="/contato" element={<ContactPage />} />
         
         {/* Fallback */}
         <Route path="*" element={<Navigate to="/" replace />} />

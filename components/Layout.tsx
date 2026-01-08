@@ -40,7 +40,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     { name: 'Piso Vinílico', path: '/product/piso-vinilico' },
     { name: 'Piso Laminado', path: '/product/piso-laminado' },
     { name: 'Serviços', path: '/service/instalacao-residencial' },
-    { name: 'Contato', path: '/#contato' },
+    { name: 'Contato', path: '/contato' },
   ];
 
   return (

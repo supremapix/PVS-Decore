@@ -347,7 +347,7 @@ const Home = () => {
       <MapSection />
 
       {/* Mobile-Only Contact Widget (replaces form) */}
-      <section id="contato" className="py-16 bg-white lg:hidden">
+      <section className="py-16 bg-white lg:hidden">
         <div className="container mx-auto px-4">
              <ServiceContactWidget />
         </div>
