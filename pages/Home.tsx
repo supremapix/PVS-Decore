@@ -1,13 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ShieldCheck, Clock, Award, ChevronRight, CheckCircle2, Star, Quote, MapPin, Tag, ThumbsUp, Zap, BadgeCheck, MessageCircle } from 'lucide-react';
-import { SERVICES, BRAND_PARTNERS, CONTACT_PHONE } from '../constants';
+import { ShieldCheck, Clock, Award, ChevronRight, CheckCircle2, Star, Quote, MapPin, Tag, ThumbsUp, Zap, BadgeCheck, MessageCircle, ArrowRight } from 'lucide-react';
+import { SERVICES, CONTACT_PHONE } from '../constants';
 import SEO from '../components/SEO';
 import PageTransition from '../components/PageTransition';
 import HeroBackground from '../components/HeroBackground';
 import ServiceContactWidget from '../components/ServiceContactWidget';
 import LocationMarquee from '../components/LocationMarquee';
 import TestimonialCard from '../components/TestimonialCard';
+import TypewriterEffect from '../components/TypewriterEffect';
+import PartnersMarquee from '../components/PartnersMarquee';
+import { motion } from 'framer-motion';
 
 const Home = () => {
   const handleHeroWhatsApp = () => {
@@ -31,61 +34,93 @@ const Home = () => {
       />
 
       {/* Hero Section */}
-      <section className="relative text-white min-h-[600px] lg:min-h-[700px] flex items-center overflow-hidden">
+      <section className="relative text-white min-h-[650px] lg:min-h-[750px] flex items-center overflow-hidden">
         <HeroBackground />
         
         <div className="container mx-auto px-4 relative z-10 grid lg:grid-cols-12 gap-12 items-center py-20">
           
           {/* Left Column: Sales Copy */}
-          <div className="lg:col-span-7 space-y-8 text-center lg:text-left">
-            <div className="inline-flex items-center gap-2 bg-brand-orange/20 border border-brand-orange/40 backdrop-blur-md text-brand-orange px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest animate-pulse shadow-lg shadow-orange-500/20">
+          <motion.div 
+            initial={{ opacity: 0, x: -50 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            className="lg:col-span-7 space-y-8 text-center lg:text-left"
+          >
+            <motion.div 
+              initial={{ y: -20, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ delay: 0.2 }}
+              className="inline-flex items-center gap-2 bg-brand-orange/20 border border-brand-orange/40 backdrop-blur-md text-brand-orange px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest animate-pulse shadow-lg shadow-orange-500/20"
+            >
               <Star size={12} fill="currentColor" /> Instalação Premium • 10 a 25 Anos de Garantia
-            </div>
+            </motion.div>
             
-            <h1 className="text-4xl md:text-5xl lg:text-7xl font-black leading-tight drop-shadow-xl">
-              Pisos que Transformam <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-yellow-400">Seu Lar.</span>
+            <h1 className="text-4xl md:text-5xl lg:text-7xl font-black leading-tight drop-shadow-2xl">
+              Pisos que Transformam <br className="hidden md:block"/>
+              <TypewriterEffect />
             </h1>
 
-            <p className="text-gray-200 text-lg md:text-2xl max-w-2xl mx-auto lg:mx-0 leading-relaxed font-light drop-shadow-md">
-              Especialistas em <strong className="text-white font-bold">Laminados Quick-Step</strong> e <strong className="text-white font-bold">Vinílicos Tarkett</strong>. Instalação rápida, limpa e com acabamento de alto padrão.
-            </p>
+            <motion.p 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.5 }}
+              className="text-gray-200 text-lg md:text-2xl max-w-2xl mx-auto lg:mx-0 leading-relaxed font-light drop-shadow-md"
+            >
+              Especialistas em <strong className="text-white font-bold bg-white/10 px-1 rounded">Laminados Quick-Step</strong> e <strong className="text-white font-bold bg-white/10 px-1 rounded">Vinílicos Tarkett</strong>. Instalação rápida, limpa e com acabamento de alto padrão.
+            </motion.p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-6">
+            <motion.div 
+              initial={{ y: 20, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ delay: 0.8 }}
+              className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-6"
+            >
                 <button 
                   onClick={handleHeroWhatsApp}
-                  className="bg-brand-orange hover:bg-orange-600 text-white font-black text-xl px-10 py-5 rounded-full shadow-2xl hover:shadow-orange-500/60 transform hover:-translate-y-1 hover:scale-105 transition-all duration-300 flex items-center justify-center gap-3 group border-2 border-orange-400 animate-pulse hover:animate-none"
+                  className="relative overflow-hidden bg-brand-orange hover:bg-orange-600 text-white font-black text-xl px-10 py-5 rounded-full shadow-[0_0_40px_-10px_rgba(249,115,22,0.5)] hover:shadow-[0_0_60px_-15px_rgba(249,115,22,0.7)] transform hover:-translate-y-1 hover:scale-105 transition-all duration-300 flex items-center justify-center gap-3 group border-2 border-orange-400 animate-[pulse_3s_infinite]"
                 >
-                   <MessageCircle size={28} className="group-hover:rotate-12 transition-transform" />
-                   ORÇAMENTO RÁPIDO
+                   <div className="absolute inset-0 bg-white/20 w-full h-full skew-x-12 -translate-x-full group-hover:animate-[shimmer_1.5s_infinite]"></div>
+                   <MessageCircle size={28} className="group-hover:rotate-12 transition-transform relative z-10" />
+                   <span className="relative z-10">ORÇAMENTO RÁPIDO</span>
                 </button>
                 <a 
                   href="#footer-contact"
                   onClick={handleScrollToContact}
-                  className="px-8 py-5 rounded-full border-2 border-white/30 hover:bg-white hover:text-gray-900 hover:border-white backdrop-blur-sm transition-all font-bold text-lg flex items-center justify-center shadow-lg"
+                  className="px-8 py-5 rounded-full border-2 border-white/30 hover:bg-white hover:text-gray-900 hover:border-white backdrop-blur-sm transition-all font-bold text-lg flex items-center justify-center shadow-lg hover:shadow-white/20"
                 >
                     Fale Conosco
                 </a>
-            </div>
+            </motion.div>
 
-            <div className="mt-8 flex flex-wrap justify-center lg:justify-start gap-4 text-xs md:text-sm text-gray-300 font-medium">
-               <span className="flex items-center gap-1 bg-black/30 px-3 py-1 rounded-lg backdrop-blur-sm border border-white/10"><CheckCircle2 size={14} className="text-green-400" /> Laminado Click</span>
-               <span className="flex items-center gap-1 bg-black/30 px-3 py-1 rounded-lg backdrop-blur-sm border border-white/10"><CheckCircle2 size={14} className="text-green-400" /> Vinílico Colado</span>
-               <span className="flex items-center gap-1 bg-black/30 px-3 py-1 rounded-lg backdrop-blur-sm border border-white/10"><CheckCircle2 size={14} className="text-green-400" /> Rodapés Santa Luzia</span>
-            </div>
-          </div>
+            <motion.div 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 1.2 }}
+              className="mt-8 flex flex-wrap justify-center lg:justify-start gap-4 text-xs md:text-sm text-gray-300 font-medium"
+            >
+               <span className="flex items-center gap-1 bg-black/30 px-3 py-1 rounded-lg backdrop-blur-sm border border-white/10 hover:bg-brand-orange/20 transition-colors"><CheckCircle2 size={14} className="text-green-400" /> Laminado Click</span>
+               <span className="flex items-center gap-1 bg-black/30 px-3 py-1 rounded-lg backdrop-blur-sm border border-white/10 hover:bg-brand-orange/20 transition-colors"><CheckCircle2 size={14} className="text-green-400" /> Vinílico Colado</span>
+               <span className="flex items-center gap-1 bg-black/30 px-3 py-1 rounded-lg backdrop-blur-sm border border-white/10 hover:bg-brand-orange/20 transition-colors"><CheckCircle2 size={14} className="text-green-400" /> Rodapés Santa Luzia</span>
+            </motion.div>
+          </motion.div>
 
           {/* Right Column: Contact/Accordion Widget */}
-          <div className="lg:col-span-5 hidden lg:block h-full">
+          <motion.div 
+            initial={{ opacity: 0, x: 50 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.5 }}
+            className="lg:col-span-5 hidden lg:block h-full"
+          >
              <div className="transform hover:scale-[1.02] transition duration-500 h-full">
                 <ServiceContactWidget />
              </div>
-          </div>
+          </motion.div>
         </div>
       </section>
 
       {/* Marquee Section (Space Saver) */}
       <section className="bg-white">
-          <div className="py-2 text-center text-xs font-bold text-gray-400 uppercase tracking-widest">
+          <div className="py-2 text-center text-xs font-bold text-gray-400 uppercase tracking-widest bg-gray-50 border-b border-gray-100">
               Atendemos em toda Região
           </div>
           <LocationMarquee />
@@ -100,13 +135,20 @@ const Home = () => {
             { icon: Star, title: 'Marcas Líderes', desc: 'Quick-Step, Tarkett...' },
             { icon: ShieldCheck, title: 'Garantia Real', desc: 'Produto e Serviço' },
           ].map((item, idx) => (
-            <div key={idx} className="flex flex-col items-center text-center group p-4 rounded-xl hover:bg-white hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+            <motion.div 
+              key={idx} 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: idx * 0.1 }}
+              className="flex flex-col items-center text-center group p-4 rounded-xl hover:bg-white hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+            >
               <div className="bg-white p-4 rounded-full shadow-sm mb-3 text-brand-orange group-hover:bg-brand-orange group-hover:text-white transition duration-300 ring-4 ring-gray-100 group-hover:ring-orange-200">
                 <item.icon size={32} />
               </div>
               <h3 className="font-bold text-gray-900 text-lg">{item.title}</h3>
               <p className="text-sm text-gray-500">{item.desc}</p>
-            </div>
+            </motion.div>
           ))}
         </div>
       </section>
@@ -128,10 +170,13 @@ const Home = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {SERVICES.map((service, idx) => (
-              <div 
+              <motion.div 
                 key={service.id} 
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: idx * 0.1 }}
                 className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 ease-out border border-gray-100 flex flex-col relative"
-                style={{ animationDelay: `${idx * 100}ms` }}
               >
                 <div className="h-64 overflow-hidden relative">
                   <div className="absolute top-4 right-4 bg-white/90 backdrop-blur text-brand-orange text-xs font-bold px-3 py-1 rounded-full z-20 shadow-lg flex items-center gap-1">
@@ -158,8 +203,19 @@ const Home = () => {
                     Ver Detalhes <ChevronRight size={16} />
                   </Link>
                 </div>
-              </div>
+              </motion.div>
             ))}
+          </div>
+
+          {/* Extra CTA Section */}
+          <div className="mt-16 text-center">
+             <button 
+                onClick={handleHeroWhatsApp}
+                className="bg-brand-orange hover:bg-orange-700 text-white font-bold py-4 px-12 rounded-full text-xl shadow-2xl hover:shadow-orange-500/50 transition-all transform hover:scale-105 animate-pulse"
+             >
+                Quero um Orçamento Agora!
+             </button>
+             <p className="mt-4 text-sm text-gray-500">Resposta em menos de 10 minutos no horário comercial.</p>
           </div>
         </div>
       </section>
@@ -259,7 +315,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Partners / Brands Section */}
+      {/* Partners / Brands Section (New Marquee) */}
       <section className="py-16 bg-white overflow-hidden">
         <div className="container mx-auto px-4">
            <div className="text-center mb-10">
@@ -269,15 +325,18 @@ const Home = () => {
                Trabalhamos apenas com o que há de melhor no mercado.
              </p>
            </div>
-           
-           <div className="flex flex-wrap justify-center gap-4">
-             {BRAND_PARTNERS.map((brand, idx) => (
-               <div key={idx} className="w-40 bg-white border border-gray-100 rounded-xl p-4 flex flex-col items-center justify-center text-center shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                  <h3 className="font-black text-gray-800 group-hover:text-brand-orange transition-colors">{brand.name}</h3>
-                  <span className="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1">{brand.category}</span>
-               </div>
-             ))}
-           </div>
+        </div>
+        
+        {/* Full width marquee */}
+        <PartnersMarquee />
+
+        <div className="text-center mt-8">
+            <button 
+                onClick={handleHeroWhatsApp}
+                className="inline-flex items-center gap-2 font-bold text-brand-orange border-b-2 border-brand-orange pb-1 hover:text-orange-700 hover:border-orange-700 transition"
+            >
+                Ver todas as marcas e catálogos <ArrowRight size={16} />
+            </button>
         </div>
       </section>
 
