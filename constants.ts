@@ -5,6 +5,17 @@ export const CONTACT_DISPLAY = "(41) 3076-6240";
 export const CONTACT_EMAIL = "pvs.decor@gmail.com";
 export const CONTACT_ADDRESS = "Rua Izabel A Redentora, 1088, São José dos Pinhais - PR, 83030-500";
 
+export const BRAND_PARTNERS = [
+  { name: "Quick-Step", category: "Laminados", desc: "Tecnologia Hydroseal resistente à água" },
+  { name: "Tarkett", category: "Vinílicos", desc: "Líder mundial em conforto térmico" },
+  { name: "Durafloor", category: "Laminados", desc: "Elegância com as linhas Street e Nature" },
+  { name: "Santa Luzia", category: "Rodapés", desc: "Acabamentos sustentáveis e à prova d'água" },
+  { name: "Eucafloor", category: "Laminados", desc: "Custo-benefício nas linhas Evidence e Prime" },
+  { name: "Ospefloor", category: "Vinílicos", desc: "Ampla gama de texturas e cores modernas" },
+  { name: "Floorest", category: "Laminados", desc: "Alta resistência e durabilidade" },
+  { name: "VinilForte", category: "Vinílicos", desc: "Qualidade para projetos residenciais" }
+];
+
 export const SERVICES: Service[] = [
   {
     id: 'laminado',
