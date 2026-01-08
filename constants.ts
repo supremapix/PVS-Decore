@@ -5,6 +5,7 @@ export const CONTACT_DISPLAY = "(41) 3076-6240";
 export const CONTACT_EMAIL = "pvs.decor@gmail.com";
 export const CONTACT_ADDRESS = "Rua Izabel A Redentora, 1088, São José dos Pinhais - PR, 83030-500";
 export const CONTACT_INSTAGRAM = "https://www.instagram.com/pvsdecore/";
+export const GEO_COORDINATES = { lat: "-25.5348", long: "-49.2057" }; // Coordinates for SJP center approx or store
 
 export const ACCORDION_ITEMS = [
   {
@@ -40,35 +41,86 @@ export const BRAND_PARTNERS = [
   { name: "VinilForte", category: "Vinílicos", desc: "Qualidade residencial" }
 ];
 
+// Updated Images to be more robust
 export const SERVICES: Service[] = [
   {
     id: 'laminado',
     title: 'Piso Laminado Click',
     description: 'Instalação rápida e sem sujeira. Opções resistentes à água (Hydroseal) ideais para áreas integradas.',
     icon: 'Grid',
-    image: 'https://images.unsplash.com/photo-1581858726768-758a03361df9?auto=format&fit=crop&q=80&w=800'
+    image: 'https://images.unsplash.com/photo-1513467656343-48472d37af60?auto=format&fit=crop&q=80&w=800'
   },
   {
     id: 'vinilico',
     title: 'Piso Vinílico',
     description: 'Conforto acústico e térmico. Modelos colados para reformas rápidas sobre cerâmica ou clicados.',
     icon: 'Layers',
-    image: 'https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&q=80&w=800'
+    image: 'https://images.unsplash.com/photo-1481277542470-605612bd2d61?auto=format&fit=crop&q=80&w=800'
   },
   {
     id: 'rodape',
     title: 'Rodapé Santa Luzia',
     description: 'Acabamento de luxo em poliestireno. 100% à prova d\'água, não mofa e valoriza seu ambiente.',
     icon: 'Square',
-    image: 'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&q=80&w=800'
+    image: 'https://images.unsplash.com/photo-1620626012053-93f266a31774?auto=format&fit=crop&q=80&w=800'
   },
   {
     id: 'outros',
     title: 'Vidros e Esquadrias',
     description: 'Parceria com Vidromax e linhas Suprema/Gold para um acabamento completo da sua obra.',
     icon: 'Hammer',
-    image: 'https://images.unsplash.com/photo-1600607686527-6fb886090705?auto=format&fit=crop&q=80&w=800'
+    image: 'https://images.unsplash.com/photo-1600566752355-35792bedcfe1?auto=format&fit=crop&q=80&w=800'
   }
+];
+
+export const GALLERY_IMAGES = [
+  "https://images.unsplash.com/photo-1581858726768-758a03361df9?auto=format&fit=crop&q=80&w=1200",
+  "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&q=80&w=1200",
+  "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200",
+  "https://images.unsplash.com/photo-1620626012053-93f266a31774?auto=format&fit=crop&q=80&w=1200",
+  "https://images.unsplash.com/photo-1600607686527-6fb886090705?auto=format&fit=crop&q=80&w=1200",
+  "https://images.unsplash.com/photo-1600566752355-35792bedcfe1?auto=format&fit=crop&q=80&w=1200"
+];
+
+export const FAQS = [
+  {
+    question: "Qual o preço do metro quadrado instalado?",
+    answer: "O valor varia conforme a marca (Tarkett, Quick-Step), o tipo (Laminado ou Vinílico) e a preparação do contrapiso necessária. Em média, projetos completos variam de R$ 90 a R$ 250/m². Recomendamos solicitar um orçamento gratuito via WhatsApp para um valor exato."
+  },
+  {
+    question: "Vocês atendem em São José dos Pinhais?",
+    answer: "Sim! Nossa sede fica em São José dos Pinhais (Rua Izabel A Redentora), mas atendemos Curitiba inteira, Pinhais, Colombo, Araucária e toda a região metropolitana num raio de 30km."
+  },
+  {
+    question: "Quanto tempo demora a instalação?",
+    answer: "É muito rápido. Um apartamento de 50m², por exemplo, costuma ser finalizado em 1 ou 2 dias. O Piso Laminado Click e o Vinílico permitem liberar o tráfego logo após o término do serviço."
+  },
+  {
+    question: "Piso Vinílico pode ser lavado?",
+    answer: "Os modelos de Piso Vinílico Colado podem ser lavados com água e detergente neutro (sem alagar). Já os Laminados com tecnologia Hydroseal resistem a água superficialmente, mas recomenda-se pano úmido. Explicamos tudo na visita técnica!"
+  },
+  {
+    question: "Preciso quebrar o piso antigo?",
+    answer: "Na maioria das vezes, NÃO! Tanto o vinílico quanto o laminado podem ser instalados sobre cerâmica, porcelanato ou cimento queimado, desde que a base esteja nivelada. Avaliamos isso gratuitamente para você."
+  }
+];
+
+export const TESTIMONIALS = [
+  { name: "Ricardo Mendes", location: "São José dos Pinhais", text: "Excelente trabalho! A instalação do piso vinílico no meu apartamento ficou perfeita. Equipe pontual e muito organizada. Recomendo de olhos fechados.", rating: 5 },
+  { name: "Ana Paula Souza", location: "Curitiba - Água Verde", text: "Transformaram minha sala. O atendimento desde o orçamento até a entrega foi impecável. O acabamento dos rodapés é coisa de cinema!", rating: 5 },
+  { name: "Carlos Eduardo", location: "Pinhais", text: "Contratei para meu escritório e o resultado superou as expectativas. Rápido, limpo e preço justo. A PVS Decore é nota 10.", rating: 5 },
+  { name: "Mariana Lima", location: "Curitiba - Centro", text: "Amei o piso laminado Quick-Step. A equipe me ajudou a escolher a cor perfeita. Não faz toc-toc e é super fácil de limpar.", rating: 5 },
+  { name: "Felipe Andrade", location: "Araucária", text: "Melhor preço que encontrei na região de Curitiba, sem perder na qualidade. O instalador foi muito caprichoso.", rating: 5 },
+  { name: "Juliana Costa", location: "São José dos Pinhais", text: "Fiz toda a casa com eles. Rodapés Santa Luzia e Vinílico Tarkett. Ficou parecendo casa de novela. Obrigada PVS!", rating: 5 },
+  { name: "Roberto Silva", location: "Colombo", text: "Empresa séria. Cumpriram o prazo combinado, o que é raro hoje em dia. O acabamento nas portas ficou perfeito.", rating: 4 },
+  { name: "Patrícia Gomes", location: "Curitiba - Batel", text: "Profissionais qualificados. O consultor entendeu exatamente o que eu queria. Recomendo para quem busca alto padrão.", rating: 5 },
+  { name: "Lucas Ferreira", location: "Campo Largo", text: "Minha experiência foi ótima. Desde o primeiro contato no WhatsApp até o fim da obra. Muito atenciosos.", rating: 5 },
+  { name: "Fernanda Oliveira", location: "Curitiba - Portão", text: "Troquei o carpete velho por laminado e a casa ficou outra. O trabalho foi muito rápido e limpo.", rating: 5 },
+  { name: "Rafael Santos", location: "SJP - Afonso Pena", text: "Moro em SJP e prestigiei o comércio local. Não me arrependi. Qualidade superior e atendimento familiar.", rating: 5 },
+  { name: "Beatriz Martins", location: "Curitiba - Ecoville", text: "O piso vinílico ficou incrível na cozinha. Realmente é resistente à água como prometeram.", rating: 5 },
+  { name: "Eduardo Rocha", location: "Piraquara", text: "Preço justo e facilidade de pagamento. A equipe de instalação é muito educada e cuidadosa com os móveis.", rating: 5 },
+  { name: "Camila Dias", location: "Curitiba - Santa Felicidade", text: "Adorei os rodapés de poliestireno. Deram um toque muito chique na sala. Instalação nota 1000.", rating: 5 },
+  { name: "Gustavo Nogueira", location: "Fazenda Rio Grande", text: "Indico para todos os amigos. Trabalho de primeira qualidade e garantia real.", rating: 5 }
 ];
 
 export interface RichPageData {

@@ -5,6 +5,7 @@ import SEO from '../components/SEO';
 import LeadForm from '../components/LeadForm';
 import PageTransition from '../components/PageTransition';
 import { CheckCircle2, MapPin, Star, Phone } from 'lucide-react';
+import ImageGallery from '../components/ImageGallery';
 
 // Helper to generate unique SEO content based on location name
 const generateContent = (locationName: string, type: 'bairro' | 'cidade') => {
@@ -204,6 +205,9 @@ const LocationPage = () => {
 
           </div>
         </div>
+
+        {/* Gallery at bottom */}
+        <ImageGallery />
       </div>
     </PageTransition>
   );

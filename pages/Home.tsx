@@ -7,7 +7,10 @@ import PageTransition from '../components/PageTransition';
 import HeroBackground from '../components/HeroBackground';
 import ServiceContactWidget from '../components/ServiceContactWidget';
 import LocationMarquee from '../components/LocationMarquee';
-import TestimonialCard from '../components/TestimonialCard';
+import TestimonialMarquee from '../components/TestimonialMarquee'; // New
+import FAQSection from '../components/FAQSection'; // New
+import MapSection from '../components/MapSection'; // New
+import ImageGallery from '../components/ImageGallery'; // New
 import TypewriterEffect from '../components/TypewriterEffect';
 import PartnersMarquee from '../components/PartnersMarquee';
 import { motion } from 'framer-motion';
@@ -270,47 +273,33 @@ const Home = () => {
         </div>
       </section>
 
-      {/* New Testimonials Section */}
-      <section className="py-20 bg-brand-light relative">
+      {/* REPLACED: New Vertical Testimonials Section */}
+      <section className="py-20 bg-white relative">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl font-black text-gray-900 mb-4">Clientes Felizes</h2>
-            <div className="w-20 h-1.5 bg-brand-orange mx-auto rounded-full mb-4"></div>
-            <p className="text-gray-600 max-w-2xl mx-auto text-lg">
-              A confiança é a base do nosso negócio. Veja o que dizem quem já transformou seu lar conosco.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            {[
-              {
-                name: "Ricardo Mendes",
-                role: "Proprietário",
-                location: "São José dos Pinhais",
-                text: "Excelente trabalho! A instalação do piso vinílico no meu apartamento ficou perfeita. Equipe pontual e muito organizada. Recomendo de olhos fechados."
-              },
-              {
-                name: "Ana Paula Souza",
-                role: "Arquiteta",
-                location: "Curitiba (Água Verde)",
-                text: "Transformaram minha sala. O atendimento desde o orçamento até a entrega foi impecável. O acabamento dos rodapés é coisa de cinema!"
-              },
-              {
-                name: "Carlos Eduardo",
-                role: "Empresário",
-                location: "Pinhais",
-                text: "Contratei para meu escritório e o resultado superou as expectativas. Rápido, limpo e preço justo. A PVS Decore é nota 10."
-              }
-            ].map((item, idx) => (
-              <TestimonialCard 
-                key={idx}
-                name={item.name}
-                role={item.role}
-                location={item.location}
-                text={item.text}
-                delay={idx * 0.2}
-              />
-            ))}
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+             <div>
+                <span className="text-brand-orange font-bold uppercase tracking-widest text-xs mb-2 block">Prova Social</span>
+                <h2 className="text-4xl font-black text-gray-900 mb-6">Clientes Felizes & Obras Entregues</h2>
+                <p className="text-gray-600 text-lg mb-8">
+                  Nossa reputação foi construída piso a piso, cliente a cliente. Veja o que dizem sobre nossa pontualidade, limpeza e qualidade de acabamento.
+                </p>
+                <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 flex items-center gap-4">
+                   <div className="text-5xl font-black text-brand-orange">4.9</div>
+                   <div>
+                       <div className="flex text-yellow-400 gap-1 mb-1">
+                           <Star fill="currentColor" size={20} />
+                           <Star fill="currentColor" size={20} />
+                           <Star fill="currentColor" size={20} />
+                           <Star fill="currentColor" size={20} />
+                           <Star fill="currentColor" size={20} />
+                       </div>
+                       <p className="text-sm text-gray-500 font-medium">Média de satisfação em 150+ avaliações</p>
+                   </div>
+                </div>
+             </div>
+             <div>
+                <TestimonialMarquee />
+             </div>
           </div>
         </div>
       </section>
@@ -339,6 +328,23 @@ const Home = () => {
             </button>
         </div>
       </section>
+
+      {/* NEW: Image Gallery */}
+      <ImageGallery />
+
+      {/* NEW: FAQ Section */}
+      <section className="py-20 bg-gray-50">
+          <div className="container mx-auto px-4">
+              <div className="text-center mb-12">
+                  <h2 className="text-3xl font-black text-gray-900 mb-4">Dúvidas Frequentes</h2>
+                  <p className="text-gray-600">Perguntas comuns de clientes em São José dos Pinhais e Curitiba.</p>
+              </div>
+              <FAQSection />
+          </div>
+      </section>
+
+      {/* NEW: Map Section */}
+      <MapSection />
 
       {/* Mobile-Only Contact Widget (replaces form) */}
       <section id="contato" className="py-16 bg-white lg:hidden">

@@ -5,6 +5,7 @@ import SEO from '../components/SEO';
 import LeadForm from '../components/LeadForm';
 import PageTransition from '../components/PageTransition';
 import { CheckCircle2, Star, ArrowRight, MapPin } from 'lucide-react';
+import ImageGallery from '../components/ImageGallery';
 
 const GenericPage = () => {
   const { slug } = useParams();
@@ -139,6 +140,9 @@ const GenericPage = () => {
 
           </div>
         </div>
+
+        {/* Gallery at bottom of page */}
+        <ImageGallery />
       </div>
     </PageTransition>
   );
