@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Menu, X, Phone, MessageCircle, Mail, ArrowUp, Instagram, MapPin } from 'lucide-react';
 import { CONTACT_PHONE, CONTACT_DISPLAY, CONTACT_EMAIL, CONTACT_ADDRESS, CONTACT_INSTAGRAM } from '../constants';
 import Logo from './Logo';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence, useScroll, useMotionValueEvent } from 'framer-motion';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -12,20 +12,31 @@ interface LayoutProps {
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [showScrollButton, setShowScrollButton] = useState(false);
-  const navigate = useNavigate();
+  const [isHeaderVisible, setIsHeaderVisible] = useState(true);
+  const { scrollY } = useScroll();
+  const lastScrollY = useRef(0);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 500) {
-        setShowScrollButton(true);
-      } else {
-        setShowScrollButton(false);
-      }
-    };
+  // Smart Header Logic
+  useMotionValueEvent(scrollY, "change", (latest) => {
+    const currentScroll = latest;
+    
+    // Show scroll-to-top button logic
+    if (currentScroll > 500) {
+      setShowScrollButton(true);
+    } else {
+      setShowScrollButton(false);
+    }
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+    // Hide/Show Header logic
+    // If scrolling down and past 100px, hide. If scrolling up, show.
+    if (currentScroll > lastScrollY.current && currentScroll > 100) {
+      setIsHeaderVisible(false);
+    } else {
+      setIsHeaderVisible(true);
+    }
+    
+    lastScrollY.current = currentScroll;
+  });
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -45,85 +56,92 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
   return (
     <div className="flex flex-col min-h-screen bg-gray-50 font-sans text-gray-900">
-      {/* Top Bar */}
-      <div className="bg-brand-dark text-white text-xs py-2 px-4 text-center sm:text-left">
-        <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
-          {/* Correction: Use sm:flex instead of sm:inline flex to ensure row alignment and prevent stacking */}
-          <span className="hidden sm:flex items-center gap-2">
-             <MapPin size={14} className="text-brand-orange" /> 
-             <span>Sede em São José dos Pinhais - Atendemos num raio de 30km</span>
-          </span>
-          <div className="flex gap-4 justify-center sm:justify-end w-full sm:w-auto">
-            <a href={`mailto:${CONTACT_EMAIL}`} className="hover:text-brand-orange transition flex items-center gap-1">
-              <Mail size={12} /> {CONTACT_EMAIL}
-            </a>
-            <a href={`tel:${CONTACT_PHONE}`} className="flex items-center gap-1 font-bold hover:text-brand-orange transition">
-              <Phone size={12} /> {CONTACT_DISPLAY}
-            </a>
+      
+      {/* Smart Header Container */}
+      <motion.div
+        className="fixed top-0 left-0 right-0 z-50 flex flex-col shadow-md"
+        animate={{ y: isHeaderVisible ? 0 : '-100%' }}
+        transition={{ duration: 0.3, ease: 'easeInOut' }}
+      >
+        {/* Top Bar */}
+        <div className="bg-brand-dark text-white text-xs py-2 px-4 text-center sm:text-left">
+          <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <span className="hidden sm:flex items-center gap-2">
+               <MapPin size={14} className="text-brand-orange" /> 
+               <span>Sede em São José dos Pinhais - Atendemos num raio de 30km</span>
+            </span>
+            <div className="flex gap-4 justify-center sm:justify-end w-full sm:w-auto">
+              <a href={`mailto:${CONTACT_EMAIL}`} className="hover:text-brand-orange transition flex items-center gap-1">
+                <Mail size={12} /> {CONTACT_EMAIL}
+              </a>
+              <a href={`tel:${CONTACT_PHONE}`} className="flex items-center gap-1 font-bold hover:text-brand-orange transition">
+                <Phone size={12} /> {CONTACT_DISPLAY}
+              </a>
+            </div>
           </div>
         </div>
-      </div>
 
-      {/* Header */}
-      <header className="sticky top-0 z-50 bg-white shadow-md">
-        <div className="container mx-auto px-4 py-2 flex justify-between items-center">
-          {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 group w-32 md:w-40" onClick={scrollToTop}>
-            <Logo animate={true} />
-          </Link>
+        {/* Main Header */}
+        <header className="bg-white">
+          <div className="container mx-auto px-4 py-2 flex justify-between items-center">
+            {/* Logo */}
+            <Link to="/" className="flex items-center gap-2 group w-32 md:w-40" onClick={scrollToTop}>
+              <Logo animate={true} />
+            </Link>
 
-          {/* Desktop Nav */}
-          <nav className="hidden md:flex items-center gap-8 font-semibold text-sm">
-            {navLinks.map((link) => (
-              <Link 
-                key={link.name} 
-                to={link.path} 
-                className="hover:text-brand-orange transition-colors uppercase tracking-wide"
-              >
-                {link.name}
-              </Link>
-            ))}
-            <button 
-              onClick={handleWhatsApp}
-              className="bg-brand-orange text-white px-5 py-2 rounded-full font-bold hover:bg-orange-700 transition shadow-lg flex items-center gap-2 animate-pulse hover:animate-none transform hover:scale-105"
-            >
-              <MessageCircle size={18} /> Orçamento
-            </button>
-          </nav>
-
-          {/* Mobile Menu Toggle */}
-          <button className="md:hidden p-2" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
-        </div>
-
-        {/* Mobile Nav */}
-        {isMenuOpen && (
-          <div className="md:hidden bg-white border-t border-gray-100 absolute w-full left-0 shadow-lg z-50">
-            <div className="flex flex-col p-4 gap-4">
+            {/* Desktop Nav */}
+            <nav className="hidden md:flex items-center gap-8 font-semibold text-sm">
               {navLinks.map((link) => (
                 <Link 
                   key={link.name} 
                   to={link.path} 
-                  className="font-medium text-lg text-gray-800 border-b pb-2"
-                  onClick={() => setIsMenuOpen(false)}
+                  className="hover:text-brand-orange transition-colors uppercase tracking-wide relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-brand-orange after:left-0 after:-bottom-1 after:transition-all hover:after:w-full"
                 >
                   {link.name}
                 </Link>
               ))}
               <button 
                 onClick={handleWhatsApp}
-                className="bg-green-500 text-white w-full py-3 rounded-lg font-bold flex justify-center items-center gap-2 shadow-md"
+                className="bg-brand-orange text-white px-5 py-2 rounded-full font-bold hover:bg-orange-700 transition shadow-lg flex items-center gap-2 animate-pulse hover:animate-none transform hover:scale-105"
               >
-                <MessageCircle size={20} /> Solicitar via WhatsApp
+                <MessageCircle size={18} /> Orçamento
               </button>
-            </div>
-          </div>
-        )}
-      </header>
+            </nav>
 
-      {/* Main Content */}
-      <main className="flex-grow">
+            {/* Mobile Menu Toggle */}
+            <button className="md:hidden p-2" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+              {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
+
+          {/* Mobile Nav */}
+          {isMenuOpen && (
+            <div className="md:hidden bg-white border-t border-gray-100 absolute w-full left-0 shadow-lg z-50">
+              <div className="flex flex-col p-4 gap-4">
+                {navLinks.map((link) => (
+                  <Link 
+                    key={link.name} 
+                    to={link.path} 
+                    className="font-medium text-lg text-gray-800 border-b pb-2"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {link.name}
+                  </Link>
+                ))}
+                <button 
+                  onClick={handleWhatsApp}
+                  className="bg-green-500 text-white w-full py-3 rounded-lg font-bold flex justify-center items-center gap-2 shadow-md"
+                >
+                  <MessageCircle size={20} /> Solicitar via WhatsApp
+                </button>
+              </div>
+            </div>
+          )}
+        </header>
+      </motion.div>
+
+      {/* Main Content - Added padding-top to account for fixed header */}
+      <main className="flex-grow pt-[100px] md:pt-[110px]">
         {children}
       </main>
 
@@ -238,7 +256,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   );
 };
 
-// Quick helper component within file to avoid creating another one just for chevron
+// Quick helper component within file
 const ChevronRight = ({size, className}: {size: number, className: string}) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="m9 18 6-6-6-6"/></svg>
 );

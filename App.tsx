@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import LocationPage from './pages/LocationPage';
 import GenericPage from './pages/GenericPage';
 import ContactPage from './pages/ContactPage';
+import ScrollToTop from './components/ScrollToTop';
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -34,6 +35,7 @@ function AnimatedRoutes() {
 function App() {
   return (
     <HashRouter>
+      <ScrollToTop />
       <Layout>
         <AnimatedRoutes />
       </Layout>

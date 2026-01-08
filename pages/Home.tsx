@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ShieldCheck, Clock, Award, ChevronRight, CheckCircle2, Star, Quote, MapPin, Tag, ThumbsUp, Zap, BadgeCheck, MessageCircle, ArrowRight } from 'lucide-react';
+import { ShieldCheck, Clock, Award, ChevronRight, CheckCircle2, Star, Quote, MapPin, Tag, ThumbsUp, Zap, BadgeCheck, MessageCircle, ArrowRight, Dog, Baby, Building2, Droplets, Lightbulb, Sparkles } from 'lucide-react';
 import { SERVICES, CONTACT_PHONE } from '../constants';
 import SEO from '../components/SEO';
 import PageTransition from '../components/PageTransition';
@@ -13,7 +13,7 @@ import MapSection from '../components/MapSection';
 import ImageGallery from '../components/ImageGallery';
 import TypewriterEffect from '../components/TypewriterEffect';
 import PartnersMarquee from '../components/PartnersMarquee';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 
 const Home = () => {
   const handleHeroWhatsApp = () => {
@@ -51,6 +51,22 @@ const Home = () => {
       }
     }
   };
+
+  // Logic for Suggestion Bubbles
+  const [activeSuggestion, setActiveSuggestion] = useState<number | null>(null);
+  
+  const suggestions = [
+    { id: 1, icon: Dog, label: "Tenho Pets", title: "Piso Vinílico é a Solução!", text: "Resistente a riscos e urina, fácil de limpar e anti-derrapante. Seu pet vai amar o conforto térmico." },
+    { id: 2, icon: Baby, label: "Tenho Crianças", title: "Conforto e Segurança", text: "O Vinílico absorve impacto em quedas e é hipoalergênico. O Laminado com manta acústica também é ótimo para brincadeiras." },
+    { id: 3, icon: Droplets, label: "Área Úmida", title: "Cuidado com a Água", text: "Para cozinhas, use Vinílico colado ou Laminado Hydroseal. Evite laminados comuns em áreas com muita água." },
+    { id: 4, icon: Building2, label: "Apartamento", title: "Silêncio é Ouro", text: "Obrigatório em muitos condomínios: use Vinílico ou Laminado com manta acústica especial para não incomodar o vizinho de baixo." },
+  ];
+
+  const tips = [
+    { title: "Rodapé Alto: Elegância", text: "Rodapés de 10cm ou 15cm na cor branca alongam o pé direito e modernizam qualquer ambiente instantaneamente." },
+    { title: "Sentido da Instalação", text: "Instalar as réguas no sentido da entrada de luz amplia visualmente o espaço. Nossa equipe planeja isso para você." },
+    { title: "Sobreposição Inteligente", text: "Não quebre o piso antigo! O vinílico e o laminado podem ser instalados por cima, economizando tempo e caçamba." }
+  ];
 
   return (
     <PageTransition>
@@ -174,6 +190,53 @@ const Home = () => {
         </div>
       </section>
 
+      {/* NEW SECTION: Suggestion Bubbles (Help Me Choose) */}
+      <section className="py-16 bg-white overflow-hidden">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-10">
+            <span className="text-brand-orange font-bold uppercase tracking-widest text-xs mb-2 block">Dicas Personalizadas</span>
+            <h2 className="text-3xl font-black text-gray-900">Qual o seu perfil?</h2>
+            <p className="text-gray-500 mt-2">Clique para ver nossa recomendação ideal para você.</p>
+          </div>
+
+          <div className="flex flex-wrap justify-center gap-6 mb-8">
+            {suggestions.map((item, idx) => (
+              <button 
+                key={item.id}
+                onClick={() => setActiveSuggestion(item.id)}
+                className={`flex flex-col items-center gap-3 p-4 rounded-2xl w-32 transition-all duration-300 ${activeSuggestion === item.id ? 'bg-brand-orange text-white scale-110 shadow-lg' : 'bg-gray-50 text-gray-600 hover:bg-orange-100'}`}
+              >
+                <div className={`p-3 rounded-full ${activeSuggestion === item.id ? 'bg-white text-brand-orange' : 'bg-white text-gray-400'}`}>
+                   <item.icon size={24} />
+                </div>
+                <span className="text-xs font-bold">{item.label}</span>
+              </button>
+            ))}
+          </div>
+
+          <AnimatePresence mode="wait">
+            {activeSuggestion && (
+              <motion.div 
+                key={activeSuggestion}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -20 }}
+                className="max-w-2xl mx-auto bg-orange-50 border border-orange-100 p-8 rounded-3xl text-center relative shadow-sm"
+              >
+                 <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-6 h-6 bg-orange-50 border-t border-l border-orange-100 transform rotate-45"></div>
+                 <h3 className="text-xl font-bold text-gray-900 mb-2 flex items-center justify-center gap-2">
+                   <Lightbulb className="text-brand-orange" size={20} />
+                   {suggestions.find(s => s.id === activeSuggestion)?.title}
+                 </h3>
+                 <p className="text-gray-700 leading-relaxed">
+                   {suggestions.find(s => s.id === activeSuggestion)?.text}
+                 </p>
+              </motion.div>
+            )}
+          </AnimatePresence>
+        </div>
+      </section>
+
       {/* Offers / Services Grid - Premium Cards */}
       <section id="servicos" className="py-20 bg-gray-50 relative overflow-hidden">
         {/* Background blobs */}
@@ -238,6 +301,40 @@ const Home = () => {
              </button>
              <p className="mt-4 text-sm text-gray-500">Resposta em menos de 10 minutos no horário comercial.</p>
           </div>
+        </div>
+      </section>
+
+      {/* NEW SECTION: Expert Tips Cards */}
+      <section className="py-20 bg-gray-900 text-white overflow-hidden relative">
+        <div className="absolute top-0 right-0 w-96 h-96 bg-brand-orange/10 rounded-full blur-[100px]"></div>
+        <div className="container mx-auto px-4 relative z-10">
+           <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+              <div>
+                <span className="text-brand-orange font-bold uppercase tracking-widest text-xs mb-2 block">Dicas de Especialista</span>
+                <h2 className="text-3xl md:text-4xl font-black">Segredos da PVS para sua Obra</h2>
+              </div>
+              <button onClick={handleHeroWhatsApp} className="text-brand-orange hover:text-white border-b border-brand-orange pb-1 transition-colors flex items-center gap-2 font-bold">
+                 Falar com um consultor <ArrowRight size={16} />
+              </button>
+           </div>
+
+           <div className="grid md:grid-cols-3 gap-8">
+              {tips.map((tip, idx) => (
+                 <motion.div 
+                   key={idx}
+                   initial={{ opacity: 0, y: 20 }}
+                   whileInView={{ opacity: 1, y: 0 }}
+                   transition={{ delay: idx * 0.1 }}
+                   className="bg-gray-800 p-8 rounded-2xl border border-gray-700 hover:border-brand-orange/50 transition-all duration-300 hover:bg-gray-750 group"
+                 >
+                    <div className="w-12 h-12 bg-gray-900 rounded-xl flex items-center justify-center text-brand-orange mb-6 group-hover:scale-110 transition-transform">
+                       <Sparkles size={24} />
+                    </div>
+                    <h3 className="text-xl font-bold mb-3">{tip.title}</h3>
+                    <p className="text-gray-400 leading-relaxed text-sm">{tip.text}</p>
+                 </motion.div>
+              ))}
+           </div>
         </div>
       </section>
 
