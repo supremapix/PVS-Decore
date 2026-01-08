@@ -46,28 +46,28 @@ export const SERVICES: Service[] = [
     title: 'Piso Laminado Click',
     description: 'Instalação rápida e sem sujeira. Opções resistentes à água (Hydroseal) ideais para áreas integradas.',
     icon: 'Grid',
-    image: 'https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&q=80&w=800'
+    image: 'https://images.unsplash.com/photo-1581858726768-758a03361df9?auto=format&fit=crop&q=80&w=800'
   },
   {
     id: 'vinilico',
     title: 'Piso Vinílico',
     description: 'Conforto acústico e térmico. Modelos colados para reformas rápidas sobre cerâmica ou clicados.',
     icon: 'Layers',
-    image: 'https://images.unsplash.com/photo-1581858726768-758a03361df9?auto=format&fit=crop&q=80&w=800'
+    image: 'https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&q=80&w=800'
   },
   {
     id: 'rodape',
     title: 'Rodapé Santa Luzia',
     description: 'Acabamento de luxo em poliestireno. 100% à prova d\'água, não mofa e valoriza seu ambiente.',
     icon: 'Square',
-    image: 'https://images.unsplash.com/photo-1620626012053-93f266a31774?auto=format&fit=crop&q=80&w=800'
+    image: 'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&q=80&w=800'
   },
   {
     id: 'outros',
     title: 'Vidros e Esquadrias',
     description: 'Parceria com Vidromax e linhas Suprema/Gold para um acabamento completo da sua obra.',
     icon: 'Hammer',
-    image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80&w=800'
+    image: 'https://images.unsplash.com/photo-1600607686527-6fb886090705?auto=format&fit=crop&q=80&w=800'
   }
 ];
 

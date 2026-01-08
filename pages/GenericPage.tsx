@@ -14,8 +14,10 @@ const GenericPage = () => {
     return <Navigate to="/" replace />;
   }
 
-  // Enhanced description logic to ensure persuasive tone and benefits are always present
-  const persuasiveDescription = `${data.seoDescription} Escolha a PVS Decore: Referência em instalação técnica especializada, acabamento impecável e garantia total para sua obra em Curitiba e São José dos Pinhais.`;
+  // Enhanced description logic to ensure persuasive tone and benefits are tailored to the type
+  const persuasiveDescription = data.type === 'service' 
+    ? `${data.seoDescription} Garanta tranquilidade total na sua reforma: Mão de obra 100% própria (sem terceirização), garantia contratual de serviço, limpeza pós-obra impecável e rigoroso cumprimento de prazos em Curitiba e Região. Não arrisque, contrate especialistas!`
+    : `${data.seoDescription} Escolha a PVS Decore: Revenda autorizada das melhores marcas, consultoria técnica especializada, entrega rápida e instalação com acabamento de luxo em Curitiba e São José dos Pinhais.`;
 
   return (
     <PageTransition>
