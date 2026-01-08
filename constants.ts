@@ -6,43 +6,66 @@ export const CONTACT_EMAIL = "pvs.decor@gmail.com";
 export const CONTACT_ADDRESS = "Rua Izabel A Redentora, 1088, São José dos Pinhais - PR, 83030-500";
 export const CONTACT_INSTAGRAM = "https://www.instagram.com/pvsdecore/";
 
+export const ACCORDION_ITEMS = [
+  {
+    title: "Pisos Laminados (Quick-Step, Durafloor)",
+    content: "Destaque para a tecnologia Hydroseal (resistente à água) e sistema Uniclic (instalação sem cola). Ideal para quem busca rapidez e a estética perfeita da madeira. Trabalhamos com linhas de alto tráfego e resistência a riscos.",
+    details: ["Sistema Click (Sem sujeira)", "Resistente à Água (Hydroseal)", "Garantia de até 25 anos"]
+  },
+  {
+    title: "Pisos Vinílicos (Tarkett, Ospefloor)",
+    content: "O queridinho das reformas. Silencioso, térmico e pode ser lavado. Temos opções coladas (para sobrepor cerâmica) e clicadas. Perfeito para cozinhas, quartos e quem tem pets.",
+    details: ["Conforto Térmico e Acústico", "Pode lavar (Modelos colados)", "Instalação sobre piso antigo"]
+  },
+  {
+    title: "Rodapés e Acabamentos (Santa Luzia)",
+    content: "O toque final que valoriza o imóvel. Rodapés de poliestireno que não mofam, não estufam e são à prova d'água. Acabamento premium em branco ou cores personalizadas.",
+    details: ["Não mofa e não estufa", "Passa fio embutido", "Design moderno"]
+  },
+  {
+    title: "Vidros e Esquadrias (Vidromax, Gold)",
+    content: "Soluções completas em vidros temperados e esquadrias de alumínio (Linhas Suprema e Gold) para fechar sua sacada ou cobertura com o mesmo padrão de qualidade dos pisos.",
+    details: ["Linha Suprema e Gold", "Vidros Temperados", "Projetos sob medida"]
+  }
+];
+
 export const BRAND_PARTNERS = [
   { name: "Quick-Step", category: "Laminados", desc: "Tecnologia Hydroseal resistente à água" },
   { name: "Tarkett", category: "Vinílicos", desc: "Líder mundial em conforto térmico" },
   { name: "Durafloor", category: "Laminados", desc: "Elegância com as linhas Street e Nature" },
-  { name: "Santa Luzia", category: "Rodapés", desc: "Acabamentos sustentáveis e à prova d'água" },
-  { name: "Eucafloor", category: "Laminados", desc: "Custo-benefício nas linhas Evidence e Prime" },
-  { name: "Ospefloor", category: "Vinílicos", desc: "Ampla gama de texturas e cores modernas" },
+  { name: "Santa Luzia", category: "Rodapés", desc: "Acabamentos sustentáveis" },
+  { name: "Eucafloor", category: "Laminados", desc: "Custo-benefício Evidence e Prime" },
+  { name: "Ospefloor", category: "Vinílicos", desc: "Texturas e cores modernas" },
   { name: "Floorest", category: "Laminados", desc: "Alta resistência e durabilidade" },
-  { name: "VinilForte", category: "Vinílicos", desc: "Qualidade para projetos residenciais" }
+  { name: "VinilForte", category: "Vinílicos", desc: "Qualidade residencial" }
 ];
 
 export const SERVICES: Service[] = [
   {
     id: 'laminado',
-    title: 'Piso Laminado',
-    description: 'Aconchego e instalação rápida. A melhor opção custo-benefício para quartos e salas.',
+    title: 'Piso Laminado Click',
+    description: 'Instalação rápida e sem sujeira. Opções resistentes à água (Hydroseal) ideais para áreas integradas.',
     icon: 'Grid',
     image: 'https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&q=80&w=800'
   },
   {
     id: 'vinilico',
     title: 'Piso Vinílico',
-    description: '100% resistente à água e antirruído. Ideal para quem tem pets e crianças.',
+    description: 'Conforto acústico e térmico. Modelos colados para reformas rápidas sobre cerâmica ou clicados.',
     icon: 'Layers',
     image: 'https://images.unsplash.com/photo-1581858726768-758a03361df9?auto=format&fit=crop&q=80&w=800'
   },
   {
     id: 'rodape',
-    title: 'Rodapé Poliestireno',
-    description: 'Acabamento de luxo que não mofa e não estufa. Vários tamanhos e modelos.',
+    title: 'Rodapé Santa Luzia',
+    description: 'Acabamento de luxo em poliestireno. 100% à prova d\'água, não mofa e valoriza seu ambiente.',
     icon: 'Square',
     image: 'https://images.unsplash.com/photo-1620626012053-93f266a31774?auto=format&fit=crop&q=80&w=800'
   },
   {
-    id: 'instalacao',
-    title: 'Instalação Premium',
-    description: 'Mão de obra especializada com garantia em Curitiba e num raio de 30km de SJP.',
+    id: 'outros',
+    title: 'Vidros e Esquadrias',
+    description: 'Parceria com Vidromax e linhas Suprema/Gold para um acabamento completo da sua obra.',
     icon: 'Hammer',
     image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80&w=800'
   }
@@ -122,40 +145,6 @@ export const PAGE_CONTENT: Record<string, RichPageData> = {
       { title: 'Garantia de Mão de Obra', content: 'A PVS Decore oferece garantia documentada sobre o serviço de instalação. Se houver qualquer descolamento ou abertura de juntas, nossa equipe retorna para corrigir sem custo.' },
       { title: 'Pontualidade', content: 'Respeitamos rigorosamente os dias e horários agendados. Sabemos que sua rotina é importante e trabalhamos para cumprir os prazos acordados.' },
       { title: 'Regiões Atendidas', content: 'Levamos nossa excelência em instalação para todos os bairros de Curitiba, São José dos Pinhais, Pinhais, Colombo, Araucária e toda a Região Metropolitana num raio de 30km.' }
-    ]
-  },
-  'instalacao-comercial': {
-    title: 'Instalação de Pisos Comerciais e Corporativos',
-    seoDescription: 'Soluções em pisos para empresas, escritórios e lojas. Instalação noturna ou finais de semana. Pisos de alto tráfego com laudo técnico.',
-    type: 'service',
-    contentBlocks: [
-      { title: 'Agilidade para o Seu Negócio', content: 'Tempo é dinheiro. Entendemos que sua loja ou escritório não pode parar. Oferecemos opções de instalação em horários alternativos (noturno ou finais de semana) para não impactar sua operação.' },
-      { title: 'Pisos de Alto Tráfego', content: 'Trabalhamos com linhas específicas para uso comercial (Classes 31, 32, 33 e 34), projetadas para suportar fluxo intenso de pessoas, cadeiras de rodinhas e equipamentos sem desgastar precocemente.' },
-      { title: 'Acústica para Escritórios', content: 'Em ambientes de trabalho open space ou call centers, o ruído é um problema. Nossos pisos vinílicos e carpetes em placas oferecem absorção acústica superior, melhorando a produtividade da equipe.' },
-      { title: 'Normas Técnicas e Laudos', content: 'Fornecemos pisos que atendem às normas de resistência ao fogo e antiderrapância, essenciais para a obtenção de alvarás e vistorias dos bombeiros em áreas comerciais.' },
-      { title: 'Piso Elevado', content: 'Para escritórios com muito cabeamento, trabalhamos com revestimentos compatíveis com sistemas de piso elevado, facilitando a manutenção da infraestrutura elétrica e de dados.' },
-      { title: 'Manutenção Simplificada', content: 'Pisos comerciais precisam ser fáceis de limpar. Nossas opções em vinílico exigem apenas limpeza úmida básica, reduzindo custos com equipe de limpeza e produtos químicos.' },
-      { title: 'Design Corporativo', content: 'Ajudamos a reforçar a identidade visual da sua marca através do piso. É possível criar paginações criativas, delimitar áreas de circulação ou destacar zonas de atendimento com cores diferentes.' },
-      { title: 'Durabilidade Extrema', content: 'Utilizamos adesivos de alta performance e preparação de base reforçada para garantir que o piso não descole mesmo sob uso intenso de carrinhos ou tráfego pesado.' },
-      { title: 'Atendimento a Construtoras e Arquitetos', content: 'Temos um canal exclusivo para parcerias com profissionais da área, oferecendo suporte técnico, amostras e condições comerciais especiais para grandes metragens.' },
-      { title: 'Cases de Sucesso', content: 'Já realizamos instalações em clínicas, escolas, academias, lojas de shopping e escritórios de advocacia em toda Curitiba e região. Solicite nosso portfólio.' }
-    ]
-  },
-  'manutencao': {
-    title: 'Manutenção e Restauração de Pisos',
-    seoDescription: 'Serviço de reparo, troca de réguas, limpeza técnica e manutenção de pisos vinílicos e laminados. Recupere a beleza do seu piso com a PVS Decore.',
-    type: 'service',
-    contentBlocks: [
-      { title: 'Seu Piso Novo de Novo', content: 'Mesmo pisos de alta qualidade podem sofrer acidentes. Riscos profundos, manchas ou réguas danificadas por impacto podem ser resolvidos sem a necessidade de trocar todo o piso do ambiente.' },
-      { title: 'Troca de Réguas Danificadas', content: 'No caso de pisos clicados (laminados ou vinílicos SPC), conseguimos desmontar até o ponto danificado e substituir a régua. No vinílico colado, fazemos a substituição cirúrgica da peça avariada.' },
-      { title: 'Correção de Desníveis e Ruídos', content: 'Se seu piso laminado está rangendo muito ou afundando em alguns pontos, pode ser um problema no contrapiso. Realizamos a desmontagem, correção da base e reinstalação do piso.' },
-      { title: 'Recolagem de Vinílico', content: 'Com o tempo ou umidade ascendente, algumas pontas de vinílico podem levantar. Realizamos a limpeza da base e a recolagem com adesivos de alta performance para travar o piso novamente.' },
-      { title: 'Acabamentos e Rodapés', content: 'Rodapés soltos, cantos quebrados ou massa de calafetação encardida? Fazemos a revitalização dos acabamentos, aplicando nova massa e fixando rodapés que se soltaram.' },
-      { title: 'Limpeza Técnica (Scrub)', content: 'Oferecemos o serviço de limpeza profunda mecanizada para pisos vinílicos muito sujos ou com excesso de cera velha acumulada (wax build-up), devolvendo o aspecto original do revestimento.' },
-      { title: 'Avaliação Técnica', content: 'Nem sempre a troca total é necessária. Nossos técnicos avaliam a viabilidade do reparo honestamente, ajudando você a economizar sempre que possível.' },
-      { title: 'Prevenção', content: 'Além do reparo, orientamos sobre os melhores produtos de limpeza e práticas (como uso de feltros nos móveis) para prolongar a vida útil do seu piso após a manutenção.' },
-      { title: 'Atendimento Rápido', content: 'Pequenos reparos são agendados com agilidade. Sabemos que um piso solto pode causar acidentes, por isso tratamos manutenções com prioridade.' },
-      { title: 'Orçamento via Foto', content: 'Para agilizar, muitas vezes conseguimos fazer uma pré-avaliação do problema através de fotos e vídeos enviados pelo WhatsApp, fornecendo uma estimativa de custo rápida.' }
     ]
   }
 };
