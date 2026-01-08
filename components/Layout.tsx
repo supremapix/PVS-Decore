@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Menu, X, Phone, MessageCircle, Mail, ArrowUp, Instagram, MapPin } from 'lucide-react';
-import { CONTACT_PHONE, CONTACT_DISPLAY, CONTACT_EMAIL, CONTACT_ADDRESS } from '../constants';
+import { CONTACT_PHONE, CONTACT_DISPLAY, CONTACT_EMAIL, CONTACT_ADDRESS, CONTACT_INSTAGRAM } from '../constants';
 import Logo from './Logo';
 
 interface LayoutProps {
@@ -146,7 +146,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 Sua melhor escolha em pisos vinílicos, laminados e rodapés em São José dos Pinhais e Curitiba. Qualidade que transforma ambientes.
               </p>
               <div className="flex gap-4">
-                <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-brand-orange hover:text-white transition"><Instagram size={18} /></a>
+                <a href={CONTACT_INSTAGRAM} target="_blank" rel="noreferrer" className="bg-gray-800 p-2 rounded-full hover:bg-brand-orange hover:text-white transition"><Instagram size={18} /></a>
                 <a href={`mailto:${CONTACT_EMAIL}`} className="bg-gray-800 p-2 rounded-full hover:bg-brand-orange hover:text-white transition"><Mail size={18} /></a>
               </div>
             </div>

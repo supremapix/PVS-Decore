@@ -4,6 +4,7 @@ export const CONTACT_PHONE = "554130766240"; // Landline WhatsApp format
 export const CONTACT_DISPLAY = "(41) 3076-6240";
 export const CONTACT_EMAIL = "pvs.decor@gmail.com";
 export const CONTACT_ADDRESS = "Rua Izabel A Redentora, 1088, São José dos Pinhais - PR, 83030-500";
+export const CONTACT_INSTAGRAM = "https://www.instagram.com/pvsdecore/";
 
 export const BRAND_PARTNERS = [
   { name: "Quick-Step", category: "Laminados", desc: "Tecnologia Hydroseal resistente à água" },

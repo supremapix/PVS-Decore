@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ShieldCheck, Clock, Award, ChevronRight, CheckCircle2, Star, Quote, MapPin, Tag, ThumbsUp, Zap, BadgeCheck } from 'lucide-react';
+import { ShieldCheck, Clock, Award, ChevronRight, CheckCircle2, Star, Quote, MapPin, Tag, ThumbsUp, Zap, BadgeCheck, MessageCircle } from 'lucide-react';
 import { SERVICES, LOCATIONS, CONTACT_PHONE, CONTACT_ADDRESS, BRAND_PARTNERS } from '../constants';
 import LeadForm from '../components/LeadForm';
 import SEO from '../components/SEO';
@@ -14,6 +14,10 @@ const Home = () => {
       window.open(`https://wa.me/${CONTACT_PHONE}?text=Olá, vi a oferta de ${product} no site e gostaria de um orçamento para minha região.`, '_blank');
   };
 
+  const handleHeroWhatsApp = () => {
+     window.open(`https://wa.me/${CONTACT_PHONE}?text=Olá, gostaria de um orçamento rápido para minha obra.`, '_blank');
+  };
+
   return (
     <PageTransition>
       <SEO 
@@ -23,7 +27,7 @@ const Home = () => {
       />
 
       {/* Hero Section */}
-      <section className="relative bg-brand-dark text-white pt-24 pb-20 overflow-hidden">
+      <section className="relative bg-brand-dark text-white pt-32 pb-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
             src="https://images.unsplash.com/photo-1620626012053-93f266a31774?auto=format&fit=crop&q=80&w=2000" 
@@ -31,74 +35,41 @@ const Home = () => {
             className="w-full h-full object-cover opacity-20 scale-105 animate-[spin_60s_linear_infinite] md:animate-none"
             style={{ animation: 'pulse 10s infinite alternate' }} 
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-gray-900 via-gray-900/95 to-gray-900/60"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-gray-900 via-gray-900/95 to-gray-900/80"></div>
         </div>
         
-        <div className="container mx-auto px-4 relative z-10 grid md:grid-cols-2 gap-12 items-center">
-          
-          {/* Left Column: Sales Copy */}
-          <div className="space-y-8">
-            <div className="inline-flex items-center gap-2 bg-brand-orange/20 border border-brand-orange/40 backdrop-blur-sm text-brand-orange px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest animate-pulse">
+        <div className="container mx-auto px-4 relative z-10 flex flex-col items-center text-center">
+            <div className="inline-flex items-center gap-2 bg-brand-orange/20 border border-brand-orange/40 backdrop-blur-sm text-brand-orange px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest animate-pulse mb-6">
               <Star size={12} fill="currentColor" /> Instalação Premium em Curitiba e SJP
             </div>
             
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-black leading-tight">
-              O Acabamento Perfeito que <span className="text-brand-orange block mt-2">Sua Casa Merece.</span>
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-black leading-tight max-w-4xl mx-auto mb-6">
+              O Acabamento Perfeito que <span className="text-brand-orange">Sua Casa Merece.</span>
             </h1>
 
-            <p className="text-gray-300 text-lg md:text-xl max-w-lg leading-relaxed">
+            <p className="text-gray-300 text-lg md:text-2xl max-w-2xl mx-auto leading-relaxed mb-10">
               Não feche negócio sem falar conosco. Garantimos a <strong>melhor instalação</strong> de pisos vinílicos e laminados, com rapidez, limpeza e preço justo.
             </p>
             
-            <ul className="space-y-4 pt-2">
-              {[
-                "Instalação rápida e sem sujeira (Até 48h)",
-                "Garantia total de mão de obra e material",
-                "Visita técnica e orçamento gratuitos",
-                "Parcelamento facilitado no cartão"
-              ].map((item, i) => (
-                <li key={i} className="flex items-center gap-3 text-gray-200 font-medium">
-                  <div className="bg-green-500/20 p-1 rounded-full">
-                    <CheckCircle2 size={20} className="text-green-500" />
-                  </div>
-                  {item}
-                </li>
-              ))}
-            </ul>
+            <button 
+              onClick={handleHeroWhatsApp}
+              className="bg-brand-orange hover:bg-orange-600 text-white font-bold text-lg md:text-xl px-10 py-5 rounded-full shadow-2xl hover:shadow-orange-500/40 transform hover:-translate-y-1 transition-all duration-300 flex items-center gap-3 group"
+            >
+               <MessageCircle size={24} className="group-hover:scale-110 transition-transform" />
+               Orçamento Rápido
+            </button>
 
-            <div className="flex items-center gap-2 text-gray-400 text-sm pt-4 border-t border-gray-800 w-fit">
-               <MapPin size={16} className="text-brand-orange" />
-               <span>Atendemos num raio de 30km de São José dos Pinhais</span>
+            <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 text-gray-400 text-sm">
+               <div className="flex items-center justify-center gap-2">
+                 <CheckCircle2 size={16} className="text-brand-orange" /> Instalação em até 48h
+               </div>
+               <div className="flex items-center justify-center gap-2">
+                 <CheckCircle2 size={16} className="text-brand-orange" /> Garantia Total de Obra
+               </div>
+               <div className="flex items-center justify-center gap-2">
+                 <CheckCircle2 size={16} className="text-brand-orange" /> Visita Técnica Gratuita
+               </div>
             </div>
-          </div>
-
-          {/* Right Column: High Conversion Form Container */}
-          <div className="hidden md:block relative group">
-            <div className="absolute -inset-1 bg-gradient-to-r from-brand-orange to-orange-600 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
-            
-            <div className="relative bg-white rounded-2xl shadow-2xl overflow-hidden border-2 border-orange-100">
-              {/* Sales Header for Form */}
-              <div className="bg-gray-50 p-6 border-b border-gray-100 text-center">
-                <div className="inline-block bg-red-100 text-red-600 px-3 py-1 rounded-full text-xs font-bold mb-2 flex items-center gap-1 justify-center w-fit mx-auto">
-                   <Zap size={12} fill="currentColor" /> OFERTA EXCLUSIVA WEB
-                </div>
-                <h3 className="text-2xl font-black text-gray-900 leading-tight">
-                  Solicite seu <span className="text-brand-orange">Orçamento VIP</span>
-                </h3>
-                <p className="text-gray-500 text-sm mt-2">
-                  Preencha abaixo para garantir <strong>Prioridade na Agenda</strong> e Consultoria Gratuita.
-                </p>
-              </div>
-
-              {/* The Form */}
-              <div className="p-2">
-                 {/* Passing a prop or styling wrapper to simplify LeadForm if needed, keeping it intact as requested */}
-                 <div className="[&>div]:shadow-none [&>div]:border-none [&>div]:p-4">
-                    <LeadForm />
-                 </div>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -329,7 +300,7 @@ const Home = () => {
       </section>
 
       {/* Mobile-Only Contact Section (if LeadForm hidden in Hero) */}
-      <section id="contato" className="py-16 bg-white md:hidden">
+      <section id="contato" className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-xl mx-auto bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden">
              <div className="bg-brand-orange text-white p-4 text-center">

@@ -26,7 +26,7 @@ const LeadForm = ({ locationName }: { locationName?: string }) => {
           <input 
             type="text" 
             required
-            className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-orange focus:border-transparent outline-none transition"
+            className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-orange focus:border-transparent outline-none transition text-gray-900 bg-white placeholder-gray-400"
             placeholder="Digite seu nome"
             value={formData.name}
             onChange={(e) => setFormData({...formData, name: e.target.value})}
@@ -38,7 +38,7 @@ const LeadForm = ({ locationName }: { locationName?: string }) => {
           <input 
             type="text" 
             required
-            className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-orange focus:border-transparent outline-none transition"
+            className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-orange focus:border-transparent outline-none transition text-gray-900 bg-white placeholder-gray-400"
             placeholder="Onde será a instalação?"
             value={formData.location}
             onChange={(e) => setFormData({...formData, location: e.target.value})}
@@ -48,22 +48,22 @@ const LeadForm = ({ locationName }: { locationName?: string }) => {
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">Tipo de Piso</label>
           <select 
-            className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-orange focus:border-transparent outline-none transition bg-white"
+            className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-orange focus:border-transparent outline-none transition bg-white text-gray-900"
             value={formData.type}
             onChange={(e) => setFormData({...formData, type: e.target.value})}
           >
-            <option>Piso Laminado</option>
-            <option>Piso Vinílico</option>
-            <option>Rodapé Poliestireno</option>
-            <option>Manutenção</option>
-            <option>Outros</option>
+            <option className="text-gray-900">Piso Laminado</option>
+            <option className="text-gray-900">Piso Vinílico</option>
+            <option className="text-gray-900">Rodapé Poliestireno</option>
+            <option className="text-gray-900">Manutenção</option>
+            <option className="text-gray-900">Outros</option>
           </select>
         </div>
 
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">Mensagem (Opcional)</label>
           <textarea 
-            className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-orange focus:border-transparent outline-none transition"
+            className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-orange focus:border-transparent outline-none transition text-gray-900 bg-white placeholder-gray-400"
             rows={3}
             placeholder="Metragem aproximada ou dúvidas..."
             value={formData.message}
