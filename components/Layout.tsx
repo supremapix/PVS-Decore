@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Menu, X, Phone, MessageCircle, Mail, ArrowUp, Instagram, MapPin } from 'lucide-react';
 import { CONTACT_PHONE, CONTACT_DISPLAY, CONTACT_EMAIL, CONTACT_ADDRESS, CONTACT_INSTAGRAM } from '../constants';
 import Logo from './Logo';
+import { motion, AnimatePresence } from 'framer-motion';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -10,7 +11,21 @@ interface LayoutProps {
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [showScrollButton, setShowScrollButton] = useState(false);
   const navigate = useNavigate();
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 500) {
+        setShowScrollButton(true);
+      } else {
+        setShowScrollButton(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -112,13 +127,21 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
       {/* Floating Buttons */}
       <div className="fixed bottom-6 right-6 flex flex-col gap-4 z-40 items-end">
-        <button 
-          onClick={scrollToTop}
-          className="bg-gray-800 text-white p-3 rounded-full shadow-lg hover:bg-gray-700 transition opacity-80 hover:opacity-100"
-          aria-label="Voltar ao topo"
-        >
-          <ArrowUp size={20} />
-        </button>
+        <AnimatePresence>
+          {showScrollButton && (
+            <motion.button 
+              initial={{ opacity: 0, scale: 0.5, y: 20 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.5, y: 20 }}
+              transition={{ duration: 0.3 }}
+              onClick={scrollToTop}
+              className="bg-gray-800 text-white p-3 rounded-full shadow-lg hover:bg-gray-700 transition"
+              aria-label="Voltar ao topo"
+            >
+              <ArrowUp size={20} />
+            </motion.button>
+          )}
+        </AnimatePresence>
         
         {/* Animated WhatsApp Button */}
         <button 
@@ -135,7 +158,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       </div>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-gray-300 pt-16 pb-6 border-t-4 border-brand-orange">
+      <footer id="footer-contact" className="bg-gray-900 text-gray-300 pt-16 pb-6 border-t-4 border-brand-orange">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
             <div>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ChevronDown, MapPin, Phone, MessageCircle, Star } from 'lucide-react';
+import { ChevronDown, MapPin, Phone, MessageCircle, Star, Check } from 'lucide-react';
 import { CONTACT_ADDRESS, CONTACT_DISPLAY, CONTACT_PHONE, ACCORDION_ITEMS } from '../constants';
 
 const ServiceContactWidget = () => {
@@ -60,7 +60,12 @@ const ServiceContactWidget = () => {
       </div>
 
       {/* Footer CTA */}
-      <div className="p-4 bg-white border-t border-gray-100">
+      <div className="p-4 bg-white border-t border-gray-100 flex flex-col gap-2">
+         <div className="flex flex-wrap justify-center gap-x-3 gap-y-1 text-[10px] sm:text-xs text-gray-600 font-medium">
+             <span className="flex items-center gap-1"><Check size={12} className="text-green-500" /> Entrega rápida</span>
+             <span className="flex items-center gap-1"><Check size={12} className="text-green-500" /> Mão de obra especializada</span>
+             <span className="flex items-center gap-1"><Check size={12} className="text-green-500" /> Garantia de 10 anos</span>
+         </div>
          <button 
              onClick={() => window.open(`https://wa.me/${CONTACT_PHONE}?text=Olá, vi os serviços no site e gostaria de um orçamento.`, '_blank')}
              className="w-full bg-brand-orange hover:bg-orange-700 text-white font-bold py-3 px-4 rounded-xl shadow-lg shadow-orange-500/30 transform transition hover:-translate-y-1 flex items-center justify-center gap-2"

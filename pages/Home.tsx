@@ -7,10 +7,19 @@ import PageTransition from '../components/PageTransition';
 import HeroBackground from '../components/HeroBackground';
 import ServiceContactWidget from '../components/ServiceContactWidget';
 import LocationMarquee from '../components/LocationMarquee';
+import TestimonialCard from '../components/TestimonialCard';
 
 const Home = () => {
   const handleHeroWhatsApp = () => {
      window.open(`https://wa.me/${CONTACT_PHONE}?text=Olá, gostaria de um orçamento rápido para minha obra.`, '_blank');
+  };
+
+  const handleScrollToContact = (e: React.MouseEvent) => {
+    e.preventDefault();
+    const contactSection = document.getElementById('footer-contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   return (
@@ -41,16 +50,20 @@ const Home = () => {
               Especialistas em <strong className="text-white font-bold">Laminados Quick-Step</strong> e <strong className="text-white font-bold">Vinílicos Tarkett</strong>. Instalação rápida, limpa e com acabamento de alto padrão.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-6">
                 <button 
                   onClick={handleHeroWhatsApp}
-                  className="bg-brand-orange hover:bg-orange-600 text-white font-bold text-lg px-8 py-4 rounded-full shadow-2xl hover:shadow-orange-500/50 transform hover:-translate-y-1 transition-all duration-300 flex items-center justify-center gap-3 group border border-orange-400/50"
+                  className="bg-brand-orange hover:bg-orange-600 text-white font-black text-xl px-10 py-5 rounded-full shadow-2xl hover:shadow-orange-500/60 transform hover:-translate-y-1 hover:scale-105 transition-all duration-300 flex items-center justify-center gap-3 group border-2 border-orange-400 animate-pulse hover:animate-none"
                 >
-                   <MessageCircle size={24} className="group-hover:scale-110 transition-transform" />
-                   Orçamento Rápido
+                   <MessageCircle size={28} className="group-hover:rotate-12 transition-transform" />
+                   ORÇAMENTO RÁPIDO
                 </button>
-                <a href="#servicos" className="px-8 py-4 rounded-full border border-white/30 hover:bg-white/10 backdrop-blur-sm transition font-bold text-lg flex items-center justify-center">
-                    Ver Catálogo
+                <a 
+                  href="#footer-contact"
+                  onClick={handleScrollToContact}
+                  className="px-8 py-5 rounded-full border-2 border-white/30 hover:bg-white hover:text-gray-900 hover:border-white backdrop-blur-sm transition-all font-bold text-lg flex items-center justify-center shadow-lg"
+                >
+                    Fale Conosco
                 </a>
             </div>
 
@@ -87,7 +100,7 @@ const Home = () => {
             { icon: Star, title: 'Marcas Líderes', desc: 'Quick-Step, Tarkett...' },
             { icon: ShieldCheck, title: 'Garantia Real', desc: 'Produto e Serviço' },
           ].map((item, idx) => (
-            <div key={idx} className="flex flex-col items-center text-center group p-4 rounded-xl hover:bg-white hover:shadow-xl transition-all duration-300">
+            <div key={idx} className="flex flex-col items-center text-center group p-4 rounded-xl hover:bg-white hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
               <div className="bg-white p-4 rounded-full shadow-sm mb-3 text-brand-orange group-hover:bg-brand-orange group-hover:text-white transition duration-300 ring-4 ring-gray-100 group-hover:ring-orange-200">
                 <item.icon size={32} />
               </div>
@@ -98,31 +111,13 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Partners / Brands Section */}
-      <section className="py-16 bg-white overflow-hidden">
-        <div className="container mx-auto px-4">
-           <div className="text-center mb-10">
-             <h2 className="text-3xl font-black text-gray-900 mb-2">Parceiros de Peso</h2>
-             <div className="w-16 h-1.5 bg-brand-orange mx-auto rounded-full mb-4"></div>
-             <p className="text-gray-500 max-w-2xl mx-auto">
-               Trabalhamos apenas com o que há de melhor no mercado.
-             </p>
-           </div>
-           
-           <div className="flex flex-wrap justify-center gap-4">
-             {BRAND_PARTNERS.map((brand, idx) => (
-               <div key={idx} className="w-40 bg-white border border-gray-100 rounded-xl p-4 flex flex-col items-center justify-center text-center shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                  <h3 className="font-black text-gray-800 group-hover:text-brand-orange transition-colors">{brand.name}</h3>
-                  <span className="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1">{brand.category}</span>
-               </div>
-             ))}
-           </div>
-        </div>
-      </section>
-
       {/* Offers / Services Grid - Premium Cards */}
-      <section id="servicos" className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
+      <section id="servicos" className="py-20 bg-gray-50 relative overflow-hidden">
+        {/* Background blobs */}
+        <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-100 rounded-full blur-[100px] opacity-40 -translate-y-1/2 translate-x-1/2"></div>
+        <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-orange-100 rounded-full blur-[100px] opacity-40 translate-y-1/2 -translate-x-1/2"></div>
+
+        <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <span className="text-brand-orange font-black tracking-widest uppercase text-sm mb-2 block">Nosso Catálogo</span>
             <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-4">Soluções Completas</h2>
@@ -132,10 +127,11 @@ const Home = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {SERVICES.map((service) => (
+            {SERVICES.map((service, idx) => (
               <div 
                 key={service.id} 
                 className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 ease-out border border-gray-100 flex flex-col relative"
+                style={{ animationDelay: `${idx * 100}ms` }}
               >
                 <div className="h-64 overflow-hidden relative">
                   <div className="absolute top-4 right-4 bg-white/90 backdrop-blur text-brand-orange text-xs font-bold px-3 py-1 rounded-full z-20 shadow-lg flex items-center gap-1">
@@ -215,6 +211,73 @@ const Home = () => {
               ))}
             </ul>
           </div>
+        </div>
+      </section>
+
+      {/* New Testimonials Section */}
+      <section className="py-20 bg-brand-light relative">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl font-black text-gray-900 mb-4">Clientes Felizes</h2>
+            <div className="w-20 h-1.5 bg-brand-orange mx-auto rounded-full mb-4"></div>
+            <p className="text-gray-600 max-w-2xl mx-auto text-lg">
+              A confiança é a base do nosso negócio. Veja o que dizem quem já transformou seu lar conosco.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            {[
+              {
+                name: "Ricardo Mendes",
+                role: "Proprietário",
+                location: "São José dos Pinhais",
+                text: "Excelente trabalho! A instalação do piso vinílico no meu apartamento ficou perfeita. Equipe pontual e muito organizada. Recomendo de olhos fechados."
+              },
+              {
+                name: "Ana Paula Souza",
+                role: "Arquiteta",
+                location: "Curitiba (Água Verde)",
+                text: "Transformaram minha sala. O atendimento desde o orçamento até a entrega foi impecável. O acabamento dos rodapés é coisa de cinema!"
+              },
+              {
+                name: "Carlos Eduardo",
+                role: "Empresário",
+                location: "Pinhais",
+                text: "Contratei para meu escritório e o resultado superou as expectativas. Rápido, limpo e preço justo. A PVS Decore é nota 10."
+              }
+            ].map((item, idx) => (
+              <TestimonialCard 
+                key={idx}
+                name={item.name}
+                role={item.role}
+                location={item.location}
+                text={item.text}
+                delay={idx * 0.2}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Partners / Brands Section */}
+      <section className="py-16 bg-white overflow-hidden">
+        <div className="container mx-auto px-4">
+           <div className="text-center mb-10">
+             <h2 className="text-3xl font-black text-gray-900 mb-2">Parceiros de Peso</h2>
+             <div className="w-16 h-1.5 bg-brand-orange mx-auto rounded-full mb-4"></div>
+             <p className="text-gray-500 max-w-2xl mx-auto">
+               Trabalhamos apenas com o que há de melhor no mercado.
+             </p>
+           </div>
+           
+           <div className="flex flex-wrap justify-center gap-4">
+             {BRAND_PARTNERS.map((brand, idx) => (
+               <div key={idx} className="w-40 bg-white border border-gray-100 rounded-xl p-4 flex flex-col items-center justify-center text-center shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
+                  <h3 className="font-black text-gray-800 group-hover:text-brand-orange transition-colors">{brand.name}</h3>
+                  <span className="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1">{brand.category}</span>
+               </div>
+             ))}
+           </div>
         </div>
       </section>
 
