@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { ShieldCheck, Clock, Award, ChevronRight, CheckCircle2, Star, Quote, MapPin, Tag, ThumbsUp, Zap, BadgeCheck, MessageCircle, ArrowRight, Dog, Baby, Building2, Droplets, Lightbulb, Sparkles } from 'lucide-react';
+import { ShieldCheck, Clock, Award, ChevronRight, CheckCircle2, Star, Quote, MapPin, Tag, ThumbsUp, Zap, BadgeCheck, MessageCircle, ArrowRight, Dog, Baby, Building2, Droplets, Lightbulb, Sparkles, ChevronLeft, Info } from 'lucide-react';
 import { SERVICES, CONTACT_PHONE } from '../constants';
 import SEO from '../components/SEO';
 import PageTransition from '../components/PageTransition';
@@ -62,11 +62,87 @@ const Home = () => {
     { id: 4, icon: Building2, label: "Apartamento", title: "Silêncio é Ouro", text: "Obrigatório em muitos condomínios: use Vinílico ou Laminado com manta acústica especial para não incomodar o vizinho de baixo." },
   ];
 
+  // 30 Expert Tips Data
   const tips = [
     { title: "Rodapé Alto: Elegância", text: "Rodapés de 10cm ou 15cm na cor branca alongam o pé direito e modernizam qualquer ambiente instantaneamente." },
     { title: "Sentido da Instalação", text: "Instalar as réguas no sentido da entrada de luz amplia visualmente o espaço. Nossa equipe planeja isso para você." },
-    { title: "Sobreposição Inteligente", text: "Não quebre o piso antigo! O vinílico e o laminado podem ser instalados por cima, economizando tempo e caçamba." }
+    { title: "Sobreposição Inteligente", text: "Não quebre o piso antigo! O vinílico e o laminado podem ser instalados por cima, economizando tempo e caçamba." },
+    { title: "Manta Acústica", text: "Em apartamentos, a manta acústica sob o laminado é essencial para reduzir o ruído de passos para o vizinho de baixo." },
+    { title: "Proteção nos Móveis", text: "Cole feltros adesivos nos pés de cadeiras e mesas. Isso evita riscos superficiais ao arrastar móveis no dia a dia." },
+    { title: "Limpeza Diária", text: "Esqueça baldes de água. Um pano levemente úmido com detergente neutro é tudo que seu piso precisa para brilhar." },
+    { title: "Cuidado com Sol", text: "Pisos vinílicos e laminados podem desbotar com sol intenso direto. Use cortinas ou películas UV nas janelas." },
+    { title: "Área de Serviço", text: "Vai colocar na lavanderia? Prefira o Vinílico Colado, que é mais resistente a eventuais poças de água." },
+    { title: "Rodízios de Cadeira", text: "No home office, troque rodízios de plástico duro por rodízios de silicone (PU) para não marcar o piso." },
+    { title: "Tapetes de Entrada", text: "Um capacho na porta de entrada retém a areia e pedrinhas que poderiam riscar seu piso novo." },
+    { title: "Rodapé de Poliestireno", text: "São 100% à prova d'água e imunes a cupins. A melhor escolha para durabilidade a longo prazo." },
+    { title: "Juntas de Dilatação", text: "Pisos laminados dilatam e contraem. O espaçamento correto nas paredes é o segredo para o piso não estufar." },
+    { title: "Nivelamento é Tudo", text: "Para o vinílico ficar perfeito, o contrapiso deve estar liso como um vidro. Usamos pasta niveladora específica." },
+    { title: "Vinílico na Cozinha", text: "Sim, pode! É higiênico e fácil de limpar. Só evite jogar baldes de água como se fosse cerâmica." },
+    { title: "Rodapé da Mesma Cor?", text: "Rodapé branco combina com tudo e moderniza. Rodapé da cor do piso dá sensação de amplitude no chão." },
+    { title: "Urina de Pets", text: "Limpe o quanto antes. Embora resistente, a acidez pode manchar qualquer revestimento se ficar por horas." },
+    { title: "Cera? Nunca mais!", text: "A maioria dos pisos modernos já vem com capa de proteção. Cera cria uma crosta gordurosa difícil de tirar." },
+    { title: "Instalação Click", text: "O sistema click permite desmontar e levar o piso caso você se mude (dependendo do estado das réguas)." },
+    { title: "Piso Térmico", text: "Vinílicos mantêm a temperatura amena. No inverno de Curitiba, você vai conseguir andar descalço." },
+    { title: "Régua Larga", text: "Réguas mais largas (acima de 20cm) dão um ar mais nobre e sofisticado para salas grandes." },
+    { title: "Transição de Portas", text: "Usamos perfis de acabamento discretos na transição entre cômodos ou mudança de piso (ex: sala para cozinha)." },
+    { title: "Tempo de Aclimação", text: "O material deve ficar no local da obra 24h antes da instalação para se adaptar à temperatura ambiente." },
+    { title: "Impermeabilização Térrea", text: "Em casas térreas, verificamos a umidade do solo. Às vezes é preciso aplicar primer bloqueador de umidade." },
+    { title: "Rodateto", text: "Assim como o rodapé, o rodateto (moldura no teto) dá o acabamento final. Trabalhamos com Santa Luzia também." },
+    { title: "Laminado vs Vinílico", text: "Laminado = Madeira (mais rígido, eco nos passos). Vinílico = PVC (mais macio, silencioso)." },
+    { title: "Vassoura Certa", text: "Use vassouras de pelo macio. Vassouras de piaçava dura podem causar micro-riscos com o tempo." },
+    { title: "Manchas de Caneta", text: "Riscou com caneta? Um pouco de álcool num algodão costuma resolver em pisos vinílicos." },
+    { title: "Rodapé de Sobrepor", text: "Tem rodapé cerâmico e não quer quebrar? Use o modelo de sobrepor da Santa Luzia. Rápido e limpo." },
+    { title: "Valorização do Imóvel", text: "Um piso novo é uma das reformas que mais valoriza o imóvel na hora da venda ou locação." },
+    { title: "Garantia de Instalação", text: "Exija nota fiscal e termo de garantia da instalação. Um produto bom mal instalado perde a garantia de fábrica." }
   ];
+
+  // Carousel Logic
+  const [currentTip, setCurrentTip] = useState(0);
+  const [itemsPerPage, setItemsPerPage] = useState(1); // Default mobile
+
+  // Responsive check
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 1024) { // lg
+        setItemsPerPage(3);
+      } else if (window.innerWidth >= 768) { // md
+        setItemsPerPage(2);
+      } else {
+        setItemsPerPage(1);
+      }
+    };
+    
+    // Initial call
+    handleResize();
+    
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  // Auto-play
+  useEffect(() => {
+    const timer = setInterval(() => {
+      nextTip();
+    }, 5000);
+    return () => clearInterval(timer);
+  }, [currentTip, itemsPerPage]);
+
+  const nextTip = () => {
+    setCurrentTip((prev) => (prev + 1) % tips.length);
+  };
+
+  const prevTip = () => {
+    setCurrentTip((prev) => (prev - 1 + tips.length) % tips.length);
+  };
+
+  // Get visible tips ensuring circular wrap
+  const getVisibleTips = () => {
+    const visible = [];
+    for (let i = 0; i < itemsPerPage; i++) {
+      visible.push(tips[(currentTip + i) % tips.length]);
+    }
+    return visible;
+  };
 
   return (
     <PageTransition>
@@ -304,36 +380,76 @@ const Home = () => {
         </div>
       </section>
 
-      {/* NEW SECTION: Expert Tips Cards */}
+      {/* NEW SECTION: Expert Tips Carousel */}
       <section className="py-20 bg-gray-900 text-white overflow-hidden relative">
         <div className="absolute top-0 right-0 w-96 h-96 bg-brand-orange/10 rounded-full blur-[100px]"></div>
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-500/10 rounded-full blur-[100px]"></div>
+
         <div className="container mx-auto px-4 relative z-10">
            <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
               <div>
                 <span className="text-brand-orange font-bold uppercase tracking-widest text-xs mb-2 block">Dicas de Especialista</span>
                 <h2 className="text-3xl md:text-4xl font-black">Segredos da PVS para sua Obra</h2>
+                <p className="text-gray-400 mt-2 max-w-xl text-sm">Navegue pelas nossas 30 dicas essenciais para quem vai construir ou reformar.</p>
               </div>
-              <button onClick={handleHeroWhatsApp} className="text-brand-orange hover:text-white border-b border-brand-orange pb-1 transition-colors flex items-center gap-2 font-bold">
-                 Falar com um consultor <ArrowRight size={16} />
-              </button>
+              
+              {/* Carousel Controls */}
+              <div className="flex items-center gap-4">
+                 <div className="text-xs font-mono text-gray-500">
+                    <span className="text-brand-orange font-bold">{String(currentTip + 1).padStart(2, '0')}</span> / {tips.length}
+                 </div>
+                 <div className="flex gap-2">
+                    <button onClick={prevTip} className="p-3 rounded-full border border-gray-700 hover:bg-brand-orange hover:border-brand-orange hover:text-white transition-all active:scale-95">
+                       <ChevronLeft size={20} />
+                    </button>
+                    <button onClick={nextTip} className="p-3 rounded-full border border-gray-700 hover:bg-brand-orange hover:border-brand-orange hover:text-white transition-all active:scale-95">
+                       <ChevronRight size={20} />
+                    </button>
+                 </div>
+              </div>
            </div>
 
-           <div className="grid md:grid-cols-3 gap-8">
-              {tips.map((tip, idx) => (
-                 <motion.div 
-                   key={idx}
-                   initial={{ opacity: 0, y: 20 }}
-                   whileInView={{ opacity: 1, y: 0 }}
-                   transition={{ delay: idx * 0.1 }}
-                   className="bg-gray-800 p-8 rounded-2xl border border-gray-700 hover:border-brand-orange/50 transition-all duration-300 hover:bg-gray-750 group"
-                 >
-                    <div className="w-12 h-12 bg-gray-900 rounded-xl flex items-center justify-center text-brand-orange mb-6 group-hover:scale-110 transition-transform">
-                       <Sparkles size={24} />
-                    </div>
-                    <h3 className="text-xl font-bold mb-3">{tip.title}</h3>
-                    <p className="text-gray-400 leading-relaxed text-sm">{tip.text}</p>
-                 </motion.div>
-              ))}
+           {/* Animated Carousel Grid */}
+           <div className="relative min-h-[250px]">
+             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+               <AnimatePresence mode="popLayout">
+                  {getVisibleTips().map((tip, idx) => (
+                     <motion.div 
+                       key={`${currentTip}-${idx}`} // Using currentTip ensures re-render animation
+                       initial={{ opacity: 0, x: 50, scale: 0.9 }}
+                       animate={{ opacity: 1, x: 0, scale: 1 }}
+                       exit={{ opacity: 0, x: -50, scale: 0.9 }}
+                       transition={{ duration: 0.5, ease: "circOut" }}
+                       className="bg-gray-800/80 backdrop-blur-sm p-8 rounded-2xl border border-gray-700 hover:border-brand-orange/50 transition-colors group h-full flex flex-col relative overflow-hidden"
+                     >
+                        {/* Glow Effect */}
+                        <div className="absolute -top-10 -right-10 w-20 h-20 bg-brand-orange/20 rounded-full blur-2xl group-hover:bg-brand-orange/40 transition-all duration-500"></div>
+
+                        <div className="w-10 h-10 bg-gray-900 rounded-lg flex items-center justify-center text-brand-orange mb-4 shadow-inner">
+                           <Info size={20} />
+                        </div>
+                        <h3 className="text-lg font-bold mb-3 text-white group-hover:text-brand-orange transition-colors">{tip.title}</h3>
+                        <p className="text-gray-400 text-sm leading-relaxed flex-grow">{tip.text}</p>
+                     </motion.div>
+                  ))}
+               </AnimatePresence>
+             </div>
+           </div>
+           
+           {/* Progress Bar */}
+           <div className="w-full bg-gray-800 h-1 mt-10 rounded-full overflow-hidden">
+              <motion.div 
+                className="h-full bg-brand-orange"
+                initial={{ width: 0 }}
+                animate={{ width: `${((currentTip + 1) / tips.length) * 100}%` }}
+                transition={{ duration: 0.5 }}
+              ></motion.div>
+           </div>
+           
+           <div className="text-center mt-8">
+              <button onClick={handleHeroWhatsApp} className="text-brand-orange hover:text-white border-b border-brand-orange pb-1 transition-colors inline-flex items-center gap-2 font-bold text-sm uppercase tracking-wide">
+                 Falar com um consultor agora <ArrowRight size={14} />
+              </button>
            </div>
         </div>
       </section>
