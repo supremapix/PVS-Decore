@@ -41,34 +41,38 @@ export const BRAND_PARTNERS = [
   { name: "VinilForte", category: "Vinílicos", desc: "Qualidade residencial" }
 ];
 
-// Updated Images to be more robust
+// Updated Images with High Quality Unsplash IDs
 export const SERVICES: Service[] = [
   {
     id: 'laminado',
     title: 'Piso Laminado Click',
-    description: 'Instalação rápida e sem sujeira. Opções resistentes à água (Hydroseal) ideais para áreas integradas.',
+    description: 'Aconchego da madeira com instalação rápida. Opções resistentes à água (Hydroseal) para durabilidade extra.',
     icon: 'Grid',
-    image: 'https://images.unsplash.com/photo-1513467656343-48472d37af60?auto=format&fit=crop&q=80&w=800'
+    // High quality wood floor living room
+    image: 'https://images.unsplash.com/photo-1581858726768-758a03361df9?auto=format&fit=crop&q=80&w=800'
   },
   {
     id: 'vinilico',
     title: 'Piso Vinílico',
-    description: 'Conforto acústico e térmico. Modelos colados para reformas rápidas sobre cerâmica ou clicados.',
+    description: 'O equilíbrio perfeito entre conforto térmico e resistência. Ideal para quem busca silêncio e facilidade de limpeza.',
     icon: 'Layers',
-    image: 'https://images.unsplash.com/photo-1481277542470-605612bd2d61?auto=format&fit=crop&q=80&w=800'
+    // Modern clean interior
+    image: 'https://images.unsplash.com/photo-1615529182904-14819c35db37?auto=format&fit=crop&q=80&w=800'
   },
   {
     id: 'rodape',
     title: 'Rodapé Santa Luzia',
-    description: 'Acabamento de luxo em poliestireno. 100% à prova d\'água, não mofam e valoriza seu ambiente.',
+    description: 'O detalhe que define o ambiente. Rodapés de poliestireno à prova d\'água que não mofam e modernizam sua casa.',
     icon: 'Square',
+    // Detail of baseboard/floor
     image: 'https://images.unsplash.com/photo-1620626012053-93f266a31774?auto=format&fit=crop&q=80&w=800'
   },
   {
     id: 'outros',
     title: 'Vidros e Esquadrias',
-    description: 'Parceria com Vidromax e linhas Suprema/Gold para um acabamento completo da sua obra.',
+    description: 'Fechamento de sacadas e esquadrias de alto padrão (Linhas Suprema/Gold) para completar seu projeto.',
     icon: 'Hammer',
+    // Modern window/glass architecture
     image: 'https://images.unsplash.com/photo-1600566752355-35792bedcfe1?auto=format&fit=crop&q=80&w=800'
   }
 ];

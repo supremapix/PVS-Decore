@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { ShieldCheck, Clock, Award, ChevronRight, CheckCircle2, Star, Quote, MapPin, Tag, ThumbsUp, Zap, BadgeCheck, MessageCircle, ArrowRight, Dog, Baby, Building2, Droplets, Lightbulb, Sparkles, ChevronLeft, Info } from 'lucide-react';
+import { ShieldCheck, Clock, Award, ChevronRight, CheckCircle2, Star, Quote, MapPin, Tag, ThumbsUp, Zap, BadgeCheck, MessageCircle, ArrowRight, Dog, Baby, Building2, Droplets, Lightbulb, Sparkles, ChevronLeft, Info, ArrowUpRight } from 'lucide-react';
 import { SERVICES, CONTACT_PHONE } from '../constants';
 import SEO from '../components/SEO';
 import PageTransition from '../components/PageTransition';
@@ -313,18 +313,21 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Offers / Services Grid - Premium Cards */}
-      <section id="servicos" className="py-20 bg-gray-50 relative overflow-hidden">
-        {/* Background blobs */}
-        <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-100 rounded-full blur-[100px] opacity-40 -translate-y-1/2 translate-x-1/2"></div>
-        <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-orange-100 rounded-full blur-[100px] opacity-40 translate-y-1/2 -translate-x-1/2"></div>
+      {/* Offers / Services Grid - Premium Magazine Style */}
+      <section id="servicos" className="py-24 bg-white relative overflow-hidden">
+        {/* Decorative Background Elements */}
+        <div className="absolute top-0 right-0 w-96 h-96 bg-gray-100 rounded-full blur-[100px] -translate-y-1/2 translate-x-1/2"></div>
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-orange-50 rounded-full blur-[100px] translate-y-1/2 -translate-x-1/2"></div>
 
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
-            <span className="text-brand-orange font-black tracking-widest uppercase text-sm mb-2 block">Nosso Catálogo</span>
-            <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-4">Soluções Completas</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto text-lg">
-              Do vinílico para cozinha ao laminado para o quarto. Tudo com a qualidade PVS Decore.
+            <span className="inline-block py-1 px-3 rounded-full bg-orange-50 border border-orange-100 text-brand-orange font-black tracking-widest uppercase text-xs mb-4">
+              Nosso Catálogo
+            </span>
+            <h2 className="text-4xl md:text-6xl font-black text-gray-900 mb-6 tracking-tight">Soluções Completas</h2>
+            <div className="w-24 h-1.5 bg-brand-orange mx-auto rounded-full mb-6"></div>
+            <p className="text-gray-500 max-w-2xl mx-auto text-xl font-light">
+              Do vinílico para cozinha ao laminado para o quarto. Acabamentos de luxo que valorizam o seu patrimônio.
             </p>
           </div>
 
@@ -332,50 +335,67 @@ const Home = () => {
             {SERVICES.map((service, idx) => (
               <motion.div 
                 key={service.id} 
-                initial={{ opacity: 0, y: 30 }}
+                initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: idx * 0.1 }}
-                className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 ease-out border border-gray-100 flex flex-col relative"
+                viewport={{ once: true, margin: "-100px" }}
+                transition={{ duration: 0.6, delay: idx * 0.15, ease: "easeOut" }}
+                className="group relative h-[450px] rounded-3xl overflow-hidden cursor-pointer shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-gray-100"
               >
-                <div className="h-64 overflow-hidden relative">
-                  <div className="absolute top-4 right-4 bg-white/90 backdrop-blur text-brand-orange text-xs font-bold px-3 py-1 rounded-full z-20 shadow-lg flex items-center gap-1">
-                     <Tag size={12} /> DESTAQUE
-                  </div>
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60 z-10"></div>
-                  <img 
-                    src={service.image} 
-                    alt={service.title} 
-                    className="w-full h-full object-cover transform group-hover:scale-110 transition duration-700"
-                  />
-                  <div className="absolute bottom-4 left-4 z-20 text-white">
-                      <h3 className="text-xl font-bold leading-tight">{service.title}</h3>
-                  </div>
+                {/* Full Background Image with Zoom Effect */}
+                <div className="absolute inset-0 w-full h-full overflow-hidden">
+                   <img 
+                      src={service.image} 
+                      alt={service.title} 
+                      className="w-full h-full object-cover transition-transform duration-700 ease-in-out group-hover:scale-110"
+                   />
                 </div>
-                
-                <div className="p-6 flex flex-col flex-grow">
-                  <p className="text-gray-500 text-sm mb-6 flex-grow leading-relaxed">{service.description}</p>
-                  
-                  <Link 
-                    to={service.id === 'rodape' ? '/product/rodape-poliestireno' : service.id === 'outros' ? '/#contato' : `/product/${service.id === 'laminado' ? 'piso-laminado' : 'piso-vinilico'}`}
-                    className="w-full bg-gray-900 text-white font-bold py-3 rounded-xl flex items-center justify-center gap-2 group-hover:bg-brand-orange transition-all duration-300 shadow-lg group-hover:shadow-orange-500/30"
-                  >
-                    Ver Detalhes <ChevronRight size={16} />
-                  </Link>
+
+                {/* Badge */}
+                <div className="absolute top-5 right-5 z-20">
+                   <div className="bg-white/10 backdrop-blur-md border border-white/20 text-white text-[10px] font-black uppercase tracking-widest px-3 py-1.5 rounded-full flex items-center gap-1 shadow-lg group-hover:bg-brand-orange group-hover:border-brand-orange transition-colors">
+                      <Tag size={10} /> Destaque
+                   </div>
+                </div>
+
+                {/* Gradient Overlay for Text Readability */}
+                <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-300"></div>
+
+                {/* Content Area */}
+                <div className="absolute bottom-0 left-0 w-full p-8 flex flex-col justify-end h-full z-10 translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                    <div className="mb-4">
+                        <div className="bg-brand-orange/20 w-12 h-12 rounded-xl flex items-center justify-center text-brand-orange mb-4 backdrop-blur-sm border border-brand-orange/30 group-hover:bg-brand-orange group-hover:text-white transition-colors duration-300">
+                            {service.icon === 'Grid' ? <Building2 size={24} /> : 
+                             service.icon === 'Layers' ? <Sparkles size={24} /> : 
+                             service.icon === 'Square' ? <Award size={24} /> : 
+                             <Info size={24} />}
+                        </div>
+                        <h3 className="text-2xl font-bold text-white mb-2 leading-tight group-hover:text-brand-orange transition-colors">{service.title}</h3>
+                        <div className="h-0 opacity-0 group-hover:h-auto group-hover:opacity-100 transition-all duration-500 overflow-hidden">
+                           <p className="text-gray-300 text-sm leading-relaxed mb-6">{service.description}</p>
+                        </div>
+                    </div>
+
+                    <Link 
+                      to={service.id === 'rodape' ? '/product/rodape-poliestireno' : service.id === 'outros' ? '/#contato' : `/product/${service.id === 'laminado' ? 'piso-laminado' : 'piso-vinilico'}`}
+                      className="w-full bg-white/10 backdrop-blur-md hover:bg-brand-orange text-white font-bold py-4 rounded-xl flex items-center justify-center gap-2 transition-all duration-300 border border-white/20 hover:border-brand-orange group/btn"
+                    >
+                      Ver Detalhes <ArrowUpRight size={18} className="group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1 transition-transform" />
+                    </Link>
                 </div>
               </motion.div>
             ))}
           </div>
 
           {/* Extra CTA Section */}
-          <div className="mt-16 text-center">
+          <div className="mt-20 text-center">
              <button 
                 onClick={handleHeroWhatsApp}
-                className="bg-brand-orange hover:bg-orange-700 text-white font-bold py-4 px-12 rounded-full text-xl shadow-2xl hover:shadow-orange-500/50 transition-all transform hover:scale-105 animate-pulse"
+                className="bg-brand-orange hover:bg-gray-900 text-white font-black py-5 px-12 rounded-full text-xl shadow-[0_20px_50px_-10px_rgba(249,115,22,0.4)] hover:shadow-xl transition-all transform hover:scale-105 active:scale-95 flex items-center justify-center gap-3 mx-auto group"
              >
-                Quero um Orçamento Agora!
+                <span>Solicitar Orçamento Personalizado</span>
+                <ArrowRight className="group-hover:translate-x-1 transition-transform" />
              </button>
-             <p className="mt-4 text-sm text-gray-500">Resposta em menos de 10 minutos no horário comercial.</p>
+             <p className="mt-6 text-sm text-gray-400 font-medium">Equipe pronta para atender em horário comercial.</p>
           </div>
         </div>
       </section>
