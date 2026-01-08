@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Menu, X, Phone, MessageCircle, Mail, ArrowUp, Instagram, MapPin } from 'lucide-react';
+import { Menu, X, Phone, MessageCircle, Mail, ArrowUp, Instagram, MapPin, ChevronDown } from 'lucide-react';
 import { CONTACT_PHONE, CONTACT_DISPLAY, CONTACT_EMAIL, CONTACT_ADDRESS, CONTACT_INSTAGRAM } from '../constants';
 import Logo from './Logo';
 import { motion, AnimatePresence, useScroll, useMotionValueEvent } from 'framer-motion';
@@ -46,12 +46,10 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     window.open(`https://wa.me/${CONTACT_PHONE}?text=Olá, visitei o site da PVS Decore e gostaria de um orçamento.`, '_blank');
   };
 
-  const navLinks = [
-    { name: 'Início', path: '/' },
-    { name: 'Piso Vinílico', path: '/product/piso-vinilico' },
-    { name: 'Piso Laminado', path: '/product/piso-laminado' },
-    { name: 'Serviços', path: '/service/instalacao-residencial' },
-    { name: 'Contato', path: '/contato' },
+  const servicesLinks = [
+    { name: 'Instalação Residencial', path: '/service/instalacao-residencial' },
+    { name: 'Instalação Comercial', path: '/service/instalacao-comercial' },
+    { name: 'Manutenção', path: '/service/manutencao' },
   ];
 
   return (
@@ -91,15 +89,55 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
             {/* Desktop Nav */}
             <nav className="hidden md:flex items-center gap-8 font-semibold text-sm">
-              {navLinks.map((link) => (
-                <Link 
-                  key={link.name} 
-                  to={link.path} 
-                  className="hover:text-brand-orange transition-colors uppercase tracking-wide relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-brand-orange after:left-0 after:-bottom-1 after:transition-all hover:after:w-full"
-                >
-                  {link.name}
-                </Link>
-              ))}
+              <Link 
+                to="/" 
+                className="hover:text-brand-orange transition-colors uppercase tracking-wide relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-brand-orange after:left-0 after:-bottom-1 after:transition-all hover:after:w-full"
+              >
+                Início
+              </Link>
+              
+              <Link 
+                to="/product/piso-vinilico" 
+                className="hover:text-brand-orange transition-colors uppercase tracking-wide relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-brand-orange after:left-0 after:-bottom-1 after:transition-all hover:after:w-full"
+              >
+                Piso Vinílico
+              </Link>
+              
+              <Link 
+                to="/product/piso-laminado" 
+                className="hover:text-brand-orange transition-colors uppercase tracking-wide relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-brand-orange after:left-0 after:-bottom-1 after:transition-all hover:after:w-full"
+              >
+                Piso Laminado
+              </Link>
+
+              {/* Dropdown Services */}
+              <div className="relative group">
+                <button className="flex items-center gap-1 hover:text-brand-orange transition-colors uppercase tracking-wide">
+                  Serviços <ChevronDown size={14} />
+                </button>
+                <div className="absolute top-full left-0 w-56 bg-white shadow-xl rounded-lg py-2 mt-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0 border border-gray-100">
+                  {servicesLinks.map((link) => (
+                    <Link
+                      key={link.path}
+                      to={link.path}
+                      className="block px-4 py-3 hover:bg-orange-50 hover:text-brand-orange text-gray-700 transition-colors border-b border-gray-50 last:border-0"
+                    >
+                      <div className="flex items-center justify-between">
+                         {link.name}
+                         <ChevronRight size={12} className="opacity-0 group-hover:opacity-100 transition-opacity" />
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+
+              <Link 
+                to="/contato" 
+                className="hover:text-brand-orange transition-colors uppercase tracking-wide relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-brand-orange after:left-0 after:-bottom-1 after:transition-all hover:after:w-full"
+              >
+                Contato
+              </Link>
+
               <button 
                 onClick={handleWhatsApp}
                 className="bg-brand-orange text-white px-5 py-2 rounded-full font-bold hover:bg-orange-700 transition shadow-lg flex items-center gap-2 animate-pulse hover:animate-none transform hover:scale-105"
@@ -116,18 +154,30 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
           {/* Mobile Nav */}
           {isMenuOpen && (
-            <div className="md:hidden bg-white border-t border-gray-100 absolute w-full left-0 shadow-lg z-50">
+            <div className="md:hidden bg-white border-t border-gray-100 absolute w-full left-0 shadow-lg z-50 max-h-[90vh] overflow-y-auto">
               <div className="flex flex-col p-4 gap-4">
-                {navLinks.map((link) => (
-                  <Link 
-                    key={link.name} 
-                    to={link.path} 
-                    className="font-medium text-lg text-gray-800 border-b pb-2"
-                    onClick={() => setIsMenuOpen(false)}
-                  >
-                    {link.name}
-                  </Link>
-                ))}
+                <Link to="/" className="font-medium text-lg text-gray-800 border-b pb-2" onClick={() => setIsMenuOpen(false)}>Início</Link>
+                <Link to="/product/piso-vinilico" className="font-medium text-lg text-gray-800 border-b pb-2" onClick={() => setIsMenuOpen(false)}>Piso Vinílico</Link>
+                <Link to="/product/piso-laminado" className="font-medium text-lg text-gray-800 border-b pb-2" onClick={() => setIsMenuOpen(false)}>Piso Laminado</Link>
+                
+                <div className="border-b pb-2">
+                  <span className="font-medium text-lg text-brand-orange block mb-2">Serviços</span>
+                  <div className="pl-4 flex flex-col gap-3">
+                    {servicesLinks.map((link) => (
+                      <Link 
+                        key={link.path}
+                        to={link.path}
+                        className="text-gray-600 hover:text-brand-orange flex items-center gap-2"
+                        onClick={() => setIsMenuOpen(false)}
+                      >
+                         <ChevronRight size={14} className="text-brand-orange" /> {link.name}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+
+                <Link to="/contato" className="font-medium text-lg text-gray-800 border-b pb-2" onClick={() => setIsMenuOpen(false)}>Contato</Link>
+                
                 <button 
                   onClick={handleWhatsApp}
                   className="bg-green-500 text-white w-full py-3 rounded-lg font-bold flex justify-center items-center gap-2 shadow-md"

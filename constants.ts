@@ -60,7 +60,7 @@ export const SERVICES: Service[] = [
   {
     id: 'rodape',
     title: 'Rodapé Santa Luzia',
-    description: 'Acabamento de luxo em poliestireno. 100% à prova d\'água, não mofa e valoriza seu ambiente.',
+    description: 'Acabamento de luxo em poliestireno. 100% à prova d\'água, não mofam e valoriza seu ambiente.',
     icon: 'Square',
     image: 'https://images.unsplash.com/photo-1620626012053-93f266a31774?auto=format&fit=crop&q=80&w=800'
   },
@@ -197,6 +197,40 @@ export const PAGE_CONTENT: Record<string, RichPageData> = {
       { title: 'Garantia de Mão de Obra', content: 'A PVS Decore oferece garantia documentada sobre o serviço de instalação. Se houver qualquer descolamento ou abertura de juntas, nossa equipe retorna para corrigir sem custo.' },
       { title: 'Pontualidade', content: 'Respeitamos rigorosamente os dias e horários agendados. Sabemos que sua rotina é importante e trabalhamos para cumprir os prazos acordados.' },
       { title: 'Regiões Atendidas', content: 'Levamos nossa excelência em instalação para todos os bairros de Curitiba, São José dos Pinhais, Pinhais, Colombo, Araucária e toda a Região Metropolitana num raio de 30km.' }
+    ]
+  },
+  'instalacao-comercial': {
+    title: 'Instalação Comercial e Corporativa',
+    seoDescription: 'Pisos de alto tráfego para lojas, escritórios e empresas. Instalação noturna ou finais de semana para não parar seu negócio. Atendemos Curitiba e SJP.',
+    type: 'service',
+    contentBlocks: [
+      { title: 'Agilidade para seu Negócio', content: 'Tempo é dinheiro. Entendemos que sua loja ou escritório não pode parar. Oferecemos opções de instalação em horários alternativos (noturno ou finais de semana) para minimizar o impacto na sua operação.' },
+      { title: 'Pisos de Alto Tráfego', content: 'Especificamos e instalamos pisos com classificação AC4 e AC5 (Laminados) ou com capa de uso reforçada (Vinílicos) que suportam o fluxo intenso de clientes, rodízios de cadeiras e movimentação de mercadorias.' },
+      { title: 'Durabilidade e Manutenção', content: 'Para ambientes comerciais, indicamos produtos de fácil limpeza e alta resistência a riscos. Isso reduz custos operacionais com limpeza e mantém o aspecto de novo por muito mais tempo, valorizando a imagem da sua empresa.' },
+      { title: 'Acústica para Escritórios', content: 'O ruído em escritórios open-space atrapalha a produtividade. Nossos pisos vinílicos e carpetes em placas oferecem absorção acústica superior, criando um ambiente de trabalho mais focado e agradável.' },
+      { title: 'Design Corporativo', content: 'Trabalhamos com linhas de design sóbrio e moderno, alinhadas com a identidade visual da sua marca. Desde tons de concreto para startups até amadeirados clássicos para escritórios de advocacia.' },
+      { title: 'Regularização de Pisos Elevados', content: 'Temos expertise em preparar contrapisos e instalar revestimentos sobre pisos elevados, garantindo acesso às instalações elétricas e de dados quando necessário.' },
+      { title: 'Segurança e Normas', content: 'Utilizamos produtos que atendem às normas de resistência ao fogo e antiderrapância, garantindo a segurança dos seus colaboradores e clientes conforme exigências do Corpo de Bombeiros.' },
+      { title: 'Grandes Metragens', content: 'Possuímos equipe dimensionada para atender grandes obras em Curitiba e Região Metropolitana, mantendo o padrão de qualidade PVS Decore mesmo em cronogramas apertados.' },
+      { title: 'Garantia Estendida', content: 'Oferecemos garantia específica para uso comercial, assegurando que o investimento da sua empresa esteja protegido contra defeitos de instalação ou do produto.' },
+      { title: 'Atendimento Personalizado', content: 'Realizamos visita técnica no seu estabelecimento para entender a dinâmica do local e propor a solução técnica mais viável economicamente e esteticamente.' }
+    ]
+  },
+  'manutencao': {
+    title: 'Manutenção e Reparos de Pisos',
+    seoDescription: 'Reparo de pisos laminados e vinílicos, troca de réguas danificadas, recolagem e substituição de rodapés. Revitalize seu piso com a PVS Decore.',
+    type: 'service',
+    contentBlocks: [
+      { title: 'Seu Piso Novo de Novo', content: 'Acidentes acontecem. Um risco profundo, uma régua lascada ou um rodapé que descolou não significam que você precisa trocar todo o piso. A PVS Decore oferece serviço especializado de reparo localizado.' },
+      { title: 'Troca de Réguas Danificadas', content: 'Seja vinílico ou laminado, conseguimos substituir apenas as réguas avariadas (desde que haja material de reposição ou estoque disponível). Nossa técnica minimiza a necessidade de desmontar o ambiente todo.' },
+      { title: 'Recolagem de Vinílico', content: 'Com o tempo ou umidade excessiva, algumas pontas de piso vinílico podem levantar. Realizamos a limpeza da base e a recolagem com adesivos de alta performance, devolvendo a planicidade ao revestimento.' },
+      { title: 'Ajuste de Dilatação', content: 'Pisos laminados que estufaram por falta de espaço de dilatação podem ser salvos. Cortamos o excesso nas bordas e recolocamos o rodapé, permitindo que o piso "respire" e volte a assentar corretamente.' },
+      { title: 'Reparo de Rodapés', content: 'Rodapés soltos, quebrados ou cantos que abriram podem ser reparados. Refazemos a fixação e o acabamento com massa, deixando as emendas invisíveis novamente.' },
+      { title: 'Manutenção de Portas', content: 'Se o piso novo travou a porta ou se ela cedeu com o tempo e começou a riscar o chão, realizamos o refile (corte) e ajuste para garantir o funcionamento perfeito sem danificar o revestimento.' },
+      { title: 'Remoção e Reinstalação', content: 'Vai mudar de endereço comercial ou residencial? Avaliamos a possibilidade de remover seu piso flutuante (click) e reinstalá-lo no novo imóvel, gerando economia e sustentabilidade.' },
+      { title: 'Limpeza Técnica', content: 'Oferecemos orientações e produtos específicos para a limpeza pesada pós-obra ou revitalização periódica do seu piso vinílico ou laminado, removendo resíduos de cola e sujeiras impregnadas.' },
+      { title: 'Avaliação Honesta', content: 'Sempre avaliaremos se o reparo vale a pena. Se o custo do conserto for próximo ao de um piso novo, seremos transparentes. Nosso objetivo é a sua satisfação a longo prazo.' },
+      { title: 'Atendimento Rápido', content: 'Pequenos reparos são agendados com agilidade. Não deixe aquele defeito pequeno virar um problema grande. Chame a equipe de manutenção da PVS Decore.' }
     ]
   }
 };
