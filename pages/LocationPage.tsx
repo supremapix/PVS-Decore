@@ -19,6 +19,10 @@ const generateContent = (locationName: string, type: 'bairro' | 'cidade') => {
       content: `A PVS Decore é referência absoluta quando o assunto é revestimentos de alto padrão ${term}. Se você está reformando ou construindo, nossa equipe oferece as melhores opções de pisos vinílicos e laminados, combinando durabilidade com estética impecável. Entendemos as necessidades específicas dos imóveis de ${local}, oferecendo soluções que valorizam seu patrimônio.`
     },
     {
+      title: `Atendimento VIP em ${local}`,
+      content: `Por estarmos sediados estrategicamente em São José dos Pinhais, temos agilidade para atender ${local} com prioridade. Para os moradores e empresas desta região, oferecemos visita técnica expressa: nosso consultor leva o mostruário até você, evitando que precise se deslocar no trânsito.`
+    },
+    {
       title: `Instalação Profissional em ${local}`,
       content: `Não basta comprar um bom piso, a instalação é 70% do resultado. Nossa equipe técnica atua fortemente ${term}, garantindo nivelamento perfeito, cortes precisos e acabamento de rodapés impecável. Evite dores de cabeça com mão de obra desqualificada; escolha a PVS Decore para sua obra em ${local}.`
     },
@@ -162,12 +166,12 @@ const LocationPage = () => {
                     {(index + 1) % 3 === 0 && (
                       <div className="my-6">
                         <a 
-                          href={`https://wa.me/554130766240?text=Olá, gostaria de orçamento para ${location.name}`} 
+                          href={`https://wa.me/554130766240?text=Olá, sou de ${location.name} e gostaria de um orçamento.`} 
                           target="_blank"
                           rel="noreferrer"
                           className="inline-flex items-center gap-2 text-brand-orange font-bold hover:text-orange-700 transition"
                         >
-                          <Phone size={18} /> Solicitar orçamento para {location.name}
+                          <Phone size={18} /> Atendimento VIP para moradores de {location.name}
                         </a>
                       </div>
                     )}

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { ShieldCheck, Clock, Award, ChevronRight, CheckCircle2, Star, Quote, MapPin, Tag, ThumbsUp, Zap, BadgeCheck, MessageCircle, ArrowRight, Dog, Baby, Building2, Droplets, Lightbulb, Sparkles, ChevronLeft, Info, ArrowUpRight } from 'lucide-react';
+import { ShieldCheck, Clock, Award, ChevronRight, CheckCircle2, Star, Quote, MapPin, Tag, ThumbsUp, Zap, BadgeCheck, MessageCircle, ArrowRight, Dog, Baby, Building2, Droplets, Lightbulb, Sparkles, ChevronLeft, Info, ArrowUpRight, Coins } from 'lucide-react';
 import { SERVICES, CONTACT_PHONE } from '../constants';
 import SEO from '../components/SEO';
 import PageTransition from '../components/PageTransition';
@@ -148,7 +148,7 @@ const Home = () => {
     <PageTransition>
       <SEO 
         title="PVS Decore - Pisos Vinílicos, Laminados e Porcelanatos em Curitiba e SJP" 
-        description="Especialistas em venda e instalação de pisos vinílicos, laminados e rodapés. Atendemos Curitiba, São José dos Pinhais e raio de 30km. Peça seu orçamento!"
+        description="O Piso dos Seus Sonhos Instalado em até 48h. Revenda e instalação de pisos vinílicos e laminados em Curitiba e SJP. Mão de obra própria e garantia de especialista."
         url="/"
       />
 
@@ -167,7 +167,7 @@ const Home = () => {
           >
             <motion.div variants={itemVariants}>
               <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 backdrop-blur-md text-brand-orange px-5 py-2 rounded-full text-xs font-bold uppercase tracking-widest shadow-lg">
-                <Star size={12} fill="currentColor" /> Instalação Técnica Especializada • Revenda Oficial
+                <Star size={12} fill="currentColor" /> Instalação Técnica Própria (Sem Terceiros)
               </div>
             </motion.div>
             
@@ -175,15 +175,17 @@ const Home = () => {
               variants={itemVariants}
               className="text-4xl md:text-5xl lg:text-7xl font-black leading-tight drop-shadow-2xl tracking-tight"
             >
-              Pisos que Transformam <br className="hidden md:block"/>
+              O Piso dos Seus Sonhos <br className="hidden md:block"/>
               <TypewriterEffect />
+              <br className="hidden md:block"/>
+              <span className="text-3xl md:text-5xl lg:text-6xl text-gray-200">Instalado em até 48h.</span>
             </motion.h1>
 
             <motion.p 
               variants={itemVariants}
               className="text-gray-200 text-lg md:text-2xl max-w-2xl mx-auto lg:mx-0 leading-relaxed font-light drop-shadow-lg"
             >
-              Sua casa merece o melhor. Unimos a <strong className="text-white font-bold decoration-brand-orange underline decoration-2 underline-offset-4">maior variedade de marcas</strong> (Quick-Step, Tarkett) a uma <strong className="text-white font-bold decoration-brand-orange underline decoration-2 underline-offset-4">instalação técnica própria</strong>. Garantia de obra limpa, rápida e acabamento perfeito.
+              Garanta a <strong className="text-white font-bold decoration-brand-orange underline decoration-2 underline-offset-4">segurança da sua obra</strong> com quem é especialista. Do laminado Quick-Step ao vinílico Tarkett, entregamos sua casa transformada, limpa e pronta para morar.
             </motion.p>
             
             <motion.div 
@@ -196,14 +198,14 @@ const Home = () => {
                 >
                    <div className="absolute inset-0 bg-white/20 w-full h-full skew-x-12 -translate-x-full group-hover:animate-[shimmer_1.5s_infinite]"></div>
                    <MessageCircle size={28} className="group-hover:rotate-12 transition-transform relative z-10" />
-                   <span className="relative z-10 tracking-wide">ORÇAMENTO RÁPIDO</span>
+                   <span className="relative z-10 tracking-wide">QUERO MEU ORÇAMENTO</span>
                 </button>
                 <a 
                   href="#footer-contact"
                   onClick={handleScrollToContact}
                   className="px-10 py-5 rounded-full border border-white/30 bg-white/5 backdrop-blur-md hover:bg-white hover:text-gray-900 hover:border-white transition-all duration-300 font-bold text-lg flex items-center justify-center shadow-lg group"
                 >
-                    <span className="group-hover:translate-x-1 transition-transform">Fale Conosco</span>
+                    <span className="group-hover:translate-x-1 transition-transform">Ver Localização</span>
                 </a>
             </motion.div>
 
@@ -211,9 +213,9 @@ const Home = () => {
               variants={itemVariants}
               className="mt-8 flex flex-wrap justify-center lg:justify-start gap-4 text-xs md:text-sm text-gray-300 font-medium"
             >
-               <span className="flex items-center gap-2 bg-black/40 px-4 py-2 rounded-lg backdrop-blur-md border border-white/5 hover:border-brand-orange/50 transition-colors"><CheckCircle2 size={16} className="text-green-400" /> Laminado Click</span>
-               <span className="flex items-center gap-2 bg-black/40 px-4 py-2 rounded-lg backdrop-blur-md border border-white/5 hover:border-brand-orange/50 transition-colors"><CheckCircle2 size={16} className="text-green-400" /> Vinílico Colado</span>
-               <span className="flex items-center gap-2 bg-black/40 px-4 py-2 rounded-lg backdrop-blur-md border border-white/5 hover:border-brand-orange/50 transition-colors"><CheckCircle2 size={16} className="text-green-400" /> Rodapés Santa Luzia</span>
+               <span className="flex items-center gap-2 bg-black/40 px-4 py-2 rounded-lg backdrop-blur-md border border-white/5 hover:border-brand-orange/50 transition-colors"><CheckCircle2 size={16} className="text-green-400" /> Obra Limpa</span>
+               <span className="flex items-center gap-2 bg-black/40 px-4 py-2 rounded-lg backdrop-blur-md border border-white/5 hover:border-brand-orange/50 transition-colors"><CheckCircle2 size={16} className="text-green-400" /> Atendimento VIP</span>
+               <span className="flex items-center gap-2 bg-black/40 px-4 py-2 rounded-lg backdrop-blur-md border border-white/5 hover:border-brand-orange/50 transition-colors"><CheckCircle2 size={16} className="text-green-400" /> Garantia em Contrato</span>
             </motion.div>
           </motion.div>
 
@@ -243,10 +245,10 @@ const Home = () => {
       <section className="bg-gray-50 py-12 border-b border-gray-200">
         <div className="container mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
-            { icon: Award, title: 'Mão de Obra Própria', desc: 'Sem terceirização' },
-            { icon: Clock, title: 'Instalação Express', desc: 'Obras em 24h/48h' },
-            { icon: Star, title: 'Marcas Líderes', desc: 'Quick-Step, Tarkett...' },
-            { icon: ShieldCheck, title: 'Garantia Real', desc: 'Produto e Serviço' },
+            { icon: Award, title: 'Mão de Obra Própria', desc: 'Zero dor de cabeça' },
+            { icon: Clock, title: 'Instalação Express', desc: 'Sua casa pronta logo' },
+            { icon: Star, title: 'Marcas Líderes', desc: 'Qualidade que dura' },
+            { icon: ShieldCheck, title: 'Garantia Dupla', desc: 'Produto + Serviço' },
           ].map((item, idx) => (
             <motion.div 
               key={idx} 
@@ -386,17 +388,36 @@ const Home = () => {
             ))}
           </div>
 
-          {/* Extra CTA Section */}
-          <div className="mt-20 text-center">
-             <button 
-                onClick={handleHeroWhatsApp}
-                className="bg-brand-orange hover:bg-gray-900 text-white font-black py-5 px-12 rounded-full text-xl shadow-[0_20px_50px_-10px_rgba(249,115,22,0.4)] hover:shadow-xl transition-all transform hover:scale-105 active:scale-95 flex items-center justify-center gap-3 mx-auto group"
-             >
-                <span>Solicitar Orçamento Personalizado</span>
-                <ArrowRight className="group-hover:translate-x-1 transition-transform" />
-             </button>
-             <p className="mt-6 text-sm text-gray-400 font-medium">Equipe pronta para atender em horário comercial.</p>
-          </div>
+          {/* DICA DE OURO - GOLDEN TIP SECTION */}
+          <motion.div 
+            initial={{ opacity: 0, scale: 0.95 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            className="mt-20 bg-gradient-to-r from-gray-900 to-gray-800 rounded-3xl p-8 md:p-12 relative overflow-hidden shadow-2xl border border-gray-700"
+          >
+             <div className="absolute top-0 right-0 w-64 h-64 bg-yellow-400 opacity-10 rounded-full blur-[80px] translate-x-1/2 -translate-y-1/2"></div>
+             <div className="relative z-10 flex flex-col md:flex-row items-center gap-8 md:gap-12">
+                <div className="bg-yellow-400 p-6 rounded-2xl text-gray-900 shadow-xl shrink-0 rotate-3 transform hover:rotate-0 transition-transform">
+                   <Coins size={48} />
+                </div>
+                <div className="flex-grow text-center md:text-left">
+                   <span className="text-yellow-400 font-bold uppercase tracking-widest text-xs mb-2 block">Dica de Ouro PVS</span>
+                   <h3 className="text-2xl md:text-4xl font-black text-white mb-4">Economize na Reforma: Não Quebre o Piso Antigo!</h3>
+                   <p className="text-gray-300 text-lg leading-relaxed">
+                      Você sabia que o Piso Vinílico e o Laminado podem ser instalados sobre cerâmica ou cimento queimado? 
+                      <strong className="text-white"> Você economiza caçamba, evita poeira e reduz o tempo de obra pela metade.</strong>
+                   </p>
+                </div>
+                <div className="shrink-0">
+                   <button 
+                      onClick={handleHeroWhatsApp}
+                      className="bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-black py-4 px-8 rounded-full text-lg shadow-lg hover:shadow-yellow-400/20 transition-all transform hover:scale-105"
+                   >
+                      Quero Avaliação Gratuita
+                   </button>
+                </div>
+             </div>
+          </motion.div>
         </div>
       </section>
 
@@ -408,7 +429,7 @@ const Home = () => {
         <div className="container mx-auto px-4 relative z-10">
            <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
               <div>
-                <span className="text-brand-orange font-bold uppercase tracking-widest text-xs mb-2 block">Dicas de Especialista</span>
+                <span className="text-brand-orange font-bold uppercase tracking-widest text-xs mb-2 block">Blog do Especialista</span>
                 <h2 className="text-3xl md:text-4xl font-black">Segredos da PVS para sua Obra</h2>
                 <p className="text-gray-400 mt-2 max-w-xl text-sm">Navegue pelas nossas 30 dicas essenciais para quem vai construir ou reformar.</p>
               </div>

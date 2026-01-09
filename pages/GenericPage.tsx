@@ -17,8 +17,8 @@ const GenericPage = () => {
 
   // Enhanced description logic to ensure persuasive tone and benefits are tailored to the type
   const persuasiveDescription = data.type === 'service' 
-    ? `${data.seoDescription} Garanta tranquilidade total na sua reforma: Mão de obra 100% própria (sem terceirização), garantia contratual de serviço, limpeza pós-obra impecável e rigoroso cumprimento de prazos em Curitiba e Região. Não arrisque, contrate especialistas!`
-    : `${data.seoDescription} Escolha a PVS Decore: Revenda autorizada das melhores marcas, consultoria técnica especializada, entrega rápida e instalação com acabamento de luxo em Curitiba e São José dos Pinhais.`;
+    ? `${data.seoDescription} Chega de dor de cabeça na obra! A PVS Decore garante instalação em 48h, mão de obra própria (sem terceiros) e garantia em contrato. Atendemos Curitiba e Região com excelência. Peça seu orçamento!`
+    : `${data.seoDescription} Transforme sua casa com a PVS Decore. Revenda oficial das melhores marcas, consultoria para o clima de Curitiba e instalação impecável. Clique e veja por que somos referência em ${data.title}.`;
 
   return (
     <PageTransition>

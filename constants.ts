@@ -141,14 +141,14 @@ export const PAGE_CONTENT: Record<string, RichPageData> = {
     type: 'product',
     contentBlocks: [
       { title: 'O que é o Piso Vinílico?', content: 'O piso vinílico é produzido a partir de PVC, cargas minerais e aditivos, o que o torna um revestimento leve, flexível (na versão LVT) ou rígido (na versão SPC), e extremamente durável. Ele se tornou o favorito em projetos de arquitetura em Curitiba por oferecer conforto térmico, mantendo a temperatura agradável mesmo nos dias frios da nossa região.' },
+      { title: 'Por que é perfeito para o clima de Curitiba?', content: 'Quem mora em Curitiba ou São José dos Pinhais conhece o frio úmido da região. O piso vinílico é um excelente isolante térmico. Diferente da cerâmica, que é "gelada", o vinílico mantém a temperatura ambiente. Isso significa que você pode andar descalço no inverno sem sentir aquele choque térmico, além de ajudar a manter a casa mais aquecida.' },
       { title: 'Resistência à Água e Umidade', content: 'Diferente do laminado, o piso vinílico (especialmente o colado e o SPC rígido) possui alta resistência à umidade. É a escolha ideal para cozinhas, lavabos e áreas de serviço, além de ser perfeito para quem tem animais de estimação, pois acidentes com líquidos são fáceis de limpar e não estufam o piso.' },
       { title: 'Conforto Acústico Superior', content: 'Mora em apartamento? O piso vinílico absorve o impacto dos passos, reduzindo drasticamente o barulho de "toc-toc" (ruído de impacto). Isso melhora a qualidade de vida dentro de casa e a convivência com os vizinhos do andar de baixo.' },
       { title: 'Instalação Rápida e Limpa', content: 'Na PVS Decore, realizamos a instalação de vinílicos sobre o contrapiso ou sobre cerâmicas existentes (com o devido nivelamento). O processo é rápido, praticamente sem poeira e sem barulho de serras elétricas, permitindo que você renove sua casa em poucos dias.' },
       { title: 'Tipos: LVT Colado vs. SPC Click', content: 'Trabalhamos com o LVT (Luxury Vinyl Tile), que é colado ao contrapiso e exige uma base perfeitamente nivelada, e o SPC (Stone Plastic Composite) com sistema de encaixe Click, que é mais rígido, dispensa cola e pode ser instalado sobre pisos existentes com pequenas imperfeições.' },
       { title: 'Facilidade de Limpeza', content: 'A manutenção do vinílico é extremamente simples: basta uma vassoura de cerdas macias e um pano úmido com detergente neutro. Dispensa ceras e produtos abrasivos, mantendo o brilho e a aparência de novo por muitos anos.' },
       { title: 'Hipoalergênico e Seguro', content: 'Por não acumular poeira e ser fácil de higienizar, o piso vinílico é recomendado para quartos de crianças e pessoas alérgicas. Além disso, muitos modelos possuem proteção antibacteriana em sua camada superficial.' },
-      { title: 'Variedade de Padrões Amadeirados', content: 'Oferecemos uma vasta gama de cores e texturas que imitam com perfeição a madeira natural, o cimento queimado e até pedras. Você consegue o visual nobre da madeira com a tecnologia e praticidade do PVC.' },
-      { title: 'Durabilidade para Alto Tráfego', content: 'Para ambientes comerciais em Curitiba e São José dos Pinhais, temos linhas com capa de uso (wear layer) reforçada, garantindo resistência contra riscos, cadeiras de rodinhas e alto fluxo de pessoas.' },
+      { title: 'Dica #07: Limpeza Correta', content: 'O segredo para o seu vinílico durar décadas é simples: use apenas detergente neutro e água. Jamais use água sanitária ou produtos à base de petróleo. Quer saber qual o melhor produto específico? Solicite nosso guia de manutenção gratuito no WhatsApp.' },
       { title: 'Garantia PVS Decore', content: 'Ao comprar e instalar conosco, você tem a garantia dupla: do fabricante do piso (que pode chegar a 15 anos dependendo da linha) e a garantia da nossa mão de obra especializada.' }
     ]
   },
@@ -158,15 +158,15 @@ export const PAGE_CONTENT: Record<string, RichPageData> = {
     type: 'product',
     contentBlocks: [
       { title: 'O que é Piso Laminado?', content: 'O piso laminado é composto por camadas de HDF (fibra de madeira de alta densidade), revestido com um papel decorativo e uma proteção superficial (overlay). É a solução mais popular em Curitiba para quem busca a beleza da madeira com um custo acessível.' },
+      { title: 'Ideal para o Inverno Paranaense', content: 'Feito de madeira reconstituída, o laminado é um material "quente". Ele quebra o gelo do contrapiso, tornando quartos e salas de estar ambientes muito mais acolhedores, especialmente nas noites frias de Curitiba e Região Metropolitana.' },
       { title: 'Instalação Click: Rapidez Incomparável', content: 'O sistema de encaixe "Click" permite uma instalação flutuante super veloz. Em muitos casos, conseguimos instalar um apartamento inteiro em um único dia. E o melhor: você pode pisar e colocar os móveis logo após a instalação.' },
       { title: 'Custo-Benefício', content: 'Comparado à madeira maciça ou ao vinílico, o laminado costuma ter o menor custo por metro quadrado instalado. É a opção ideal para reformas rápidas em quartos, salas e corredores, valorizando o imóvel com baixo investimento.' },
-      { title: 'Conforto Térmico', content: 'Como é feito de madeira, o laminado é naturalmente quente ao toque. Em cidades frias como Curitiba e São José dos Pinhais, ele torna o ambiente muito mais acolhedor do que pisos frios como a cerâmica ou porcelanato.' },
       { title: 'Durabilidade e Resistência', content: 'Os laminados modernos possuem alta resistência a riscos e abrasão. Trabalhamos com linhas de resistência AC3 (residencial) e AC4/AC5 (comercial), garantindo que o piso suporte o dia a dia da sua família.' },
       { title: 'Manta Acústica e Niveladora', content: 'Todo piso laminado é instalado sobre uma manta. Na PVS Decore, utilizamos mantas de qualidade que ajudam a corrigir pequenas imperfeições do contrapiso e oferecem um isolamento acústico básico.' },
       { title: 'Piso Laminado e Umidade', content: 'Embora a tecnologia tenha avançado (algumas linhas são resistentes à água por horas), o laminado tradicional não é indicado para áreas molhadas. É perfeito para áreas secas e íntimas da casa.' },
       { title: 'Design Moderno', content: 'As texturas dos laminados atuais são impressionantes, com relevos que acompanham os veios da madeira (sincronizados), proporcionando um visual e toque muito naturais.' },
       { title: 'Fácil Manutenção', content: 'Para limpar, basta aspirador de pó e pano levemente umedecido com produtos específicos para laminados. É prático para o dia a dia corrido das famílias modernas.' },
-      { title: 'Sustentabilidade', content: 'Nossos fornecedores utilizam madeira de reflorestamento certificada. O piso laminado é uma escolha ecologicamente consciente para a sua construção ou reforma.' }
+      { title: 'Dica PVS: Rodapé Branco', content: 'Quer modernizar seu ambiente instantaneamente? Combine o piso laminado madeirado com rodapés brancos de 10cm ou 15cm. Isso cria uma moldura elegante e amplia a sensação de pé-direito.' }
     ]
   },
   'rodape-poliestireno': {
@@ -192,6 +192,7 @@ export const PAGE_CONTENT: Record<string, RichPageData> = {
     type: 'service',
     contentBlocks: [
       { title: 'Sua Casa em Boas Mãos', content: 'Sabemos que reformar a casa habitada exige cuidado extra. Nossa equipe de instalação residencial é treinada para trabalhar com organização, protegendo seus móveis e minimizando a poeira.' },
+      { title: 'Evite os 3 Erros Comuns', content: 'Muitas obras dão dor de cabeça por 3 motivos: 1) Contratar "faz-tudo" sem especialização técnica; 2) Ignorar a umidade do contrapiso (o que faz o piso soltar depois); 3) Não deixar o espaço de dilatação correto. Na PVS Decore, seguimos protocolos técnicos rigorosos para evitar 100% desses problemas.' },
       { title: 'Avaliação do Contrapiso', content: 'Antes de instalar, fazemos uma análise rigorosa do seu contrapiso. Se houver umidade ou desníveis, indicamos e executamos a correção necessária (impermeabilização ou autonivelante) para garantir a longevidade do piso.' },
       { title: 'Paginação Personalizada', content: 'Planejamos o sentido das réguas para ampliar visualmente os ambientes e garantir o melhor aproveitamento do material, reduzindo perdas e recortes desnecessários.' },
       { title: 'Instalação Sobre Piso Existente', content: 'Em muitos casos, podemos instalar o vinílico ou laminado sobre a cerâmica antiga, sem necessidade de quebradeira. Isso reduz drasticamente o tempo de obra e o entulho gerado.' },
@@ -199,7 +200,6 @@ export const PAGE_CONTENT: Record<string, RichPageData> = {
       { title: 'Móveis no Lugar', content: 'Se você não tem onde colocar os móveis durante a troca do piso, nossa equipe pode ajudar a movê-los de um cômodo para o outro conforme a instalação avança (serviço sob consulta).' },
       { title: 'Limpeza Pós-Obra', content: 'Entregamos o ambiente aspirado e limpo. Recolhemos as sobras de material e embalagens, deixando sua casa pronta para você curtir o novo visual.' },
       { title: 'Garantia de Mão de Obra', content: 'A PVS Decore oferece garantia documentada sobre o serviço de instalação. Se houver qualquer descolamento ou abertura de juntas, nossa equipe retorna para corrigir sem custo.' },
-      { title: 'Pontualidade', content: 'Respeitamos rigorosamente os dias e horários agendados. Sabemos que sua rotina é importante e trabalhamos para cumprir os prazos acordados.' },
       { title: 'Regiões Atendidas', content: 'Levamos nossa excelência em instalação para todos os bairros de Curitiba, São José dos Pinhais, Pinhais, Colombo, Araucária e toda a Região Metropolitana num raio de 30km.' }
     ]
   },
