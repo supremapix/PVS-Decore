@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { ShieldCheck, Clock, Award, ChevronRight, CheckCircle2, Star, Quote, MapPin, Tag, ThumbsUp, Zap, BadgeCheck, MessageCircle, ArrowRight, Dog, Baby, Building2, Droplets, Lightbulb, Sparkles, ChevronLeft, Info, ArrowUpRight, Coins } from 'lucide-react';
+import { ShieldCheck, Clock, Award, ChevronRight, CheckCircle2, Star, Quote, MapPin, Tag, ThumbsUp, Zap, BadgeCheck, MessageCircle, ArrowRight, Dog, Baby, Building2, Droplets, Lightbulb, Sparkles, ChevronLeft, Info, ArrowUpRight, Coins, Check } from 'lucide-react';
 import { SERVICES, CONTACT_PHONE } from '../constants';
 import SEO from '../components/SEO';
 import PageTransition from '../components/PageTransition';
@@ -285,8 +285,19 @@ const Home = () => {
               <button 
                 key={item.id}
                 onClick={() => setActiveSuggestion(item.id)}
-                className={`flex flex-col items-center gap-3 p-4 rounded-2xl w-32 transition-all duration-300 ${activeSuggestion === item.id ? 'bg-brand-orange text-white scale-110 shadow-lg' : 'bg-gray-50 text-gray-600 hover:bg-orange-100'}`}
+                className={`relative flex flex-col items-center gap-3 p-4 rounded-2xl w-32 transition-all duration-300 ${activeSuggestion === item.id ? 'bg-brand-orange text-white scale-110 shadow-lg' : 'bg-gray-50 text-gray-600 hover:bg-orange-100'}`}
               >
+                {/* Visual Status Icon when Active */}
+                {activeSuggestion === item.id && (
+                  <motion.div 
+                    initial={{ scale: 0 }}
+                    animate={{ scale: 1 }}
+                    className="absolute -top-3 -right-3 bg-green-500 text-white p-1.5 rounded-full shadow-md border-2 border-white z-10"
+                  >
+                     <Check size={14} strokeWidth={4} />
+                  </motion.div>
+                )}
+
                 <div className={`p-3 rounded-full ${activeSuggestion === item.id ? 'bg-white text-brand-orange' : 'bg-white text-gray-400'}`}>
                    <item.icon size={24} />
                 </div>
