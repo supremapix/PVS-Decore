@@ -6,6 +6,7 @@ import LeadForm from '../components/LeadForm';
 import PageTransition from '../components/PageTransition';
 import { CheckCircle2, MapPin, Star, Phone } from 'lucide-react';
 import ImageGallery from '../components/ImageGallery';
+import ShareButtons from '../components/ShareButtons';
 
 // Helper to generate unique SEO content based on location name
 const generateContent = (locationName: string, type: 'bairro' | 'cidade') => {
@@ -106,12 +107,14 @@ const LocationPage = () => {
     return <Navigate to="/" replace />;
   }
 
+  const pageUrl = `/${location.type}/${location.slug}`;
+
   return (
     <PageTransition>
       <SEO 
         title={`Pisos Vinílicos e Laminados em ${location.name} | PVS Decore`}
         description={`Venda e instalação de pisos em ${location.name}. Vinílico, Laminado e Porcelanato com o melhor preço e instalação especializada. Orçamento grátis no local!`}
-        url={`/${location.type}/${location.slug}`}
+        url={pageUrl}
         location={location.name}
       />
 
@@ -178,6 +181,9 @@ const LocationPage = () => {
                   </div>
                 ))}
               </div>
+
+              {/* Share Buttons */}
+              <ShareButtons title={`Pisos PVS Decore em ${location.name}`} url={pageUrl} />
             </div>
 
             {/* Sidebar / Sticky Form */}

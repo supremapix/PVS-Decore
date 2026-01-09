@@ -502,9 +502,9 @@ const Home = () => {
             <div className="absolute -top-10 -left-10 w-40 h-40 bg-brand-orange rounded-full opacity-10 blur-3xl group-hover:opacity-20 transition duration-1000"></div>
             <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-blue-500 rounded-full opacity-10 blur-3xl group-hover:opacity-20 transition duration-1000"></div>
             <img 
-              src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1000" 
-              alt="Sala de estar moderna" 
-              className="rounded-3xl shadow-2xl relative z-10 transform hover:scale-[1.01] transition duration-700 rotate-1 hover:rotate-0"
+              src="/loja-pvs.png" 
+              alt="Fachada da Loja PVS Decore" 
+              className="rounded-3xl shadow-2xl relative z-10 transform hover:scale-[1.01] transition duration-700 rotate-1 hover:rotate-0 w-full"
             />
             {/* Floating Badge */}
             <div className="absolute -bottom-6 -left-6 z-20 bg-white p-4 rounded-2xl shadow-xl border border-gray-100 flex items-center gap-3 animate-bounce" style={{ animationDuration: '3s' }}>

@@ -6,6 +6,7 @@ import LeadForm from '../components/LeadForm';
 import PageTransition from '../components/PageTransition';
 import { CheckCircle2, Star, ArrowRight, MapPin } from 'lucide-react';
 import ImageGallery from '../components/ImageGallery';
+import ShareButtons from '../components/ShareButtons';
 
 const GenericPage = () => {
   const { slug } = useParams();
@@ -20,12 +21,14 @@ const GenericPage = () => {
     ? `${data.seoDescription} Chega de dor de cabeça na obra! A PVS Decore garante instalação em 48h, mão de obra própria (sem terceiros) e garantia em contrato. Atendemos Curitiba e Região com excelência. Peça seu orçamento!`
     : `${data.seoDescription} Transforme sua casa com a PVS Decore. Revenda oficial das melhores marcas, consultoria para o clima de Curitiba e instalação impecável. Clique e veja por que somos referência em ${data.title}.`;
 
+  const pageUrl = `/${data.type}/${slug}`;
+
   return (
     <PageTransition>
       <SEO 
         title={`${data.title} | PVS Decore`}
         description={persuasiveDescription}
-        url={`/${data.type}/${slug}`}
+        url={pageUrl}
         type={data.type}
       />
 
@@ -91,6 +94,9 @@ const GenericPage = () => {
                   </article>
                 ))}
               </div>
+
+              {/* Share Buttons */}
+              <ShareButtons title={`PVS Decore - ${data.title}`} url={pageUrl} />
             </div>
 
             {/* Sidebar */}
