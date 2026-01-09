@@ -49,7 +49,7 @@ const MapSection = () => {
                     </div>
 
                     <a 
-                        href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(CONTACT_ADDRESS)}`} 
+                        href={`https://www.google.com/maps/dir//${encodeURIComponent(CONTACT_ADDRESS)}`} 
                         target="_blank" 
                         rel="noreferrer"
                         className="mt-8 bg-brand-orange hover:bg-orange-700 text-white font-bold py-4 rounded-xl flex items-center justify-center gap-2 shadow-lg transition-all transform hover:scale-[1.02]"

@@ -279,7 +279,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 <li className="flex items-start gap-3">
                   <MapPin size={24} className="text-brand-orange flex-shrink-0 mt-1" /> 
                   <a 
-                    href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(CONTACT_ADDRESS)}`} 
+                    href={`https://www.google.com/maps?q=${encodeURIComponent(CONTACT_ADDRESS)}`} 
                     target="_blank" 
                     rel="noreferrer"
                     className="hover:text-brand-orange transition"
