@@ -13,6 +13,7 @@ import MapSection from '../components/MapSection';
 import ImageGallery from '../components/ImageGallery';
 import TypewriterEffect from '../components/TypewriterEffect';
 import PartnersMarquee from '../components/PartnersMarquee';
+import Tooltip from '../components/Tooltip';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const Home = () => {
@@ -241,14 +242,14 @@ const Home = () => {
           <LocationMarquee />
       </section>
 
-      {/* Features Bar */}
+      {/* Features Bar with Tooltips */}
       <section className="bg-gray-50 py-12 border-b border-gray-200">
         <div className="container mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
-            { icon: Award, title: 'Mão de Obra Própria', desc: 'Zero dor de cabeça' },
-            { icon: Clock, title: 'Instalação Express', desc: 'Sua casa pronta logo' },
-            { icon: Star, title: 'Marcas Líderes', desc: 'Qualidade que dura' },
-            { icon: ShieldCheck, title: 'Garantia Dupla', desc: 'Produto + Serviço' },
+            { icon: Award, title: 'Mão de Obra Própria', desc: 'Zero dor de cabeça', tooltip: 'Equipe 100% CLT. Não terceirizamos, garantindo sua segurança e qualidade técnica.' },
+            { icon: Clock, title: 'Instalação Express', desc: 'Sua casa pronta logo', tooltip: 'Técnicas de instalação rápida que liberam cômodos em 24h a 48h (Sistema Click).' },
+            { icon: Star, title: 'Marcas Líderes', desc: 'Qualidade que dura', tooltip: 'Revenda Oficial: Quick-Step, Tarkett, Durafloor e Santa Luzia.' },
+            { icon: ShieldCheck, title: 'Garantia Dupla', desc: 'Produto + Serviço', tooltip: 'Cobertura completa contra defeitos de fábrica e problemas de instalação por nossa conta.' },
           ].map((item, idx) => (
             <motion.div 
               key={idx} 
@@ -258,9 +259,11 @@ const Home = () => {
               transition={{ delay: idx * 0.1 }}
               className="flex flex-col items-center text-center group p-4 rounded-xl hover:bg-white hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
             >
-              <div className="bg-white p-4 rounded-full shadow-sm mb-3 text-brand-orange group-hover:bg-brand-orange group-hover:text-white transition duration-300 ring-4 ring-gray-100 group-hover:ring-orange-200">
-                <item.icon size={32} />
-              </div>
+              <Tooltip content={item.tooltip}>
+                <div className="bg-white p-4 rounded-full shadow-sm mb-3 text-brand-orange group-hover:bg-brand-orange group-hover:text-white transition duration-300 ring-4 ring-gray-100 group-hover:ring-orange-200">
+                  <item.icon size={32} />
+                </div>
+              </Tooltip>
               <h3 className="font-bold text-gray-900 text-lg">{item.title}</h3>
               <p className="text-sm text-gray-500">{item.desc}</p>
             </motion.div>
