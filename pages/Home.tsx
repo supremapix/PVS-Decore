@@ -504,7 +504,7 @@ const Home = () => {
             <img 
               src="/loja-pvs.png" 
               alt="Fachada da Loja PVS Decore" 
-              className="rounded-3xl shadow-2xl relative z-10 transform hover:scale-[1.01] transition duration-700 rotate-1 hover:rotate-0 w-full"
+              className="rounded-3xl shadow-2xl relative z-10 transform hover:scale-[1.01] transition duration-700 w-full"
             />
             {/* Floating Badge */}
             <div className="absolute -bottom-6 -left-6 z-20 bg-white p-4 rounded-2xl shadow-xl border border-gray-100 flex items-center gap-3 animate-bounce" style={{ animationDuration: '3s' }}>
