@@ -505,13 +505,14 @@ const Home = () => {
             </p>
             <ul className="space-y-4">
               {[
-                  {text: 'Sede própria em São José dos Pinhais', sub: 'Segurança para sua compra'}, 
-                  {text: 'Especialistas em Laminado Hydroseal', sub: 'Resistência à água'}, 
-                  {text: 'Acabamento Fino em Rodapés', sub: 'Cortes em 45º perfeitos'}
+                  {text: 'Sede própria em São José dos Pinhais', sub: 'Segurança para sua compra', icon: CheckCircle2}, 
+                  {text: 'Especialistas em Laminado Hydroseal', sub: 'Resistência à água', icon: CheckCircle2}, 
+                  {text: 'Acabamento Fino em Rodapés', sub: 'Cortes em 45º perfeitos', icon: CheckCircle2},
+                  {text: 'Garantia Dupla: Produto + Instalação', sub: 'Segurança total para o seu investimento', icon: ShieldCheck}
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-4 p-3 rounded-xl hover:bg-gray-50 transition">
                   <div className="bg-brand-orange/10 p-2 rounded-lg text-brand-orange">
-                     <CheckCircle2 size={20} /> 
+                     <item.icon size={20} /> 
                   </div>
                   <div>
                       <span className="block font-bold text-gray-900">{item.text}</span>
