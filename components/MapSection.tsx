@@ -58,16 +58,17 @@ const MapSection = () => {
                     </a>
                 </div>
 
-                {/* Right: Static Map Visual */}
+                {/* Right: Store Photo */}
                 <div className="md:w-1/2 relative min-h-[300px] bg-gray-200">
-                    <img 
-                        src="https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80&w=800" 
-                        alt="Mapa Localização" 
-                        className="absolute inset-0 w-full h-full object-cover opacity-60 mix-blend-multiply"
+                    <img
+                        src="/pisos-laminados-vinilicos-pvs-spj.png"
+                        alt="PVS Decore - Loja em São José dos Pinhais"
+                        className="absolute inset-0 w-full h-full object-cover"
                     />
-                    <div className="absolute inset-0 flex items-center justify-center">
-                         <div className="bg-white p-4 rounded-full shadow-2xl animate-bounce">
-                             <MapPin size={48} className="text-brand-orange fill-current" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                    <div className="absolute bottom-4 right-4">
+                         <div className="bg-white p-3 rounded-full shadow-2xl">
+                             <MapPin size={32} className="text-brand-orange fill-current" />
                          </div>
                     </div>
                 </div>

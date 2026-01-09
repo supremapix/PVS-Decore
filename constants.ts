@@ -73,12 +73,12 @@ export const SERVICES: Service[] = [
 ];
 
 export const GALLERY_IMAGES = [
-  "https://images.unsplash.com/photo-1581858726768-758a03361df9?auto=format&fit=crop&q=80&w=1200",
-  "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&q=80&w=1200",
-  "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200",
-  "https://images.unsplash.com/photo-1620626012053-93f266a31774?auto=format&fit=crop&q=80&w=1200",
-  "https://images.unsplash.com/photo-1600607686527-6fb886090705?auto=format&fit=crop&q=80&w=1200",
-  "https://images.unsplash.com/photo-1600566752355-35792bedcfe1?auto=format&fit=crop&q=80&w=1200"
+  "/pisos-laminados-vinilicos-pvs-spj.png",
+  "/piso_laminado_click.png",
+  "/piso_vinilico.png",
+  "/rodape_santa_luzia.png",
+  "/vidros-esquadrias-pvs-decore-sao-jose-dos-pinhais.png",
+  "/loja-pvs.jpg"
 ];
 
 export const FAQS = [

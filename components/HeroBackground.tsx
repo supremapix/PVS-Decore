@@ -2,8 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const images = [
-  "https://images.unsplash.com/photo-1581858726768-758a03361df9?auto=format&fit=crop&q=80&w=2000",
-  "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&q=80&w=2000"
+  "/pisos-laminados-vinilicos-pvs-spj.png",
+  "/piso_laminado_click.png",
+  "/piso_vinilico.png",
+  "/rodape_santa_luzia.png"
 ];
 
 const HeroBackground = () => {
