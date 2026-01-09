@@ -41,39 +41,34 @@ export const BRAND_PARTNERS = [
   { name: "VinilForte", category: "Vinílicos", desc: "Qualidade residencial" }
 ];
 
-// Updated Images with High Quality Unsplash IDs
 export const SERVICES: Service[] = [
   {
     id: 'laminado',
     title: 'Piso Laminado Click',
     description: 'Aconchego da madeira com instalação rápida. Opções resistentes à água (Hydroseal) para durabilidade extra.',
     icon: 'Grid',
-    // High quality wood floor living room
-    image: 'https://images.unsplash.com/photo-1581858726768-758a03361df9?auto=format&fit=crop&q=80&w=800'
+    image: '/piso_laminado_click.png'
   },
   {
     id: 'vinilico',
     title: 'Piso Vinílico',
     description: 'O equilíbrio perfeito entre conforto térmico e resistência. Ideal para quem busca silêncio e facilidade de limpeza.',
     icon: 'Layers',
-    // Modern clean interior
-    image: 'https://images.unsplash.com/photo-1615529182904-14819c35db37?auto=format&fit=crop&q=80&w=800'
+    image: '/piso_vinilico.png'
   },
   {
     id: 'rodape',
     title: 'Rodapé Santa Luzia',
     description: 'O detalhe que define o ambiente. Rodapés de poliestireno à prova d\'água que não mofam e modernizam sua casa.',
     icon: 'Square',
-    // Detail of baseboard/floor
-    image: 'https://images.unsplash.com/photo-1620626012053-93f266a31774?auto=format&fit=crop&q=80&w=800'
+    image: '/rodape_santa_luzia.png'
   },
   {
     id: 'outros',
     title: 'Vidros e Esquadrias',
     description: 'Fechamento de sacadas e esquadrias de alto padrão (Linhas Suprema/Gold) para completar seu projeto.',
     icon: 'Hammer',
-    // Modern window/glass architecture
-    image: 'https://images.unsplash.com/photo-1600566752355-35792bedcfe1?auto=format&fit=crop&q=80&w=800'
+    image: '/vidros-esquadrias-pvs-decore-sao-jose-dos-pinhais.png'
   }
 ];
 

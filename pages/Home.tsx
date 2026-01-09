@@ -515,9 +515,9 @@ const Home = () => {
           <div className="order-2 md:order-1 relative group">
             <div className="absolute -top-10 -left-10 w-40 h-40 bg-brand-orange rounded-full opacity-10 blur-3xl group-hover:opacity-20 transition duration-1000"></div>
             <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-blue-500 rounded-full opacity-10 blur-3xl group-hover:opacity-20 transition duration-1000"></div>
-            <img 
-              src="/loja-pvs.png" 
-              alt="Fachada da Loja PVS Decore" 
+            <img
+              src="/loja-pvs.jpg"
+              alt="Fachada da Loja PVS Decore"
               className="rounded-3xl shadow-2xl relative z-10 transform hover:scale-[1.01] transition duration-700 w-full"
             />
             {/* Floating Badge */}
