@@ -126,6 +126,3 @@ const BrandsSection = () => {
 };
 
 export default BrandsSection;
-
-
-export default BrandsSection;
