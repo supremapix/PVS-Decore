@@ -73,6 +73,10 @@ export const SERVICES: Service[] = [
 ];
 
 export const GALLERY_IMAGES = [
+  "/images/marcas/eucafloor-bg.jpg",
+  "/images/marcas/durafloor-bg.jpg",
+  "/images/marcas/quickstep-bg.jpg",
+  "/images/marcas/santaluzia-bg.jpg",
   "/pisos-laminados-vinilicos-pvs-spj.png",
   "/piso_laminado_click.png",
   "/piso_vinilico.png",
