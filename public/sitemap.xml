@@ -1,13 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Main Pages -->
   <url>
     <loc>https://www.pvsdecore.com.br/</loc>
     <lastmod>2026-01-14</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.pvsdecore.com.br/nossos-produtos</loc>
+    <lastmod>2026-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Product Pages -->
+  <url>
+    <loc>https://www.pvsdecore.com.br/product/piso-vinilico</loc>
+    <lastmod>2026-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.pvsdecore.com.br/product/piso-laminado</loc>
+    <lastmod>2026-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.pvsdecore.com.br/product/rodape-poliestireno</loc>
+    <lastmod>2026-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Service Pages -->
+  <url>
+    <loc>https://www.pvsdecore.com.br/product/instalacao-residencial</loc>
+    <lastmod>2026-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pvsdecore.com.br/product/instalacao-comercial</loc>
+    <lastmod>2026-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pvsdecore.com.br/product/manutencao</loc>
+    <lastmod>2026-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Key Locations (Top Priorities) -->
+  <url>
+    <loc>https://www.pvsdecore.com.br/cidade/sao-jose-dos-pinhais</loc>
+    <lastmod>2026-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.pvsdecore.com.br/cidade/curitiba</loc>
     <lastmod>2026-01-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
