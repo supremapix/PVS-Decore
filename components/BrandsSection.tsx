@@ -1,35 +1,35 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ChevronRight } from 'lucide-react';
+import { ChevronRight, Award, Diamond, Zap, Target } from 'lucide-react';
 
 const BRAND_CARDS = [
   {
     id: 'eucafloor',
     name: 'Eucafloor',
     image: 'https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?auto=format&fit=crop&q=80&w=800',
-    icon: '🏆',
+    icon: Award,
     tag: 'DESTAQUE',
   },
   {
     id: 'durafloor',
     name: 'Durafloor',
     image: 'https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&q=80&w=800',
-    icon: '💎',
+    icon: Diamond,
     tag: 'DESTAQUE',
   },
   {
     id: 'quickstep',
     name: 'Quick-Step',
     image: 'https://images.unsplash.com/photo-1615876234886-fd9a39faa97f?auto=format&fit=crop&q=80&w=800',
-    icon: '⚡',
+    icon: Zap,
     tag: 'DESTAQUE',
   },
   {
     id: 'santaluzia',
     name: 'Santa Luzia',
     image: 'https://images.unsplash.com/photo-1628133144131-001300fa7fbb?auto=format&fit=crop&q=80&w=800',
-    icon: '🎯',
+    icon: Target,
     tag: 'DESTAQUE',
   }
 ];
@@ -39,8 +39,11 @@ const BrandsSection = () => {
 
   const handleNavigate = (brandId: string) => {
     navigate('/nossos-produtos', { state: { scrollTo: brandId } });
-    // Fallback for simple href behavior if state isn't handled
-    window.location.hash = brandId;
+    // Scroll behavior if on the same page
+    const element = document.getElementById(brandId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   return (
@@ -75,11 +78,15 @@ const BrandsSection = () => {
               className="group relative h-[450px] md:h-[500px] rounded-[2rem] overflow-hidden cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-gray-100"
             >
               {/* Background Image */}
-              <div className="absolute inset-0 w-full h-full">
+              <div className="absolute inset-0 w-full h-full bg-gray-200">
                 <img 
                   src={brand.image} 
                   alt={brand.name} 
                   className="w-full h-full object-cover transition-transform duration-700 ease-in-out group-hover:scale-110"
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.src = 'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&q=80&w=800'; // Fallback image
+                  }}
                 />
               </div>
 
@@ -96,8 +103,8 @@ const BrandsSection = () => {
               {/* Content */}
               <div className="absolute inset-0 flex flex-col justify-end p-8 z-10 translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
                 {/* Icon */}
-                <div className="w-16 h-16 bg-white/15 backdrop-blur-md border border-white/20 rounded-2xl flex items-center justify-center text-3xl mb-4 shadow-xl">
-                  {brand.icon}
+                <div className="w-16 h-16 bg-white/15 backdrop-blur-md border border-white/20 rounded-2xl flex items-center justify-center text-brand-orange mb-4 shadow-xl">
+                  <brand.icon size={32} />
                 </div>
 
                 {/* Name */}
@@ -117,5 +124,8 @@ const BrandsSection = () => {
     </section>
   );
 };
+
+export default BrandsSection;
+
 
 export default BrandsSection;
