@@ -16,6 +16,8 @@ import PartnersMarquee from '../components/PartnersMarquee';
 import Tooltip from '../components/Tooltip';
 import { motion, AnimatePresence } from 'framer-motion';
 
+import BrandsSection from '../components/BrandsSection';
+
 const Home = () => {
   const handleHeroWhatsApp = () => {
      window.open(`https://wa.me/${CONTACT_PHONE}?text=Olá, gostaria de um orçamento rápido para minha obra.`, '_blank');
@@ -233,6 +235,9 @@ const Home = () => {
           </motion.div>
         </div>
       </section>
+
+      {/* Brands Section */}
+      <BrandsSection />
 
       {/* Marquee Section (Space Saver) */}
       <section className="bg-white">

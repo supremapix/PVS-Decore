@@ -1,0 +1,439 @@
+# PROMPT PARA REPLIT - SEÇÃO DE MARCAS NA HOME DO SITE PVS DECORE
+
+## 🎯 OBJETIVO
+Adicionar uma nova seção na página HOME (index/principal) do site https://www.pvsdecore.com.br/ exibindo as 4 marcas parceiras com cards interativos IDÊNTICOS à seção "Soluções Completas" existente.
+
+---
+
+## 📍 LOCALIZAÇÃO NO SITE
+- Adicionar APÓS a seção "HERO" 
+- Adicionar ANTES do ATENDEMOS TODA REGIAOr
+- Manter todo o conteúdo existente intacto
+
+---
+
+## 🎨 DESIGN DA SEÇÃO (COPIAR ESTILO EXISTENTE)
+
+### HEADER DA SEÇÃO
+```
+Tag superior: "NOSSAS MARCAS" 
+Cor: Laranja (#FF6B35 ou similar ao "NOSSO CATÁLOGO")
+Fonte: Mesma do site (maiúscula, bold)
+
+Título Principal: "Marcas Parceiras"
+Cor: Preto (#1a1a1a)
+Tamanho: text-4xl md:text-5xl
+Fonte: Bold, mesma família do "Soluções Completas"
+
+Subtítulo: "Trabalhamos com as melhores marcas de pisos e acabamentos do mercado. Qualidade garantida para o seu projeto."
+Cor: Cinza (#6b7280)
+Tamanho: text-lg md:text-xl
+Largura máxima: max-w-3xl
+Centralizado
+```
+
+### LINHA DECORATIVA LARANJA
+- Mesma linha laranja (#FF6B35) abaixo do título
+- Largura: ~80px
+- Altura: 4px
+- Arredondada (rounded-full)
+- Centralizada
+
+---
+
+## 🎴 CARDS DAS MARCAS (4 CARDS)
+
+**LAYOUT EXATAMENTE IGUAL AO "Soluções Completas":**
+- Grid: 4 colunas desktop, 2 colunas tablet, 1 coluna mobile
+- Espaçamento: gap-6
+- Cards arredondados (rounded-3xl)
+- Overflow hidden
+- Sombra: shadow-lg
+- Hover: shadow-xl + transform scale-105
+- Transição suave (transition-all duration-300)
+
+### ESTRUTURA DE CADA CARD:
+
+```
+┌─────────────────────────────┐
+│                             │
+│    IMAGEM DE FUNDO          │
+│    (Overlay gradient)       │
+│                             │
+│  ┌──────────────┐          │
+│  │ ÍCONE MARCA  │          │
+│  └──────────────┘          │
+│                             │
+│   NOME DA MARCA             │
+│                             │
+│  ┌──────────────────────┐  │
+│  │   Ver Detalhes  →    │  │
+│  └──────────────────────┘  │
+│                             │
+└─────────────────────────────┘
+```
+
+---
+
+## 📦 CONTEÚDO DOS 4 CARDS
+
+### CARD 1: EUCAFLOOR
+```jsx
+{
+  tag: "DESTAQUE", // canto superior direito
+  imagem: "/images/marcas/eucafloor-bg.jpg", // foto de piso laminado premium
+  icone: "🏆", // ou ícone de prêmio/estrela
+  nome: "Eucafloor",
+  link: "/marcas#eucafloor" // vai para página de marcas, seção eucafloor
+}
+```
+
+### CARD 2: DURAFLOOR
+```jsx
+{
+  tag: "DESTAQUE", // canto superior direito
+  imagem: "/images/marcas/durafloor-bg.jpg", // foto de piso vinílico/SPC
+  icone: "💎", // ou ícone de diamante/qualidade
+  nome: "Durafloor",
+  link: "/marcas#durafloor"
+}
+```
+
+### CARD 3: QUICK-STEP
+```jsx
+{
+  tag: "DESTAQUE", // canto superior direito
+  imagem: "/images/marcas/quickstep-bg.jpg", // foto de piso premium moderno
+  icone: "⚡", // ou ícone de velocidade/inovação
+  nome: "Quick-Step",
+  link: "/marcas#quickstep"
+}
+```
+
+### CARD 4: SANTA LUZIA
+```jsx
+{
+  tag: "DESTAQUE", // canto superior direito
+  imagem: "/images/marcas/santaluzia-bg.jpg", // foto de rodapés/acabamentos
+  icone: "🎯", // ou ícone de precisão/acabamento
+  nome: "Santa Luzia",
+  link: "/marcas#santaluzia"
+}
+```
+
+---
+
+## 🎨 ESTILOS DOS ELEMENTOS DO CARD
+
+### TAG "DESTAQUE" (Canto Superior Direito)
+```css
+position: absolute
+top: 1rem (16px)
+right: 1rem (16px)
+background: rgba(255, 255, 255, 0.9)
+color: #FF6B35 (laranja)
+padding: 0.5rem 1rem
+border-radius: 9999px (rounded-full)
+font-size: 0.75rem (text-xs)
+font-weight: 700 (bold)
+text-transform: uppercase
+backdrop-filter: blur(4px)
+```
+
+### OVERLAY DO CARD
+```css
+background: linear-gradient(
+  to bottom,
+  rgba(0, 0, 0, 0.3) 0%,
+  rgba(0, 0, 0, 0.7) 100%
+)
+```
+
+### ÍCONE DA MARCA
+```css
+width: 4rem (64px)
+height: 4rem (64px)
+background: rgba(255, 255, 255, 0.15)
+backdrop-filter: blur(8px)
+border-radius: 1rem (rounded-xl)
+display: flex
+align-items: center
+justify-content: center
+font-size: 2rem (text-3xl)
+margin-bottom: 1rem
+```
+
+### NOME DA MARCA
+```css
+color: white
+font-size: 1.875rem (text-3xl)
+font-weight: 700 (bold)
+margin-bottom: 2rem
+text-shadow: 0 2px 4px rgba(0,0,0,0.3)
+```
+
+### BOTÃO "VER DETALHES"
+```css
+background: rgba(255, 255, 255, 0.2)
+backdrop-filter: blur(8px)
+border: 1px solid rgba(255, 255, 255, 0.3)
+color: white
+padding: 0.75rem 1.5rem
+border-radius: 0.75rem (rounded-lg)
+font-weight: 600
+transition: all 0.3s
+display: flex
+align-items: center
+gap: 0.5rem
+
+hover:
+  background: rgba(255, 255, 255, 0.3)
+  transform: translateY(-2px)
+```
+
+---
+
+## 📱 RESPONSIVIDADE
+
+### Mobile (< 640px)
+```css
+Grid: 1 coluna
+Padding lateral: px-4
+Título: text-3xl
+Cards: altura mínima 400px
+```
+
+### Tablet (640px - 1024px)
+```css
+Grid: 2 colunas
+Padding lateral: px-6
+Título: text-4xl
+Cards: altura mínima 450px
+```
+
+### Desktop (> 1024px)
+```css
+Grid: 4 colunas
+Padding lateral: container max-w-7xl
+Título: text-5xl
+Cards: altura mínima 500px
+Gap entre cards: gap-6
+```
+
+---
+
+## 🔗 FUNCIONALIDADE DE CLIQUE
+
+### Comportamento ao Clicar:
+```javascript
+// Ao clicar em qualquer parte do card OU no botão "Ver Detalhes"
+onClick = () => {
+  // Navegar para /marcas com scroll suave até a marca específica
+  window.location.href = '/marcas#[nome-da-marca]';
+  
+  // OU se usar React Router:
+  navigate('/marcas', { state: { scrollTo: 'eucafloor' } });
+}
+
+// Cursor pointer em hover
+cursor: pointer
+```
+
+### Âncoras na Página /marcas:
+```html
+<!-- Na página de marcas, adicionar IDs nas seções -->
+<section id="eucafloor">...</section>
+<section id="durafloor">...</section>
+<section id="quickstep">...</section>
+<section id="santaluzia">...</section>
+```
+
+---
+
+## 🖼️ IMAGENS A USAR
+
+### Sugestões de Imagens (Use placeholders ou fotos reais):
+
+**EUCAFLOOR:**
+- Foto de piso laminado instalado em sala moderna
+- Tons: Madeira clara/média, ambiente iluminado
+- Ângulo: Perspectiva ampla mostrando o piso
+
+**DURAFLOOR:**
+- Foto de piso vinílico/SPC em ambiente contemporâneo
+- Tons: Madeira escura ou cinza moderno
+- Ambiente: Cozinha ou sala integrada
+
+**QUICK-STEP:**
+- Foto de piso premium em ambiente luxuoso
+- Tons: Madeira clara com veios marcantes
+- Ambiente: Quarto ou sala sofisticada
+
+**SANTA LUZIA:**
+- Foto close de rodapé instalado com acabamento perfeito
+- Tons: Branco ou madeira
+- Destaque: Detalhe do acabamento e encontro parede/piso
+
+### Fonte das Imagens:
+```
+Opção 1: /public/images/marcas/[nome].jpg
+Opção 2: Unsplash (free) - buscar por "luxury flooring", "laminate floor"
+Opção 3: Pexels (free) - "modern flooring", "wood floor installation"
+```
+
+---
+
+## 💻 CÓDIGO ESTRUTURAL SUGERIDO
+
+```jsx
+<section className="py-16 md:py-24 bg-white">
+  <div className="container mx-auto px-4 md:px-6 max-w-7xl">
+    
+    {/* Header */}
+    <div className="text-center mb-12">
+      <p className="text-orange-500 font-bold uppercase tracking-wide mb-4">
+        NOSSAS MARCAS
+      </p>
+      <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+        Marcas Parceiras
+      </h2>
+      <div className="w-20 h-1 bg-orange-500 rounded-full mx-auto mb-6"></div>
+      <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+        Trabalhamos com as melhores marcas de pisos e acabamentos do mercado. 
+        Qualidade garantida para o seu projeto.
+      </p>
+    </div>
+
+    {/* Grid de Cards */}
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      
+      {/* Card 1 - Eucafloor */}
+      <a href="/marcas#eucafloor" 
+         className="relative h-[400px] md:h-[500px] rounded-3xl overflow-hidden 
+                    shadow-lg hover:shadow-xl transform hover:scale-105 
+                    transition-all duration-300 cursor-pointer group">
+        
+        {/* Imagem de fundo */}
+        <img src="/images/marcas/eucafloor-bg.jpg" 
+             alt="Eucafloor" 
+             className="w-full h-full object-cover" />
+        
+        {/* Overlay gradient */}
+        <div className="absolute inset-0 bg-gradient-to-b 
+                        from-black/30 to-black/70"></div>
+        
+        {/* Tag Destaque */}
+        <div className="absolute top-4 right-4 bg-white/90 text-orange-500 
+                        px-4 py-2 rounded-full text-xs font-bold uppercase 
+                        backdrop-blur-sm">
+          ✨ DESTAQUE
+        </div>
+        
+        {/* Conteúdo */}
+        <div className="absolute inset-0 flex flex-col justify-end p-8">
+          
+          {/* Ícone */}
+          <div className="w-16 h-16 bg-white/15 backdrop-blur-md rounded-xl 
+                          flex items-center justify-center text-3xl mb-4">
+            🏆
+          </div>
+          
+          {/* Nome */}
+          <h3 className="text-3xl font-bold text-white mb-6 drop-shadow-lg">
+            Eucafloor
+          </h3>
+          
+          {/* Botão */}
+          <div className="bg-white/20 backdrop-blur-md border border-white/30 
+                          text-white px-6 py-3 rounded-lg font-semibold 
+                          inline-flex items-center gap-2 w-fit
+                          group-hover:bg-white/30 group-hover:translate-y-[-2px] 
+                          transition-all">
+            Ver Detalhes
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" 
+                 viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} 
+                    d="M9 5l7 7-7 7" />
+            </svg>
+          </div>
+        </div>
+      </a>
+
+      {/* Repetir estrutura para Durafloor, Quick-Step e Santa Luzia */}
+      
+    </div>
+  </div>
+</section>
+```
+
+---
+
+## ✅ CHECKLIST DE IMPLEMENTAÇÃO
+
+Antes de concluir, verificar:
+
+- [ ] Seção adicionada APÓS "Soluções Completas"
+- [ ] 4 cards visíveis (Eucafloor, Durafloor, Quick-Step, Santa Luzia)
+- [ ] Tags "DESTAQUE" nos 4 cards (canto superior direito)
+- [ ] Ícones únicos para cada marca
+- [ ] Overlay gradient aplicado (escuro embaixo)
+- [ ] Botão "Ver Detalhes" com seta
+- [ ] Hover funciona (scale + shadow)
+- [ ] Click redireciona para /marcas#[marca]
+- [ ] Responsivo em mobile, tablet e desktop
+- [ ] Linha laranja decorativa centralizada
+- [ ] Espaçamentos consistentes com o site
+- [ ] Transições suaves (300ms)
+- [ ] Imagens de fundo carregadas
+- [ ] Backdrop blur nos elementos transparentes
+- [ ] Cursor pointer em hover
+- [ ] Nenhum conteúdo original foi alterado
+
+---
+
+## 🎯 RESULTADO ESPERADO
+
+Uma seção elegante e profissional que:
+- ✅ Mantém identidade visual do site (laranja + preto)
+- ✅ Segue EXATAMENTE o padrão de "Soluções Completas"
+- ✅ Destaca as 4 marcas parceiras premium
+- ✅ Cards clicáveis que levam à página de marcas
+- ✅ Design responsivo e moderno
+- ✅ Efeitos hover sofisticados
+- ✅ Integração perfeita com conteúdo existente
+
+---
+
+## ⚠️ IMPORTANTE
+
+1. **NÃO ALTERAR** nenhuma seção existente
+2. **NÃO REMOVER** conteúdo atual
+3. **APENAS ADICIONAR** esta nova seção entre "Soluções Completas" e Footer
+4. **MANTER** paleta de cores do site (laranja #FF6B35 + preto + cinza)
+5. **USAR** mesma fonte do site
+6. **GARANTIR** que página /marcas existe ou será criada
+7. **ADICIONAR** IDs nas seções da página /marcas para scroll
+
+---
+
+## 🔧 TECNOLOGIAS
+
+- HTML5 semântico
+- CSS3 / Tailwind CSS
+- JavaScript vanilla ou React (conforme stack do site)
+- Imagens otimizadas (WebP se possível)
+- Links internos (SPA routing ou href tradicional)
+
+---
+
+## 📞 OBSERVAÇÕES FINAIS
+
+- Se as imagens não existirem, use placeholders temporários
+- Priorize performance (lazy loading de imagens)
+- Teste em Safari, Chrome, Firefox e Edge
+- Valide acessibilidade (alt text, aria-labels)
+- Considere adicionar animação de fade-in ao scroll
+
+---
+
+**FIM DO PROMPT - COPIAR E COLAR NO REPLIT**
