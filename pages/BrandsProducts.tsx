@@ -94,7 +94,7 @@ const BrandsProducts = () => {
       />
 
       {/* Section 1: Hero */}
-      <section className="bg-gradient-to-r from-[#1e3a8a] to-[#2563eb] py-16 text-white text-center">
+      <section className="bg-brand-dark py-16 text-white text-center border-b-4 border-brand-orange">
         <div className="container mx-auto px-4">
           <motion.h1 
             initial={{ opacity: 0, y: -20 }}
@@ -107,7 +107,7 @@ const BrandsProducts = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="text-lg md:text-xl text-blue-100 max-w-2xl mx-auto"
+            className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto font-light"
           >
             Pisos laminados, vinílicos e acabamentos de alta qualidade para seu projeto
           </motion.p>
@@ -124,16 +124,16 @@ const BrandsProducts = () => {
                 onClick={() => setActiveFilter(type.id)}
                 className={`p-6 rounded-2xl transition-all duration-300 text-left flex flex-col gap-3 group border ${
                   activeFilter === type.id 
-                    ? 'bg-[#2563eb] text-white shadow-2xl scale-105 border-transparent' 
+                    ? 'bg-brand-orange text-white shadow-2xl scale-105 border-transparent' 
                     : 'bg-white text-gray-700 shadow-md hover:shadow-xl hover:-translate-y-1 border-gray-100'
                 }`}
               >
-                <div className={`p-3 rounded-xl w-fit ${activeFilter === type.id ? 'bg-white/20' : 'bg-blue-50 text-[#2563eb]'}`}>
+                <div className={`p-3 rounded-xl w-fit ${activeFilter === type.id ? 'bg-white/20' : 'bg-orange-50 text-brand-orange'}`}>
                   <type.icon size={24} />
                 </div>
                 <div>
                   <h3 className="font-bold text-sm md:text-base">{type.label}</h3>
-                  <p className={`text-xs mt-1 leading-relaxed ${activeFilter === type.id ? 'text-blue-100' : 'text-gray-500'}`}>
+                  <p className={`text-xs mt-1 leading-relaxed ${activeFilter === type.id ? 'text-orange-50' : 'text-gray-500'}`}>
                     {type.description}
                   </p>
                 </div>
@@ -158,15 +158,15 @@ const BrandsProducts = () => {
                   className="bg-white rounded-3xl overflow-hidden shadow-lg border border-gray-100 group hover:-translate-y-1 hover:shadow-2xl transition-all duration-300"
                 >
                   <div className="h-32 bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center p-8 border-b border-gray-50 relative overflow-hidden">
-                     <div className="absolute inset-0 bg-blue-500/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                     <h2 className="text-3xl md:text-4xl font-black text-gray-800 tracking-tight group-hover:scale-110 transition-transform duration-500">{brand.name}</h2>
+                     <div className="absolute inset-0 bg-brand-orange/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                     <h2 className="text-3xl md:text-4xl font-black text-brand-dark tracking-tight group-hover:scale-110 transition-transform duration-500">{brand.name}</h2>
                   </div>
                   <div className="p-8">
                     <p className="text-gray-600 mb-6">{brand.description}</p>
                     
                     <div className="flex flex-wrap gap-2 mb-8">
                       {brand.types.map(type => (
-                        <span key={type} className="px-4 py-1.5 bg-blue-50 text-[#1e3a8a] text-xs font-bold rounded-full border border-blue-100">
+                        <span key={type} className="px-4 py-1.5 bg-orange-50 text-brand-orange text-xs font-bold rounded-full border border-orange-100">
                           {type}
                         </span>
                       ))}
@@ -182,33 +182,29 @@ const BrandsProducts = () => {
                     </div>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                      <a 
-                        href={brand.catalogUrl}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="flex items-center justify-center gap-2 bg-[#2563eb] text-white font-bold py-4 rounded-xl hover:bg-blue-700 transition-colors shadow-lg shadow-blue-200"
+                      <button 
+                        onClick={() => setSelectedCatalog(brand)}
+                        className="flex items-center justify-center gap-2 bg-brand-orange text-white font-bold py-4 rounded-xl hover:bg-orange-600 transition-colors shadow-lg shadow-orange-100"
                       >
                         <FileText size={18} /> Ver Catálogo
-                      </a>
+                      </button>
                       <div className="grid grid-cols-2 gap-3">
                         <a 
                           href={brand.siteUrl} 
                           target="_blank" 
                           rel="noreferrer"
-                          className="flex items-center justify-center bg-gray-50 text-gray-600 p-4 rounded-xl hover:bg-gray-100 transition-colors border border-gray-100"
+                          className="flex items-center justify-center bg-gray-50 text-brand-dark p-4 rounded-xl hover:bg-gray-100 transition-colors border border-gray-100"
                           title="Visitar Site Oficial"
                         >
                           <ExternalLink size={18} />
                         </a>
-                        <a 
-                          href={brand.catalogUrl} 
-                          target="_blank"
-                          rel="noreferrer"
-                          className="flex items-center justify-center bg-gray-50 text-gray-600 p-4 rounded-xl hover:bg-gray-100 transition-colors border border-gray-100"
-                          title="Ver Catálogo Externo"
+                        <button 
+                          onClick={() => setSelectedCatalog(brand)}
+                          className="flex items-center justify-center bg-gray-50 text-brand-dark p-4 rounded-xl hover:bg-gray-100 transition-colors border border-gray-100"
+                          title="Ver Catálogo"
                         >
                           <Download size={18} />
-                        </a>
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -219,31 +215,87 @@ const BrandsProducts = () => {
         </div>
       </section>
 
-      {/* Section 4: Removed Modal logic as per user request */}
+      {/* Section 4: Modal Catalog Viewer */}
+      <AnimatePresence>
+        {selectedCatalog && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm"
+            onClick={() => setSelectedCatalog(null)}
+          >
+            <motion.div
+              initial={{ scale: 0.9, opacity: 0, y: 20 }}
+              animate={{ scale: 1, opacity: 1, y: 0 }}
+              exit={{ scale: 0.9, opacity: 0, y: 20 }}
+              className="bg-white w-full max-w-6xl h-[95vh] rounded-3xl overflow-hidden flex flex-col relative shadow-2xl"
+              onClick={e => e.stopPropagation()}
+            >
+              <div className="bg-brand-dark p-6 text-white flex justify-between items-center border-b-2 border-brand-orange">
+                <div>
+                  <h3 className="text-xl md:text-2xl font-bold">{selectedCatalog.name}</h3>
+                  <p className="text-sm text-gray-400">{selectedCatalog.description}</p>
+                </div>
+                <button 
+                  onClick={() => setSelectedCatalog(null)}
+                  className="p-3 bg-white/10 hover:bg-white/20 rounded-full transition-colors"
+                >
+                  <X size={24} />
+                </button>
+              </div>
+              <div className="flex-grow bg-gray-200 relative">
+                <iframe 
+                  src={`${selectedCatalog.catalogUrl}#view=FitH`} 
+                  className="w-full h-full border-none"
+                  title={`Catálogo ${selectedCatalog.name}`}
+                />
+              </div>
+              <div className="p-6 bg-white border-t border-gray-100 flex flex-col sm:flex-row justify-between items-center gap-4">
+                <p className="text-brand-dark font-medium text-center sm:text-left">Deseja um orçamento personalizado para estes produtos?</p>
+                <div className="flex gap-3 w-full sm:w-auto">
+                  <button 
+                    onClick={() => setSelectedCatalog(null)}
+                    className="flex-grow sm:flex-grow-0 px-8 py-3 bg-gray-100 text-brand-dark font-bold rounded-xl hover:bg-gray-200 transition-colors"
+                  >
+                    Fechar
+                  </button>
+                  <button 
+                    onClick={() => handleWhatsApp(selectedCatalog.name)}
+                    className="flex-grow sm:flex-grow-0 px-8 py-3 bg-green-500 text-white font-bold rounded-xl hover:bg-green-600 transition-colors flex items-center justify-center gap-2 shadow-lg shadow-green-100"
+                  >
+                    <MessageCircle size={20} /> Solicitar Orçamento
+                  </button>
+                </div>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       {/* Section 5: Benefits */}
       <section className="py-16 bg-gray-50 border-y border-gray-100">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-3xl shadow-md border border-gray-100 text-center hover:shadow-xl transition-shadow">
-              <div className="w-16 h-16 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
+              <div className="w-16 h-16 bg-orange-50 text-brand-orange rounded-2xl flex items-center justify-center mx-auto mb-6">
                 <CheckCircle2 size={32} />
               </div>
-              <h3 className="text-xl font-bold mb-2">🏆 Qualidade Garantida</h3>
+              <h3 className="text-xl font-bold mb-2 text-brand-dark">🏆 Qualidade Garantida</h3>
               <p className="text-gray-500">Produtos certificados das melhores marcas do mercado</p>
             </div>
             <div className="bg-white p-8 rounded-3xl shadow-md border border-gray-100 text-center hover:shadow-xl transition-shadow">
               <div className="w-16 h-16 bg-green-50 text-green-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
                 <CheckCircle2 size={32} />
               </div>
-              <h3 className="text-xl font-bold mb-2">🔧 Instalação Profissional</h3>
+              <h3 className="text-xl font-bold mb-2 text-brand-dark">🔧 Instalação Profissional</h3>
               <p className="text-gray-500">Equipe especializada em instalação de pisos</p>
             </div>
             <div className="bg-white p-8 rounded-3xl shadow-md border border-gray-100 text-center hover:shadow-xl transition-shadow">
-              <div className="w-16 h-16 bg-orange-50 text-orange-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
+              <div className="w-16 h-16 bg-orange-50 text-brand-orange rounded-2xl flex items-center justify-center mx-auto mb-6">
                 <CheckCircle2 size={32} />
               </div>
-              <h3 className="text-xl font-bold mb-2">💰 Melhor Custo-Benefício</h3>
+              <h3 className="text-xl font-bold mb-2 text-brand-dark">💰 Melhor Custo-Benefício</h3>
               <p className="text-gray-500">Preços competitivos e condições especiais</p>
             </div>
           </div>
@@ -253,25 +305,25 @@ const BrandsProducts = () => {
       {/* Section 6: CTA */}
       <section className="py-20">
         <div className="container mx-auto px-4">
-          <div className="bg-gradient-to-r from-[#1e3a8a] to-[#2563eb] rounded-[2rem] p-12 text-center text-white shadow-2xl relative overflow-hidden">
+          <div className="bg-brand-dark rounded-[2rem] p-12 text-center text-white shadow-2xl relative overflow-hidden border-b-8 border-brand-orange">
             <div className="absolute top-0 left-0 w-64 h-64 bg-white/5 rounded-full -translate-x-1/2 -translate-y-1/2 blur-3xl"></div>
-            <div className="absolute bottom-0 right-0 w-64 h-64 bg-blue-400/10 rounded-full translate-x-1/2 translate-y-1/2 blur-3xl"></div>
+            <div className="absolute bottom-0 right-0 w-64 h-64 bg-brand-orange/10 rounded-full translate-x-1/2 translate-y-1/2 blur-3xl"></div>
             
             <div className="relative z-10 max-w-3xl mx-auto">
               <h2 className="text-3xl md:text-5xl font-black mb-6">Precisa de Ajuda para Escolher?</h2>
-              <p className="text-blue-100 text-lg md:text-xl mb-10 font-light">
+              <p className="text-gray-300 text-lg md:text-xl mb-10 font-light">
                 Nossa equipe está pronta para ajudar você a encontrar o piso ideal para seu projeto.
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-4">
                 <button 
                   onClick={() => handleWhatsApp()}
-                  className="px-12 py-5 bg-[#22c55e] hover:bg-green-600 text-white font-bold rounded-full transition-all flex items-center justify-center gap-3 text-lg shadow-xl"
+                  className="px-12 py-5 bg-green-500 hover:bg-green-600 text-white font-bold rounded-full transition-all flex items-center justify-center gap-3 text-lg shadow-xl"
                 >
                   <MessageCircle size={24} /> WhatsApp
                 </button>
                 <button 
                   onClick={() => handleWhatsApp()}
-                  className="px-12 py-5 bg-white text-[#1e3a8a] hover:bg-blue-50 font-bold rounded-full transition-all flex items-center justify-center text-lg shadow-xl"
+                  className="px-12 py-5 bg-white text-brand-dark hover:bg-gray-50 font-bold rounded-full transition-all flex items-center justify-center text-lg shadow-xl"
                 >
                   Solicitar Orçamento
                 </button>
