@@ -3,7 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PVS Decore | Pisos Vinílicos e Laminados em Curitiba</title>
+    
+    <!-- SEO Meta Tags -->
+    <title>PVS Decore - Pisos Laminados e Vinílicos em São José dos Pinhais e Curitiba | Eucafloor, Durafloor</title>
+    <meta name="description" content="Especialistas em instalação residencial e comercial de pisos laminados, vinílicos e SPC em São José dos Pinhais. Marcas Eucafloor, Durafloor, Quick-Step e Santa Luzia. ☎ (41) 3076-6240">
+    <meta name="keywords" content="pisos laminados são josé dos pinhais, pisos vinílicos sjp, instalação residencial pisos, instalação comercial pisos, eucafloor, durafloor, quick-step, manutenção pisos, rodapés santa luzia">
+    <meta name="author" content="PVS Decore">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.pvsdecore.com.br/">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="business.business">
+    <meta property="og:title" content="PVS Decore - Pisos Laminados e Vinílicos em São José dos Pinhais">
+    <meta property="og:description" content="Instalação residencial e comercial de pisos. Marcas premium: Eucafloor, Durafloor, Quick-Step e Santa Luzia. Atendemos São José dos Pinhais e região.">
+    <meta property="og:url" content="https://www.pvsdecore.com.br/">
+    <meta property="og:image" content="https://www.pvsdecore.com.br/images/og-image.jpg">
+    
+    <!-- Geolocalização -->
+    <meta name="geo.region" content="BR-PR">
+    <meta name="geo.placename" content="São José dos Pinhais">
+    <meta name="geo.position" content="-25.5347;-49.2064">
+    <meta name="ICBM" content="-25.5347, -49.2064">
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
     <script>
@@ -53,5 +74,39 @@
   <body>
     <div id="root"></div>
     <script type="module" src="./index.tsx"></script>
+    
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://www.pvsdecore.com.br/#business",
+          "name": "PVS Decore",
+          "image": [
+            "https://www.pvsdecore.com.br/images/logo.png",
+            "https://www.pvsdecore.com.br/images/loja-fachada.jpg"
+          ],
+          "description": "Especialistas em instalação residencial e comercial de pisos laminados, vinílicos e SPC em São José dos Pinhais e região. Trabalhamos com as marcas Eucafloor, Durafloor, Quick-Step e Santa Luzia.",
+          "url": "https://www.pvsdecore.com.br",
+          "telephone": "+554130766240",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Rua Izabel A Redentora, 1088",
+            "addressLocality": "São José dos Pinhais",
+            "addressRegion": "PR",
+            "postalCode": "83030-500",
+            "addressCountry": "BR"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "-25.5347",
+            "longitude": "-49.2064"
+          }
+        }
+      ]
+    }
+    </script>
   </body>
 </html>
