@@ -13,7 +13,7 @@ const BRANDS = [
     types: ['Laminados', 'Vinílicos'],
     highlights: ['Tecnologia alemã', 'Garantia estendida', '15+ anos no mercado'],
     siteUrl: 'https://www.eucatex.com.br/',
-    catalogUrl: '/catalogos/eucafloor.pdf'
+    catalogUrl: 'https://www.eucatex.com.br/pisos/catalogo'
   },
   {
     id: 'durafloor',
@@ -22,7 +22,7 @@ const BRANDS = [
     types: ['Laminados', 'Vinílicos', 'SPC'],
     highlights: ['Melhor custo-benefício', 'Variedade de cores', 'Instalação fácil'],
     siteUrl: 'https://www.durafloor.com.br/',
-    catalogUrl: '/catalogos/durafloor.pdf'
+    catalogUrl: 'https://www.durafloor.com.br/catalogo-digital'
   },
   {
     id: 'quickstep',
@@ -31,7 +31,7 @@ const BRANDS = [
     types: ['Laminados', 'Vinílicos'],
     highlights: ['Premium quality', 'Design exclusivo', 'Resistência superior'],
     siteUrl: 'https://www.quick-step.com.br/',
-    catalogUrl: '/catalogos/quickstep.pdf'
+    catalogUrl: 'https://www.quick-step.com.br/pt-br/catalogo-de-inspiracao'
   },
   {
     id: 'santaluzia',
@@ -40,7 +40,7 @@ const BRANDS = [
     types: ['Rodapés e Acabamentos'],
     highlights: ['Acabamento perfeito', 'Fácil instalação', 'Diversas opções'],
     siteUrl: 'https://www.industriasantaluzia.com.br/',
-    catalogUrl: '/catalogos/santaluzia.pdf'
+    catalogUrl: 'https://www.industriasantaluzia.com.br/downloads'
   }
 ];
 
@@ -182,12 +182,14 @@ const BrandsProducts = () => {
                     </div>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                      <button 
-                        onClick={() => setSelectedCatalog(brand)}
+                      <a 
+                        href={brand.catalogUrl}
+                        target="_blank"
+                        rel="noreferrer"
                         className="flex items-center justify-center gap-2 bg-[#2563eb] text-white font-bold py-4 rounded-xl hover:bg-blue-700 transition-colors shadow-lg shadow-blue-200"
                       >
                         <FileText size={18} /> Ver Catálogo
-                      </button>
+                      </a>
                       <div className="grid grid-cols-2 gap-3">
                         <a 
                           href={brand.siteUrl} 
@@ -200,9 +202,10 @@ const BrandsProducts = () => {
                         </a>
                         <a 
                           href={brand.catalogUrl} 
-                          download
+                          target="_blank"
+                          rel="noreferrer"
                           className="flex items-center justify-center bg-gray-50 text-gray-600 p-4 rounded-xl hover:bg-gray-100 transition-colors border border-gray-100"
-                          title="Download Catálogo PDF"
+                          title="Ver Catálogo Externo"
                         >
                           <Download size={18} />
                         </a>
@@ -216,63 +219,7 @@ const BrandsProducts = () => {
         </div>
       </section>
 
-      {/* Section 4: Catalog Modal */}
-      <AnimatePresence>
-        {selectedCatalog && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm"
-            onClick={() => setSelectedCatalog(null)}
-          >
-            <motion.div
-              initial={{ scale: 0.9, opacity: 0, y: 20 }}
-              animate={{ scale: 1, opacity: 1, y: 0 }}
-              exit={{ scale: 0.9, opacity: 0, y: 20 }}
-              className="bg-white w-full max-w-6xl h-[95vh] rounded-3xl overflow-hidden flex flex-col relative shadow-2xl"
-              onClick={e => e.stopPropagation()}
-            >
-              <div className="bg-gradient-to-r from-[#1e3a8a] to-[#2563eb] p-6 text-white flex justify-between items-center">
-                <div>
-                  <h3 className="text-xl md:text-2xl font-bold">{selectedCatalog.name}</h3>
-                  <p className="text-sm text-blue-100">{selectedCatalog.description}</p>
-                </div>
-                <button 
-                  onClick={() => setSelectedCatalog(null)}
-                  className="p-3 bg-white/20 hover:bg-white/30 rounded-full transition-colors"
-                >
-                  <X size={24} />
-                </button>
-              </div>
-              <div className="flex-grow bg-gray-200 relative">
-                <iframe 
-                  src={`${selectedCatalog.catalogUrl}#view=FitH`} 
-                  className="w-full h-full border-none"
-                  title={`Catálogo ${selectedCatalog.name}`}
-                />
-              </div>
-              <div className="p-6 bg-white border-t border-gray-100 flex flex-col sm:flex-row justify-between items-center gap-4">
-                <p className="text-gray-600 font-medium text-center sm:text-left">Precisa de ajuda com o projeto ou um orçamento?</p>
-                <div className="flex gap-3 w-full sm:w-auto">
-                  <button 
-                    onClick={() => setSelectedCatalog(null)}
-                    className="flex-grow sm:flex-grow-0 px-8 py-3 bg-gray-100 text-gray-700 font-bold rounded-xl hover:bg-gray-200 transition-colors"
-                  >
-                    Fechar
-                  </button>
-                  <button 
-                    onClick={() => handleWhatsApp(selectedCatalog.name)}
-                    className="flex-grow sm:flex-grow-0 px-8 py-3 bg-[#22c55e] text-white font-bold rounded-xl hover:bg-green-600 transition-colors flex items-center justify-center gap-2 shadow-lg shadow-green-100"
-                  >
-                    <MessageCircle size={20} /> Solicitar Orçamento
-                  </button>
-                </div>
-              </div>
-            </motion.div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+      {/* Section 4: Removed Modal logic as per user request */}
 
       {/* Section 5: Benefits */}
       <section className="py-16 bg-gray-50 border-y border-gray-100">
