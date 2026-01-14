@@ -526,7 +526,7 @@ const Home = () => {
               className="rounded-3xl shadow-2xl relative z-10 transform hover:scale-[1.01] transition duration-700 w-full"
             />
             {/* Floating Badge */}
-            <div className="absolute -bottom-6 -left-6 z-20 bg-white p-4 rounded-2xl shadow-xl border border-gray-100 flex items-center gap-3 animate-bounce" style={{ animationDuration: '3s' }}>
+            <div className="absolute -bottom-6 -right-6 z-20 bg-white p-4 rounded-2xl shadow-xl border border-gray-100 flex items-center gap-3 animate-bounce" style={{ animationDuration: '3s' }}>
                 <div className="bg-green-100 p-2 rounded-full">
                     <ThumbsUp className="text-green-600" size={24} />
                 </div>
