@@ -15,7 +15,7 @@ export const ACCORDION_ITEMS = [
   },
   {
     title: "Pisos Vinílicos (Tarkett, Ospefloor)",
-    content: "O queridinho das reformas. Silencioso, térmico e pode ser lavado. Temos opções coladas (para sobrepor cerâmica) e clicadas. Perfeito para cozinhas, quartos e quem tem pets.",
+    content: "O queridinho das reformas. Silencioso, térmico e pode ser lavado. Temos opções coladas e clicadas. Perfeito para cozinhas, quartos e quem tem pets.",
     details: ["Conforto Térmico e Acústico", "Pode lavar (Modelos colados)", "Instalação sobre piso antigo"]
   },
   {

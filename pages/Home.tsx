@@ -150,8 +150,8 @@ const Home = () => {
   return (
     <PageTransition>
       <SEO 
-        title="PVS Decore - Pisos Vinílicos, Laminados e Porcelanatos em Curitiba e SJP" 
-        description="O Piso dos Seus Sonhos Instalado em até 48h. Revenda e instalação de pisos vinílicos e laminados em Curitiba e SJP. Mão de obra própria e garantia de especialista."
+        title="PVS Decore - Pisos Vinílicos e Laminados em Curitiba e SJP | Revenda Oficial" 
+        description="O Piso dos Seus Sonhos Instalado em até 48h. Especialistas em pisos vinílicos e laminados das marcas Quick-Step, Durafloor e Eucafloor em Curitiba e SJP."
         url="/"
       />
 
@@ -253,7 +253,7 @@ const Home = () => {
           {[
             { icon: Award, title: 'Mão de Obra Própria', desc: 'Zero dor de cabeça', tooltip: 'Equipe 100% CLT. Não terceirizamos, garantindo sua segurança e qualidade técnica.' },
             { icon: Clock, title: 'Instalação Express', desc: 'Sua casa pronta logo', tooltip: 'Técnicas de instalação rápida que liberam cômodos em 24h a 48h (Sistema Click).' },
-            { icon: Star, title: 'Marcas Líderes', desc: 'Qualidade que dura', tooltip: 'Revenda Oficial: Quick-Step, Tarkett, Durafloor e Santa Luzia.' },
+            { icon: Star, title: 'Revenda Oficial', desc: 'Marcas Líderes', tooltip: 'Trabalhamos com as melhores marcas do mercado: Quick-Step, Tarkett, Durafloor, Eucafloor e Santa Luzia.' },
             { icon: ShieldCheck, title: 'Garantia Dupla', desc: 'Produto + Serviço', tooltip: 'Cobertura completa contra defeitos de fábrica e problemas de instalação por nossa conta.' },
           ].map((item, idx) => (
             <motion.div 
