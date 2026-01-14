@@ -396,12 +396,12 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <Link 
-                      to={service.id === 'rodape' ? '/product/rodape-poliestireno' : service.id === 'outros' ? '/#contato' : `/product/${service.id === 'laminado' ? 'piso-laminado' : 'piso-vinilico'}`}
+                    <button 
+                      onClick={() => window.open(`https://wa.me/${CONTACT_PHONE}?text=Olá, gostaria de consultar os serviços de Vidros e Esquadrias.`, '_blank')}
                       className="w-full bg-white/10 backdrop-blur-md hover:bg-brand-orange text-white font-bold py-4 rounded-xl flex items-center justify-center gap-2 transition-all duration-300 border border-white/20 hover:border-brand-orange group/btn"
                     >
-                      Ver Detalhes <ArrowUpRight size={18} className="group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1 transition-transform" />
-                    </Link>
+                      Consultar via WhatsApp <ArrowUpRight size={18} className="group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1 transition-transform" />
+                    </button>
                 </div>
               </motion.div>
             ))}
