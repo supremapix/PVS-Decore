@@ -1,0 +1,298 @@
+# PROMPT PARA REPLIT - ATUALIZAÇÃO SITE PVS DECORE
+
+## 🎯 OBJETIVO
+Adicionar uma seção premium de "Marcas e Produtos" no site https://www.pvsdecore.com.br/ sem alterar o conteúdo existente. Apenas ADICIONAR uma nova página/seção.
+
+---
+
+## 📋 INSTRUÇÕES DETALHADAS
+
+### 1. ESTRUTURA A CRIAR
+
+Criar uma nova página acessível pelo menu principal com o nome "Nossos Produtos" ou "Marcas que Trabalhamos" que contenha:
+
+**SEÇÃO 1: HERO/BANNER SUPERIOR**
+- Título principal: "Trabalhamos com as Melhores Marcas"
+- Subtítulo: "Pisos laminados, vinílicos e acabamentos de alta qualidade para seu projeto"
+- Background: Gradiente azul escuro (#1e3a8a) para azul médio (#2563eb)
+- Texto branco
+- Padding generoso (py-16)
+- Responsivo (texto menor em mobile)
+
+**SEÇÃO 2: FILTRO DE TIPOS DE PISO**
+- Grid de 5 cards clicáveis (1 coluna mobile, 5 colunas desktop)
+- Tipos:
+  1. "Todos os Tipos" - Ícone de grade
+  2. "Pisos Laminados" - Descrição: "Resistentes, práticos e com visual de madeira natural"
+  3. "Pisos Vinílicos" - Descrição: "Impermeáveis, silenciosos e versáteis"
+  4. "Pisos SPC" - Descrição: "Tecnologia Stone Plastic Composite - ultra resistente"
+  5. "Rodapés e Acabamentos" - Descrição: "Complementos essenciais para um acabamento perfeito"
+
+- Comportamento: Ao clicar, filtrar as marcas abaixo
+- Design do card selecionado: Background azul (#2563eb), texto branco, sombra maior
+- Design do card normal: Background branco, texto cinza escuro, hover com sombra
+
+**SEÇÃO 3: CARDS DAS MARCAS**
+- Grid responsivo (1 coluna mobile, 2 colunas desktop)
+- 4 Marcas parceiras:
+
+### MARCA 1: EUCAFLOOR
+```
+Nome: Eucafloor
+Descrição: Líder em pisos laminados de alta qualidade
+Tipos: Laminado, Vinílico
+Destaques: 
+  - Tecnologia alemã
+  - Garantia estendida
+  - 15+ anos no mercado
+URL Site: https://www.eucatex.com.br/
+URL Catálogo: [hospedar PDF localmente em /catalogos/eucafloor.pdf]
+```
+
+### MARCA 2: DURAFLOOR
+```
+Nome: Durafloor
+Descrição: Referência em pisos laminados e vinílicos
+Tipos: Laminado, Vinílico, SPC
+Destaques:
+  - Melhor custo-benefício
+  - Variedade de cores
+  - Instalação fácil
+URL Site: https://www.durafloor.com.br/
+URL Catálogo: [hospedar PDF localmente em /catalogos/durafloor.pdf]
+```
+
+### MARCA 3: QUICK-STEP
+```
+Nome: Quick-Step
+Descrição: Tecnologia belga em pisos premium
+Tipos: Laminado, Vinílico
+Destaques:
+  - Premium quality
+  - Design exclusivo
+  - Resistência superior
+URL Site: https://www.quick-step.com.br/
+URL Catálogo: [hospedar PDF localmente em /catalogos/quickstep.pdf]
+```
+
+### MARCA 4: SANTA LUZIA
+```
+Nome: Santa Luzia
+Descrição: Especialista em rodapés e acabamentos
+Tipos: Rodapés, Acabamentos
+Destaques:
+  - Acabamento perfeito
+  - Fácil instalação
+  - Diversas opções
+URL Site: https://www.industriasantaluzia.com.br/
+URL Catálogo: [hospedar PDF localmente em /catalogos/santaluzia.pdf]
+```
+
+**DESIGN DOS CARDS DE MARCAS:**
+- Área superior: Nome da marca em texto grande e bold (text-3xl)
+- Background gradiente cinza claro
+- Altura fixa de 128px
+- Corpo do card: padding 24px, background branco
+- Descrição em texto cinza médio
+- Tags dos tipos: background azul claro (#dbeafe), texto azul escuro, rounded-full
+- Lista de destaques com ícone de check verde
+- 2 Botões na parte inferior:
+  - Principal: "Ver Catálogo" (azul #2563eb, branco, com ícone de documento)
+  - Secundário: Ícone de download (cinza claro)
+- Hover: elevar card (-translate-y-1), sombra maior
+
+**SEÇÃO 4: MODAL DO CATÁLOGO**
+- Modal full-screen (95% altura viewport)
+- Background escuro semi-transparente (bg-black bg-opacity-75)
+- Card branco arredondado máximo 6xl de largura
+- Header:
+  - Background gradiente azul
+  - Nome da marca em texto 2xl bold
+  - Descrição da marca em texto menor azul claro
+  - Botão de fechar (X) arredondado
+- Corpo:
+  - Iframe exibindo o PDF
+  - Width e height 100%
+  - Arredondado
+- Footer:
+  - Texto incentivando contato
+  - Botões: "Fechar" (cinza) e "Solicitar Orçamento" (verde WhatsApp)
+
+**SEÇÃO 5: CTA (CALL TO ACTION)**
+- Background: Gradiente azul escuro para azul médio
+- Padding generoso
+- Arredondamento 2xl
+- Sombra grande (shadow-2xl)
+- Título: "Precisa de Ajuda para Escolher?"
+- Subtítulo: "Nossa equipe está pronta para ajudar você a encontrar o piso ideal para seu projeto"
+- 2 Botões:
+  - WhatsApp (verde #22c55e, com ícone)
+  - "Solicitar Orçamento" (branco com texto azul)
+
+**SEÇÃO 6: CARDS DE BENEFÍCIOS**
+- Grid 3 colunas (1 em mobile, 3 em desktop)
+- 3 Cards brancos com sombra:
+  1. 🏆 Qualidade Garantida - "Produtos certificados das melhores marcas do mercado"
+  2. 🔧 Instalação Profissional - "Equipe especializada em instalação de pisos"
+  3. 💰 Melhor Custo-Benefício - "Preços competitivos e condições especiais"
+
+---
+
+## 🎨 PALETA DE CORES
+
+```css
+/* Cores Principais */
+Azul Escuro: #1e3a8a
+Azul Médio: #2563eb
+Azul Claro: #dbeafe
+Verde WhatsApp: #22c55e
+Cinza Claro: #f8fafc
+Cinza Médio: #64748b
+Cinza Escuro: #1e293b
+Branco: #ffffff
+```
+
+---
+
+## 📱 RESPONSIVIDADE
+
+### Mobile (< 768px):
+- Grid de tipos: 1 coluna
+- Grid de marcas: 1 coluna
+- Texto do hero: text-3xl
+- Padding reduzido
+- Botões em coluna (flex-col)
+
+### Tablet (768px - 1024px):
+- Grid de tipos: 2 colunas
+- Grid de marcas: 2 colunas
+- Texto do hero: text-4xl
+
+### Desktop (> 1024px):
+- Grid de tipos: 5 colunas
+- Grid de marcas: 2 colunas
+- Texto do hero: text-5xl
+- Max-width: 1280px (max-w-7xl)
+
+---
+
+## 🔧 FUNCIONALIDADES JAVASCRIPT
+
+### 1. Filtro de Marcas
+```javascript
+// Ao clicar em um tipo, filtrar marcas que contenham aquele tipo
+// Destacar visualmente o tipo selecionado
+// "Todos os Tipos" mostra todas as marcas
+```
+
+### 2. Abrir Modal de Catálogo
+```javascript
+// Ao clicar em "Ver Catálogo" ou no botão de download
+// Abrir modal full-screen
+// Carregar PDF no iframe
+// Prevenir scroll do body
+```
+
+### 3. Fechar Modal
+```javascript
+// Ao clicar no X ou no botão "Fechar"
+// Ao clicar fora do modal (no overlay)
+// Restaurar scroll do body
+```
+
+---
+
+## 📂 ESTRUTURA DE ARQUIVOS
+
+```
+/public
+  /catalogos
+    - eucafloor.pdf
+    - durafloor.pdf
+    - quickstep.pdf
+    - santaluzia.pdf
+  /images
+    - pisos-hero.jpg (opcional para background do hero)
+
+/src
+  /components
+    - MarcasProdutos.jsx (ou .tsx)
+  /pages
+    - produtos.jsx (ou integrar no index)
+```
+
+---
+
+## ⚠️ IMPORTANTE - NÃO ALTERAR
+
+1. **PRESERVAR TODO O CONTEÚDO EXISTENTE DO SITE**
+2. Não modificar header/menu existente
+3. Não modificar footer existente
+4. Não alterar outras páginas
+5. Apenas ADICIONAR esta nova seção/página
+6. Manter identidade visual consistente com o site atual
+7. Se o site usar Tailwind CSS, usar classes Tailwind
+8. Se usar CSS modules, criar arquivo separado
+
+---
+
+## 🚀 TECNOLOGIAS A USAR
+
+- React (se o site já usa React)
+- Tailwind CSS (classes utility)
+- JavaScript ES6+
+- Lucide React para ícones (ou Font Awesome se já usado no site)
+- Iframe para exibir PDFs
+
+---
+
+## ✅ CHECKLIST FINAL
+
+Antes de concluir, verificar:
+- [ ] Todos os 4 cards de marcas estão visíveis
+- [ ] Filtro funciona corretamente
+- [ ] Modal abre e fecha suavemente
+- [ ] PDF carrega no modal
+- [ ] Design responsivo em mobile, tablet e desktop
+- [ ] Cores seguem a paleta definida
+- [ ] Botões de CTA funcionam (WhatsApp e Orçamento)
+- [ ] Hover effects aplicados
+- [ ] Transições suaves (duration-300)
+- [ ] Nenhum conteúdo original foi removido ou alterado
+
+---
+
+## 📞 CONFIGURAÇÕES DE CONTATO
+
+**ATUALIZAR NÚMERO DE WHATSAPP NOS BOTÕES:**
+```
+Substituir: 5541999999999
+Por: [NÚMERO REAL DA PVS DECORE COM DDD E 9]
+```
+
+---
+
+## 🎯 RESULTADO ESPERADO
+
+Uma seção profissional, moderna e interativa que:
+- Mostra autoridade ao trabalhar com marcas premium
+- Facilita a navegação do cliente por tipo de piso
+- Mantém o cliente dentro do site (modal interno)
+- Aumenta conversão com CTAs claros
+- Tem design premium e responsivo
+- Não compromete o site existente
+
+---
+
+## 💡 OBSERVAÇÕES FINAIS
+
+- Use animações sutis (hover, transitions)
+- Priorize performance (lazy loading se necessário)
+- Teste em diferentes navegadores
+- Valide responsividade em dispositivos reais
+- Se possível, adicione analytics nos botões de CTA
+- Considere adicionar lazy loading para o iframe do PDF
+
+---
+
+**FIM DO PROMPT**

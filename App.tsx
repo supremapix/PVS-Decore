@@ -9,6 +9,8 @@ import ContactPage from './pages/ContactPage';
 import SitemapPage from './pages/SitemapPage';
 import ScrollToTop from './components/ScrollToTop';
 
+import BrandsProducts from './pages/BrandsProducts';
+
 function AnimatedRoutes() {
   const location = useLocation();
 
@@ -16,6 +18,7 @@ function AnimatedRoutes() {
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Home />} />
+        <Route path="/nossos-produtos" element={<BrandsProducts />} />
         <Route path="/bairro/:slug" element={<LocationPage />} />
         <Route path="/cidade/:slug" element={<LocationPage />} />
         

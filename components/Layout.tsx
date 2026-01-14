@@ -97,6 +97,13 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               </Link>
               
               <Link 
+                to="/nossos-produtos" 
+                className="hover:text-brand-orange transition-colors uppercase tracking-wide relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-brand-orange after:left-0 after:-bottom-1 after:transition-all hover:after:w-full"
+              >
+                Marcas
+              </Link>
+              
+              <Link 
                 to="/product/piso-vinilico" 
                 className="hover:text-brand-orange transition-colors uppercase tracking-wide relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-brand-orange after:left-0 after:-bottom-1 after:transition-all hover:after:w-full"
               >
@@ -157,6 +164,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             <div className="md:hidden bg-white border-t border-gray-100 absolute w-full left-0 shadow-lg z-50 max-h-[90vh] overflow-y-auto">
               <div className="flex flex-col p-4 gap-4">
                 <Link to="/" className="font-medium text-lg text-gray-800 border-b pb-2" onClick={() => setIsMenuOpen(false)}>Início</Link>
+                <Link to="/nossos-produtos" className="font-medium text-lg text-gray-800 border-b pb-2" onClick={() => setIsMenuOpen(false)}>Marcas</Link>
                 <Link to="/product/piso-vinilico" className="font-medium text-lg text-gray-800 border-b pb-2" onClick={() => setIsMenuOpen(false)}>Piso Vinílico</Link>
                 <Link to="/product/piso-laminado" className="font-medium text-lg text-gray-800 border-b pb-2" onClick={() => setIsMenuOpen(false)}>Piso Laminado</Link>
                 
