@@ -1,0 +1,1023 @@
+# PROMPT COMPLETO PARA REPLIT - SEO + SCHEMA MARKUP + GEOLOCALIZAÇÃO
+## Site: https://www.pvsdecore.com.br/
+
+---
+
+## 🎯 OBJETIVO
+Implementar SEO profissional completo com Schema Markup (JSON-LD) e geolocalização específica em TODAS as páginas do site PVS Decore, otimizado para busca local no Google.
+
+---
+
+## 📍 DADOS REAIS DA EMPRESA (USAR EXATAMENTE ESTES)
+
+```javascript
+const dadosEmpresa = {
+  // INFORMAÇÕES BÁSICAS
+  nome: "PVS Decore",
+  nomeCompleto: "PVS Decore - Pisos Vinílicos e Laminados",
+  razaoSocial: "PVS Decore",
+  
+  // CONTATOS REAIS
+  telefone: "+55 41 3076-6240",
+  whatsapp: "+55 41 99480-0726",
+  email: "pvs.decor@gmail.com",
+  site: "https://www.pvsdecore.com.br",
+  
+  // ENDEREÇO REAL DA SEDE
+  endereco: {
+    rua: "Rua Izabel A Redentora",
+    numero: "1088",
+    complemento: "",
+    bairro: "Centro",
+    cidade: "São José dos Pinhais",
+    estado: "Paraná",
+    estadoSigla: "PR",
+    cep: "83030-500",
+    pais: "Brasil",
+    
+    // COORDENADAS GPS DE SÃO JOSÉ DOS PINHAIS
+    latitude: "-25.5347",
+    longitude: "-49.2064"
+  },
+  
+  // REDES SOCIAIS
+  redesSociais: {
+    facebook: "https://facebook.com/pvsdecore",
+    instagram: "https://instagram.com/pvsdecore"
+  },
+  
+  // HORÁRIO DE FUNCIONAMENTO
+  horarioFuncionamento: [
+    "Monday 08:00-18:00",
+    "Tuesday 08:00-18:00",
+    "Wednesday 08:00-18:00",
+    "Thursday 08:00-18:00",
+    "Friday 08:00-18:00",
+    "Saturday 09:00-13:00"
+  ],
+  
+  // INFORMAÇÕES ADICIONAIS
+  anoFundacao: "2015",
+  areaAtuacao: "São José dos Pinhais, Curitiba e Região Metropolitana",
+  raioAtuacaoKm: 50,
+  
+  // SERVIÇOS OFERECIDOS (DO SITE)
+  servicos: [
+    "Instalação Residencial de Pisos",
+    "Instalação Comercial de Pisos",
+    "Manutenção de Pisos",
+    "Instalação de Pisos Laminados",
+    "Instalação de Pisos Vinílicos",
+    "Instalação de Pisos SPC",
+    "Instalação de Rodapés Santa Luzia",
+    "Venda de Pisos Eucafloor",
+    "Venda de Pisos Durafloor",
+    "Venda de Pisos Quick-Step",
+    "Consultoria em Pisos"
+  ],
+  
+  // MARCAS PARCEIRAS
+  marcas: ["Eucafloor", "Durafloor", "Quick-Step", "Santa Luzia"],
+  
+  // PALAVRAS-CHAVE PRINCIPAIS
+  palavrasChave: [
+    "pisos laminados são josé dos pinhais",
+    "pisos vinílicos são josé dos pinhais",
+    "piso spc são josé dos pinhais",
+    "instalação de pisos curitiba",
+    "pisos laminados curitiba",
+    "eucafloor são josé dos pinhais",
+    "durafloor são josé dos pinhais",
+    "instalação residencial pisos",
+    "instalação comercial pisos"
+  ]
+};
+```
+
+---
+
+## 📄 1. HOME PAGE (/) - SÃO JOSÉ DOS PINHAIS
+
+### Meta Tags SEO para HOME
+```html
+<head>
+  <!-- Meta Tags Básicas -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Title e Description -->
+  <title>PVS Decore - Pisos Laminados e Vinílicos em São José dos Pinhais e Curitiba | Eucafloor, Durafloor</title>
+  <meta name="description" content="Especialistas em instalação residencial e comercial de pisos laminados, vinílicos e SPC em São José dos Pinhais. Marcas Eucafloor, Durafloor, Quick-Step e Santa Luzia. ☎ (41) 3076-6240">
+  
+  <!-- Keywords -->
+  <meta name="keywords" content="pisos laminados são josé dos pinhais, pisos vinílicos sjp, instalação residencial pisos, instalação comercial pisos, eucafloor, durafloor, quick-step, manutenção pisos, rodapés santa luzia">
+  
+  <!-- Autor e Copyright -->
+  <meta name="author" content="PVS Decore">
+  <meta name="copyright" content="PVS Decore - Todos os direitos reservados">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.pvsdecore.com.br/">
+  
+  <!-- Idioma -->
+  <meta http-equiv="content-language" content="pt-BR">
+  <html lang="pt-BR">
+  
+  <!-- Open Graph (Facebook/WhatsApp) -->
+  <meta property="og:type" content="business.business">
+  <meta property="og:title" content="PVS Decore - Pisos Laminados e Vinílicos em São José dos Pinhais">
+  <meta property="og:description" content="Instalação residencial e comercial de pisos. Marcas premium: Eucafloor, Durafloor, Quick-Step e Santa Luzia. Atendemos São José dos Pinhais e região.">
+  <meta property="og:url" content="https://www.pvsdecore.com.br/">
+  <meta property="og:image" content="https://www.pvsdecore.com.br/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="PVS Decore">
+  <meta property="business:contact_data:street_address" content="Rua Izabel A Redentora, 1088">
+  <meta property="business:contact_data:locality" content="São José dos Pinhais">
+  <meta property="business:contact_data:region" content="PR">
+  <meta property="business:contact_data:postal_code" content="83030-500">
+  <meta property="business:contact_data:country_name" content="Brasil">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="PVS Decore - Pisos em São José dos Pinhais">
+  <meta name="twitter:description" content="Instalação residencial e comercial de pisos laminados, vinílicos e SPC">
+  <meta name="twitter:image" content="https://www.pvsdecore.com.br/images/twitter-card.jpg">
+  
+  <!-- Geolocalização -->
+  <meta name="geo.region" content="BR-PR">
+  <meta name="geo.placename" content="São José dos Pinhais">
+  <meta name="geo.position" content="-25.5347;-49.2064">
+  <meta name="ICBM" content="-25.5347, -49.2064">
+  
+  <!-- Verificações (adicionar quando disponível) -->
+  <!-- <meta name="google-site-verification" content="[CÓDIGO_DO_GOOGLE]"> -->
+  <!-- <meta name="facebook-domain-verification" content="[CÓDIGO_DO_FACEBOOK]"> -->
+</head>
+```
+
+### Schema Markup HOME (Adicionar antes do </body>)
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.pvsdecore.com.br/#business",
+      "name": "PVS Decore",
+      "alternateName": "PVS Decore - Pisos e Acabamentos",
+      "image": [
+        "https://www.pvsdecore.com.br/images/logo.png",
+        "https://www.pvsdecore.com.br/images/loja-fachada.jpg"
+      ],
+      "logo": "https://www.pvsdecore.com.br/images/logo.png",
+      "description": "Especialistas em instalação residencial e comercial de pisos laminados, vinílicos e SPC em São José dos Pinhais e região. Trabalhamos com as marcas Eucafloor, Durafloor, Quick-Step e Santa Luzia. Também oferecemos serviços de manutenção de pisos.",
+      "url": "https://www.pvsdecore.com.br",
+      "telephone": "+554130766240",
+      "priceRange": "$$",
+      "email": "pvs.decor@gmail.com",
+      "foundingDate": "2015",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rua Izabel A Redentora, 1088",
+        "addressLocality": "São José dos Pinhais",
+        "addressRegion": "PR",
+        "postalCode": "83030-500",
+        "addressCountry": "BR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "-25.5347",
+        "longitude": "-49.2064"
+      },
+      "hasMap": "https://www.google.com/maps/place/-25.5347,-49.2064",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "08:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "09:00",
+          "closes": "13:00"
+        }
+      ],
+      "sameAs": [
+        "https://facebook.com/pvsdecore",
+        "https://instagram.com/pvsdecore",
+        "https://wa.me/5541994807826"
+      ],
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "São José dos Pinhais",
+          "containedIn": {
+            "@type": "State",
+            "name": "Paraná",
+            "containedIn": {
+              "@type": "Country",
+              "name": "Brasil"
+            }
+          }
+        },
+        {
+          "@type": "City",
+          "name": "Curitiba",
+          "containedIn": {
+            "@type": "State",
+            "name": "Paraná"
+          }
+        },
+        {
+          "@type": "GeoCircle",
+          "geoMidpoint": {
+            "@type": "GeoCoordinates",
+            "latitude": "-25.5347",
+            "longitude": "-49.2064"
+          },
+          "geoRadius": "50000"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Serviços e Produtos PVS Decore",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Instalação Residencial de Pisos",
+              "description": "Instalação profissional de pisos laminados e vinílicos para residências",
+              "serviceType": "Instalação Residencial"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Instalação Comercial de Pisos",
+              "description": "Instalação de pisos para estabelecimentos comerciais",
+              "serviceType": "Instalação Comercial"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Manutenção de Pisos",
+              "description": "Serviços de manutenção e reparos em pisos laminados e vinílicos",
+              "serviceType": "Manutenção"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Pisos Eucafloor",
+              "brand": {
+                "@type": "Brand",
+                "name": "Eucafloor"
+              },
+              "description": "Pisos laminados Eucafloor de alta qualidade"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Pisos Durafloor",
+              "brand": {
+                "@type": "Brand",
+                "name": "Durafloor"
+              },
+              "description": "Pisos laminados e vinílicos Durafloor"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Pisos Quick-Step",
+              "brand": {
+                "@type": "Brand",
+                "name": "Quick-Step"
+              },
+              "description": "Pisos premium Quick-Step importados"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Rodapés Santa Luzia",
+              "brand": {
+                "@type": "Brand",
+                "name": "Santa Luzia"
+              },
+              "description": "Rodapés e acabamentos Santa Luzia"
+            }
+          }
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "45",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.pvsdecore.com.br/#organization",
+      "name": "PVS Decore",
+      "url": "https://www.pvsdecore.com.br",
+      "logo": "https://www.pvsdecore.com.br/images/logo.png",
+      "foundingDate": "2015",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+554130766240",
+          "contactType": "customer service",
+          "email": "pvs.decor@gmail.com",
+          "availableLanguage": ["Portuguese"],
+          "areaServed": "BR",
+          "contactOption": "TollFree"
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+5541994807826",
+          "contactType": "customer service",
+          "availableLanguage": ["Portuguese"],
+          "areaServed": "BR",
+          "contactOption": "TollFree"
+        }
+      ],
+      "sameAs": [
+        "https://facebook.com/pvsdecore",
+        "https://instagram.com/pvsdecore"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.pvsdecore.com.br/#website",
+      "url": "https://www.pvsdecore.com.br",
+      "name": "PVS Decore",
+      "description": "Pisos Laminados e Vinílicos em São José dos Pinhais",
+      "publisher": {
+        "@id": "https://www.pvsdecore.com.br/#organization"
+      },
+      "inLanguage": "pt-BR",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.pvsdecore.com.br/busca?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.pvsdecore.com.br/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.pvsdecore.com.br/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+```
+
+---
+
+## 📄 2. PÁGINA DE SERVIÇOS - INSTALAÇÃO RESIDENCIAL
+
+**URL:** `/servicos/instalacao-residencial` ou `/instalacao-residencial`
+
+### Meta Tags SEO
+```html
+<head>
+  <title>Instalação Residencial de Pisos em São José dos Pinhais | PVS Decore</title>
+  <meta name="description" content="Instalação profissional de pisos laminados e vinílicos para sua residência em São José dos Pinhais. Eucafloor, Durafloor e Quick-Step. ☎ (41) 3076-6240">
+  <meta name="keywords" content="instalação residencial pisos, piso laminado residencial, piso vinílico casa, instalação pisos são josé dos pinhais">
+  <link rel="canonical" href="https://www.pvsdecore.com.br/instalacao-residencial">
+  
+  <!-- Geolocalização -->
+  <meta name="geo.region" content="BR-PR">
+  <meta name="geo.placename" content="São José dos Pinhais">
+  <meta name="geo.position" content="-25.5347;-49.2064">
+</head>
+```
+
+### Schema Markup Instalação Residencial
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.pvsdecore.com.br/instalacao-residencial#service",
+  "serviceType": "Instalação Residencial de Pisos",
+  "name": "Instalação Residencial de Pisos Laminados e Vinílicos",
+  "description": "Serviço especializado de instalação de pisos laminados, vinílicos e SPC para residências em São José dos Pinhais e região. Trabalhamos com as melhores marcas: Eucafloor, Durafloor, Quick-Step.",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "PVS Decore",
+    "telephone": "+554130766240",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua Izabel A Redentora, 1088",
+      "addressLocality": "São José dos Pinhais",
+      "addressRegion": "PR",
+      "postalCode": "83030-500",
+      "addressCountry": "BR"
+    }
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "São José dos Pinhais",
+    "containedIn": {
+      "@type": "State",
+      "name": "Paraná"
+    }
+  },
+  "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "priceCurrency": "BRL"
+  },
+  "brand": ["Eucafloor", "Durafloor", "Quick-Step", "Santa Luzia"]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.pvsdecore.com.br/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Instalação Residencial",
+      "item": "https://www.pvsdecore.com.br/instalacao-residencial"
+    }
+  ]
+}
+</script>
+```
+
+---
+
+## 📄 3. PÁGINA DE SERVIÇOS - INSTALAÇÃO COMERCIAL
+
+**URL:** `/servicos/instalacao-comercial` ou `/instalacao-comercial`
+
+### Meta Tags SEO
+```html
+<head>
+  <title>Instalação Comercial de Pisos em São José dos Pinhais | PVS Decore</title>
+  <meta name="description" content="Instalação profissional de pisos para estabelecimentos comerciais. Pisos resistentes e duráveis. Atendemos São José dos Pinhais e região. ☎ (41) 3076-6240">
+  <meta name="keywords" content="instalação comercial pisos, piso laminado comercial, piso spc comercial, pisos para loja, pisos para escritório">
+  <link rel="canonical" href="https://www.pvsdecore.com.br/instalacao-comercial">
+  
+  <!-- Geolocalização -->
+  <meta name="geo.region" content="BR-PR">
+  <meta name="geo.placename" content="São José dos Pinhais">
+</head>
+```
+
+### Schema Markup Instalação Comercial
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.pvsdecore.com.br/instalacao-comercial#service",
+  "serviceType": "Instalação Comercial de Pisos",
+  "name": "Instalação Comercial de Pisos para Empresas",
+  "description": "Instalação profissional de pisos laminados, vinílicos e SPC para estabelecimentos comerciais, lojas, escritórios e empresas em São José dos Pinhais.",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "PVS Decore",
+    "telephone": "+554130766240",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "São José dos Pinhais",
+      "addressRegion": "PR",
+      "addressCountry": "BR"
+    }
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "São José dos Pinhais"
+  }
+}
+</script>
+```
+
+---
+
+## 📄 4. PÁGINA DE SERVIÇOS - MANUTENÇÃO
+
+**URL:** `/servicos/manutencao` ou `/manutencao`
+
+### Meta Tags SEO
+```html
+<head>
+  <title>Manutenção de Pisos em São José dos Pinhais | PVS Decore</title>
+  <meta name="description" content="Serviços de manutenção e reparo de pisos laminados e vinílicos. Recupere seus pisos com qualidade. ☎ (41) 3076-6240">
+  <meta name="keywords" content="manutenção pisos, reparo piso laminado, conserto piso vinílico, manutenção são josé dos pinhais">
+  <link rel="canonical" href="https://www.pvsdecore.com.br/manutencao">
+</head>
+```
+
+### Schema Markup Manutenção
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.pvsdecore.com.br/manutencao#service",
+  "serviceType": "Manutenção de Pisos",
+  "name": "Manutenção e Reparo de Pisos",
+  "description": "Serviços especializados de manutenção, reparo e recuperação de pisos laminados e vinílicos em São José dos Pinhais e região metropolitana.",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "PVS Decore",
+    "telephone": "+554130766240"
+  }
+}
+</script>
+```
+
+---
+
+## 📄 5. PÁGINAS DE BAIRROS - TEMPLATE GENÉRICO
+
+### Exemplo: PÁGINA BAIRRO AFONSO PENA - SÃO JOSÉ DOS PINHAIS
+
+**URL:** `/sao-jose-dos-pinhais/afonso-pena` ou `/bairros/afonso-pena`
+
+### Meta Tags SEO
+```html
+<head>
+  <title>Pisos Laminados e Vinílicos no Afonso Pena - São José dos Pinhais | PVS Decore</title>
+  <meta name="description" content="Instalação de pisos laminados e vinílicos no bairro Afonso Pena em São José dos Pinhais. Atendimento rápido e profissional. ☎ (41) 3076-6240">
+  <meta name="keywords" content="pisos afonso pena, instalação pisos afonso pena, piso laminado afonso pena sjp">
+  <link rel="canonical" href="https://www.pvsdecore.com.br/sao-jose-dos-pinhais/afonso-pena">
+  
+  <!-- Geolocalização do BAIRRO (ajustar coordenadas) -->
+  <meta name="geo.region" content="BR-PR">
+  <meta name="geo.placename" content="Afonso Pena, São José dos Pinhais">
+  <meta name="geo.position" content="-25.5280;-49.2095">
+  <meta name="ICBM" content="-25.5280, -49.2095">
+</head>
+```
+
+### Schema Markup Bairro
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.pvsdecore.com.br/sao-jose-dos-pinhais/afonso-pena#service",
+  "serviceType": "Instalação de Pisos no Afonso Pena",
+  "name": "Instalação de Pisos Laminados e Vinílicos no Afonso Pena - São José dos Pinhais",
+  "description": "Serviço especializado de instalação de pisos no bairro Afonso Pena em São José dos Pinhais/PR. Atendimento rápido com as melhores marcas do mercado.",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "PVS Decore",
+    "telephone": "+554130766240",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua Izabel A Redentora, 1088",
+      "addressLocality": "São José dos Pinhais",
+      "addressRegion": "PR",
+      "postalCode": "83030-500",
+      "addressCountry": "BR"
+    }
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": "Afonso Pena",
+    "containedIn": {
+      "@type": "City",
+      "name": "São José dos Pinhais",
+      "containedIn": {
+        "@type": "State",
+        "name": "Paraná"
+      }
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "-25.5280",
+      "longitude": "-49.2095"
+    }
+  },
+  "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "areaServed": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": "-25.5280",
+        "longitude": "-49.2095"
+      },
+      "geoRadius": "3000"
+    }
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.pvsdecore.com.br/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "São José dos Pinhais",
+      "item": "https://www.pvsdecore.com.br/sao-jose-dos-pinhais"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Afonso Pena",
+      "item": "https://www.pvsdecore.com.br/sao-jose-dos-pinhais/afonso-pena"
+    }
+  ]
+}
+</script>
+```
+
+---
+
+## 📄 6. PÁGINAS DE CIDADES DA REGIÃO
+
+### Exemplo: PÁGINA CURITIBA
+
+**URL:** `/curitiba` ou `/cidades/curitiba`
+
+### Meta Tags SEO
+```html
+<head>
+  <title>Pisos Laminados e Vinílicos em Curitiba | PVS Decore</title>
+  <meta name="description" content="Instalação de pisos laminados, vinílicos e SPC em Curitiba. Atendemos todos os bairros com qualidade e garantia. ☎ (41) 3076-6240">
+  <meta name="keywords" content="pisos laminados curitiba, pisos vinílicos curitiba, instalação pisos curitiba, eucafloor curitiba, durafloor curitiba">
+  <link rel="canonical" href="https://www.pvsdecore.com.br/curitiba">
+  
+  <!-- Geolocalização de Curitiba (Centro) -->
+  <meta name="geo.region" content="BR-PR">
+  <meta name="geo.placename" content="Curitiba">
+  <meta name="geo.position" content="-25.4284;-49.2733">
+  <meta name="ICBM" content="-25.4284, -49.2733">
+</head>
+```
+
+### Schema Markup Curitiba
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.pvsdecore.com.br/curitiba#service",
+  "serviceType": "Instalação de Pisos em Curitiba",
+  "name": "Instalação de Pisos Laminados e Vinílicos em Curitiba",
+  "description": "Atendimento em todos os bairros de Curitiba com instalação profissional de pisos laminados, vinílicos e SPC. Marcas premium: Eucafloor, Durafloor, Quick-Step.",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "PVS Decore",
+    "telephone": "+554130766240"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Curitiba",
+    "containedIn": {
+      "@type": "State",
+      "name": "Paraná"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "-25.4284",
+      "longitude": "-49.2733"
+    }
+  }
+}
+</script>
+
+---
+
+## 📄 7. PÁGINA DE MARCAS
+
+**URL:** `/marcas` ou `/nossas-marcas`
+
+### Meta Tags SEO
+```html
+<head>
+  <title>Marcas de Pisos: Eucafloor, Durafloor, Quick-Step e Santa Luzia | PVS Decore</title>
+  <meta name="description" content="Trabalhamos com as melhores marcas de pisos: Eucafloor, Durafloor, Quick-Step e rodapés Santa Luzia. Qualidade garantida em São José dos Pinhais.">
+  <meta name="keywords" content="eucafloor são josé dos pinhais, durafloor sjp, quick-step, santa luzia rodapés, marcas de pisos">
+  <link rel="canonical" href="https://www.pvsdecore.com.br/marcas">
+</head>
+```
+
+---
+
+## 🗺️ COORDENADAS GPS DOS PRINCIPAIS BAIRROS
+
+### SÃO JOSÉ DOS PINHAIS (usar estas coordenadas nas páginas de bairro)
+
+```javascript
+const coordenadasBairros = {
+  // SÃO JOSÉ DOS PINHAIS
+  "centro-sjp": { lat: "-25.5347", lng: "-49.2064" },
+  "afonso-pena": { lat: "-25.5280", lng: "-49.2095" },
+  "guatupe": { lat: "-25.5580", lng: "-49.1895" },
+  "cruzeiro": { lat: "-25.5450", lng: "-49.1950" },
+  "aristocrata": { lat: "-25.5320", lng: "-49.1880" },
+  "bom-jesus": { lat: "-25.5200", lng: "-49.2150" },
+  "sao-marcos": { lat: "-25.5650", lng: "-49.1750" },
+  
+  // CURITIBA (principais bairros atendidos)
+  "centro-curitiba": { lat: "-25.4284", lng: "-49.2733" },
+  "batel": { lat: "-25.4406", lng: "-49.2831" },
+  "agua-verde": { lat: "-25.4492", lng: "-49.2699" },
+  "portao": { lat: "-25.4842", lng: "-49.2936" },
+  "cajuru": { lat: "-25.4694", lng: "-49.2358" },
+  "tingui": { lat: "-25.3920", lng: "-49.3186" },
+  "santa-felicidade": { lat: "-25.4073", lng: "-49.3373" },
+  "pinheirinho": { lat: "-25.5361", lng: "-49.3195" },
+  
+  // REGIÃO METROPOLITANA
+  "colombo": { lat: "-25.2919", lng: "-49.2243" },
+  "piraquara": { lat: "-25.4422", lng: "-49.0627" },
+  "araucaria": { lat: "-25.5931", lng: "-49.4075" }
+};
+```
+
+---
+
+## 📋 LISTA DE PÁGINAS PARA IMPLEMENTAR SEO
+
+### Páginas Principais (PRIORIDADE MÁXIMA)
+1. ✅ Home (/)
+2. ✅ Instalação Residencial (/instalacao-residencial)
+3. ✅ Instalação Comercial (/instalacao-comercial)
+4. ✅ Manutenção (/manutencao)
+5. ✅ Marcas (/marcas)
+6. Contato (/contato)
+7. Sobre (/sobre)
+
+### Páginas de Cidades (PRIORIDADE ALTA)
+8. ✅ Curitiba (/curitiba)
+9. São José dos Pinhais (/sao-jose-dos-pinhais)
+10. Colombo (/colombo)
+11. Piraquara (/piraquara)
+12. Araucária (/araucaria)
+
+### Páginas de Bairros SJP (PRIORIDADE MÉDIA)
+13. ✅ Afonso Pena (/sao-jose-dos-pinhais/afonso-pena)
+14. Guatupê (/sao-jose-dos-pinhais/guatupe)
+15. Cruzeiro (/sao-jose-dos-pinhais/cruzeiro)
+16. Aristocrata (/sao-jose-dos-pinhais/aristocrata)
+17. Bom Jesus (/sao-jose-dos-pinhais/bom-jesus)
+
+### Páginas de Bairros Curitiba (PRIORIDADE MÉDIA)
+18. Batel (/curitiba/batel)
+19. Água Verde (/curitiba/agua-verde)
+20. Portão (/curitiba/portao)
+21. Cajuru (/curitiba/cajuru)
+22. Santa Felicidade (/curitiba/santa-felicidade)
+23. Pinheirinho (/curitiba/pinheirinho)
+
+---
+
+## 🎯 INSTRUÇÕES DE IMPLEMENTAÇÃO PARA O REPLIT
+
+### PASSO 1: Criar arquivo de configuração SEO
+```javascript
+// src/config/seoData.js
+export const seoConfig = {
+  empresa: {
+    nome: "PVS Decore",
+    telefone: "+554130766240",
+    whatsapp: "+5541994807826",
+    email: "pvs.decor@gmail.com",
+    endereco: "Rua Izabel A Redentora, 1088",
+    bairro: "Centro",
+    cidade: "São José dos Pinhais",
+    estado: "PR",
+    cep: "83030-500",
+    latitude: "-25.5347",
+    longitude: "-49.2064"
+  },
+  
+  marcas: ["Eucafloor", "Durafloor", "Quick-Step", "Santa Luzia"],
+  
+  servicos: [
+    "Instalação Residencial de Pisos",
+    "Instalação Comercial de Pisos",
+    "Manutenção de Pisos"
+  ]
+};
+```
+
+### PASSO 2: Criar componente de SEO dinâmico
+```jsx
+// src/components/SEO.jsx
+import React from 'react';
+import { Helmet } from 'react-helmet-async';
+import { seoConfig } from '../config/seoData';
+
+const SEO = ({ 
+  title, 
+  description, 
+  keywords, 
+  canonical, 
+  schema,
+  location = seoConfig.empresa 
+}) => {
+  return (
+    <Helmet>
+      <title>{title}</title>
+      <meta name="description" content={description} />
+      <meta name="keywords" content={keywords} />
+      <link rel="canonical" href={canonical} />
+      
+      {/* Geolocalização */}
+      <meta name="geo.region" content="BR-PR" />
+      <meta name="geo.placename" content={location.cidade} />
+      <meta name="geo.position" content={`${location.latitude};${location.longitude}`} />
+      <meta name="ICBM" content={`${location.latitude}, ${location.longitude}`} />
+      
+      {/* Open Graph */}
+      <meta property="og:title" content={title} />
+      <meta property="og:description" content={description} />
+      <meta property="og:url" content={canonical} />
+      <meta property="og:type" content="business.business" />
+      
+      {/* Schema */}
+      {schema && (
+        <script type="application/ld+json">
+          {JSON.stringify(schema)}
+        </script>
+      )}
+    </Helmet>
+  );
+};
+
+export default SEO;
+```
+
+### PASSO 3: Implementar em cada página
+```jsx
+// Exemplo: src/pages/Home.jsx
+import SEO from '../components/SEO';
+import { homeSchema } from '../schemas/homeSchema';
+
+const Home = () => {
+  return (
+    <>
+      <SEO
+        title="PVS Decore - Pisos Laminados e Vinílicos em São José dos Pinhais"
+        description="Especialistas em instalação residencial e comercial de pisos..."
+        keywords="pisos laminados são josé dos pinhais, pisos vinílicos..."
+        canonical="https://www.pvsdecore.com.br/"
+        schema={homeSchema}
+      />
+      
+      {/* Conteúdo da página */}
+    </>
+  );
+};
+```
+
+### PASSO 4: Criar schemas reutilizáveis
+```javascript
+// src/schemas/homeSchema.js
+import { seoConfig } from '../config/seoData';
+
+export const homeSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": seoConfig.empresa.nome,
+      "telephone": seoConfig.empresa.telefone,
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": seoConfig.empresa.endereco,
+        "addressLocality": seoConfig.empresa.cidade,
+        "addressRegion": seoConfig.empresa.estado,
+        "postalCode": seoConfig.empresa.cep
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": seoConfig.empresa.latitude,
+        "longitude": seoConfig.empresa.longitude
+      }
+      // ... resto do schema
+    }
+  ]
+};
+```
+
+---
+
+## ✅ CHECKLIST DE IMPLEMENTAÇÃO
+
+Implementar em TODAS as páginas:
+
+### Meta Tags Obrigatórias
+- [ ] `<title>` único e descritivo (50-60 caracteres)
+- [ ] `<meta name="description">` (150-160 caracteres)
+- [ ] `<meta name="keywords">` relevantes
+- [ ] `<link rel="canonical">` correto
+- [ ] Meta tags Open Graph (og:)
+- [ ] Meta tags de geolocalização (geo.region, geo.placename, geo.position)
+
+### Schema Markup Obrigatório
+- [ ] LocalBusiness (apenas na home)
+- [ ] Organization (apenas na home)
+- [ ] WebSite (apenas na home)
+- [ ] Service (páginas de serviços e locais)
+- [ ] BreadcrumbList (todas as páginas)
+
+### Geolocalização
+- [ ] Coordenadas GPS corretas para cada bairro/cidade
+- [ ] Meta tag geo.region: BR-PR
+- [ ] Meta tag geo.placename específica
+- [ ] Meta tag geo.position com lat;lng
+- [ ] Schema areaServed com GeoCoordinates
+
+### SEO Técnico
+- [ ] URLs amigáveis (sem caracteres especiais)
+- [ ] Sitemap.xml atualizado
+- [ ] Robots.txt configurado
+- [ ] Tags de idioma (lang="pt-BR")
+- [ ] Imagens com alt text descritivo
+
+---
+
+## 🚀 BENEFÍCIOS ESPERADOS
+
+Após implementação completa:
+
+✅ **Busca Local**: "pisos laminados são josé dos pinhais"
+✅ **Busca por Bairro**: "pisos vinílicos afonso pena"
+✅ **Busca por Serviço**: "instalação residencial pisos curitiba"
+✅ **Busca por Marca**: "eucafloor são josé dos pinhais"
+✅ **Google Maps**: Melhor ranqueamento em buscas locais
+✅ **Rich Snippets**: Exibição de horário, telefone, avaliações
+✅ **Busca por Voz**: Otimizado para "perto de mim"
+
+---
+
+## 📞 CONTATOS PARA VALIDAÇÃO
+
+Antes de finalizar, validar estes dados:
+
+✅ Telefone: (41) 3076-6240
+✅ WhatsApp: +55 41 99480-0726
+✅ Email: pvs.decor@gmail.com
+✅ Endereço: Rua Izabel A Redentora, 1088
+✅ Cidade: São José dos Pinhais - PR
+✅ CEP: 83030-500
+
+---
+
+## ⚠️ IMPORTANTE
+
+1. **TESTAR** todas as coordenadas GPS no Google Maps
+2. **VALIDAR** Schema Markup em: https://validator.schema.org/
+3. **VERIFICAR** Meta Tags em: https://www.opengraph.xyz/
+4. **ENVIAR** sitemap.xml ao Google Search Console
+5. **MONITORAR** resultados no Google Analytics
+
+---
+
+**FIM DO PROMPT - COPIAR E COLAR NO REPLIT**
+
+Este prompt implementa SEO completo com geolocalização individual em cada página de bairro e cidade, usando os dados reais da empresa PVS Decore
