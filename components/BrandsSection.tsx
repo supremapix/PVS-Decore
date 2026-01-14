@@ -7,28 +7,28 @@ const BRAND_CARDS = [
   {
     id: 'eucafloor',
     name: 'Eucafloor',
-    image: 'https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?auto=format&fit=crop&q=80&w=800',
+    image: '/images/marcas/eucafloor-bg.jpg',
     icon: Award,
     tag: 'DESTAQUE',
   },
   {
     id: 'durafloor',
     name: 'Durafloor',
-    image: 'https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&q=80&w=800',
+    image: '/images/marcas/durafloor-bg.jpg',
     icon: Diamond,
     tag: 'DESTAQUE',
   },
   {
     id: 'quickstep',
     name: 'Quick-Step',
-    image: 'https://images.unsplash.com/photo-1615876234886-fd9a39faa97f?auto=format&fit=crop&q=80&w=800',
+    image: '/images/marcas/quickstep-bg.jpg',
     icon: Zap,
     tag: 'DESTAQUE',
   },
   {
     id: 'santaluzia',
     name: 'Santa Luzia',
-    image: 'https://images.unsplash.com/photo-1628133144131-001300fa7fbb?auto=format&fit=crop&q=80&w=800',
+    image: '/images/marcas/santaluzia-bg.jpg',
     icon: Target,
     tag: 'DESTAQUE',
   }
