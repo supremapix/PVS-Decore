@@ -58,6 +58,7 @@ const SitemapPage = () => {
                 </h2>
                 <ul className="space-y-2">
                   <li><Link to="/" className="text-gray-600 hover:text-brand-orange hover:translate-x-1 transition-all inline-block">Página Inicial</Link></li>
+                  <li><Link to="/nossos-produtos" className="text-gray-600 hover:text-brand-orange hover:translate-x-1 transition-all inline-block">Nossas Marcas</Link></li>
                   <li><Link to="/contato" className="text-gray-600 hover:text-brand-orange hover:translate-x-1 transition-all inline-block">Fale Conosco</Link></li>
                 </ul>
               </section>
@@ -111,7 +112,7 @@ const SitemapPage = () => {
               </section>
             </div>
 
-            {/* Column 3: Neighborhoods (Scrollable if too long) */}
+            {/* Column 3: Neighborhoods */}
             <div>
               <section>
                 <h2 className="text-xl font-black text-gray-900 mb-4 flex items-center gap-2 border-b border-gray-100 pb-2">
