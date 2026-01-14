@@ -189,15 +189,13 @@ const BrandsProducts = () => {
                         <FileText size={18} /> Ver Catálogo
                       </button>
                       <div className="grid grid-cols-2 gap-3">
-                        <a 
-                          href={brand.siteUrl} 
-                          target="_blank" 
-                          rel="noreferrer"
+                        <button 
+                          onClick={() => handleWhatsApp(brand.name)}
                           className="flex items-center justify-center bg-gray-50 text-brand-dark p-4 rounded-xl hover:bg-gray-100 transition-colors border border-gray-100"
-                          title="Visitar Site Oficial"
+                          title="Orçar com a PVS Decore"
                         >
-                          <ExternalLink size={18} />
-                        </a>
+                          <MessageCircle size={18} className="text-[#22c55e]" />
+                        </button>
                         <button 
                           onClick={() => setSelectedCatalog(brand)}
                           className="flex items-center justify-center bg-gray-50 text-brand-dark p-4 rounded-xl hover:bg-gray-100 transition-colors border border-gray-100"
