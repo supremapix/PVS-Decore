@@ -26,7 +26,7 @@ const LocationMarquee = () => {
                 100% { transform: translateX(-50%); }
             }
             .animate-marquee {
-                animation: marquee 6s linear infinite;
+                animation: marquee 2s linear infinite;
             }
             .animate-marquee:hover {
                 animation-play-state: paused;
