@@ -11,8 +11,50 @@ import ShareButtons from '../components/ShareButtons';
 // Helper to generate unique SEO content based on location name
 const generateContent = (locationName: string, type: 'bairro' | 'cidade') => {
   const isCity = type === 'cidade';
+  const isSJP = locationName.toLowerCase().includes('são josé dos pinhais');
   const term = isCity ? `na cidade de ${locationName}` : `no bairro ${locationName}`;
   const local = locationName;
+
+  if (isSJP) {
+    return [
+      {
+        title: `PVS Decore: Sua Loja de Pisos em São José dos Pinhais`,
+        content: `Localizada no coração de São José dos Pinhais, na Rua Izabel A Redentora, 1088, a PVS Decore é a sua revenda oficial de pisos laminados e vinílicos. Por estarmos sediados aqui, oferecemos o atendimento mais rápido da região, com entrega e instalação priorizadas para todos os moradores e empresas de SJP.`
+      },
+      {
+        title: `Revenda Oficial Eucafloor, Durafloor e Quick-Step em SJP`,
+        content: `Trabalhamos apenas com as marcas líderes do mercado. Em nossa loja em São José dos Pinhais, você encontra o mostruário completo da Eucafloor, Durafloor e Quick-Step. Temos opções para todos os estilos, desde o rústico amadeirado até o moderno cimento queimado, sempre com garantia de fábrica e de instalação.`
+      },
+      {
+        title: `Instalação de Pisos em São José dos Pinhais com Mão de Obra Própria`,
+        content: `Diferente de outras lojas, a PVS Decore possui equipe de instalação própria e treinada. Isso garante que sua obra em São José dos Pinhais seja executada com perfeição, limpeza e rapidez. Conhecemos as normas dos principais condomínios de SJP e garantimos uma instalação silenciosa e eficiente.`
+      },
+      {
+        title: `Pisos Vinílicos e Laminados Resistentes à Água em SJP`,
+        content: `O clima de São José dos Pinhais exige materiais de alta qualidade. Oferecemos pisos vinílicos 100% à prova d'água e laminados com tecnologia Hydroseal, ideais para resistir à umidade sem estufar ou deformar. Proteja seu investimento com quem entende das particularidades da nossa região.`
+      },
+      {
+        title: `Visita Técnica Gratuita em Toda São José dos Pinhais`,
+        content: `Não tem tempo de vir até nossa loja? Nosso consultor vai até você! Realizamos medição e orçamento sem custo em todos os bairros de SJP, levando as amostras físicas para que você escolha o piso ideal sob a luz do seu próprio ambiente.`
+      },
+      {
+        title: `Rodapés Santa Luzia: O Acabamento de Luxo em SJP`,
+        content: `Para dar o toque final na sua reforma em São José dos Pinhais, trabalhamos com a linha completa de rodapés de poliestireno da Santa Luzia. São materiais anti-mofo, à prova d'água e que não amarelam com o tempo, garantindo um visual sofisticado por décadas.`
+      },
+      {
+        title: `Transforme seu Apartamento ou Casa em SJP`,
+        content: `Seja no Afonso Pena, Centro, Guatupê ou qualquer outro bairro de São José dos Pinhais, a PVS Decore já realizou centenas de obras de sucesso. Nossa experiência local nos permite oferecer soluções personalizadas para cada tipo de imóvel da cidade.`
+      },
+      {
+        title: `Pisos de Alto Tráfego para o Comércio de São José dos Pinhais`,
+        content: `Empresários de SJP contam com a PVS Decore para renovar seus espaços comerciais. Oferecemos pisos de alta resistência (AC4 e AC5) que suportam o fluxo intenso de clientes, com instalação rápida para não interromper seu faturamento.`
+      },
+      {
+        title: `Garantia e Nota Fiscal: Segurança em São José dos Pinhais`,
+        content: `Comprar na PVS Decore é sinônimo de tranquilidade. Emitimos nota fiscal e termo de garantia para todos os serviços em SJP. Somos uma empresa consolidada na cidade, pronta para prestar todo o suporte pós-venda que você precisar.`
+      }
+    ];
+  }
 
   return [
     {
@@ -26,10 +68,6 @@ const generateContent = (locationName: string, type: 'bairro' | 'cidade') => {
     {
       title: `Instalação Profissional em ${local}`,
       content: `Não basta comprar um bom piso, a instalação é 70% do resultado. Nossa equipe técnica atua fortemente ${term}, garantindo nivelamento perfeito, cortes precisos e acabamento de rodapés impecável. Evite dores de cabeça com mão de obra desqualificada; escolha a PVS Decore para sua obra em ${local}.`
-    },
-    {
-      title: `Porcelanatos de Alto Padrão em ${local}`,
-      content: `Além dos amadeirados, somos especialistas em porcelanatos de grandes formatos. Muitos clientes de ${local} optam pelo porcelanato pela sua sofisticação e facilidade de limpeza. Temos um catálogo completo que atende desde áreas de serviço até grandes livings residenciais.`
     },
     {
       title: `Piso Vinílico: O Queridinho de ${local}`,
@@ -52,44 +90,8 @@ const generateContent = (locationName: string, type: 'bairro' | 'cidade') => {
       content: `Sabemos que cada obra é única. Por isso, oferecemos visita técnica gratuita para medição e orçamento ${term}. Nosso consultor leva as amostras até você, permitindo que escolha a cor e textura que melhor combina com a iluminação do seu ambiente em ${local}.`
     },
     {
-      title: `Tendências de Decoração em ${local}`,
-      content: `Acompanhamos as últimas tendências de arquitetura e design de interiores. Os projetos em ${local} têm buscado tons mais naturais e texturas que remetem à madeira rústica ou cimento queimado. Temos todas essas opções à pronta entrega ou sob encomenda.`
-    },
-    {
-      title: `Durabilidade e Garantia`,
-      content: `Trabalhamos apenas com marcas líderes de mercado. Ao instalar seu piso com a PVS Decore em ${local}, você recebe certificado de garantia tanto do produto quanto da mão de obra. É a segurança que você precisa para investir no seu imóvel.`
-    },
-    {
-      title: `Pisos para Cozinhas e Banheiros`,
-      content: `Muitos clientes de ${local} têm dúvida se podem colocar vinílico na cozinha. A resposta é sim! Temos linhas específicas resistentes à umidade que ficam lindas em áreas gourmet e cozinhas. Consulte nossos especialistas sobre as melhores opções para áreas molhadas.`
-    },
-    {
       title: `Rodapés e Acabamentos em ${local}`,
       content: `O detalhe faz toda a diferença. Oferecemos rodapés de poliestireno (Santa Luzia e similares) que são à prova d'água e não mofam. A instalação perfeita dos rodapés é uma marca registrada da PVS Decore nas obras realizadas em ${local}.`
-    },
-    {
-      title: `Soluções Acústicas para Apartamentos`,
-      content: `O silêncio é um luxo. Nossos pisos vinílicos e mantas acústicas para laminados reduzem drasticamente o "toc-toc" dos sapatos, sendo exigência em muitos condomínios de ${local}. Melhore sua qualidade de vida e a relação com os vizinhos.`
-    },
-    {
-      title: `Rapidez na Entrega para ${local}`,
-      content: `Entendemos que obra parada é prejuízo. Nossa logística é otimizada para atender ${local} com agilidade. Mantemos estoque dos modelos mais vendidos para garantir que sua reforma não atrase por falta de material.`
-    },
-    {
-      title: `Pagamento Facilitado`,
-      content: `Investir na sua casa em ${local} ficou mais fácil. Parcelamos sua compra e aceitamos diversas formas de pagamento. O piso dos seus sonhos cabe no seu bolso com as condições especiais da PVS Decore.`
-    },
-    {
-      title: `Sustentabilidade`,
-      content: `Nossos fornecedores possuem certificação ambiental. Ao escolher a PVS Decore para sua obra em ${local}, você está optando por produtos ecologicamente corretos, muitos produzidos com materiais reciclados e recicláveis.`
-    },
-    {
-      title: `Consultoria Especializada`,
-      content: `Não sabe qual piso escolher? Nossa equipe de vendas não apenas tira o pedido, mas presta uma verdadeira consultoria. Analisamos o tráfego, a umidade e o estilo do seu imóvel em ${local} para indicar a solução tecnicamente correta.`
-    },
-    {
-      title: `A Melhor Avaliação da Região`,
-      content: `A satisfação dos nossos clientes em ${local} é nosso maior orgulho. A PVS Decore cresce através da indicação de clientes satisfeitos. Venha fazer parte dessa lista de obras bem sucedidas e transforme seu ambiente hoje mesmo.`
     }
   ];
 };
@@ -113,7 +115,7 @@ const LocationPage = () => {
     <PageTransition>
       <SEO 
         title={`Pisos Vinílicos e Laminados em ${location.name} | PVS Decore`}
-        description={`Venda e instalação de pisos em ${location.name}. Vinílico, Laminado e Porcelanato com o melhor preço e instalação especializada. Orçamento grátis no local!`}
+        description={`Venda e instalação de pisos em ${location.name}. Vinílico e Laminado com o melhor preço e instalação especializada. Orçamento grátis no local!`}
         url={pageUrl}
         location={location.name}
       />
