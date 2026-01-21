@@ -155,6 +155,21 @@ const Home = () => {
         url="/"
       />
 
+      {/* Featured News / Factory Offer */}
+      <section className="bg-brand-orange py-4">
+        <div className="container mx-auto px-4">
+          <Link to="/piso-laminado-direto-da-fabrica-sao-jose-dos-pinhais" className="flex flex-col md:flex-row items-center justify-center gap-4 text-white hover:text-orange-100 transition-colors group">
+            <span className="flex items-center gap-2 font-black text-sm md:text-lg uppercase tracking-wider">
+              <Factory size={24} className="animate-pulse" />
+              Oferta Exclusiva: Piso Laminado Direto da Fábrica em SJP!
+            </span>
+            <span className="flex items-center gap-1 font-bold bg-white text-brand-orange px-4 py-1 rounded-full text-xs group-hover:scale-105 transition-transform">
+              CONFIRA AGORA <ArrowRight size={14} />
+            </span>
+          </Link>
+        </div>
+      </section>
+
       {/* Hero Section */}
       <section className="relative text-white min-h-[650px] lg:min-h-[750px] flex items-center overflow-hidden">
         <HeroBackground />
