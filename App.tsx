@@ -7,6 +7,7 @@ import LocationPage from './pages/LocationPage';
 import GenericPage from './pages/GenericPage';
 import ContactPage from './pages/ContactPage';
 import SitemapPage from './pages/SitemapPage';
+import FactoryPage from './pages/FactoryPage';
 import ScrollToTop from './components/ScrollToTop';
 
 import BrandsProducts from './pages/BrandsProducts';
@@ -19,6 +20,7 @@ function AnimatedRoutes() {
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Home />} />
         <Route path="/nossos-produtos" element={<BrandsProducts />} />
+        <Route path="/piso-laminado-direto-da-fabrica-sao-jose-dos-pinhais" element={<FactoryPage />} />
         <Route path="/bairro/:slug" element={<LocationPage />} />
         <Route path="/cidade/:slug" element={<LocationPage />} />
         
