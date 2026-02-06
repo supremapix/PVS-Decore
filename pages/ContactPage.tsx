@@ -10,10 +10,11 @@ import { CONTACT_EMAIL, CONTACT_DISPLAY, CONTACT_ADDRESS } from '../constants';
 const ContactPage = () => {
   return (
     <PageTransition>
-      <SEO 
-        title="Fale Conosco | PVS Decore - Orçamentos e Localização"
-        description="Entre em contato com a PVS Decore. Solicite seu orçamento de piso vinílico ou laminado. Veja nosso endereço em São José dos Pinhais e mapa de localização."
+      <SEO
+        title="Fale Conosco | PVS Decore - Orcamento Gratis Pisos Curitiba e SJP"
+        description="Entre em contato com a PVS Decore. Solicite orcamento gratuito de piso vinilico ou laminado. Loja em Sao Jose dos Pinhais, atendemos Curitiba e regiao. (41) 3076-6240."
         url="/contato"
+        keywords="contato pvs decore, orcamento pisos curitiba, orcamento pisos sao jose dos pinhais, loja pisos sjp, telefone pvs decore"
       />
 
       {/* Header */}

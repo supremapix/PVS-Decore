@@ -87,10 +87,11 @@ const BrandsProducts = () => {
 
   return (
     <PageTransition>
-      <SEO 
-        title="Nossos Produtos e Marcas | PVS Decore" 
-        description="Conheça as marcas premium que trabalhamos: Eucafloor, Durafloor, Quick-Step e Santa Luzia. Pisos laminados, vinílicos e acabamentos de alta qualidade."
+      <SEO
+        title="Marcas e Produtos | PVS Decore - Eucafloor, Durafloor, Quick-Step, Santa Luzia"
+        description="Revenda oficial Eucafloor, Durafloor, Quick-Step e Santa Luzia em Curitiba e SJP. Pisos laminados, vinilicos, SPC e rodapes. Catalogos digitais e orcamento gratis."
         url="/nossos-produtos"
+        keywords="eucafloor curitiba, durafloor curitiba, quick-step curitiba, santa luzia rodape, pisos laminados marcas, pisos vinilicos marcas, catalogo pisos"
       />
 
       {/* Section 1: Hero */}

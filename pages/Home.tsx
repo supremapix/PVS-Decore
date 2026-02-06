@@ -149,10 +149,11 @@ const Home = () => {
 
   return (
     <PageTransition>
-      <SEO 
-        title="PVS Decore - Pisos Vinílicos e Laminados em Curitiba e SJP | Revenda Oficial" 
-        description="O Piso dos Seus Sonhos Instalado em até 48h. Especialistas em pisos vinílicos e laminados das marcas Quick-Step, Durafloor e Eucafloor em Curitiba e SJP."
+      <SEO
+        title="PVS Decore - Pisos Laminados e Vinilicos em Curitiba e SJP | Revenda Oficial Eucafloor, Durafloor, Quick-Step"
+        description="Especialistas em pisos laminados e vinilicos em Curitiba e Sao Jose dos Pinhais. Instalacao em ate 48h com mao de obra propria. Revenda Eucafloor, Durafloor, Quick-Step e Santa Luzia. Orcamento gratis!"
         url="/"
+        keywords="pisos laminados curitiba, pisos vinilicos curitiba, piso laminado sao jose dos pinhais, piso vinilico sjp, instalacao pisos, eucafloor, durafloor, quick-step, rodape santa luzia, pvs decore"
       />
 
       {/* Featured News / Factory Offer */}

@@ -113,11 +113,12 @@ const LocationPage = () => {
 
   return (
     <PageTransition>
-      <SEO 
-        title={`Pisos Vinílicos e Laminados em ${location.name} | PVS Decore`}
-        description={`Venda e instalação de pisos em ${location.name}. Vinílico e Laminado com o melhor preço e instalação especializada. Orçamento grátis no local!`}
+      <SEO
+        title={`Pisos Vinilicos e Laminados em ${location.name} | PVS Decore - Venda e Instalacao`}
+        description={`Venda e instalacao de pisos vinilicos e laminados em ${location.name}. Revenda oficial Eucafloor, Durafloor e Quick-Step. Mao de obra propria, garantia e orcamento gratis no local!`}
         url={pageUrl}
         location={location.name}
+        keywords={`pisos ${location.name.toLowerCase()}, piso vinilico ${location.name.toLowerCase()}, piso laminado ${location.name.toLowerCase()}, instalacao pisos ${location.name.toLowerCase()}, rodape ${location.name.toLowerCase()}, revestimento ${location.name.toLowerCase()}`}
       />
 
       <div className="bg-white">

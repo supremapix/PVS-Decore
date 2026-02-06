@@ -8,10 +8,12 @@ import { Factory, ShieldCheck, Truck, MessageCircle, ArrowRight, Star, Clock, Ma
 const FactoryPage = () => {
   return (
     <PageTransition>
-      <SEO 
-        title="Piso Laminado Direto da Fábrica em São José dos Pinhais | PVS Decore"
-        description="Ofertas exclusivas de Piso Laminado direto da fábrica em São José dos Pinhais. Preço imbatível, estoque local e instalação profissional em 48h. Confira!"
+      <SEO
+        title="Piso Laminado Direto da Fabrica em Sao Jose dos Pinhais | PVS Decore"
+        description="Ofertas exclusivas de Piso Laminado direto da fabrica em Sao Jose dos Pinhais. Eucafloor e Durafloor com preco de atacado, estoque local e instalacao profissional em 48h."
         url="/piso-laminado-direto-da-fabrica-sao-jose-dos-pinhais"
+        type="product"
+        keywords="piso laminado direto da fabrica, piso laminado sjp, piso laminado barato sao jose dos pinhais, eucafloor sjp, durafloor sjp, piso laminado atacado curitiba"
       />
 
       <div className="bg-white">

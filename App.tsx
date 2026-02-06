@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import Layout from './components/Layout';
 import Home from './pages/Home';
@@ -43,12 +43,12 @@ function AnimatedRoutes() {
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <ScrollToTop />
       <Layout>
         <AnimatedRoutes />
       </Layout>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 

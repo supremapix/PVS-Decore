@@ -25,11 +25,12 @@ const GenericPage = () => {
 
   return (
     <PageTransition>
-      <SEO 
-        title={`${data.title} | PVS Decore`}
+      <SEO
+        title={`${data.title} | PVS Decore - Curitiba e Sao Jose dos Pinhais`}
         description={persuasiveDescription}
         url={pageUrl}
         type={data.type}
+        keywords={`${data.title.toLowerCase()}, ${data.title.toLowerCase()} curitiba, ${data.title.toLowerCase()} sao jose dos pinhais, pvs decore`}
       />
 
       <div className="bg-white min-h-screen">

@@ -25,9 +25,9 @@ const SitemapPage = () => {
 
   return (
     <PageTransition>
-      <SEO 
-        title="Mapa do Site | PVS Decore" 
-        description="Navegue por todas as páginas do site da PVS Decore. Encontre produtos, serviços e todas as cidades e bairros atendidos em Curitiba e Região."
+      <SEO
+        title="Mapa do Site | PVS Decore - Todas as Paginas"
+        description="Navegue por todas as paginas do site da PVS Decore. Encontre produtos, servicos e todas as cidades e bairros atendidos em Curitiba e Regiao Metropolitana."
         url="/mapa-do-site"
       />
 
