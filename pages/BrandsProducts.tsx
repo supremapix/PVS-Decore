@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Filter, Grid, CheckCircle2, Download, ExternalLink, X, MessageCircle, FileText, Smartphone, Tablet, Monitor } from 'lucide-react';
-import SEO from '../components/SEO';
+import EnhancedSEO from '../components/EnhancedSEO';
 import PageTransition from '../components/PageTransition';
 import { CONTACT_PHONE } from '../constants';
 
@@ -87,7 +87,7 @@ const BrandsProducts = () => {
 
   return (
     <PageTransition>
-      <SEO
+      <EnhancedSEO
         title="Marcas e Produtos | PVS Decore - Eucafloor, Durafloor, Quick-Step, Santa Luzia"
         description="Revenda oficial Eucafloor, Durafloor, Quick-Step e Santa Luzia em Curitiba e SJP. Pisos laminados, vinilicos, SPC e rodapes. Catalogos digitais e orcamento gratis."
         url="/nossos-produtos"

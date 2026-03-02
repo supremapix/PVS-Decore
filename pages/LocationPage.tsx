@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import { useParams, Navigate, Link } from 'react-router-dom';
 import { LOCATIONS, CONTACT_DISPLAY } from '../constants';
-import SEO from '../components/SEO';
+import EnhancedSEO from '../components/EnhancedSEO';
 import LeadForm from '../components/LeadForm';
 import PageTransition from '../components/PageTransition';
 import { CheckCircle2, MapPin, Star, Phone } from 'lucide-react';
@@ -113,12 +113,17 @@ const LocationPage = () => {
 
   return (
     <PageTransition>
-      <SEO
+      <EnhancedSEO
         title={`Pisos Vinilicos e Laminados em ${location.name} | PVS Decore - Venda e Instalacao`}
         description={`Venda e instalacao de pisos vinilicos e laminados em ${location.name}. Revenda oficial Eucafloor, Durafloor e Quick-Step. Mao de obra propria, garantia e orcamento gratis no local!`}
         url={pageUrl}
+        type="localbusiness"
         location={location.name}
         keywords={`pisos ${location.name.toLowerCase()}, piso vinilico ${location.name.toLowerCase()}, piso laminado ${location.name.toLowerCase()}, instalacao pisos ${location.name.toLowerCase()}, rodape ${location.name.toLowerCase()}, revestimento ${location.name.toLowerCase()}`}
+        breadcrumbs={[
+          { name: location.type === 'bairro' ? 'Bairros' : 'Cidades', url: `/${location.type}` },
+          { name: location.name, url: pageUrl }
+        ]}
       />
 
       <div className="bg-white">

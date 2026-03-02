@@ -1,5 +1,5 @@
 import React from 'react';
-import SEO from '../components/SEO';
+import EnhancedSEO from '../components/EnhancedSEO';
 import PageTransition from '../components/PageTransition';
 import MapSection from '../components/MapSection';
 import LeadForm from '../components/LeadForm';
@@ -10,7 +10,7 @@ import { CONTACT_EMAIL, CONTACT_DISPLAY, CONTACT_ADDRESS } from '../constants';
 const ContactPage = () => {
   return (
     <PageTransition>
-      <SEO
+      <EnhancedSEO
         title="Fale Conosco | PVS Decore - Orcamento Gratis Pisos Curitiba e SJP"
         description="Entre em contato com a PVS Decore. Solicite orcamento gratuito de piso vinilico ou laminado. Loja em Sao Jose dos Pinhais, atendemos Curitiba e regiao. (41) 3076-6240."
         url="/contato"

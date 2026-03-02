@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { LOCATIONS, PAGE_CONTENT } from '../constants';
-import SEO from '../components/SEO';
+import EnhancedSEO from '../components/EnhancedSEO';
 import PageTransition from '../components/PageTransition';
 import { Map, FileText, MapPin, Package, Hammer, ChevronRight } from 'lucide-react';
 
@@ -25,7 +25,7 @@ const SitemapPage = () => {
 
   return (
     <PageTransition>
-      <SEO
+      <EnhancedSEO
         title="Mapa do Site | PVS Decore - Todas as Paginas"
         description="Navegue por todas as paginas do site da PVS Decore. Encontre produtos, servicos e todas as cidades e bairros atendidos em Curitiba e Regiao Metropolitana."
         url="/mapa-do-site"

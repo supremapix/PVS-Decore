@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ShieldCheck, Clock, Award, ChevronRight, CheckCircle2, Star, Quote, MapPin, Tag, ThumbsUp, Zap, BadgeCheck, MessageCircle, ArrowRight, Dog, Baby, Building2, Droplets, Lightbulb, Sparkles, ChevronLeft, Info, ArrowUpRight, Coins, Check, Factory } from 'lucide-react';
 import { SERVICES, CONTACT_PHONE } from '../constants';
-import SEO from '../components/SEO';
+import EnhancedSEO from '../components/EnhancedSEO';
 import PageTransition from '../components/PageTransition';
 import HeroBackground from '../components/HeroBackground';
 import ServiceContactWidget from '../components/ServiceContactWidget';
@@ -149,10 +149,11 @@ const Home = () => {
 
   return (
     <PageTransition>
-      <SEO
+      <EnhancedSEO
         title="PVS Decore - Pisos Laminados e Vinilicos em Curitiba e SJP | Revenda Oficial Eucafloor, Durafloor, Quick-Step"
         description="Especialistas em pisos laminados e vinilicos em Curitiba e Sao Jose dos Pinhais. Instalacao em ate 48h com mao de obra propria. Revenda Eucafloor, Durafloor, Quick-Step e Santa Luzia. Orcamento gratis!"
         url="/"
+        type="website"
         keywords="pisos laminados curitiba, pisos vinilicos curitiba, piso laminado sao jose dos pinhais, piso vinilico sjp, instalacao pisos, eucafloor, durafloor, quick-step, rodape santa luzia, pvs decore"
       />
 

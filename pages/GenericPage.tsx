@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams, Navigate, Link } from 'react-router-dom';
 import { PAGE_CONTENT } from '../constants';
-import SEO from '../components/SEO';
+import EnhancedSEO from '../components/EnhancedSEO';
 import LeadForm from '../components/LeadForm';
 import PageTransition from '../components/PageTransition';
 import { CheckCircle2, Star, ArrowRight, MapPin } from 'lucide-react';
@@ -25,7 +25,7 @@ const GenericPage = () => {
 
   return (
     <PageTransition>
-      <SEO
+      <EnhancedSEO
         title={`${data.title} | PVS Decore - Curitiba e Sao Jose dos Pinhais`}
         description={persuasiveDescription}
         url={pageUrl}

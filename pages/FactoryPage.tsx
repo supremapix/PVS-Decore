@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { CONTACT_PHONE, CONTACT_DISPLAY } from '../constants';
-import SEO from '../components/SEO';
+import EnhancedSEO from '../components/EnhancedSEO';
 import PageTransition from '../components/PageTransition';
 import { Factory, ShieldCheck, Truck, MessageCircle, ArrowRight, Star, Clock, MapPin } from 'lucide-react';
 
 const FactoryPage = () => {
   return (
     <PageTransition>
-      <SEO
+      <EnhancedSEO
         title="Piso Laminado Direto da Fabrica em Sao Jose dos Pinhais | PVS Decore"
         description="Ofertas exclusivas de Piso Laminado direto da fabrica em Sao Jose dos Pinhais. Eucafloor e Durafloor com preco de atacado, estoque local e instalacao profissional em 48h."
         url="/piso-laminado-direto-da-fabrica-sao-jose-dos-pinhais"
