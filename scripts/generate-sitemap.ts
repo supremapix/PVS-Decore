@@ -7,6 +7,8 @@ function generateSitemap() {
   const urls: string[] = [
     { loc: '/', priority: '1.0', changefreq: 'daily' },
     { loc: '/nossos-produtos', priority: '0.9', changefreq: 'weekly' },
+    { loc: '/faq', priority: '0.9', changefreq: 'weekly' },
+    { loc: '/perguntas-frequentes', priority: '0.8', changefreq: 'weekly' },
     { loc: '/contato', priority: '0.8', changefreq: 'monthly' },
     { loc: '/mapa-do-site', priority: '0.7', changefreq: 'monthly' },
     { loc: '/piso-laminado-direto-da-fabrica-sao-jose-dos-pinhais', priority: '0.9', changefreq: 'weekly' },

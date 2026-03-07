@@ -8,6 +8,7 @@ import GenericPage from './pages/GenericPage';
 import ContactPage from './pages/ContactPage';
 import SitemapPage from './pages/SitemapPage';
 import FactoryPage from './pages/FactoryPage';
+import FAQPage from './pages/FAQPage';
 import ScrollToTop from './components/ScrollToTop';
 
 import BrandsProducts from './pages/BrandsProducts';
@@ -30,6 +31,10 @@ function AnimatedRoutes() {
         
         {/* Contact Page */}
         <Route path="/contato" element={<ContactPage />} />
+
+        {/* FAQ Page */}
+        <Route path="/faq" element={<FAQPage />} />
+        <Route path="/perguntas-frequentes" element={<FAQPage />} />
 
         {/* Sitemap Page */}
         <Route path="/mapa-do-site" element={<SitemapPage />} />

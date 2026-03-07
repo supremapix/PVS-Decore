@@ -6,10 +6,12 @@ import App from './App';
 const rootElement = document.getElementById('root');
 if (!rootElement) throw new Error('Failed to find the root element');
 
+const helmetContext = {};
+
 const root = ReactDOM.createRoot(rootElement);
 root.render(
   <React.StrictMode>
-    <HelmetProvider>
+    <HelmetProvider context={helmetContext}>
       <App />
     </HelmetProvider>
   </React.StrictMode>

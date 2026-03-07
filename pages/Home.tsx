@@ -652,6 +652,73 @@ const Home = () => {
           </div>
       </section>
 
+      {/* FAQ Preview Section */}
+      <section className="relative py-20 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white overflow-hidden">
+        <div className="absolute inset-0 opacity-5 pointer-events-none"
+          style={{
+            backgroundImage: 'repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(201,168,76,0.1) 35px, rgba(201,168,76,0.1) 70px)'
+          }}
+        />
+
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="text-center mb-12">
+            <div className="inline-block bg-gradient-to-r from-yellow-600 to-yellow-500 px-6 py-2 rounded-full text-sm font-black uppercase tracking-widest mb-6">
+              Central de Dúvidas
+            </div>
+
+            <div className="mb-6">
+              <div className="text-6xl md:text-8xl font-black bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-400 bg-clip-text text-transparent inline-block">
+                200+
+              </div>
+              <p className="text-gray-400 uppercase tracking-widest text-sm mt-2">Perguntas Respondidas</p>
+            </div>
+
+            <h2 className="text-3xl md:text-5xl font-black mb-6 leading-tight">
+              Encontre a <span className="bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent">resposta</span> que você precisa
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6 mb-12">
+            <Link
+              to="/faq#vinilico"
+              className="group relative bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-8 hover:bg-white/10 hover:border-yellow-500/50 transition-all duration-300 hover:transform hover:-translate-y-2"
+            >
+              <div className="text-5xl mb-4">🏠</div>
+              <h3 className="text-xl font-bold mb-2">Pisos Vinílicos</h3>
+              <p className="text-yellow-500 text-sm font-semibold">70 perguntas</p>
+            </Link>
+
+            <Link
+              to="/faq#spc"
+              className="group relative bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-8 hover:bg-white/10 hover:border-yellow-500/50 transition-all duration-300 hover:transform hover:-translate-y-2"
+            >
+              <div className="text-5xl mb-4">💧</div>
+              <h3 className="text-xl font-bold mb-2">Pisos SPC</h3>
+              <p className="text-yellow-500 text-sm font-semibold">50 perguntas</p>
+            </Link>
+
+            <Link
+              to="/faq#laminado"
+              className="group relative bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-8 hover:bg-white/10 hover:border-yellow-500/50 transition-all duration-300 hover:transform hover:-translate-y-2"
+            >
+              <div className="text-5xl mb-4">🌲</div>
+              <h3 className="text-xl font-bold mb-2">Pisos Laminados</h3>
+              <p className="text-yellow-500 text-sm font-semibold">50 perguntas</p>
+            </Link>
+          </div>
+
+          <div className="text-center">
+            <Link
+              to="/faq"
+              className="inline-flex items-center gap-3 bg-gradient-to-r from-yellow-600 to-yellow-500 hover:from-yellow-500 hover:to-yellow-400 text-gray-900 font-bold px-10 py-5 rounded-full text-lg transition-all transform hover:scale-105 shadow-lg hover:shadow-2xl"
+            >
+              Ver todas as 200+ perguntas
+              <ArrowRight size={24} />
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* NEW: Map Section */}
       <MapSection />
 

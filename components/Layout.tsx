@@ -138,8 +138,16 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 </div>
               </div>
 
-              <Link 
-                to="/contato" 
+              <Link
+                to="/faq"
+                className="hover:text-brand-orange transition-colors uppercase tracking-wide relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-brand-orange after:left-0 after:-bottom-1 after:transition-all hover:after:w-full flex items-center gap-1"
+              >
+                FAQ
+                <span className="text-xs bg-yellow-500 text-gray-900 px-2 py-0.5 rounded-full font-black">200+</span>
+              </Link>
+
+              <Link
+                to="/contato"
                 className="hover:text-brand-orange transition-colors uppercase tracking-wide relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-brand-orange after:left-0 after:-bottom-1 after:transition-all hover:after:w-full"
               >
                 Contato
@@ -184,8 +192,13 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                   </div>
                 </div>
 
+                <Link to="/faq" className="font-medium text-lg text-gray-800 border-b pb-2 flex items-center gap-2" onClick={() => setIsMenuOpen(false)}>
+                  FAQ
+                  <span className="text-xs bg-yellow-500 text-gray-900 px-2 py-0.5 rounded-full font-black">200+</span>
+                </Link>
+
                 <Link to="/contato" className="font-medium text-lg text-gray-800 border-b pb-2" onClick={() => setIsMenuOpen(false)}>Contato</Link>
-                
+
                 <button 
                   onClick={handleWhatsApp}
                   className="bg-green-500 text-white w-full py-3 rounded-lg font-bold flex justify-center items-center gap-2 shadow-md"
@@ -262,11 +275,12 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             </div>
 
             <div>
-              <h3 className="text-white font-bold mb-4 uppercase text-sm tracking-wider border-b border-gray-700 pb-2 inline-block">Serviços</h3>
+              <h3 className="text-white font-bold mb-4 uppercase text-sm tracking-wider border-b border-gray-700 pb-2 inline-block">Links Úteis</h3>
               <ul className="space-y-3 text-sm">
                 <li><Link to="/service/instalacao-residencial" className="hover:text-brand-orange transition-colors flex items-center gap-2"><ChevronRight size={14} className="text-brand-orange"/> Instalação Residencial</Link></li>
                 <li><Link to="/service/instalacao-comercial" className="hover:text-brand-orange transition-colors flex items-center gap-2"><ChevronRight size={14} className="text-brand-orange"/> Instalação Comercial</Link></li>
-                <li><Link to="/service/manutencao" className="hover:text-brand-orange transition-colors flex items-center gap-2"><ChevronRight size={14} className="text-brand-orange"/> Manutenção</Link></li>
+                <li><Link to="/faq" className="hover:text-brand-orange transition-colors flex items-center gap-2"><ChevronRight size={14} className="text-brand-orange"/> Central de Dúvidas (FAQ)</Link></li>
+                <li><Link to="/contato" className="hover:text-brand-orange transition-colors flex items-center gap-2"><ChevronRight size={14} className="text-brand-orange"/> Contato</Link></li>
               </ul>
             </div>
 
