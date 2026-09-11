@@ -4,6 +4,7 @@ import { CONTACT_PHONE, CONTACT_DISPLAY } from '../constants';
 import EnhancedSEO from '../components/EnhancedSEO';
 import PageTransition from '../components/PageTransition';
 import { Factory, ShieldCheck, Truck, MessageCircle, ArrowRight, Star, Clock, MapPin } from 'lucide-react';
+import VideoShowcase from '../components/VideoShowcase';
 
 const FactoryPage = () => {
   return (
@@ -43,6 +44,13 @@ const FactoryPage = () => {
             </div>
           </div>
         </section>
+
+        {/* Video Showcase */}
+        <VideoShowcase
+          videoId="G221FX8O7Ao"
+          title="Piso Direto da Fábrica: Veja na Prática"
+          description="Assista e descubra como a PVS Decore traz qualidade de fábrica direto para sua obra em São José dos Pinhais, com economia real e instalação profissional."
+        />
 
         {/* Features */}
         <section className="py-16 bg-gray-50 border-b border-gray-100">

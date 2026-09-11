@@ -7,6 +7,7 @@ import PageTransition from '../components/PageTransition';
 import { CheckCircle2, MapPin, Star, Phone } from 'lucide-react';
 import ImageGallery from '../components/ImageGallery';
 import ShareButtons from '../components/ShareButtons';
+import VideoShowcase from '../components/VideoShowcase';
 
 // Helper to generate unique SEO content based on location name
 const generateContent = (locationName: string, type: 'bairro' | 'cidade') => {
@@ -104,6 +105,8 @@ const LocationPage = () => {
     if (!location) return [];
     return generateContent(location.name, location.type);
   }, [location]);
+
+  const isSJP = location.name.toLowerCase().includes('são josé dos pinhais');
 
   if (!location) {
     return <Navigate to="/" replace />;
@@ -223,6 +226,15 @@ const LocationPage = () => {
 
           </div>
         </div>
+
+        {/* Video Showcase - only for São José dos Pinhais */}
+        {isSJP && (
+          <VideoShowcase
+            videoId="G221FX8O7Ao"
+            title={`PVS Decore em ${location.name}`}
+            description={`Veja de perto o nosso trabalho e a qualidade dos pisos que entregamos em ${location.name}. Conteúdo exclusivo para você conhecer nossa equipe e materiais.`}
+          />
+        )}
 
         {/* Gallery at bottom */}
         <ImageGallery />
