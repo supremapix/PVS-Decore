@@ -64,7 +64,7 @@ const ServiceContactWidget = () => {
          <div className="flex flex-wrap justify-center gap-x-3 gap-y-1 text-[10px] sm:text-xs text-gray-600 font-medium">
              <span className="flex items-center gap-1"><Check size={12} className="text-green-500" /> Entrega rápida</span>
              <span className="flex items-center gap-1"><Check size={12} className="text-green-500" /> Mão de obra especializada</span>
-             <span className="flex items-center gap-1"><Check size={12} className="text-green-500" /> Garantia de 10 anos</span>
+             <span className="flex items-center gap-1"><Check size={12} className="text-green-500" /> Consulte condições do serviço</span>
          </div>
          <button 
              onClick={() => window.open(`https://wa.me/${CONTACT_PHONE}?text=Olá, vi os serviços no site e gostaria de um orçamento.`, '_blank')}

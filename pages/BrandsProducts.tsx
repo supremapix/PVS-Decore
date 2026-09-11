@@ -1,3 +1,4 @@
+import RelatedLinks from '../components/RelatedLinks';
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Filter, Grid, CheckCircle2, Download, ExternalLink, X, MessageCircle, FileText, Smartphone, Tablet, Monitor } from 'lucide-react';
@@ -9,9 +10,9 @@ const BRANDS = [
   {
     id: 'eucafloor',
     name: 'Eucafloor',
-    description: 'Líder em pisos laminados de alta qualidade',
+    description: 'Pisos laminados e vinílicos',
     types: ['Laminados', 'Vinílicos'],
-    highlights: ['Tecnologia alemã', 'Garantia estendida', '15+ anos no mercado'],
+    highlights: ['Pisos laminados', 'Pisos vinílicos', 'Consulte as linhas'],
     siteUrl: 'https://www.eucatex.com.br/',
     catalogUrl: 'https://www.eucatex.com.br/pisos/catalogo'
   },
@@ -87,9 +88,10 @@ const BrandsProducts = () => {
 
   return (
     <PageTransition>
+      <div className="container mx-auto px-4"><RelatedLinks /></div>
       <EnhancedSEO
         title="Marcas e Produtos | PVS Decore - Eucafloor, Durafloor, Quick-Step, Santa Luzia"
-        description="Revenda oficial Eucafloor, Durafloor, Quick-Step e Santa Luzia em Curitiba e SJP. Pisos laminados, vinilicos, SPC e rodapes. Catalogos digitais e orcamento gratis."
+        description="Produtos de marcas Eucafloor, Durafloor, Quick-Step e Santa Luzia em Curitiba e SJP. Pisos laminados, vinilicos, SPC e rodapes. Catalogos digitais e orcamento gratis."
         url="/nossos-produtos"
         keywords="eucafloor curitiba, durafloor curitiba, quick-step curitiba, santa luzia rodape, pisos laminados marcas, pisos vinilicos marcas, catalogo pisos"
       />
@@ -98,14 +100,14 @@ const BrandsProducts = () => {
       <section className="bg-brand-dark py-16 text-white text-center border-b-4 border-brand-orange">
         <div className="container mx-auto px-4">
           <motion.h1 
-            initial={{ opacity: 0, y: -20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="text-3xl md:text-5xl font-black mb-4"
           >
             Trabalhamos com as Melhores Marcas
           </motion.h1>
           <motion.p 
-            initial={{ opacity: 0, y: 20 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
             className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto font-light"
@@ -154,7 +156,7 @@ const BrandsProducts = () => {
                   layout
                   id={brand.id}
                   key={brand.id}
-                  initial={{ opacity: 0, scale: 0.9 }}
+                  initial={false}
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0, scale: 0.9 }}
                   className="bg-white rounded-3xl overflow-hidden shadow-lg border border-gray-100 group hover:-translate-y-1 hover:shadow-2xl transition-all duration-300"
@@ -219,14 +221,14 @@ const BrandsProducts = () => {
       <AnimatePresence>
         {selectedCatalog && (
           <motion.div
-            initial={{ opacity: 0 }}
+            initial={false}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm"
             onClick={() => setSelectedCatalog(null)}
           >
             <motion.div
-              initial={{ scale: 0.9, opacity: 0, y: 20 }}
+              initial={false}
               animate={{ scale: 1, opacity: 1, y: 0 }}
               exit={{ scale: 0.9, opacity: 0, y: 20 }}
               className="bg-white w-full max-w-6xl h-[95vh] rounded-3xl overflow-hidden flex flex-col relative shadow-2xl"
@@ -282,7 +284,7 @@ const BrandsProducts = () => {
                 <CheckCircle2 size={32} />
               </div>
               <h3 className="text-xl font-bold mb-2 text-brand-dark">🏆 Qualidade Garantida</h3>
-              <p className="text-gray-500">Produtos certificados das melhores marcas do mercado</p>
+              <p className="text-gray-500">Consulte os modelos e as fichas técnicas dos fabricantes</p>
             </div>
             <div className="bg-white p-8 rounded-3xl shadow-md border border-gray-100 text-center hover:shadow-xl transition-shadow">
               <div className="w-16 h-16 bg-green-50 text-green-600 rounded-2xl flex items-center justify-center mx-auto mb-6">

@@ -77,7 +77,7 @@ const ContactPage = () => {
                                    <MapPin size={20} />
                                 </div>
                                 <div>
-                                   <span className="block text-xs font-bold uppercase text-gray-400">Sede Própria</span>
+                                   <span className="block text-xs font-bold uppercase text-gray-400">Sede física</span>
                                    <span className="font-bold text-sm text-gray-900 leading-tight">{CONTACT_ADDRESS}</span>
                                 </div>
                              </li>

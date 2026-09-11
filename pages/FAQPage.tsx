@@ -1,3 +1,4 @@
+import RelatedLinks from '../components/RelatedLinks';
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Search, ChevronDown, ChevronUp, ArrowUp, Share2, Copy, Check } from 'lucide-react';
@@ -28,47 +29,12 @@ const FAQPage = () => {
       setActiveCategory(hash);
       setTimeout(() => {
         const element = document.getElementById(hash);
+        const detail = element?.closest('details');
+        if (detail) detail.open = true;
         element?.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }, 100);
     }
   }, []);
-
-  useEffect(() => {
-    let count = 0;
-    const duration = 2000;
-    const target = getTotalQuestions();
-    const increment = target / (duration / 16);
-    const timer = setInterval(() => {
-      count += increment;
-      if (count >= target) {
-        setQuestionCount(target);
-        clearInterval(timer);
-      } else {
-        setQuestionCount(Math.floor(count));
-      }
-    }, 16);
-    return () => clearInterval(timer);
-  }, []);
-
-  const toggleQuestion = (categoryId: string, questionIndex: number) => {
-    const key = `${categoryId}-${questionIndex}`;
-    setOpenQuestions(prev => {
-      const newSet = new Set(prev);
-      if (newSet.has(key)) {
-        newSet.delete(key);
-      } else {
-        newSet.add(key);
-      }
-      return newSet;
-    });
-  };
-
-  const copyLink = (categoryId: string, questionIndex: number) => {
-    const link = `${window.location.origin}/faq#${categoryId}-q${questionIndex}`;
-    navigator.clipboard.writeText(link);
-    setCopiedLink(`${categoryId}-${questionIndex}`);
-    setTimeout(() => setCopiedLink(''), 2000);
-  };
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -83,7 +49,7 @@ const FAQPage = () => {
   })).filter(cat => cat.questions.length > 0);
 
   const generateFAQSchema = () => {
-    const allQuestions = FAQ_CATEGORIES.flatMap(cat =>
+    const allQuestions = filteredCategories.flatMap(cat =>
       cat.questions.map(q => ({
         "@type": "Question",
         "name": q.question,
@@ -104,8 +70,8 @@ const FAQPage = () => {
   return (
     <PageTransition>
       <EnhancedSEO
-        title="FAQ Completo — 200+ Perguntas sobre Pisos Vinílicos, Laminados e SPC | PVS Decore"
-        description="Central de dúvidas completa com mais de 200 perguntas e respostas sobre pisos vinílicos, laminados, SPC, instalação, manutenção, preços e muito mais. PVS Decore Curitiba."
+        title="Dúvidas sobre pisos e instalação | PVS Decore"
+        description="Perguntas e respostas sobre pisos vinílicos, laminados, SPC, instalação, manutenção, preços e muito mais. PVS Decore Curitiba."
         url="/faq"
         type="website"
         keywords="faq pisos vinilicos, perguntas pisos laminados, duvidas piso spc, como instalar piso vinilico, manutencao piso laminado, preco piso vinilico curitiba"
@@ -128,7 +94,7 @@ const FAQPage = () => {
 
             <div className="mb-6">
               <div className="text-7xl md:text-9xl font-black bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-400 bg-clip-text text-transparent inline-block">
-                {questionCount}+
+                {getTotalQuestions()}
               </div>
               <p className="text-gray-400 uppercase tracking-widest text-sm mt-2">Perguntas Respondidas</p>
             </div>
@@ -146,7 +112,7 @@ const FAQPage = () => {
               <Search className="absolute left-6 top-1/2 transform -translate-y-1/2 text-gray-400" size={24} />
               <input
                 type="text"
-                placeholder="Digite sua dúvida sobre pisos..."
+                aria-label="Buscar dúvidas sobre pisos" placeholder="Digite sua dúvida sobre pisos..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 className="w-full pl-16 pr-6 py-5 rounded-full bg-white/10 backdrop-blur-lg border border-yellow-500/30 text-white placeholder-gray-400 text-lg focus:outline-none focus:border-yellow-500 transition-all"
@@ -189,53 +155,14 @@ const FAQPage = () => {
                 </div>
 
                 <div className="space-y-4">
-                  {category.questions.map((faq, idx) => {
-                    const key = `${category.id}-${idx}`;
-                    const isOpen = openQuestions.has(key);
-                    const isCopied = copiedLink === key;
-
-                    return (
-                      <div
-                        key={idx}
-                        id={`${category.id}-q${idx}`}
-                        className="bg-white/5 backdrop-blur-lg border border-white/10 rounded-xl overflow-hidden hover:border-yellow-500/30 transition-all"
-                      >
-                        <button
-                          onClick={() => toggleQuestion(category.id, idx)}
-                          className="w-full px-6 py-5 flex items-center justify-between text-left hover:bg-white/5 transition-colors"
-                        >
-                          <span className="font-semibold text-lg pr-4">{faq.question}</span>
-                          <div className="flex items-center gap-2 flex-shrink-0">
-                            <button
-                              onClick={(e) => {
-                                e.stopPropagation();
-                                copyLink(category.id, idx);
-                              }}
-                              className="p-2 hover:bg-yellow-500/20 rounded-lg transition-colors"
-                              title="Copiar link"
-                            >
-                              {isCopied ? (
-                                <Check size={18} className="text-green-400" />
-                              ) : (
-                                <Copy size={18} className="text-gray-400" />
-                              )}
-                            </button>
-                            {isOpen ? (
-                              <ChevronUp className="text-yellow-500" size={24} />
-                            ) : (
-                              <ChevronDown className="text-gray-400" size={24} />
-                            )}
-                          </div>
-                        </button>
-
-                        {isOpen && (
-                          <div className="px-6 pb-6 text-gray-300 leading-relaxed border-t border-white/10 pt-4">
-                            {faq.answer}
-                          </div>
-                        )}
-                      </div>
-                    );
-                  })}
+                  {category.questions.map(faq => (
+                    <details key={faq.id} id={faq.id} className="bg-white/5 border border-white/10 rounded-xl p-5 scroll-mt-28">
+                      {faq.aliases?.map(id => <span key={id} id={id} />)}
+                      <summary className="font-semibold text-lg cursor-pointer">{faq.question}</summary>
+                      <p className="pt-4 text-gray-300">{faq.answer}</p>
+                      <Link className="inline-block py-3 text-yellow-500 underline" to={category.id === 'rodapes' ? '/product/rodape-poliestireno' : category.id === 'instalacao' ? '/service/instalacao-residencial' : category.id === 'manutencao' ? '/service/manutencao' : faq.product === 'laminado' ? '/product/piso-laminado' : '/product/piso-vinilico'}>Ver produto ou serviço relacionado</Link>
+                    </details>
+                  ))}
                 </div>
               </div>
             ))}
@@ -257,6 +184,8 @@ const FAQPage = () => {
             </div>
           )}
 
+          <RelatedLinks />
+          <p className="text-sm text-gray-400">Orientações dos fabricantes: <a className="underline" href="https://tarkett.com.br/faq">Tarkett</a> e <a className="underline" href="https://www.quick-step.com.br/pt-br/pisos-laminados/laminados-resistentes-a-agua">Quick-Step</a>.</p>
           <div className="mt-20 text-center bg-gradient-to-r from-yellow-600/20 to-yellow-500/20 backdrop-blur-lg border border-yellow-500/30 rounded-2xl p-12">
             <h3 className="text-3xl font-black mb-4">Não encontrou sua dúvida?</h3>
             <p className="text-gray-300 mb-8 text-lg">
@@ -276,15 +205,7 @@ const FAQPage = () => {
           </div>
         </div>
 
-        {showScrollTop && (
-          <button
-            onClick={scrollToTop}
-            className="fixed bottom-8 right-8 bg-gradient-to-r from-yellow-600 to-yellow-500 hover:from-yellow-500 hover:to-yellow-400 text-gray-900 p-4 rounded-full shadow-2xl transition-all transform hover:scale-110 z-50"
-            aria-label="Voltar ao topo"
-          >
-            <ArrowUp size={24} />
-          </button>
-        )}
+
       </div>
     </PageTransition>
   );

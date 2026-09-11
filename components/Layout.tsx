@@ -58,7 +58,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       {/* Smart Header Container */}
       <motion.div
         className="fixed top-0 left-0 right-0 z-50 flex flex-col shadow-md"
-        animate={{ y: isHeaderVisible ? 0 : '-100%' }}
+        animate={{ y: (isHeaderVisible || isMenuOpen) ? 0 : '-100%' }}
         transition={{ duration: 0.3, ease: 'easeInOut' }}
       >
         {/* Top Bar */}
@@ -66,7 +66,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
             <span className="hidden sm:flex items-center gap-2">
                <MapPin size={14} className="text-brand-orange" /> 
-               <span>Sede em São José dos Pinhais - Atendemos num raio de 30km</span>
+               <span>Sede em São José dos Pinhais • Curitiba e região</span>
             </span>
             <div className="flex gap-4 justify-center sm:justify-end w-full sm:w-auto">
               <a href={`mailto:${CONTACT_EMAIL}`} className="hover:text-brand-orange transition flex items-center gap-1">
@@ -88,7 +88,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             </Link>
 
             {/* Desktop Nav */}
-            <nav className="hidden md:flex items-center gap-8 font-semibold text-sm">
+            <nav className="hidden md:flex items-center gap-4 font-semibold text-sm">
               <Link 
                 to="/" 
                 className="hover:text-brand-orange transition-colors uppercase tracking-wide relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-brand-orange after:left-0 after:-bottom-1 after:transition-all hover:after:w-full"
@@ -143,7 +143,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 className="hover:text-brand-orange transition-colors uppercase tracking-wide relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-brand-orange after:left-0 after:-bottom-1 after:transition-all hover:after:w-full flex items-center gap-1"
               >
                 FAQ
-                <span className="text-xs bg-yellow-500 text-gray-900 px-2 py-0.5 rounded-full font-black">200+</span>
+                <span className="text-xs bg-yellow-500 text-gray-900 px-2 py-0.5 rounded-full font-black">Dúvidas</span>
               </Link>
 
               <Link
@@ -162,22 +162,24 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             </nav>
 
             {/* Mobile Menu Toggle */}
-            <button className="md:hidden p-2" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+            <button className="md:hidden p-2" aria-label={isMenuOpen ? "Fechar menu" : "Abrir menu"} aria-expanded={isMenuOpen} onClick={() => setIsMenuOpen(!isMenuOpen)}>
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
           </div>
 
           {/* Mobile Nav */}
           {isMenuOpen && (
-            <div className="md:hidden bg-white border-t border-gray-100 absolute w-full left-0 shadow-lg z-50 max-h-[90vh] overflow-y-auto">
+            <div className="md:hidden bg-white border-t border-gray-100 absolute w-full left-0 shadow-lg z-50 max-h-[calc(100dvh-100px)] overflow-y-auto">
               <div className="flex flex-col p-4 gap-4">
                 <Link to="/" className="font-medium text-lg text-gray-800 border-b pb-2" onClick={() => setIsMenuOpen(false)}>Início</Link>
                 <Link to="/nossos-produtos" className="font-medium text-lg text-gray-800 border-b pb-2" onClick={() => setIsMenuOpen(false)}>Marcas</Link>
                 <Link to="/product/piso-vinilico" className="font-medium text-lg text-gray-800 border-b pb-2" onClick={() => setIsMenuOpen(false)}>Piso Vinílico</Link>
                 <Link to="/product/piso-laminado" className="font-medium text-lg text-gray-800 border-b pb-2" onClick={() => setIsMenuOpen(false)}>Piso Laminado</Link>
                 
+                <Link to="/product/piso-vinilico#spc" onClick={() => setIsMenuOpen(false)} className="py-2">Piso SPC</Link>
+                <Link to="/product/rodape-poliestireno" onClick={() => setIsMenuOpen(false)} className="py-2">Rodapés</Link>
                 <div className="border-b pb-2">
-                  <span className="font-medium text-lg text-brand-orange block mb-2">Serviços</span>
+                  <span className="font-medium text-lg text-brand-orange block mb-2">Instalação</span>
                   <div className="pl-4 flex flex-col gap-3">
                     {servicesLinks.map((link) => (
                       <Link 
@@ -194,7 +196,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
                 <Link to="/faq" className="font-medium text-lg text-gray-800 border-b pb-2 flex items-center gap-2" onClick={() => setIsMenuOpen(false)}>
                   FAQ
-                  <span className="text-xs bg-yellow-500 text-gray-900 px-2 py-0.5 rounded-full font-black">200+</span>
+                  <span className="text-xs bg-yellow-500 text-gray-900 px-2 py-0.5 rounded-full font-black">Dúvidas</span>
                 </Link>
 
                 <Link to="/contato" className="font-medium text-lg text-gray-800 border-b pb-2" onClick={() => setIsMenuOpen(false)}>Contato</Link>
@@ -212,7 +214,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       </motion.div>
 
       {/* Main Content - Added padding-top to account for fixed header */}
-      <main className="flex-grow pt-[100px] md:pt-[110px]">
+      <main className="flex-grow pt-[118px] md:pt-[110px]">
         {children}
       </main>
 
@@ -221,7 +223,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <AnimatePresence>
           {showScrollButton && (
             <motion.button 
-              initial={{ opacity: 0, scale: 0.5, y: 20 }}
+              initial={false}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.5, y: 20 }}
               transition={{ duration: 0.3 }}
@@ -270,6 +272,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               <ul className="space-y-3 text-sm">
                 <li><Link to="/product/piso-vinilico" className="hover:text-brand-orange transition-colors flex items-center gap-2"><ChevronRight size={14} className="text-brand-orange"/> Piso Vinílico</Link></li>
                 <li><Link to="/product/piso-laminado" className="hover:text-brand-orange transition-colors flex items-center gap-2"><ChevronRight size={14} className="text-brand-orange"/> Piso Laminado</Link></li>
+                <li><Link to="/product/piso-vinilico#spc" className="hover:text-brand-orange">Piso SPC</Link></li>
                 <li><Link to="/product/rodape-poliestireno" className="hover:text-brand-orange transition-colors flex items-center gap-2"><ChevronRight size={14} className="text-brand-orange"/> Rodapé Poliestireno</Link></li>
               </ul>
             </div>

@@ -1,5 +1,7 @@
+import NotFound from './NotFound';
+import RelatedLinks from '../components/RelatedLinks';
 import React from 'react';
-import { useParams, Navigate, Link } from 'react-router-dom';
+import { useParams, useLocation, Link } from 'react-router-dom';
 import { PAGE_CONTENT } from '../constants';
 import EnhancedSEO from '../components/EnhancedSEO';
 import LeadForm from '../components/LeadForm';
@@ -10,23 +12,21 @@ import ShareButtons from '../components/ShareButtons';
 
 const GenericPage = () => {
   const { slug } = useParams();
+  const { pathname } = useLocation();
   const data = slug ? PAGE_CONTENT[slug] : null;
 
-  if (!data) {
-    return <Navigate to="/" replace />;
+  if (!data || pathname !== `/${data.type}/${slug}`) {
+    return <NotFound />;
   }
 
-  // Enhanced description logic to ensure persuasive tone and benefits are tailored to the type
-  const persuasiveDescription = data.type === 'service' 
-    ? `${data.seoDescription} Chega de dor de cabeça na obra! A PVS Decore garante instalação em 48h, mão de obra própria (sem terceiros) e garantia em contrato. Atendemos Curitiba e Região com excelência. Peça seu orçamento!`
-    : `${data.seoDescription} Transforme sua casa com a PVS Decore. Revenda oficial das melhores marcas, consultoria para o clima de Curitiba e instalação impecável. Clique e veja por que somos referência em ${data.title}.`;
+  const persuasiveDescription = data.seoDescription;
 
   const pageUrl = `/${data.type}/${slug}`;
 
   return (
     <PageTransition>
       <EnhancedSEO
-        title={`${data.title} | PVS Decore - Curitiba e Sao Jose dos Pinhais`}
+        title={`${data.title} | PVS Decore`}
         description={persuasiveDescription}
         url={pageUrl}
         type={data.type}
@@ -47,7 +47,7 @@ const GenericPage = () => {
               {data.title}
             </h1>
             <p className="text-gray-400 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed">
-              Soluções completas com qualidade garantida em Curitiba e Região.
+              Venda e instalação com atendimento em Curitiba e região.
             </p>
           </div>
         </div>
@@ -73,7 +73,7 @@ const GenericPage = () => {
 
               <div className="space-y-16">
                 {data.contentBlocks.map((block, index) => (
-                  <article key={index} className="prose max-w-none group">
+                  <article id={block.title.startsWith("Tipos:") ? "spc" : undefined} key={index} className="prose max-w-none group">
                     <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                       <span className="w-1.5 h-8 bg-brand-orange rounded-full shadow-sm group-hover:h-10 transition-all duration-300"></span>
                       {block.title}
@@ -96,6 +96,7 @@ const GenericPage = () => {
                 ))}
               </div>
 
+              <RelatedLinks />
               {/* Share Buttons */}
               <ShareButtons title={`PVS Decore - ${data.title}`} url={pageUrl} />
             </div>
@@ -138,7 +139,7 @@ const GenericPage = () => {
                     <p className="text-gray-400 text-sm mb-6 leading-relaxed">
                         Estamos presentes em toda Curitiba e São José dos Pinhais (Raio 30km).
                     </p>
-                    <Link to="/cidade/sao-jose-dos-pinhais" className="inline-block bg-brand-orange text-white px-6 py-3 rounded-lg font-bold text-sm hover:bg-orange-600 transition shadow-lg hover:shadow-orange-500/20 w-full">
+                    <Link to="/cidade/so-jos-dos-pinhais" className="inline-block bg-brand-orange text-white px-6 py-3 rounded-lg font-bold text-sm hover:bg-orange-600 transition shadow-lg hover:shadow-orange-500/20 w-full">
                         Ver Áreas de Atendimento
                     </Link>
                 </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import Layout from './components/Layout';
+import NotFound from './pages/NotFound';
 import Home from './pages/Home';
 import LocationPage from './pages/LocationPage';
 import GenericPage from './pages/GenericPage';
@@ -34,27 +35,27 @@ function AnimatedRoutes() {
 
         {/* FAQ Page */}
         <Route path="/faq" element={<FAQPage />} />
-        <Route path="/perguntas-frequentes" element={<FAQPage />} />
+        <Route path="/perguntas-frequentes" element={<Navigate to="/faq" replace />} />
 
         {/* Sitemap Page */}
         <Route path="/mapa-do-site" element={<SitemapPage />} />
         
         {/* Fallback */}
-        <Route path="*" element={<Navigate to="/" replace />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </AnimatePresence>
   );
 }
 
-function App() {
+export function AppContent() {
   return (
-    <BrowserRouter>
+    <>
       <ScrollToTop />
       <Layout>
         <AnimatedRoutes />
       </Layout>
-    </BrowserRouter>
+    </>
   );
 }
 
-export default App;
+export default function App() { return <BrowserRouter><AppContent /></BrowserRouter>; }

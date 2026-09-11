@@ -26,7 +26,7 @@ const PartnersMarquee = () => {
                             <p className="text-xs text-gray-600 leading-tight mb-3">{brand.desc}</p>
                             <div className="bg-green-50 border border-green-100 rounded-lg p-2 flex items-center gap-2 justify-center">
                                 <ShieldCheck size={14} className="text-green-600" />
-                                <span className="text-[10px] font-bold text-green-700">Garantia PVS Inclusa</span>
+                                <span className="text-[10px] font-bold text-green-700">Consulte o fabricante</span>
                             </div>
                         </div>
 

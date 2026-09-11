@@ -10,8 +10,8 @@ const FactoryPage = () => {
   return (
     <PageTransition>
       <EnhancedSEO
-        title="Piso Laminado Direto da Fabrica em Sao Jose dos Pinhais | PVS Decore"
-        description="Ofertas exclusivas de Piso Laminado direto da fabrica em Sao Jose dos Pinhais. Eucafloor e Durafloor com preco de atacado, estoque local e instalacao profissional em 48h."
+        title="Como orçar piso laminado em São José dos Pinhais | PVS Decore"
+        description="Entenda o orçamento de piso laminado: material, preparação da base, instalação e transporte. Consulte a PVS Decore em São José dos Pinhais."
         url="/piso-laminado-direto-da-fabrica-sao-jose-dos-pinhais"
         type="product"
         keywords="piso laminado direto da fabrica, piso laminado sjp, piso laminado barato sao jose dos pinhais, eucafloor sjp, durafloor sjp, piso laminado atacado curitiba"
@@ -21,25 +21,25 @@ const FactoryPage = () => {
         {/* Hero Section */}
         <section className="relative bg-gray-900 text-white py-20 overflow-hidden">
           <div className="absolute inset-0 opacity-20">
-            <img src="/images/marcas/eucafloor-bg.jpg" alt="Fábrica de Pisos" className="w-full h-full object-cover" />
+            <img width={1200} height={800} loading="lazy" decoding="async" src="/images/marcas/eucafloor-bg.jpg" alt="Fábrica de Pisos" className="w-full h-full object-cover" />
           </div>
           <div className="container mx-auto px-4 relative z-10 text-center">
             <span className="bg-brand-orange text-white px-4 py-1 rounded-full text-xs font-black uppercase tracking-widest mb-6 inline-block">
-              Oportunidade Exclusiva SJP
+              Orientação para compra
             </span>
             <h1 className="text-4xl md:text-6xl font-black mb-6 leading-tight">
               Piso Laminado <br/>
-              <span className="text-brand-orange">Direto da Fábrica</span>
+              <span className="text-brand-orange">Como comparar orçamentos</span>
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-10">
-              Economia real para sua obra em São José dos Pinhais. Preços de atacado com a conveniência de uma loja local e instalação especializada.
+              Economia real para sua obra em São José dos Pinhais. Compare o custo completo de material, preparação, transporte e instalação.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
                <button 
-                onClick={() => window.open(`https://wa.me/${CONTACT_PHONE}?text=Olá, vi a oferta de piso direto da fábrica em SJP e gostaria de um orçamento.`, '_blank')}
+                onClick={() => window.open(`https://wa.me/${CONTACT_PHONE}?text=Olá, vi as orientações de compra de piso laminado em SJP e gostaria de um orçamento.`, '_blank')}
                 className="bg-brand-orange hover:bg-orange-600 text-white font-black px-10 py-5 rounded-full text-xl shadow-2xl transition-all transform hover:-translate-y-1 flex items-center gap-3"
               >
-                <MessageCircle size={24} /> SOLICITAR PREÇO DE FÁBRICA
+                <MessageCircle size={24} /> SOLICITAR ORÇAMENTO
               </button>
             </div>
           </div>
@@ -48,8 +48,8 @@ const FactoryPage = () => {
         {/* Video Showcase */}
         <VideoShowcase
           videoId="G221FX8O7Ao"
-          title="Piso Direto da Fábrica: Veja na Prática"
-          description="Assista e descubra como a PVS Decore traz qualidade de fábrica direto para sua obra em São José dos Pinhais, com economia real e instalação profissional."
+          title="Piso Como comparar orçamentos: Veja na Prática"
+          description="Conheça a loja e consulte as opções de piso laminado e instalação."
         />
 
         {/* Features */}
@@ -59,22 +59,22 @@ const FactoryPage = () => {
               <div className="bg-orange-100 p-4 rounded-full text-brand-orange mb-6">
                 <Factory size={32} />
               </div>
-              <h3 className="text-xl font-bold mb-3">Estoque Próprio em SJP</h3>
-              <p className="text-gray-600">Sem espera por fretes longos. Temos material à pronta entrega em nossa unidade em São José dos Pinhais.</p>
+              <h3 className="text-xl font-bold mb-3">Disponibilidade de material</h3>
+              <p className="text-gray-600">Consulte disponibilidade da linha, quantidade necessária e prazo de entrega antes de fechar o orçamento.</p>
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-center text-center">
               <div className="bg-orange-100 p-4 rounded-full text-brand-orange mb-6">
                 <ShieldCheck size={32} />
               </div>
               <h3 className="text-xl font-bold mb-3">Garantia de Origem</h3>
-              <p className="text-gray-600">Pisos Eucafloor e Durafloor com certificado de fábrica e nota fiscal, garantindo a procedência do material.</p>
+              <p className="text-gray-600">Solicite a identificação da linha, a documentação da compra e o termo de garantia do fabricante.</p>
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-center text-center">
               <div className="bg-orange-100 p-4 rounded-full text-brand-orange mb-6">
                 <Truck size={32} />
               </div>
-              <h3 className="text-xl font-bold mb-3">Logística Expressa</h3>
-              <p className="text-gray-600">Entregamos e instalamos em toda a região de Curitiba e SJP com rapidez imbatível.</p>
+              <h3 className="text-xl font-bold mb-3">Transporte e instalação</h3>
+              <p className="text-gray-600">Verifique o custo de transporte e o cronograma de instalação para o seu endereço.</p>
             </div>
           </div>
         </section>
@@ -83,10 +83,10 @@ const FactoryPage = () => {
         <section className="py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto prose prose-lg">
-              <h2 className="text-3xl font-black text-gray-900 mb-8">Por que comprar Piso Laminado Direto da Fábrica na PVS Decore?</h2>
+              <h2 className="text-3xl font-black text-gray-900 mb-8">Como comparar um orçamento de piso laminado?</h2>
               
               <p className="text-gray-700 leading-relaxed mb-6">
-                Muitos clientes buscam <strong>piso laminado direto da fábrica em São José dos Pinhais</strong> para economizar na reforma. No entanto, o custo de frete e a falta de garantia na instalação podem anular essa economia. Na PVS Decore, resolvemos esse problema oferecendo condições de fábrica com a segurança de uma <Link to="/cidade/sao-jose-dos-pinhais" className="text-brand-orange font-bold underline">loja física em SJP</Link>.
+                Muitos clientes buscam <strong>piso laminado direto da fábrica em São José dos Pinhais</strong> para economizar na reforma. No entanto, o custo de frete e a falta de garantia na instalação podem anular essa economia. Compare todos os itens do orçamento e consulte as condições na <Link to="/cidade/so-jos-dos-pinhais" className="text-brand-orange font-bold underline">loja física em SJP</Link>.
               </p>
 
               <div className="grid md:grid-cols-2 gap-8 my-12">
@@ -102,7 +102,7 @@ const FactoryPage = () => {
 
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Mantenha seu Piso Novo por Mais Tempo</h3>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Ao adquirir seu piso conosco, você também garante suporte total para a <Link to="/service/manutencao" className="text-brand-orange font-semibold underline">manutenção de pisos</Link>. Sabemos que acidentes acontecem, e ter uma equipe local em <Link to="/cidade/sao-jose-dos-pinhais" className="text-brand-orange font-semibold underline">São José dos Pinhais, no Paraná</Link>, faz toda a diferença quando você precisa de um ajuste ou reparo rápido.
+                Ao adquirir seu piso conosco, você também garante suporte total para a <Link to="/service/manutencao" className="text-brand-orange font-semibold underline">manutenção de pisos</Link>. Sabemos que acidentes acontecem, e ter uma equipe local em <Link to="/cidade/so-jos-dos-pinhais" className="text-brand-orange font-semibold underline">São José dos Pinhais, no Paraná</Link>, faz toda a diferença quando você precisa de um ajuste ou reparo rápido.
               </p>
 
               <div className="bg-gray-900 text-white p-10 rounded-3xl mt-16 text-center">

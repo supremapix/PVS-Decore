@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ChevronRight, Award, Diamond, Zap, Target } from 'lucide-react';
 
@@ -56,12 +56,12 @@ const BrandsSection = () => {
             NOSSAS MARCAS
           </p>
           <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-4 tracking-tight">
-            Marcas Parceiras
+            Marcas de pisos e acabamentos
           </h2>
           <div className="w-20 h-1.5 bg-brand-orange rounded-full mx-auto mb-6"></div>
           <p className="text-lg md:text-xl text-gray-500 max-w-3xl mx-auto font-light">
-            Trabalhamos com as melhores marcas de pisos e acabamentos do mercado. 
-            Qualidade garantida para o seu projeto.
+            Trabalhamos com produtos Eucafloor, Durafloor, Quick-Step e Santa Luzia.
+            Consulte as linhas disponíveis para o seu projeto.
           </p>
         </div>
 
@@ -70,11 +70,11 @@ const BrandsSection = () => {
           {BRAND_CARDS.map((brand, idx) => (
             <motion.div
               key={brand.id}
-              initial={{ opacity: 0, y: 30 }}
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.1, duration: 0.6 }}
-              onClick={() => handleNavigate(brand.id)}
+
               className="group relative h-[450px] md:h-[500px] rounded-[2rem] overflow-hidden cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-gray-100"
             >
               {/* Background Image */}
@@ -109,7 +109,7 @@ const BrandsSection = () => {
 
                 {/* Name */}
                 <h3 className="text-3xl font-black text-white mb-6 drop-shadow-xl tracking-tight group-hover:text-brand-orange transition-colors">
-                  {brand.name}
+                  <Link to={`/nossos-produtos#${brand.id}`}>{brand.name}</Link>
                 </h3>
 
                 {/* Button-like element */}

@@ -1,12 +1,2 @@
-/ /index.html 200
-/nossos-produtos /index.html 200
-/faq /index.html 200
-/perguntas-frequentes /index.html 200
-/contato /index.html 200
-/mapa-do-site /index.html 200
-/piso-laminado-direto-da-fabrica-sao-jose-dos-pinhais /index.html 200
-/product/* /index.html 200
-/service/* /index.html 200
-/bairro/* /index.html 200
-/cidade/* /index.html 200
-/* /index.html 200
+/perguntas-frequentes /faq 301
+/cidade/sao-jose-dos-pinhais /cidade/so-jos-dos-pinhais 301
