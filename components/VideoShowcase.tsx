@@ -34,7 +34,7 @@ const VideoShowcase: React.FC<VideoShowcaseProps> = ({
   return (
     <motion.section
       ref={containerRef}
-      initial={{ opacity: 0, y: 40 }}
+      initial={false}
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.7, ease: 'easeOut' }}
       className="relative py-20 overflow-hidden bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950"
@@ -47,7 +47,7 @@ const VideoShowcase: React.FC<VideoShowcaseProps> = ({
         <div className="flex flex-col lg:flex-row items-center gap-12">
           {/* Text side */}
           <motion.div
-            initial={{ opacity: 0, x: -30 }}
+            initial={false}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.2 }}
             className="lg:w-1/2 text-center lg:text-left"
@@ -75,7 +75,7 @@ const VideoShowcase: React.FC<VideoShowcaseProps> = ({
 
           {/* Video side - 9:16 vertical */}
           <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
+            initial={false}
             animate={inView ? { opacity: 1, scale: 1 } : {}}
             transition={{ duration: 0.6, delay: 0.3, ease: 'easeOut' }}
             className="lg:w-1/2 flex justify-center"

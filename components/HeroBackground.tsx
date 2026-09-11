@@ -24,8 +24,8 @@ const HeroBackground = () => {
         <motion.img
           key={index}
           src={images[index]}
-          alt="Pisos de luxo"
-          initial={{ scale: 1.1, opacity: 0 }}
+          alt="" loading="eager" fetchPriority="high" decoding="async"
+          initial={false}
           animate={{ scale: 1, opacity: 0.6 }} // Increased opacity for better image visibility
           exit={{ opacity: 0 }}
           transition={{ duration: 2.5, ease: "easeInOut" }} // Slower, smoother transition

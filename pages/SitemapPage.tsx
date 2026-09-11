@@ -59,6 +59,7 @@ const SitemapPage = () => {
                 <ul className="space-y-2">
                   <li><Link to="/" className="text-gray-600 hover:text-brand-orange hover:translate-x-1 transition-all inline-block">Página Inicial</Link></li>
                   <li><Link to="/nossos-produtos" className="text-gray-600 hover:text-brand-orange hover:translate-x-1 transition-all inline-block">Nossas Marcas</Link></li>
+                  <li><Link to="/faq" className="text-brand-orange">Dúvidas sobre pisos</Link></li>
                   <li><Link to="/contato" className="text-gray-600 hover:text-brand-orange hover:translate-x-1 transition-all inline-block">Fale Conosco</Link></li>
                 </ul>
               </section>
@@ -97,8 +98,9 @@ const SitemapPage = () => {
             {/* Column 2: Cities */}
             <div>
               <section>
+                <p id="areas-atendidas" className="mb-4">Sede única em São José dos Pinhais. Para as localidades abaixo, confirme disponibilidade de atendimento e deslocamento.</p>
                 <h2 className="text-xl font-black text-gray-900 mb-4 flex items-center gap-2 border-b border-gray-100 pb-2">
-                  <Map className="text-brand-orange" size={20} /> Cidades Atendidas
+                  <Map className="text-brand-orange" size={20} /> Áreas para consulta de atendimento
                 </h2>
                 <ul className="grid grid-cols-1 gap-y-2">
                   {cidades.map((loc) => (

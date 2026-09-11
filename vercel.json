@@ -1,8 +1,16 @@
 {
-  "rewrites": [
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "source": "/perguntas-frequentes",
+      "destination": "/faq",
+      "permanent": true
+    },
+    {
+      "source": "/cidade/sao-jose-dos-pinhais",
+      "destination": "/cidade/so-jos-dos-pinhais",
+      "permanent": true
     }
   ]
 }

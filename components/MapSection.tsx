@@ -60,7 +60,7 @@ const MapSection = () => {
 
                 {/* Right: Store Photo */}
                 <div className="md:w-1/2 relative min-h-[300px] bg-gray-200">
-                    <img
+                    <img width={1024} height={1024} loading="lazy" decoding="async"
                         src="/pisos-laminados-vinilicos-pvs-spj.png"
                         alt="PVS Decore - Loja em São José dos Pinhais"
                         className="absolute inset-0 w-full h-full object-cover"

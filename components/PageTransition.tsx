@@ -35,7 +35,7 @@ const PageTransition: React.FC<PageTransitionProps> = ({ children }) => {
   return (
     <motion.div
       variants={variants}
-      initial="initial"
+      initial={false}
       animate="animate"
       exit="exit"
       className="will-change-transform" // Performance optimization
