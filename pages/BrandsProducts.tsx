@@ -1,3 +1,4 @@
+import Illustration from '../components/Illustration';
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Filter, Grid, CheckCircle2, Download, ExternalLink, X, MessageCircle, FileText, Smartphone, Tablet, Monitor } from 'lucide-react';
@@ -9,9 +10,9 @@ const BRANDS = [
   {
     id: 'eucafloor',
     name: 'Eucafloor',
-    description: 'Líder em pisos laminados de alta qualidade',
+    description: 'Pisos laminados e vinílicos',
     types: ['Laminados', 'Vinílicos'],
-    highlights: ['Tecnologia alemã', 'Garantia estendida', '15+ anos no mercado'],
+    highlights: ['Tecnologia alemã', 'Consulte a garantia da linha', 'Consulte os modelos'],
     siteUrl: 'https://www.eucatex.com.br/',
     catalogUrl: 'https://www.eucatex.com.br/pisos/catalogo'
   },
@@ -20,7 +21,7 @@ const BRANDS = [
     name: 'Durafloor',
     description: 'Referência em pisos laminados e vinílicos',
     types: ['Laminados', 'Vinílicos', 'SPC'],
-    highlights: ['Melhor custo-benefício', 'Variedade de cores', 'Instalação fácil'],
+    highlights: ['Compare as linhas', 'Variedade de cores', 'Instalação fácil'],
     siteUrl: 'https://www.durafloor.com.br/',
     catalogUrl: 'https://www.durafloor.com.br/catalogo-digital'
   },
@@ -29,7 +30,7 @@ const BRANDS = [
     name: 'Quick-Step',
     description: 'Tecnologia belga em pisos premium',
     types: ['Laminados', 'Vinílicos'],
-    highlights: ['Premium quality', 'Design exclusivo', 'Resistência superior'],
+    highlights: ['Premium quality', 'Design exclusivo', 'Consulte a ficha técnica'],
     siteUrl: 'https://www.quick-step.com.br/',
     catalogUrl: 'https://www.quick-step.com.br/pt-br/catalogo-de-inspiracao'
   },
@@ -48,7 +49,7 @@ const FLOOR_TYPES = [
   { id: 'all', label: 'Todos os Tipos', description: 'Veja todas as nossas soluções', icon: Grid },
   { id: 'Laminados', label: 'Pisos Laminados', description: 'Resistentes, práticos e com visual de madeira natural', icon: FileText },
   { id: 'Vinílicos', label: 'Pisos Vinílicos', description: 'Impermeáveis, silenciosos e versáteis', icon: DropletsIcon },
-  { id: 'SPC', label: 'Pisos SPC', description: 'Tecnologia Stone Plastic Composite - ultra resistente', icon: ShieldIcon },
+  { id: 'SPC', label: 'Pisos SPC', description: 'Tecnologia Stone Plastic Composite - núcleo rígido com encaixe', icon: ShieldIcon },
   { id: 'Rodapés e Acabamentos', label: 'Rodapés e Acabamentos', description: 'Complementos essenciais para um acabamento perfeito', icon: LayoutIcon }
 ];
 
@@ -74,12 +75,12 @@ const BrandsProducts = () => {
   const [activeFilter, setActiveFilter] = useState('all');
   const [selectedCatalog, setSelectedCatalog] = useState<typeof BRANDS[0] | null>(null);
 
-  const filteredBrands = activeFilter === 'all' 
-    ? BRANDS 
+  const filteredBrands = activeFilter === 'all'
+    ? BRANDS
     : BRANDS.filter(brand => brand.types.some(t => t.includes(activeFilter)));
 
   const handleWhatsApp = (brandName?: string) => {
-    const text = brandName 
+    const text = brandName
       ? `Olá, gostaria de solicitar um orçamento para produtos da marca ${brandName}.`
       : 'Olá, gostaria de solicitar um orçamento para pisos e acabamentos.';
     window.open(`https://wa.me/${CONTACT_PHONE}?text=${encodeURIComponent(text)}`, '_blank');
@@ -89,7 +90,7 @@ const BrandsProducts = () => {
     <PageTransition>
       <EnhancedSEO
         title="Marcas e Produtos | PVS Decore - Eucafloor, Durafloor, Quick-Step, Santa Luzia"
-        description="Revenda oficial Eucafloor, Durafloor, Quick-Step e Santa Luzia em Curitiba e SJP. Pisos laminados, vinilicos, SPC e rodapes. Catalogos digitais e orcamento gratis."
+        description="loja de pisos Eucafloor, Durafloor, Quick-Step e Santa Luzia em Curitiba e SJP. Pisos laminados, vinilicos, SPC e rodapes. Catalogos digitais e orcamento gratis."
         url="/nossos-produtos"
         keywords="eucafloor curitiba, durafloor curitiba, quick-step curitiba, santa luzia rodape, pisos laminados marcas, pisos vinilicos marcas, catalogo pisos"
       />
@@ -97,15 +98,15 @@ const BrandsProducts = () => {
       {/* Section 1: Hero */}
       <section className="bg-brand-dark py-16 text-white text-center border-b-4 border-brand-orange">
         <div className="container mx-auto px-4">
-          <motion.h1 
-            initial={{ opacity: 0, y: -20 }}
+          <motion.h1
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             className="text-3xl md:text-5xl font-black mb-4"
           >
-            Trabalhamos com as Melhores Marcas
+            Trabalhamos com as Marcas de Pisos
           </motion.h1>
-          <motion.p 
-            initial={{ opacity: 0, y: 20 }}
+          <motion.p
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
             className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto font-light"
@@ -123,9 +124,10 @@ const BrandsProducts = () => {
               <button
                 key={type.id}
                 onClick={() => setActiveFilter(type.id)}
+                aria-pressed={activeFilter===type.id}
                 className={`p-6 rounded-2xl transition-all duration-300 text-left flex flex-col gap-3 group border ${
-                  activeFilter === type.id 
-                    ? 'bg-brand-orange text-white shadow-2xl scale-105 border-transparent' 
+                  activeFilter === type.id
+                    ? 'bg-brand-orange text-white shadow-2xl scale-105 border-transparent'
                     : 'bg-white text-gray-700 shadow-md hover:shadow-xl hover:-translate-y-1 border-gray-100'
                 }`}
               >
@@ -154,7 +156,7 @@ const BrandsProducts = () => {
                   layout
                   id={brand.id}
                   key={brand.id}
-                  initial={{ opacity: 0, scale: 0.9 }}
+                  initial={false}
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0, scale: 0.9 }}
                   className="bg-white rounded-3xl overflow-hidden shadow-lg border border-gray-100 group hover:-translate-y-1 hover:shadow-2xl transition-all duration-300"
@@ -163,9 +165,10 @@ const BrandsProducts = () => {
                      <div className="absolute inset-0 bg-brand-orange/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
                      <h2 className="text-3xl md:text-4xl font-black text-brand-dark tracking-tight group-hover:scale-110 transition-transform duration-500">{brand.name}</h2>
                   </div>
+                  <Illustration name={({eucafloor:"laminado",durafloor:"comercial",quickstep:"hero",santaluzia:"rodape"} as const)[brand.id as "eucafloor"]} className="p-4 pb-0" />
                   <div className="p-8">
                     <p className="text-gray-600 mb-6">{brand.description}</p>
-                    
+
                     <div className="flex flex-wrap gap-2 mb-8">
                       {brand.types.map(type => (
                         <span key={type} className="px-4 py-1.5 bg-orange-50 text-brand-orange text-xs font-bold rounded-full border border-orange-100">
@@ -184,21 +187,21 @@ const BrandsProducts = () => {
                     </div>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                      <button 
+                      <button
                         onClick={() => setSelectedCatalog(brand)}
                         className="flex items-center justify-center gap-2 bg-brand-orange text-white font-bold py-4 rounded-xl hover:bg-orange-600 transition-colors shadow-lg shadow-orange-100"
                       >
                         <FileText size={18} /> Ver Catálogo
                       </button>
                       <div className="grid grid-cols-2 gap-3">
-                        <button 
+                        <button
                           onClick={() => handleWhatsApp(brand.name)}
                           className="flex items-center justify-center bg-gray-50 text-brand-dark p-4 rounded-xl hover:bg-gray-100 transition-colors border border-gray-100"
                           title="Orçar com a PVS Decore"
                         >
                           <MessageCircle size={18} className="text-[#22c55e]" />
                         </button>
-                        <button 
+                        <button
                           onClick={() => setSelectedCatalog(brand)}
                           className="flex items-center justify-center bg-gray-50 text-brand-dark p-4 rounded-xl hover:bg-gray-100 transition-colors border border-gray-100"
                           title="Ver Catálogo"
@@ -219,14 +222,14 @@ const BrandsProducts = () => {
       <AnimatePresence>
         {selectedCatalog && (
           <motion.div
-            initial={{ opacity: 0 }}
+            initial={false}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm"
             onClick={() => setSelectedCatalog(null)}
           >
             <motion.div
-              initial={{ scale: 0.9, opacity: 0, y: 20 }}
+              initial={false}
               animate={{ scale: 1, opacity: 1, y: 0 }}
               exit={{ scale: 0.9, opacity: 0, y: 20 }}
               className="bg-white w-full max-w-6xl h-[95vh] rounded-3xl overflow-hidden flex flex-col relative shadow-2xl"
@@ -237,7 +240,7 @@ const BrandsProducts = () => {
                   <h3 className="text-xl md:text-2xl font-bold">{selectedCatalog.name}</h3>
                   <p className="text-sm text-gray-400">{selectedCatalog.description}</p>
                 </div>
-                <button 
+                <button
                   onClick={() => setSelectedCatalog(null)}
                   className="p-3 bg-white/10 hover:bg-white/20 rounded-full transition-colors"
                 >
@@ -245,8 +248,8 @@ const BrandsProducts = () => {
                 </button>
               </div>
               <div className="flex-grow bg-gray-200 relative">
-                <iframe 
-                  src={`${selectedCatalog.catalogUrl}#view=FitH`} 
+                <iframe
+                  src={`${selectedCatalog.catalogUrl}#view=FitH`}
                   className="w-full h-full border-none"
                   title={`Catálogo ${selectedCatalog.name}`}
                 />
@@ -254,13 +257,13 @@ const BrandsProducts = () => {
               <div className="p-6 bg-white border-t border-gray-100 flex flex-col sm:flex-row justify-between items-center gap-4">
                 <p className="text-brand-dark font-medium text-center sm:text-left">Deseja um orçamento personalizado para estes produtos?</p>
                 <div className="flex gap-3 w-full sm:w-auto">
-                  <button 
+                  <button
                     onClick={() => setSelectedCatalog(null)}
                     className="flex-grow sm:flex-grow-0 px-8 py-3 bg-gray-100 text-brand-dark font-bold rounded-xl hover:bg-gray-200 transition-colors"
                   >
                     Fechar
                   </button>
-                  <button 
+                  <button
                     onClick={() => handleWhatsApp(selectedCatalog.name)}
                     className="flex-grow sm:flex-grow-0 px-8 py-3 bg-green-500 text-white font-bold rounded-xl hover:bg-green-600 transition-colors flex items-center justify-center gap-2 shadow-lg shadow-green-100"
                   >
@@ -282,7 +285,7 @@ const BrandsProducts = () => {
                 <CheckCircle2 size={32} />
               </div>
               <h3 className="text-xl font-bold mb-2 text-brand-dark">🏆 Qualidade Garantida</h3>
-              <p className="text-gray-500">Produtos certificados das melhores marcas do mercado</p>
+              <p className="text-gray-500">Produtos certificados das marcas de pisos do mercado</p>
             </div>
             <div className="bg-white p-8 rounded-3xl shadow-md border border-gray-100 text-center hover:shadow-xl transition-shadow">
               <div className="w-16 h-16 bg-green-50 text-green-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
@@ -308,20 +311,20 @@ const BrandsProducts = () => {
           <div className="bg-brand-dark rounded-[2rem] p-12 text-center text-white shadow-2xl relative overflow-hidden border-b-8 border-brand-orange">
             <div className="absolute top-0 left-0 w-64 h-64 bg-white/5 rounded-full -translate-x-1/2 -translate-y-1/2 blur-3xl"></div>
             <div className="absolute bottom-0 right-0 w-64 h-64 bg-brand-orange/10 rounded-full translate-x-1/2 translate-y-1/2 blur-3xl"></div>
-            
+
             <div className="relative z-10 max-w-3xl mx-auto">
               <h2 className="text-3xl md:text-5xl font-black mb-6">Precisa de Ajuda para Escolher?</h2>
               <p className="text-gray-300 text-lg md:text-xl mb-10 font-light">
                 Nossa equipe está pronta para ajudar você a encontrar o piso ideal para seu projeto.
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-4">
-                <button 
+                <button
                   onClick={() => handleWhatsApp()}
                   className="px-12 py-5 bg-green-500 hover:bg-green-600 text-white font-bold rounded-full transition-all flex items-center justify-center gap-3 text-lg shadow-xl"
                 >
                   <MessageCircle size={24} /> WhatsApp
                 </button>
-                <button 
+                <button
                   onClick={() => handleWhatsApp()}
                   className="px-12 py-5 bg-white text-brand-dark hover:bg-gray-50 font-bold rounded-full transition-all flex items-center justify-center text-lg shadow-xl"
                 >

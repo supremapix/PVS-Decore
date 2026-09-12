@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ShieldCheck, Clock, Award, ChevronRight, CheckCircle2, Star, Quote, MapPin, Tag, ThumbsUp, Zap, BadgeCheck, MessageCircle, ArrowRight, Dog, Baby, Building2, Droplets, Lightbulb, Sparkles, ChevronLeft, Info, ArrowUpRight, Coins, Check, Factory } from 'lucide-react';
-import { SERVICES, CONTACT_PHONE } from '../constants';
+import { SERVICES, CONTACT_PHONE, FAQS } from '../constants';
 import EnhancedSEO from '../components/EnhancedSEO';
 import PageTransition from '../components/PageTransition';
 import HeroBackground from '../components/HeroBackground';
@@ -57,7 +57,7 @@ const Home = () => {
 
   // Logic for Suggestion Bubbles
   const [activeSuggestion, setActiveSuggestion] = useState<number | null>(null);
-  
+
   const suggestions = [
     { id: 1, icon: Dog, label: "Tenho Pets", title: "Piso Vinílico é a Solução!", text: "Resistente a riscos e urina, fácil de limpar e anti-derrapante. Seu pet vai amar o conforto térmico." },
     { id: 2, icon: Baby, label: "Tenho Crianças", title: "Conforto e Segurança", text: "O Vinílico absorve impacto em quedas e é hipoalergênico. O Laminado com manta acústica também é ótimo para brincadeiras." },
@@ -77,7 +77,7 @@ const Home = () => {
     { title: "Área de Serviço", text: "Vai colocar na lavanderia? Prefira o Vinílico Colado, que é mais resistente a eventuais poças de água." },
     { title: "Rodízios de Cadeira", text: "No home office, troque rodízios de plástico duro por rodízios de silicone (PU) para não marcar o piso." },
     { title: "Tapetes de Entrada", text: "Um capacho na porta de entrada retém a areia e pedrinhas que poderiam riscar seu piso novo." },
-    { title: "Rodapé de Poliestireno", text: "São 100% à prova d'água e imunes a cupins. A melhor escolha para durabilidade a longo prazo." },
+    { title: "Rodapé de Poliestireno", text: "Compare a composição e as condições de uso do rodapé na ficha técnica da linha." },
     { title: "Juntas de Dilatação", text: "Pisos laminados dilatam e contraem. O espaçamento correto nas paredes é o segredo para o piso não estufar." },
     { title: "Nivelamento é Tudo", text: "Para o vinílico ficar perfeito, o contrapiso deve estar liso como um vidro. Usamos pasta niveladora específica." },
     { title: "Vinílico na Cozinha", text: "Sim, pode! É higiênico e fácil de limpar. Só evite jogar baldes de água como se fosse cerâmica." },
@@ -114,10 +114,10 @@ const Home = () => {
         setItemsPerPage(1);
       }
     };
-    
+
     // Initial call
     handleResize();
-    
+
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
@@ -150,77 +150,61 @@ const Home = () => {
   return (
     <PageTransition>
       <EnhancedSEO
-        title="PVS Decore - Pisos Laminados e Vinilicos em Curitiba e SJP | Revenda Oficial Eucafloor, Durafloor, Quick-Step"
-        description="Especialistas em pisos laminados e vinilicos em Curitiba e Sao Jose dos Pinhais. Instalacao em ate 48h com mao de obra propria. Revenda Eucafloor, Durafloor, Quick-Step e Santa Luzia. Orcamento gratis!"
+        title="PVS Decore | Loja de pisos em São José dos Pinhais"
+        description="PVS Decore: venda e instalação de pisos laminados, vinílicos, SPC e rodapés. Loja em São José dos Pinhais, atendimento em Curitiba e região."
         url="/"
+        faq={FAQS}
         type="website"
         keywords="pisos laminados curitiba, pisos vinilicos curitiba, piso laminado sao jose dos pinhais, piso vinilico sjp, instalacao pisos, eucafloor, durafloor, quick-step, rodape santa luzia, pvs decore"
       />
 
-      {/* Featured News / Factory Offer */}
-      <section className="bg-brand-orange py-4">
-        <div className="container mx-auto px-4">
-          <Link to="/piso-laminado-direto-da-fabrica-sao-jose-dos-pinhais" className="flex flex-col md:flex-row items-center justify-center gap-4 text-white hover:text-orange-100 transition-colors group">
-            <span className="flex items-center gap-2 font-black text-sm md:text-lg uppercase tracking-wider">
-              <Factory size={24} className="animate-pulse" />
-              Oferta Exclusiva: Piso Laminado Direto da Fábrica em SJP!
-            </span>
-            <span className="flex items-center gap-1 font-bold bg-white text-brand-orange px-4 py-1 rounded-full text-xs group-hover:scale-105 transition-transform">
-              CONFIRA AGORA <ArrowRight size={14} />
-            </span>
-          </Link>
-        </div>
-      </section>
-
       {/* Hero Section */}
-      <section className="relative text-white min-h-[650px] lg:min-h-[750px] flex items-center overflow-hidden">
+      <section className="relative text-white min-h-[560px] lg:min-h-[650px] flex items-center overflow-hidden">
         <HeroBackground />
-        
+        <span className="absolute bottom-2 right-4 z-20 text-xs text-white/80">Ambiente ilustrativo</span>
+
         <div className="container mx-auto px-4 relative z-10 grid lg:grid-cols-12 gap-12 items-center py-20">
-          
+
           {/* Left Column: Sales Copy with Premium Animations */}
-          <motion.div 
+          <motion.div
             variants={containerVariants}
-            initial="hidden"
+            initial={false}
             animate="visible"
             className="lg:col-span-7 space-y-8 text-center lg:text-left"
           >
             <motion.div variants={itemVariants}>
               <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 backdrop-blur-md text-brand-orange px-5 py-2 rounded-full text-xs font-bold uppercase tracking-widest shadow-lg">
-                <Star size={12} fill="currentColor" /> Instalação Técnica Própria (Sem Terceiros)
+                <Star size={12} fill="currentColor" /> Venda e instalação de pisos
               </div>
             </motion.div>
-            
-            <motion.h1 
+
+            <motion.h1
               variants={itemVariants}
               className="text-4xl md:text-5xl lg:text-7xl font-black leading-tight drop-shadow-2xl tracking-tight"
             >
-              O Piso dos Seus Sonhos <br className="hidden md:block"/>
-              <TypewriterEffect />
-              <br className="hidden md:block"/>
-              <span className="text-3xl md:text-5xl lg:text-6xl text-gray-200">Instalado em até 48h.</span>
+              PVS Decore: pisos para seu ambiente
             </motion.h1>
 
-            <motion.p 
+            <motion.p
               variants={itemVariants}
               className="text-gray-200 text-lg md:text-2xl max-w-2xl mx-auto lg:mx-0 leading-relaxed font-light drop-shadow-lg"
             >
-              Garanta a <strong className="text-white font-bold decoration-brand-orange underline decoration-2 underline-offset-4">segurança da sua obra</strong> com quem é especialista. Do laminado Quick-Step ao vinílico Tarkett, entregamos sua casa transformada, limpa e pronta para morar.
+              Loja em São José dos Pinhais, com atendimento em Curitiba e região. Compare pisos laminados, vinílicos, SPC e rodapés e solicite seu orçamento de materiais e instalação.
             </motion.p>
-            
-            <motion.div 
+
+            <motion.div
               variants={itemVariants}
               className="flex flex-col sm:flex-row gap-5 justify-center lg:justify-start pt-8"
             >
-                <button 
+                <button
                   onClick={handleHeroWhatsApp}
-                  className="relative overflow-hidden bg-brand-orange hover:bg-orange-600 text-white font-black text-xl px-12 py-5 rounded-full shadow-[0_0_50px_-10px_rgba(249,115,22,0.6)] hover:shadow-[0_0_70px_-5px_rgba(249,115,22,0.8)] transform hover:-translate-y-1 hover:scale-105 transition-all duration-300 flex items-center justify-center gap-3 group border border-orange-400 ring-4 ring-orange-500/20"
+                  className="relative overflow-hidden bg-brand-orange hover:bg-orange-600 text-white font-black text-base md:text-xl px-6 md:px-12 py-5 rounded-full shadow-[0_0_50px_-10px_rgba(249,115,22,0.6)] hover:shadow-[0_0_70px_-5px_rgba(249,115,22,0.8)] transform hover:-translate-y-1 hover:scale-105 transition-all duration-300 flex items-center justify-center gap-3 group border border-orange-400 ring-4 ring-orange-500/20"
                 >
                    <div className="absolute inset-0 bg-white/20 w-full h-full skew-x-12 -translate-x-full group-hover:animate-[shimmer_1.5s_infinite]"></div>
                    <MessageCircle size={28} className="group-hover:rotate-12 transition-transform relative z-10" />
-                   <span className="relative z-10 tracking-wide">QUERO MEU ORÇAMENTO</span>
+                   <span className="relative z-10 tracking-wide">SOLICITAR ORÇAMENTO</span>
                 </button>
-                <a 
+                <a
                   href="#footer-contact"
                   onClick={handleScrollToContact}
                   className="px-10 py-5 rounded-full border border-white/30 bg-white/5 backdrop-blur-md hover:bg-white hover:text-gray-900 hover:border-white transition-all duration-300 font-bold text-lg flex items-center justify-center shadow-lg group"
@@ -229,19 +213,19 @@ const Home = () => {
                 </a>
             </motion.div>
 
-            <motion.div 
+            <motion.div
               variants={itemVariants}
               className="mt-8 flex flex-wrap justify-center lg:justify-start gap-4 text-xs md:text-sm text-gray-300 font-medium"
             >
                <span className="flex items-center gap-2 bg-black/40 px-4 py-2 rounded-lg backdrop-blur-md border border-white/5 hover:border-brand-orange/50 transition-colors"><CheckCircle2 size={16} className="text-green-400" /> Obra Limpa</span>
                <span className="flex items-center gap-2 bg-black/40 px-4 py-2 rounded-lg backdrop-blur-md border border-white/5 hover:border-brand-orange/50 transition-colors"><CheckCircle2 size={16} className="text-green-400" /> Atendimento VIP</span>
-               <span className="flex items-center gap-2 bg-black/40 px-4 py-2 rounded-lg backdrop-blur-md border border-white/5 hover:border-brand-orange/50 transition-colors"><CheckCircle2 size={16} className="text-green-400" /> Garantia em Contrato</span>
+               <span className="flex items-center gap-2 bg-black/40 px-4 py-2 rounded-lg backdrop-blur-md border border-white/5 hover:border-brand-orange/50 transition-colors"><CheckCircle2 size={16} className="text-green-400" /> Condições no orçamento</span>
             </motion.div>
           </motion.div>
 
           {/* Right Column: Contact/Accordion Widget */}
-          <motion.div 
-            initial={{ opacity: 0, x: 50 }}
+          <motion.div
+            initial={false}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.8, ease: "easeOut" }}
             className="lg:col-span-5 hidden lg:block h-full"
@@ -268,14 +252,14 @@ const Home = () => {
       <section className="bg-gray-50 py-12 border-b border-gray-200">
         <div className="container mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
-            { icon: Award, title: 'Mão de Obra Própria', desc: 'Zero dor de cabeça', tooltip: 'Equipe 100% CLT. Não terceirizamos, garantindo sua segurança e qualidade técnica.' },
-            { icon: Clock, title: 'Instalação Express', desc: 'Sua casa pronta logo', tooltip: 'Técnicas de instalação rápida que liberam cômodos em 24h a 48h (Sistema Click).' },
-            { icon: Star, title: 'Revenda Oficial', desc: 'Marcas Líderes', tooltip: 'Trabalhamos com as melhores marcas do mercado: Quick-Step, Tarkett, Durafloor, Eucafloor e Santa Luzia.' },
-            { icon: ShieldCheck, title: 'Garantia Dupla', desc: 'Produto + Serviço', tooltip: 'Cobertura completa contra defeitos de fábrica e problemas de instalação por nossa conta.' },
+            { icon: Award, title: 'Instalação', desc: 'Avaliação do ambiente', tooltip: 'A instalação é planejada conforme o produto escolhido e as condições do contrapiso.' },
+            { icon: Clock, title: 'Prazo planejado', desc: 'Conforme sua obra', tooltip: 'Prazo definido após medição, preparação da base e escolha dos materiais.' },
+            { icon: Star, title: 'Marcas', desc: 'Consulte as linhas', tooltip: 'Compare opções e disponibilidade com nossa equipe.' },
+            { icon: ShieldCheck, title: 'Garantias', desc: 'Termos separados', tooltip: 'Garantia do fabricante e condições da instalação devem ser consultadas separadamente.' },
           ].map((item, idx) => (
-            <motion.div 
-              key={idx} 
-              initial={{ opacity: 0, y: 20 }}
+            <motion.div
+              key={idx}
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.1 }}
@@ -304,15 +288,15 @@ const Home = () => {
 
           <div className="flex flex-wrap justify-center gap-6 mb-8">
             {suggestions.map((item, idx) => (
-              <button 
+              <button
                 key={item.id}
-                onClick={() => setActiveSuggestion(item.id)}
+                aria-pressed={activeSuggestion===item.id} onClick={() => setActiveSuggestion(item.id)}
                 className={`relative flex flex-col items-center gap-3 p-4 rounded-2xl w-32 transition-all duration-300 ${activeSuggestion === item.id ? 'bg-brand-orange text-white scale-110 shadow-lg' : 'bg-gray-50 text-gray-600 hover:bg-orange-100'}`}
               >
                 {/* Visual Status Icon when Active */}
                 {activeSuggestion === item.id && (
-                  <motion.div 
-                    initial={{ scale: 0 }}
+                  <motion.div
+                    initial={false}
                     animate={{ scale: 1 }}
                     className="absolute -top-3 -right-3 bg-green-500 text-white p-1.5 rounded-full shadow-md border-2 border-white z-10"
                   >
@@ -330,9 +314,9 @@ const Home = () => {
 
           <AnimatePresence mode="wait">
             {activeSuggestion && (
-              <motion.div 
+              <motion.div
                 key={activeSuggestion}
-                initial={{ opacity: 0, y: 20 }}
+                initial={false}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -20 }}
                 className="max-w-2xl mx-auto bg-orange-50 border border-orange-100 p-8 rounded-3xl text-center relative shadow-sm"
@@ -371,9 +355,9 @@ const Home = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {SERVICES.map((service, idx) => (
-              <motion.div 
-                key={service.id} 
-                initial={{ opacity: 0, y: 50 }}
+              <motion.div
+                key={service.id}
+                initial={false}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-100px" }}
                 transition={{ duration: 0.6, delay: idx * 0.15, ease: "easeOut" }}
@@ -381,9 +365,10 @@ const Home = () => {
               >
                 {/* Full Background Image with Zoom Effect */}
                 <div className="absolute inset-0 w-full h-full overflow-hidden">
-                   <img 
-                      src={service.image} 
-                      alt={service.title} 
+                   <img
+                      src={service.image}
+                     srcSet={`${service.image.replace(".webp","-800.webp")} 800w, ${service.image} 1536w`} sizes="(max-width: 768px) 100vw, 25vw"
+                      alt={service.title+" — imagem ilustrativa"} loading="lazy" decoding="async" width="1536" height="1024"
                       className="w-full h-full object-cover transition-transform duration-700 ease-in-out group-hover:scale-110"
                    />
                 </div>
@@ -391,7 +376,7 @@ const Home = () => {
                 {/* Badge */}
                 <div className="absolute top-5 right-5 z-20">
                    <div className="bg-white/10 backdrop-blur-md border border-white/20 text-white text-[10px] font-black uppercase tracking-widest px-3 py-1.5 rounded-full flex items-center gap-1 shadow-lg group-hover:bg-brand-orange group-hover:border-brand-orange transition-colors">
-                      <Tag size={10} /> Destaque
+                      <Tag size={10} /> Ilustração
                    </div>
                 </div>
 
@@ -402,19 +387,19 @@ const Home = () => {
                 <div className="absolute bottom-0 left-0 w-full p-8 flex flex-col justify-end h-full z-10 translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
                     <div className="mb-4">
                         <div className="bg-brand-orange/20 w-12 h-12 rounded-xl flex items-center justify-center text-brand-orange mb-4 backdrop-blur-sm border border-brand-orange/30 group-hover:bg-brand-orange group-hover:text-white transition-colors duration-300">
-                            {service.icon === 'Grid' ? <Building2 size={24} /> : 
-                             service.icon === 'Layers' ? <Sparkles size={24} /> : 
-                             service.icon === 'Square' ? <Award size={24} /> : 
+                            {service.icon === 'Grid' ? <Building2 size={24} /> :
+                             service.icon === 'Layers' ? <Sparkles size={24} /> :
+                             service.icon === 'Square' ? <Award size={24} /> :
                              <Info size={24} />}
                         </div>
-                        <h3 className="text-2xl font-bold text-white mb-2 leading-tight group-hover:text-brand-orange transition-colors">{service.title}</h3>
+                        <h3 className="text-2xl font-bold text-white mb-2 leading-tight"><Link to={service.id==='rodape'?'/product/rodape-poliestireno':service.id==='spc'?'/product/piso-vinilico#spc':'/product/piso-'+service.id}>{service.title}</Link></h3>
                         <div className="h-0 opacity-0 group-hover:h-auto group-hover:opacity-100 transition-all duration-500 overflow-hidden">
                            <p className="text-gray-300 text-sm leading-relaxed mb-6">{service.description}</p>
                         </div>
                     </div>
 
-                    <button 
-                      onClick={() => window.open(`https://wa.me/${CONTACT_PHONE}?text=Olá, gostaria de consultar os serviços de Vidros e Esquadrias.`, '_blank')}
+                    <button
+                      onClick={() => window.open(`https://wa.me/${CONTACT_PHONE}?text=${encodeURIComponent('Olá, gostaria de informações sobre '+service.title)}`, '_blank', 'noopener,noreferrer')}
                       className="w-full bg-white/10 backdrop-blur-md hover:bg-brand-orange text-white font-bold py-4 rounded-xl flex items-center justify-center gap-2 transition-all duration-300 border border-white/20 hover:border-brand-orange group/btn"
                     >
                       Consultar via WhatsApp <ArrowUpRight size={18} className="group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1 transition-transform" />
@@ -425,8 +410,8 @@ const Home = () => {
           </div>
 
           {/* DICA DE OURO - GOLDEN TIP SECTION */}
-          <motion.div 
-            initial={{ opacity: 0, scale: 0.95 }}
+          <motion.div
+            initial={false}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             className="mt-20 bg-gradient-to-r from-gray-900 to-gray-800 rounded-3xl p-8 md:p-12 relative overflow-hidden shadow-2xl border border-gray-700"
@@ -440,12 +425,12 @@ const Home = () => {
                    <span className="text-yellow-400 font-bold uppercase tracking-widest text-xs mb-2 block">Dica de Ouro PVS</span>
                    <h3 className="text-2xl md:text-4xl font-black text-white mb-4">Economize na Reforma: Não Quebre o Piso Antigo!</h3>
                    <p className="text-gray-300 text-lg leading-relaxed">
-                      Você sabia que o Piso Vinílico e o Laminado podem ser instalados sobre cerâmica ou cimento queimado? 
+                      Você sabia que o Piso Vinílico e o Laminado podem ser instalados sobre cerâmica ou cimento queimado?
                       <strong className="text-white"> Você economiza caçamba, evita poeira e reduz o tempo de obra pela metade.</strong>
                    </p>
                 </div>
                 <div className="shrink-0">
-                   <button 
+                   <button
                       onClick={handleHeroWhatsApp}
                       className="bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-black py-4 px-8 rounded-full text-lg shadow-lg hover:shadow-yellow-400/20 transition-all transform hover:scale-105"
                    >
@@ -457,7 +442,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* NEW SECTION: Expert Tips Carousel */}
+      <details className="bg-gray-900 text-white"><summary className="container mx-auto px-4 py-6 cursor-pointer font-bold">Dicas para escolher e cuidar do piso</summary>
       <section className="py-20 bg-gray-900 text-white overflow-hidden relative">
         <div className="absolute top-0 right-0 w-96 h-96 bg-brand-orange/10 rounded-full blur-[100px]"></div>
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-500/10 rounded-full blur-[100px]"></div>
@@ -469,17 +454,17 @@ const Home = () => {
                 <h2 className="text-3xl md:text-4xl font-black">Segredos da PVS para sua Obra</h2>
                 <p className="text-gray-400 mt-2 max-w-xl text-sm">Navegue pelas nossas 30 dicas essenciais para quem vai construir ou reformar.</p>
               </div>
-              
+
               {/* Carousel Controls */}
               <div className="flex items-center gap-4">
                  <div className="text-xs font-mono text-gray-500">
                     <span className="text-brand-orange font-bold">{String(currentTip + 1).padStart(2, '0')}</span> / {tips.length}
                  </div>
                  <div className="flex gap-2">
-                    <button onClick={prevTip} className="p-3 rounded-full border border-gray-700 hover:bg-brand-orange hover:border-brand-orange hover:text-white transition-all active:scale-95">
+                    <button aria-label="Dica anterior" onClick={prevTip} className="p-3 rounded-full border border-gray-700 hover:bg-brand-orange hover:border-brand-orange hover:text-white transition-all active:scale-95">
                        <ChevronLeft size={20} />
                     </button>
-                    <button onClick={nextTip} className="p-3 rounded-full border border-gray-700 hover:bg-brand-orange hover:border-brand-orange hover:text-white transition-all active:scale-95">
+                    <button aria-label="Próxima dica" onClick={nextTip} className="p-3 rounded-full border border-gray-700 hover:bg-brand-orange hover:border-brand-orange hover:text-white transition-all active:scale-95">
                        <ChevronRight size={20} />
                     </button>
                  </div>
@@ -491,9 +476,9 @@ const Home = () => {
              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                <AnimatePresence mode="popLayout">
                   {getVisibleTips().map((tip, idx) => (
-                     <motion.div 
+                     <motion.div
                        key={`${currentTip}-${idx}`} // Using currentTip ensures re-render animation
-                       initial={{ opacity: 0, x: 50, scale: 0.9 }}
+                       initial={false}
                        animate={{ opacity: 1, x: 0, scale: 1 }}
                        exit={{ opacity: 0, x: -50, scale: 0.9 }}
                        transition={{ duration: 0.5, ease: "circOut" }}
@@ -512,17 +497,17 @@ const Home = () => {
                </AnimatePresence>
              </div>
            </div>
-           
+
            {/* Progress Bar */}
            <div className="w-full bg-gray-800 h-1 mt-10 rounded-full overflow-hidden">
-              <motion.div 
+              <motion.div
                 className="h-full bg-brand-orange"
-                initial={{ width: 0 }}
+                initial={false}
                 animate={{ width: `${((currentTip + 1) / tips.length) * 100}%` }}
                 transition={{ duration: 0.5 }}
               ></motion.div>
            </div>
-           
+
            <div className="text-center mt-8">
               <button onClick={handleHeroWhatsApp} className="text-brand-orange hover:text-white border-b border-brand-orange pb-1 transition-colors inline-flex items-center gap-2 font-bold text-sm uppercase tracking-wide">
                  Falar com um consultor agora <ArrowRight size={14} />
@@ -531,6 +516,7 @@ const Home = () => {
         </div>
       </section>
 
+      </details>
       {/* About / Social Proof */}
       <section className="py-20 bg-white overflow-hidden">
         <div className="container mx-auto px-4 grid md:grid-cols-2 gap-16 items-center">
@@ -538,18 +524,18 @@ const Home = () => {
             <div className="absolute -top-10 -left-10 w-40 h-40 bg-brand-orange rounded-full opacity-10 blur-3xl group-hover:opacity-20 transition duration-1000"></div>
             <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-blue-500 rounded-full opacity-10 blur-3xl group-hover:opacity-20 transition duration-1000"></div>
             <img
-              src="/loja-pvs.jpg"
+              src="/loja-pvs.webp" srcSet="/loja-pvs-800.webp 800w, /loja-pvs.webp 1024w" sizes="(max-width:768px) 100vw, 50vw" width={1024} height={1024} loading="lazy" decoding="async"
               alt="Fachada da Loja PVS Decore"
               className="rounded-3xl shadow-2xl relative z-10 transform hover:scale-[1.01] transition duration-700 w-full"
             />
             {/* Floating Badge */}
-            <div className="absolute -bottom-6 -right-6 z-20 bg-white p-4 rounded-2xl shadow-xl border border-gray-100 flex items-center gap-3 animate-bounce" style={{ animationDuration: '3s' }}>
+            <div className="absolute -bottom-6 right-0 z-20 bg-white p-4 rounded-2xl shadow-xl border border-gray-100 flex items-center gap-3 animate-bounce" style={{ animationDuration: '3s' }}>
                 <div className="bg-green-100 p-2 rounded-full">
                     <ThumbsUp className="text-green-600" size={24} />
                 </div>
                 <div>
-                    <p className="font-bold text-gray-900 text-sm">Satisfação Garantida</p>
-                    <p className="text-xs text-gray-500">Centenas de obras entregues</p>
+                    <p className="font-bold text-gray-900 text-sm">Loja em São José dos Pinhais</p>
+                    <p className="text-xs text-gray-500">Venda e instalação de pisos</p>
                 </div>
             </div>
           </div>
@@ -562,14 +548,14 @@ const Home = () => {
             </p>
             <ul className="space-y-4">
               {[
-                  {text: 'Sede própria em São José dos Pinhais', sub: 'Segurança para sua compra', icon: CheckCircle2}, 
-                  {text: 'Especialistas em Laminado Hydroseal', sub: 'Resistência à água', icon: CheckCircle2}, 
+                  {text: 'Sede em São José dos Pinhais', sub: 'Segurança para sua compra', icon: CheckCircle2},
+                  {text: 'Especialistas em Laminado Hydroseal', sub: 'Resistência à água', icon: CheckCircle2},
                   {text: 'Acabamento Fino em Rodapés', sub: 'Cortes em 45º perfeitos', icon: CheckCircle2},
-                  {text: 'Garantia Dupla: Produto + Instalação', sub: 'Segurança total para o seu investimento', icon: ShieldCheck}
+                  {text: 'Garantias do produto e do serviço', sub: 'Consulte os termos de cada contratação', icon: ShieldCheck}
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-4 p-3 rounded-xl hover:bg-gray-50 transition">
                   <div className="bg-brand-orange/10 p-2 rounded-lg text-brand-orange">
-                     <item.icon size={20} /> 
+                     <item.icon size={20} />
                   </div>
                   <div>
                       <span className="block font-bold text-gray-900">{item.text}</span>
@@ -582,65 +568,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* REPLACED: New Vertical Testimonials Section */}
-      <section className="py-20 bg-white relative">
-        <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-             <div>
-                <span className="text-brand-orange font-bold uppercase tracking-widest text-xs mb-2 block">Prova Social</span>
-                <h2 className="text-4xl font-black text-gray-900 mb-6">Clientes Felizes & Obras Entregues</h2>
-                <p className="text-gray-600 text-lg mb-8">
-                  Nossa reputação foi construída piso a piso, cliente a cliente. Veja o que dizem sobre nossa pontualidade, limpeza e qualidade de acabamento.
-                </p>
-                <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 flex items-center gap-4">
-                   <div className="text-5xl font-black text-brand-orange">4.9</div>
-                   <div>
-                       <div className="flex text-yellow-400 gap-1 mb-1">
-                           <Star fill="currentColor" size={20} />
-                           <Star fill="currentColor" size={20} />
-                           <Star fill="currentColor" size={20} />
-                           <Star fill="currentColor" size={20} />
-                           <Star fill="currentColor" size={20} />
-                       </div>
-                       <p className="text-sm text-gray-500 font-medium">Média de satisfação em 150+ avaliações</p>
-                   </div>
-                </div>
-             </div>
-             <div>
-                <TestimonialMarquee />
-             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Partners / Brands Section (New Marquee) */}
-      <section className="py-16 bg-white overflow-hidden">
-        <div className="container mx-auto px-4">
-           <div className="text-center mb-10">
-             <h2 className="text-3xl font-black text-gray-900 mb-2">Parceiros de Peso</h2>
-             <div className="w-16 h-1.5 bg-brand-orange mx-auto rounded-full mb-4"></div>
-             <p className="text-gray-500 max-w-2xl mx-auto">
-               Trabalhamos apenas com o que há de melhor no mercado.
-             </p>
-           </div>
-        </div>
-        
-        {/* Full width marquee */}
-        <PartnersMarquee />
-
-        <div className="text-center mt-8">
-            <button 
-                onClick={handleHeroWhatsApp}
-                className="inline-flex items-center gap-2 font-bold text-brand-orange border-b-2 border-brand-orange pb-1 hover:text-orange-700 hover:border-orange-700 transition"
-            >
-                Ver todas as marcas e catálogos <ArrowRight size={16} />
-            </button>
-        </div>
-      </section>
-
-      {/* NEW: Image Gallery */}
-      <ImageGallery />
-
       {/* NEW: FAQ Section */}
       <section className="py-20 bg-gray-50">
           <div className="container mx-auto px-4">
@@ -652,75 +579,9 @@ const Home = () => {
           </div>
       </section>
 
-      {/* FAQ Preview Section */}
-      <section className="relative py-20 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white overflow-hidden">
-        <div className="absolute inset-0 opacity-5 pointer-events-none"
-          style={{
-            backgroundImage: 'repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(201,168,76,0.1) 35px, rgba(201,168,76,0.1) 70px)'
-          }}
-        />
-
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="text-center mb-12">
-            <div className="inline-block bg-gradient-to-r from-yellow-600 to-yellow-500 px-6 py-2 rounded-full text-sm font-black uppercase tracking-widest mb-6">
-              Central de Dúvidas
-            </div>
-
-            <div className="mb-6">
-              <div className="text-6xl md:text-8xl font-black bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-400 bg-clip-text text-transparent inline-block">
-                200+
-              </div>
-              <p className="text-gray-400 uppercase tracking-widest text-sm mt-2">Perguntas Respondidas</p>
-            </div>
-
-            <h2 className="text-3xl md:text-5xl font-black mb-6 leading-tight">
-              Encontre a <span className="bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent">resposta</span> que você precisa
-            </h2>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-6 mb-12">
-            <Link
-              to="/faq#vinilico"
-              className="group relative bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-8 hover:bg-white/10 hover:border-yellow-500/50 transition-all duration-300 hover:transform hover:-translate-y-2"
-            >
-              <div className="text-5xl mb-4">🏠</div>
-              <h3 className="text-xl font-bold mb-2">Pisos Vinílicos</h3>
-              <p className="text-yellow-500 text-sm font-semibold">70 perguntas</p>
-            </Link>
-
-            <Link
-              to="/faq#spc"
-              className="group relative bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-8 hover:bg-white/10 hover:border-yellow-500/50 transition-all duration-300 hover:transform hover:-translate-y-2"
-            >
-              <div className="text-5xl mb-4">💧</div>
-              <h3 className="text-xl font-bold mb-2">Pisos SPC</h3>
-              <p className="text-yellow-500 text-sm font-semibold">50 perguntas</p>
-            </Link>
-
-            <Link
-              to="/faq#laminado"
-              className="group relative bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-8 hover:bg-white/10 hover:border-yellow-500/50 transition-all duration-300 hover:transform hover:-translate-y-2"
-            >
-              <div className="text-5xl mb-4">🌲</div>
-              <h3 className="text-xl font-bold mb-2">Pisos Laminados</h3>
-              <p className="text-yellow-500 text-sm font-semibold">50 perguntas</p>
-            </Link>
-          </div>
-
-          <div className="text-center">
-            <Link
-              to="/faq"
-              className="inline-flex items-center gap-3 bg-gradient-to-r from-yellow-600 to-yellow-500 hover:from-yellow-500 hover:to-yellow-400 text-gray-900 font-bold px-10 py-5 rounded-full text-lg transition-all transform hover:scale-105 shadow-lg hover:shadow-2xl"
-            >
-              Ver todas as 200+ perguntas
-              <ArrowRight size={24} />
-            </Link>
-          </div>
-        </div>
-      </section>
-
+      <div className="container mx-auto px-4 pb-8 text-center"><Link to="/faq" className="text-brand-orange underline font-bold">Ver todas as dúvidas sobre pisos</Link></div>
       {/* NEW: Map Section */}
-      <MapSection />
+      <MapSection showPhoto={false} />
 
       {/* Mobile-Only Contact Widget (replaces form) */}
       <section className="py-16 bg-white lg:hidden">

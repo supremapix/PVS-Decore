@@ -34,7 +34,7 @@ const VideoShowcase: React.FC<VideoShowcaseProps> = ({
   return (
     <motion.section
       ref={containerRef}
-      initial={{ opacity: 0, y: 40 }}
+      initial={false}
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.7, ease: 'easeOut' }}
       className="relative py-20 overflow-hidden bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950"
@@ -47,7 +47,7 @@ const VideoShowcase: React.FC<VideoShowcaseProps> = ({
         <div className="flex flex-col lg:flex-row items-center gap-12">
           {/* Text side */}
           <motion.div
-            initial={{ opacity: 0, x: -30 }}
+            initial={false}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.2 }}
             className="lg:w-1/2 text-center lg:text-left"
@@ -64,18 +64,18 @@ const VideoShowcase: React.FC<VideoShowcaseProps> = ({
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
               <div className="flex items-center gap-2 text-gray-300">
                 <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-                <span className="text-sm font-medium">Conteúdo Exclusivo</span>
+                <span className="text-sm font-medium">Vídeo sobre pisos</span>
               </div>
               <div className="flex items-center gap-2 text-gray-300">
                 <span className="w-2 h-2 rounded-full bg-brand-orange animate-pulse" />
-                <span className="text-sm font-medium">Qualidade Premium</span>
+                <span className="text-sm font-medium">Conheça os materiais</span>
               </div>
             </div>
           </motion.div>
 
           {/* Video side - 9:16 vertical */}
           <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
+            initial={false}
             animate={inView ? { opacity: 1, scale: 1 } : {}}
             transition={{ duration: 0.6, delay: 0.3, ease: 'easeOut' }}
             className="lg:w-1/2 flex justify-center"
@@ -91,7 +91,7 @@ const VideoShowcase: React.FC<VideoShowcaseProps> = ({
                     {/* Thumbnail background */}
                     <img
                       src={`https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`}
-                      alt={title}
+                      alt={title} loading="lazy" decoding="async" width={1280} height={720}
                       className="absolute inset-0 w-full h-full object-cover"
                       onError={(e) => {
                         (e.target as HTMLImageElement).src = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;

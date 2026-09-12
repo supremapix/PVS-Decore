@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ChevronRight, Award, Diamond, Zap, Target } from 'lucide-react';
 
@@ -49,7 +49,7 @@ const BrandsSection = () => {
   return (
     <section className="py-16 md:py-24 bg-white overflow-hidden">
       <div className="container mx-auto px-4 md:px-6 max-w-7xl">
-        
+
         {/* Header */}
         <div className="text-center mb-12">
           <p className="text-brand-orange font-bold uppercase tracking-widest mb-4">
@@ -60,8 +60,8 @@ const BrandsSection = () => {
           </h2>
           <div className="w-20 h-1.5 bg-brand-orange rounded-full mx-auto mb-6"></div>
           <p className="text-lg md:text-xl text-gray-500 max-w-3xl mx-auto font-light">
-            Trabalhamos com as melhores marcas de pisos e acabamentos do mercado. 
-            Qualidade garantida para o seu projeto.
+            Conheça marcas de pisos e acabamentos.
+            Consulte as linhas e a disponibilidade para seu projeto.
           </p>
         </div>
 
@@ -70,23 +70,19 @@ const BrandsSection = () => {
           {BRAND_CARDS.map((brand, idx) => (
             <motion.div
               key={brand.id}
-              initial={{ opacity: 0, y: 30 }}
+              initial={false}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.1, duration: 0.6 }}
-              onClick={() => handleNavigate(brand.id)}
+              role="group"
               className="group relative h-[450px] md:h-[500px] rounded-[2rem] overflow-hidden cursor-pointer shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-gray-100"
             >
               {/* Background Image */}
               <div className="absolute inset-0 w-full h-full bg-gray-200">
-                <img 
-                  src={brand.image} 
-                  alt={brand.name} 
+                <img
+                  src={brand.image.replace(".jpg",".webp")} loading="lazy" decoding="async" width={800} height={600}
+                  alt={`Ambiente de referência para ${brand.name} — imagem ilustrativa`}
                   className="w-full h-full object-cover transition-transform duration-700 ease-in-out group-hover:scale-110"
-                  onError={(e) => {
-                    const target = e.target as HTMLImageElement;
-                    target.src = 'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&q=80&w=800'; // Fallback image
-                  }}
                 />
               </div>
 
@@ -109,7 +105,7 @@ const BrandsSection = () => {
 
                 {/* Name */}
                 <h3 className="text-3xl font-black text-white mb-6 drop-shadow-xl tracking-tight group-hover:text-brand-orange transition-colors">
-                  {brand.name}
+                  <Link to={`/nossos-produtos#${brand.id}`} className="after:absolute after:inset-0">{brand.name}</Link>
                 </h3>
 
                 {/* Button-like element */}

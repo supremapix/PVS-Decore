@@ -1,3 +1,5 @@
+import Illustration from '../components/Illustration';
+import {PAGE_ILLUSTRATIONS,ILLUSTRATIONS} from '../data/illustrations';
 import React from 'react';
 import { useParams, Navigate, Link } from 'react-router-dom';
 import { PAGE_CONTENT } from '../constants';
@@ -6,30 +8,34 @@ import LeadForm from '../components/LeadForm';
 import PageTransition from '../components/PageTransition';
 import { CheckCircle2, Star, ArrowRight, MapPin } from 'lucide-react';
 import ImageGallery from '../components/ImageGallery';
+import NotFound from './NotFound';
+import {PRODUCT_LINKS} from '../data/site';
+import {useLocation} from 'react-router-dom';
 import ShareButtons from '../components/ShareButtons';
 
 const GenericPage = () => {
   const { slug } = useParams();
+  const {pathname}=useLocation();
   const data = slug ? PAGE_CONTENT[slug] : null;
 
   if (!data) {
-    return <Navigate to="/" replace />;
+    return <NotFound />;
   }
 
-  // Enhanced description logic to ensure persuasive tone and benefits are tailored to the type
-  const persuasiveDescription = data.type === 'service' 
-    ? `${data.seoDescription} Chega de dor de cabeça na obra! A PVS Decore garante instalação em 48h, mão de obra própria (sem terceiros) e garantia em contrato. Atendemos Curitiba e Região com excelência. Peça seu orçamento!`
-    : `${data.seoDescription} Transforme sua casa com a PVS Decore. Revenda oficial das melhores marcas, consultoria para o clima de Curitiba e instalação impecável. Clique e veja por que somos referência em ${data.title}.`;
+  const persuasiveDescription = data.seoDescription;
 
   const pageUrl = `/${data.type}/${slug}`;
+
+  if(pathname.replace(/\/+$/, "")!==pageUrl)return <Navigate to={pageUrl} replace/>;
 
   return (
     <PageTransition>
       <EnhancedSEO
-        title={`${data.title} | PVS Decore - Curitiba e Sao Jose dos Pinhais`}
+        title={`${data.title} | PVS Decore`}
         description={persuasiveDescription}
         url={pageUrl}
         type={data.type}
+        image={ILLUSTRATIONS[PAGE_ILLUSTRATIONS[slug!]].src}
         keywords={`${data.title.toLowerCase()}, ${data.title.toLowerCase()} curitiba, ${data.title.toLowerCase()} sao jose dos pinhais, pvs decore`}
       />
 
@@ -38,7 +44,7 @@ const GenericPage = () => {
         <div className="relative bg-brand-dark text-white py-20 lg:py-24 overflow-hidden">
            {/* Decorative background element */}
            <div className="absolute top-0 right-0 w-64 h-64 bg-brand-orange opacity-10 rounded-full blur-3xl transform translate-x-1/2 -translate-y-1/2"></div>
-           
+
           <div className="container mx-auto px-4 text-center relative z-10">
             <span className="inline-block py-1 px-3 rounded bg-brand-orange/20 border border-brand-orange/30 text-brand-orange font-bold tracking-widest uppercase text-xs mb-4 backdrop-blur-sm">
               Especialidade PVS Decore
@@ -47,16 +53,17 @@ const GenericPage = () => {
               {data.title}
             </h1>
             <p className="text-gray-400 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed">
-              Soluções completas com qualidade garantida em Curitiba e Região.
+              Venda e instalação com atendimento em São José dos Pinhais, Curitiba e região.
             </p>
           </div>
         </div>
 
         <div className="container mx-auto px-4 py-16 lg:py-24">
           <div className="flex flex-col lg:flex-row gap-12 lg:gap-20">
-            
+
             {/* Main Content Column */}
             <div className="lg:w-7/12 xl:w-2/3">
+              <Illustration name={PAGE_ILLUSTRATIONS[slug!]} className="mb-8" eager />
               {/* Intro Box */}
               <div className="bg-gradient-to-br from-orange-50 to-white border border-orange-100 p-8 rounded-2xl mb-12 shadow-sm flex flex-col sm:flex-row items-start gap-6">
                 <div className="bg-brand-orange text-white p-4 rounded-xl shadow-lg shrink-0 transform -rotate-3">
@@ -65,7 +72,7 @@ const GenericPage = () => {
                 <div>
                   <h2 className="text-2xl font-bold text-gray-900 mb-3">Por que escolher este serviço?</h2>
                   <p className="text-gray-700 leading-relaxed text-lg">
-                    Na PVS Decore, somos especialistas em <span className="font-semibold text-brand-orange">{data.title.toLowerCase()}</span>. 
+                    Na PVS Decore, somos especialistas em <span className="font-semibold text-brand-orange">{data.title.toLowerCase()}</span>.
                     Combinamos materiais de primeira linha com técnicos experientes para entregar o acabamento que sua obra merece.
                   </p>
                 </div>
@@ -73,7 +80,7 @@ const GenericPage = () => {
 
               <div className="space-y-16">
                 {data.contentBlocks.map((block, index) => (
-                  <article key={index} className="prose max-w-none group">
+                  <article id={/SPC/.test(block.title)?"spc":undefined} key={index} className="prose max-w-none group">
                     <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
                       <span className="w-1.5 h-8 bg-brand-orange rounded-full shadow-sm group-hover:h-10 transition-all duration-300"></span>
                       {block.title}
@@ -81,7 +88,7 @@ const GenericPage = () => {
                     <p className="text-gray-600 leading-8 text-lg text-justify">
                       {block.content}
                     </p>
-                    
+
                     {/* CTA Intermediário */}
                     {(index + 1) % 3 === 0 && index !== data.contentBlocks.length - 1 && (
                        <div className="bg-gray-50 p-8 rounded-2xl border border-gray-100 my-10 shadow-sm hover:shadow-md transition-shadow duration-300">
@@ -96,6 +103,7 @@ const GenericPage = () => {
                 ))}
               </div>
 
+              <nav aria-label="Conteúdos relacionados" className="flex flex-wrap gap-4 my-8">{PRODUCT_LINKS.map(item=><Link className="text-brand-orange underline" key={item.name} to={item.url}>{item.name}</Link>)}<Link to="/nossos-produtos" className="underline">Marcas</Link><Link to="/faq" className="underline">Dúvidas sobre pisos</Link></nav>
               {/* Share Buttons */}
               <ShareButtons title={`PVS Decore - ${data.title}`} url={pageUrl} />
             </div>
@@ -106,7 +114,7 @@ const GenericPage = () => {
                 <div className="shadow-2xl rounded-2xl overflow-hidden ring-1 ring-black/5">
                     <LeadForm locationName={data.title} />
                 </div>
-                
+
                 <div className="bg-white border border-gray-200 p-8 rounded-2xl shadow-sm">
                   <h4 className="font-bold text-gray-900 mb-6 text-lg flex items-center gap-2">
                     <CheckCircle2 className="text-brand-orange" size={20} />
@@ -117,8 +125,8 @@ const GenericPage = () => {
                       .filter(([key]) => key !== slug)
                       .map(([key, item]) => (
                         <li key={key}>
-                          <Link 
-                            to={`/${item.type}/${key}`} 
+                          <Link
+                            to={`/${item.type}/${key}`}
                             className="text-gray-600 hover:text-brand-orange hover:bg-orange-50 block p-3 rounded-lg transition-colors flex items-center justify-between group"
                           >
                             <span>{item.title}</span>
@@ -132,13 +140,13 @@ const GenericPage = () => {
 
                 <div className="bg-brand-dark text-white p-8 rounded-2xl text-center relative overflow-hidden group">
                     <div className="absolute top-0 right-0 w-32 h-32 bg-brand-orange opacity-10 rounded-full blur-2xl transform translate-x-1/2 -translate-y-1/2 group-hover:opacity-20 transition-opacity"></div>
-                    
+
                     <MapPin size={32} className="mx-auto text-brand-orange mb-4" />
                     <h4 className="font-bold text-xl mb-3">Atendemos sua Região</h4>
                     <p className="text-gray-400 text-sm mb-6 leading-relaxed">
-                        Estamos presentes em toda Curitiba e São José dos Pinhais (Raio 30km).
+                        Consulte entrega e instalação para seu endereço em Curitiba, São José dos Pinhais e região.
                     </p>
-                    <Link to="/cidade/sao-jose-dos-pinhais" className="inline-block bg-brand-orange text-white px-6 py-3 rounded-lg font-bold text-sm hover:bg-orange-600 transition shadow-lg hover:shadow-orange-500/20 w-full">
+                    <Link to="/cidade/so-jos-dos-pinhais" className="inline-block bg-brand-orange text-white px-6 py-3 rounded-lg font-bold text-sm hover:bg-orange-600 transition shadow-lg hover:shadow-orange-500/20 w-full">
                         Ver Áreas de Atendimento
                     </Link>
                 </div>

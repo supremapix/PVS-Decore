@@ -12,8 +12,8 @@ interface TestimonialProps {
 
 const TestimonialCard: React.FC<TestimonialProps> = ({ name, role, location, text, delay = 0 }) => {
   return (
-    <motion.div 
-      initial={{ opacity: 0, y: 30 }}
+    <motion.div
+      initial={false}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-50px" }}
       transition={{ duration: 0.6, delay, ease: "easeOut" }}
@@ -23,7 +23,7 @@ const TestimonialCard: React.FC<TestimonialProps> = ({ name, role, location, tex
       <div className="absolute -top-4 right-8 bg-brand-orange text-white p-2 rounded-full shadow-lg">
           <Quote size={20} fill="currentColor" />
       </div>
-      
+
       <div className="flex gap-1 text-yellow-400 mb-6">
         {[...Array(5)].map((_, i) => <Star key={i} size={16} fill="currentColor" />)}
       </div>

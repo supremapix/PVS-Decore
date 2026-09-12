@@ -8,11 +8,8 @@ interface ShareButtonsProps {
 
 const ShareButtons: React.FC<ShareButtonsProps> = ({ title, url }) => {
   const [copied, setCopied] = useState(false);
-  
-  // Construct full URL supporting HashRouter
-  const origin = typeof window !== 'undefined' && window.location.origin ? window.location.origin : '';
-  const fullUrl = `${origin}/#${url}`;
-  
+
+  const fullUrl = `https://www.pvsdecore.com.br${url}`;
   const encodedUrl = encodeURIComponent(fullUrl);
   const encodedTitle = encodeURIComponent(title);
 
@@ -27,7 +24,7 @@ const ShareButtons: React.FC<ShareButtonsProps> = ({ title, url }) => {
         <h4 className="text-sm font-bold text-gray-900 uppercase tracking-wider mb-4">Gostou? Compartilhe:</h4>
         <div className="flex flex-wrap gap-3">
             {/* WhatsApp */}
-            <a 
+            <a
                 href={`https://wa.me/?text=${encodedTitle}%20${encodedUrl}`}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -41,7 +38,7 @@ const ShareButtons: React.FC<ShareButtonsProps> = ({ title, url }) => {
             </a>
 
             {/* Facebook */}
-            <a 
+            <a
                 href={`https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`}
                 target="_blank"
                 rel="noopener noreferrer"

@@ -1,18 +1,19 @@
+import Illustration from '../components/Illustration';
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Search, ChevronDown, ChevronUp, ArrowUp, Share2, Copy, Check } from 'lucide-react';
 import EnhancedSEO from '../components/EnhancedSEO';
 import PageTransition from '../components/PageTransition';
 import { FAQ_CATEGORIES, getTotalQuestions } from '../data/faqData';
+import { PRODUCT_LINKS, SITE_URL } from '../data/site';
 import { CONTACT_PHONE } from '../constants';
 
 const FAQPage = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [activeCategory, setActiveCategory] = useState<string>('');
-  const [openQuestions, setOpenQuestions] = useState<Set<string>>(new Set());
   const [showScrollTop, setShowScrollTop] = useState(false);
   const [copiedLink, setCopiedLink] = useState<string>('');
-  const [questionCount, setQuestionCount] = useState(0);
+  const questionCount = getTotalQuestions();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -28,47 +29,16 @@ const FAQPage = () => {
       setActiveCategory(hash);
       setTimeout(() => {
         const element = document.getElementById(hash);
+        const detail=element?.closest('details');if(detail)detail.open=true;
         element?.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }, 100);
     }
   }, []);
 
-  useEffect(() => {
-    let count = 0;
-    const duration = 2000;
-    const target = getTotalQuestions();
-    const increment = target / (duration / 16);
-    const timer = setInterval(() => {
-      count += increment;
-      if (count >= target) {
-        setQuestionCount(target);
-        clearInterval(timer);
-      } else {
-        setQuestionCount(Math.floor(count));
-      }
-    }, 16);
-    return () => clearInterval(timer);
-  }, []);
 
-  const toggleQuestion = (categoryId: string, questionIndex: number) => {
-    const key = `${categoryId}-${questionIndex}`;
-    setOpenQuestions(prev => {
-      const newSet = new Set(prev);
-      if (newSet.has(key)) {
-        newSet.delete(key);
-      } else {
-        newSet.add(key);
-      }
-      return newSet;
-    });
-  };
 
-  const copyLink = (categoryId: string, questionIndex: number) => {
-    const link = `${window.location.origin}/faq#${categoryId}-q${questionIndex}`;
-    navigator.clipboard.writeText(link);
-    setCopiedLink(`${categoryId}-${questionIndex}`);
-    setTimeout(() => setCopiedLink(''), 2000);
-  };
+
+  const copyLink = async (id:string) => {try {await navigator.clipboard.writeText(SITE_URL+'/faq#'+id);setCopiedLink(id);setTimeout(()=>setCopiedLink(''),2000);}catch {setCopiedLink('');}};
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -82,35 +52,17 @@ const FAQPage = () => {
     )
   })).filter(cat => cat.questions.length > 0);
 
-  const generateFAQSchema = () => {
-    const allQuestions = FAQ_CATEGORIES.flatMap(cat =>
-      cat.questions.map(q => ({
-        "@type": "Question",
-        "name": q.question,
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": q.answer
-        }
-      }))
-    );
-
-    return {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": allQuestions
-    };
-  };
 
   return (
     <PageTransition>
       <EnhancedSEO
-        title="FAQ Completo — 200+ Perguntas sobre Pisos Vinílicos, Laminados e SPC | PVS Decore"
-        description="Central de dúvidas completa com mais de 200 perguntas e respostas sobre pisos vinílicos, laminados, SPC, instalação, manutenção, preços e muito mais. PVS Decore Curitiba."
+        title="FAQ Completo — Dúvidas sobre Pisos Vinílicos, Laminados e SPC | PVS Decore"
+        description="Respostas sobre laminado, vinílico, SPC, rodapés, instalação, manutenção e escolha do piso. Consulte produtos e serviços da PVS Decore."
         url="/faq"
         type="website"
         keywords="faq pisos vinilicos, perguntas pisos laminados, duvidas piso spc, como instalar piso vinilico, manutencao piso laminado, preco piso vinilico curitiba"
         breadcrumbs={[{ name: 'FAQ', url: '/faq' }]}
-        additionalSchema={generateFAQSchema()}
+        faq={filteredCategories.flatMap(category=>category.questions)}
       />
 
       <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white">
@@ -128,7 +80,7 @@ const FAQPage = () => {
 
             <div className="mb-6">
               <div className="text-7xl md:text-9xl font-black bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-400 bg-clip-text text-transparent inline-block">
-                {questionCount}+
+                {questionCount}
               </div>
               <p className="text-gray-400 uppercase tracking-widest text-sm mt-2">Perguntas Respondidas</p>
             </div>
@@ -146,6 +98,7 @@ const FAQPage = () => {
               <Search className="absolute left-6 top-1/2 transform -translate-y-1/2 text-gray-400" size={24} />
               <input
                 type="text"
+                aria-label="Buscar dúvidas sobre pisos"
                 placeholder="Digite sua dúvida sobre pisos..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
@@ -167,7 +120,7 @@ const FAQPage = () => {
                 className="group relative bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-8 hover:bg-white/10 hover:border-yellow-500/50 transition-all duration-300 hover:transform hover:-translate-y-2"
                 style={{ animationDelay: `${idx * 0.1}s` }}
               >
-                <div className="text-5xl mb-4">{category.icon}</div>
+                <Illustration name={({laminado:"laminado",vinilico:"vinilico",spc:"spc",rodapes:"rodape",instalacao:"residencial",manutencao:"manutencao",escolha:"amostras"} as const)[category.id as "laminado"]} className="mb-4" />
                 <h3 className="text-xl font-bold mb-2">{category.name}</h3>
                 <p className="text-yellow-500 text-sm font-semibold">{category.count} perguntas</p>
                 <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">
@@ -189,53 +142,8 @@ const FAQPage = () => {
                 </div>
 
                 <div className="space-y-4">
-                  {category.questions.map((faq, idx) => {
-                    const key = `${category.id}-${idx}`;
-                    const isOpen = openQuestions.has(key);
-                    const isCopied = copiedLink === key;
+                  {category.questions.map(faq => <details key={faq.id} id={faq.id} className="bg-white/5 border border-white/10 rounded-xl scroll-mt-24"><summary className="px-6 py-5 cursor-pointer font-semibold text-lg">{faq.question}</summary>{faq.aliases.map(id=><span id={id} key={id} />)}<div className="px-6 pb-6 text-gray-300 leading-relaxed"><p>{faq.answer}</p><button type="button" className="mt-4 underline p-2" onClick={()=>copyLink(faq.id)}>{copiedLink===faq.id?'Link copiado':'Copiar link desta resposta'}</button></div></details>)}
 
-                    return (
-                      <div
-                        key={idx}
-                        id={`${category.id}-q${idx}`}
-                        className="bg-white/5 backdrop-blur-lg border border-white/10 rounded-xl overflow-hidden hover:border-yellow-500/30 transition-all"
-                      >
-                        <button
-                          onClick={() => toggleQuestion(category.id, idx)}
-                          className="w-full px-6 py-5 flex items-center justify-between text-left hover:bg-white/5 transition-colors"
-                        >
-                          <span className="font-semibold text-lg pr-4">{faq.question}</span>
-                          <div className="flex items-center gap-2 flex-shrink-0">
-                            <button
-                              onClick={(e) => {
-                                e.stopPropagation();
-                                copyLink(category.id, idx);
-                              }}
-                              className="p-2 hover:bg-yellow-500/20 rounded-lg transition-colors"
-                              title="Copiar link"
-                            >
-                              {isCopied ? (
-                                <Check size={18} className="text-green-400" />
-                              ) : (
-                                <Copy size={18} className="text-gray-400" />
-                              )}
-                            </button>
-                            {isOpen ? (
-                              <ChevronUp className="text-yellow-500" size={24} />
-                            ) : (
-                              <ChevronDown className="text-gray-400" size={24} />
-                            )}
-                          </div>
-                        </button>
-
-                        {isOpen && (
-                          <div className="px-6 pb-6 text-gray-300 leading-relaxed border-t border-white/10 pt-4">
-                            {faq.answer}
-                          </div>
-                        )}
-                      </div>
-                    );
-                  })}
                 </div>
               </div>
             ))}
@@ -257,6 +165,7 @@ const FAQPage = () => {
             </div>
           )}
 
+          <nav aria-label="Produtos e serviços relacionados" className="flex flex-wrap gap-4 mt-12">{PRODUCT_LINKS.map(item=><Link className="underline" key={item.name} to={item.url}>{item.name}</Link>)}<Link to="/service/instalacao-residencial" className="underline">Instalação</Link><Link to="/service/manutencao" className="underline">Manutenção</Link></nav>
           <div className="mt-20 text-center bg-gradient-to-r from-yellow-600/20 to-yellow-500/20 backdrop-blur-lg border border-yellow-500/30 rounded-2xl p-12">
             <h3 className="text-3xl font-black mb-4">Não encontrou sua dúvida?</h3>
             <p className="text-gray-300 mb-8 text-lg">

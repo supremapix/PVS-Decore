@@ -2,22 +2,22 @@ import React from 'react';
 import { MapPin, Navigation, Clock, Phone } from 'lucide-react';
 import { CONTACT_ADDRESS, CONTACT_DISPLAY } from '../constants';
 
-const MapSection = () => {
+const MapSection = ({showPhoto=true}:{showPhoto?:boolean}) => {
   return (
     <section className="bg-gray-900 py-16 relative overflow-hidden">
         {/* Abstract Map Background Pattern */}
         <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/shattered-island.png')]"></div>
-        
+
         <div className="container mx-auto px-4 relative z-10">
             <div className="flex flex-col md:flex-row bg-white rounded-3xl overflow-hidden shadow-2xl">
                 {/* Left: Info */}
-                <div className="md:w-1/2 p-8 md:p-12 flex flex-col justify-center bg-white">
+                <div className={`${showPhoto?"md:w-1/2":"w-full"} p-8 md:p-12 flex flex-col justify-center bg-white`}>
                     <span className="text-brand-orange font-bold uppercase tracking-widest text-xs mb-2">Venha nos visitar</span>
                     <h2 className="text-3xl font-black text-gray-900 mb-6">PVS Decore SJP</h2>
                     <p className="text-gray-600 mb-8 text-lg">
                         Conheça nosso showroom completo. Veja as amostras pessoalmente e sinta a textura dos materiais.
                     </p>
-                    
+
                     <div className="space-y-6">
                         <div className="flex items-start gap-4">
                             <div className="bg-orange-50 p-3 rounded-xl text-brand-orange">
@@ -48,9 +48,9 @@ const MapSection = () => {
                         </div>
                     </div>
 
-                    <a 
-                        href={`https://www.google.com/maps/dir//${encodeURIComponent(CONTACT_ADDRESS)}`} 
-                        target="_blank" 
+                    <a
+                        href={`https://www.google.com/maps/dir//${encodeURIComponent(CONTACT_ADDRESS)}`}
+                        target="_blank"
                         rel="noreferrer"
                         className="mt-8 bg-brand-orange hover:bg-orange-700 text-white font-bold py-4 rounded-xl flex items-center justify-center gap-2 shadow-lg transition-all transform hover:scale-[1.02]"
                     >
@@ -58,10 +58,10 @@ const MapSection = () => {
                     </a>
                 </div>
 
-                {/* Right: Store Photo */}
+                {showPhoto && <> {/* Right: Store Photo */}
                 <div className="md:w-1/2 relative min-h-[300px] bg-gray-200">
                     <img
-                        src="/pisos-laminados-vinilicos-pvs-spj.png"
+                        src="/loja-pvs.webp" width={1024} height={1024} loading="lazy" decoding="async"
                         alt="PVS Decore - Loja em São José dos Pinhais"
                         className="absolute inset-0 w-full h-full object-cover"
                     />
@@ -72,6 +72,7 @@ const MapSection = () => {
                          </div>
                     </div>
                 </div>
+                </>}
             </div>
         </div>
     </section>

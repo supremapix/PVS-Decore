@@ -1,14 +1,14 @@
 import { writeFileSync } from 'fs';
+import { MAIN_AREAS } from '../data/site';
 import { LOCATIONS, PAGE_CONTENT } from '../constants';
 
 const SITE_URL = 'https://www.pvsdecore.com.br';
 
 function generateSitemap() {
-  const urls: string[] = [
+  const urls: {loc:string;priority:string;changefreq:string}[] = [
     { loc: '/', priority: '1.0', changefreq: 'daily' },
     { loc: '/nossos-produtos', priority: '0.9', changefreq: 'weekly' },
     { loc: '/faq', priority: '0.9', changefreq: 'weekly' },
-    { loc: '/perguntas-frequentes', priority: '0.8', changefreq: 'weekly' },
     { loc: '/contato', priority: '0.8', changefreq: 'monthly' },
     { loc: '/mapa-do-site', priority: '0.7', changefreq: 'monthly' },
     { loc: '/piso-laminado-direto-da-fabrica-sao-jose-dos-pinhais', priority: '0.9', changefreq: 'weekly' },
@@ -23,7 +23,7 @@ function generateSitemap() {
     });
   });
 
-  LOCATIONS.forEach(location => {
+  LOCATIONS.filter(location=>location.type==='cidade' && MAIN_AREAS.includes(location.name)).forEach(location => {
     urls.push({
       loc: `/${location.type}/${location.slug}`,
       priority: '0.7',

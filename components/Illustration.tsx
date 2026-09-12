@@ -1,0 +1,3 @@
+import React from 'react';
+import {ILLUSTRATIONS} from '../data/illustrations';
+export default function Illustration({name,className='',eager=false}:{name:keyof typeof ILLUSTRATIONS;className?:string;eager?:boolean}){const item=ILLUSTRATIONS[name];return <figure className={className}><img src={item.src} srcSet={item.src.replace('.webp','-800.webp')+' 800w, '+item.src+' 1536w'} sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 760px" width={1536} height={1024} loading={eager?'eager':'lazy'} decoding="async" alt={item.alt} className="w-full aspect-[3/2] object-cover rounded-xl"/><figcaption className="text-xs text-gray-500 mt-2">Imagem ilustrativa. Cores e acabamento variam conforme o produto.</figcaption></figure>}
