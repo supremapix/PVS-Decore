@@ -1,0 +1,849 @@
+{
+  "baseline": "af2ed16",
+  "origin": "local build",
+  "checked": 120,
+  "direct200": 119,
+  "permanentRedirects": 1,
+  "results": [
+    {
+      "name": "Vila Parolin",
+      "oldPath": "/bairro/vila-parolin",
+      "target": "/bairro/vila-parolin",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Vila Torres",
+      "oldPath": "/bairro/vila-torres",
+      "target": "/bairro/vila-torres",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Jardim Schaffer",
+      "oldPath": "/bairro/jardim-schaffer",
+      "target": "/bairro/jardim-schaffer",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Vila Sabará",
+      "oldPath": "/bairro/vila-sabar",
+      "target": "/bairro/vila-sabar",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Boqueirão de Baixo",
+      "oldPath": "/bairro/boqueiro-de-baixo",
+      "target": "/bairro/boqueiro-de-baixo",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Boqueirão de Cima",
+      "oldPath": "/bairro/boqueiro-de-cima",
+      "target": "/bairro/boqueiro-de-cima",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Tanguá",
+      "oldPath": "/bairro/tangu",
+      "target": "/bairro/tangu",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Vila Zumbi",
+      "oldPath": "/bairro/vila-zumbi",
+      "target": "/bairro/vila-zumbi",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Abranches de Baixo",
+      "oldPath": "/bairro/abranches-de-baixo",
+      "target": "/bairro/abranches-de-baixo",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Abranches de Cima",
+      "oldPath": "/bairro/abranches-de-cima",
+      "target": "/bairro/abranches-de-cima",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Vila Nossa Senhora da Luz",
+      "oldPath": "/bairro/vila-nossa-senhora-da-luz",
+      "target": "/bairro/vila-nossa-senhora-da-luz",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Vila Tecnológica",
+      "oldPath": "/bairro/vila-tecnolgica",
+      "target": "/bairro/vila-tecnolgica",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Vila Oficinas",
+      "oldPath": "/bairro/vila-oficinas",
+      "target": "/bairro/vila-oficinas",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Vila Fanny",
+      "oldPath": "/bairro/vila-fanny",
+      "target": "/bairro/vila-fanny",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Vila Hauer",
+      "oldPath": "/bairro/vila-hauer",
+      "target": "/bairro/vila-hauer",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Batel Soho",
+      "oldPath": "/bairro/batel-soho",
+      "target": "/bairro/batel-soho",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Alto da Rua XV",
+      "oldPath": "/bairro/alto-da-rua-xv",
+      "target": "/bairro/alto-da-rua-xv",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "CIC Norte",
+      "oldPath": "/bairro/cic-norte",
+      "target": "/bairro/cic-norte",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "CIC Central",
+      "oldPath": "/bairro/cic-central",
+      "target": "/bairro/cic-central",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "CIC Sul",
+      "oldPath": "/bairro/cic-sul",
+      "target": "/bairro/cic-sul",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Vila Guaíra",
+      "oldPath": "/bairro/vila-guara",
+      "target": "/bairro/vila-guara",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Centro Histórico",
+      "oldPath": "/bairro/centro-histrico",
+      "target": "/bairro/centro-histrico",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Ecoville",
+      "oldPath": "/bairro/ecoville",
+      "target": "/bairro/ecoville",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Carmo Abranches",
+      "oldPath": "/bairro/carmo-abranches",
+      "target": "/bairro/carmo-abranches",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Água Verde",
+      "oldPath": "/bairro/gua-verde",
+      "target": "/bairro/gua-verde",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Ahú",
+      "oldPath": "/bairro/ah",
+      "target": "/bairro/ah",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Alto Boqueirão",
+      "oldPath": "/bairro/alto-boqueiro",
+      "target": "/bairro/alto-boqueiro",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Alto da Glória",
+      "oldPath": "/bairro/alto-da-glria",
+      "target": "/bairro/alto-da-glria",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Alto da XV",
+      "oldPath": "/bairro/alto-da-xv",
+      "target": "/bairro/alto-da-xv",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Atuba",
+      "oldPath": "/bairro/atuba",
+      "target": "/bairro/atuba",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Augusta",
+      "oldPath": "/bairro/augusta",
+      "target": "/bairro/augusta",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Bacacheri",
+      "oldPath": "/bairro/bacacheri",
+      "target": "/bairro/bacacheri",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Bairro Alto",
+      "oldPath": "/bairro/bairro-alto",
+      "target": "/bairro/bairro-alto",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Barreirinha",
+      "oldPath": "/bairro/barreirinha",
+      "target": "/bairro/barreirinha",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Batel",
+      "oldPath": "/bairro/batel",
+      "target": "/bairro/batel",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Bigorrilho",
+      "oldPath": "/bairro/bigorrilho",
+      "target": "/bairro/bigorrilho",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Boa Vista",
+      "oldPath": "/bairro/boa-vista",
+      "target": "/bairro/boa-vista",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Bom Retiro",
+      "oldPath": "/bairro/bom-retiro",
+      "target": "/bairro/bom-retiro",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Boqueirão",
+      "oldPath": "/bairro/boqueiro",
+      "target": "/bairro/boqueiro",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Butiatuvinha",
+      "oldPath": "/bairro/butiatuvinha",
+      "target": "/bairro/butiatuvinha",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Cabral",
+      "oldPath": "/bairro/cabral",
+      "target": "/bairro/cabral",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Cachoeira",
+      "oldPath": "/bairro/cachoeira",
+      "target": "/bairro/cachoeira",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Cajuru",
+      "oldPath": "/bairro/cajuru",
+      "target": "/bairro/cajuru",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Campina do Siqueira",
+      "oldPath": "/bairro/campina-do-siqueira",
+      "target": "/bairro/campina-do-siqueira",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Campo Comprido",
+      "oldPath": "/bairro/campo-comprido",
+      "target": "/bairro/campo-comprido",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Campo de Santana",
+      "oldPath": "/bairro/campo-de-santana",
+      "target": "/bairro/campo-de-santana",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Capão da Imbuia",
+      "oldPath": "/bairro/capo-da-imbuia",
+      "target": "/bairro/capo-da-imbuia",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Capão Raso",
+      "oldPath": "/bairro/capo-raso",
+      "target": "/bairro/capo-raso",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Cascatinha",
+      "oldPath": "/bairro/cascatinha",
+      "target": "/bairro/cascatinha",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Caximba",
+      "oldPath": "/bairro/caximba",
+      "target": "/bairro/caximba",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Centro",
+      "oldPath": "/bairro/centro",
+      "target": "/bairro/centro",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Centro Cívico",
+      "oldPath": "/bairro/centro-cvico",
+      "target": "/bairro/centro-cvico",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "CIC",
+      "oldPath": "/bairro/cic",
+      "target": "/bairro/cidade-industrial-de-curitiba",
+      "expectedStatus": 308,
+      "noindex": true
+    },
+    {
+      "name": "Cristo Rei",
+      "oldPath": "/bairro/cristo-rei",
+      "target": "/bairro/cristo-rei",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Fanny",
+      "oldPath": "/bairro/fanny",
+      "target": "/bairro/fanny",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Fazendinha",
+      "oldPath": "/bairro/fazendinha",
+      "target": "/bairro/fazendinha",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Ganchinho",
+      "oldPath": "/bairro/ganchinho",
+      "target": "/bairro/ganchinho",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Guabirotuba",
+      "oldPath": "/bairro/guabirotuba",
+      "target": "/bairro/guabirotuba",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Guaíra",
+      "oldPath": "/bairro/guara",
+      "target": "/bairro/guara",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Hauer",
+      "oldPath": "/bairro/hauer",
+      "target": "/bairro/hauer",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Hugo Lange",
+      "oldPath": "/bairro/hugo-lange",
+      "target": "/bairro/hugo-lange",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Jardim Botânico",
+      "oldPath": "/bairro/jardim-botnico",
+      "target": "/bairro/jardim-botnico",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Jardim das Américas",
+      "oldPath": "/bairro/jardim-das-amricas",
+      "target": "/bairro/jardim-das-amricas",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Jardim Social",
+      "oldPath": "/bairro/jardim-social",
+      "target": "/bairro/jardim-social",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Juvevê",
+      "oldPath": "/bairro/juvev",
+      "target": "/bairro/juvev",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Lamenha Pequena",
+      "oldPath": "/bairro/lamenha-pequena",
+      "target": "/bairro/lamenha-pequena",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Lindóia",
+      "oldPath": "/bairro/lindia",
+      "target": "/bairro/lindia",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Mercês",
+      "oldPath": "/bairro/mercs",
+      "target": "/bairro/mercs",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Mossunguê",
+      "oldPath": "/bairro/mossungu",
+      "target": "/bairro/mossungu",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Novo Mundo",
+      "oldPath": "/bairro/novo-mundo",
+      "target": "/bairro/novo-mundo",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Orleans",
+      "oldPath": "/bairro/orleans",
+      "target": "/bairro/orleans",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Parolin",
+      "oldPath": "/bairro/parolin",
+      "target": "/bairro/parolin",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Pilarzinho",
+      "oldPath": "/bairro/pilarzinho",
+      "target": "/bairro/pilarzinho",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Pinheirinho",
+      "oldPath": "/bairro/pinheirinho",
+      "target": "/bairro/pinheirinho",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Portão",
+      "oldPath": "/bairro/porto",
+      "target": "/bairro/porto",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Prado Velho",
+      "oldPath": "/bairro/prado-velho",
+      "target": "/bairro/prado-velho",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Rebouças",
+      "oldPath": "/bairro/rebouas",
+      "target": "/bairro/rebouas",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Riviera",
+      "oldPath": "/bairro/riviera",
+      "target": "/bairro/riviera",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Santa Cândida",
+      "oldPath": "/bairro/santa-cndida",
+      "target": "/bairro/santa-cndida",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Santa Felicidade",
+      "oldPath": "/bairro/santa-felicidade",
+      "target": "/bairro/santa-felicidade",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Santa Quitéria",
+      "oldPath": "/bairro/santa-quitria",
+      "target": "/bairro/santa-quitria",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Santo Inácio",
+      "oldPath": "/bairro/santo-incio",
+      "target": "/bairro/santo-incio",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "São Braz",
+      "oldPath": "/bairro/so-braz",
+      "target": "/bairro/so-braz",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "São Francisco",
+      "oldPath": "/bairro/so-francisco",
+      "target": "/bairro/so-francisco",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "São João",
+      "oldPath": "/bairro/so-joo",
+      "target": "/bairro/so-joo",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "São Lourenço",
+      "oldPath": "/bairro/so-loureno",
+      "target": "/bairro/so-loureno",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "São Miguel",
+      "oldPath": "/bairro/so-miguel",
+      "target": "/bairro/so-miguel",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Vila Pantanal",
+      "oldPath": "/bairro/vila-pantanal",
+      "target": "/bairro/vila-pantanal",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Seminário",
+      "oldPath": "/bairro/seminrio",
+      "target": "/bairro/seminrio",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Sítio Cercado",
+      "oldPath": "/bairro/stio-cercado",
+      "target": "/bairro/stio-cercado",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Taboão",
+      "oldPath": "/bairro/taboo",
+      "target": "/bairro/taboo",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Tarumã",
+      "oldPath": "/bairro/tarum",
+      "target": "/bairro/tarum",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Tatuquara",
+      "oldPath": "/bairro/tatuquara",
+      "target": "/bairro/tatuquara",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Tingui",
+      "oldPath": "/bairro/tingui",
+      "target": "/bairro/tingui",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Uberaba",
+      "oldPath": "/bairro/uberaba",
+      "target": "/bairro/uberaba",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Umbará",
+      "oldPath": "/bairro/umbar",
+      "target": "/bairro/umbar",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Vila Izabel",
+      "oldPath": "/bairro/vila-izabel",
+      "target": "/bairro/vila-izabel",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Vista Alegre",
+      "oldPath": "/bairro/vista-alegre",
+      "target": "/bairro/vista-alegre",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Xaxim",
+      "oldPath": "/bairro/xaxim",
+      "target": "/bairro/xaxim",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Santa Quitéria Velha",
+      "oldPath": "/bairro/santa-quitria-velha",
+      "target": "/bairro/santa-quitria-velha",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Portão Velho",
+      "oldPath": "/bairro/porto-velho",
+      "target": "/bairro/porto-velho",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Guaíra Velho",
+      "oldPath": "/bairro/guara-velho",
+      "target": "/bairro/guara-velho",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Uberaba de Cima",
+      "oldPath": "/bairro/uberaba-de-cima",
+      "target": "/bairro/uberaba-de-cima",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Uberaba de Baixo",
+      "oldPath": "/bairro/uberaba-de-baixo",
+      "target": "/bairro/uberaba-de-baixo",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "São Braz Velho",
+      "oldPath": "/bairro/so-braz-velho",
+      "target": "/bairro/so-braz-velho",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Vila Verde",
+      "oldPath": "/bairro/vila-verde",
+      "target": "/bairro/vila-verde",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Vila Barigui",
+      "oldPath": "/bairro/vila-barigui",
+      "target": "/bairro/vila-barigui",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Caiuá",
+      "oldPath": "/bairro/caiu",
+      "target": "/bairro/caiu",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Xaxim Velho",
+      "oldPath": "/bairro/xaxim-velho",
+      "target": "/bairro/xaxim-velho",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Fazendinha-Portão",
+      "oldPath": "/bairro/fazendinha-porto",
+      "target": "/bairro/fazendinha-porto",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Campo Comprido Velho",
+      "oldPath": "/bairro/campo-comprido-velho",
+      "target": "/bairro/campo-comprido-velho",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Bacacheri Velho",
+      "oldPath": "/bairro/bacacheri-velho",
+      "target": "/bairro/bacacheri-velho",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Capão da Imbuia Velho",
+      "oldPath": "/bairro/capo-da-imbuia-velho",
+      "target": "/bairro/capo-da-imbuia-velho",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Pinheirinho Velho",
+      "oldPath": "/bairro/pinheirinho-velho",
+      "target": "/bairro/pinheirinho-velho",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Vila São Pedro",
+      "oldPath": "/bairro/vila-so-pedro",
+      "target": "/bairro/vila-so-pedro",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Vila Osternack",
+      "oldPath": "/bairro/vila-osternack",
+      "target": "/bairro/vila-osternack",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Conjunto Caiuá",
+      "oldPath": "/bairro/conjunto-caiu",
+      "target": "/bairro/conjunto-caiu",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Conjunto Parigot de Souza",
+      "oldPath": "/bairro/conjunto-parigot-de-souza",
+      "target": "/bairro/conjunto-parigot-de-souza",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Vila Reno",
+      "oldPath": "/bairro/vila-reno",
+      "target": "/bairro/vila-reno",
+      "expectedStatus": 200,
+      "noindex": true
+    },
+    {
+      "name": "Vila Audi",
+      "oldPath": "/bairro/vila-audi",
+      "target": "/bairro/vila-audi",
+      "expectedStatus": 200,
+      "noindex": true
+    }
+  ]
+}

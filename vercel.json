@@ -3,6 +3,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/bairro/cic",
+      "destination": "/bairro/cidade-industrial-de-curitiba",
+      "permanent": true
+    },
+    {
       "source": "/perguntas-frequentes",
       "destination": "/faq",
       "permanent": true
