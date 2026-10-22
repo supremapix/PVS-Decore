@@ -32,7 +32,7 @@ const FactoryPage = () => {
               <span className="text-brand-orange">Compra e Instalação</span>
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-10">
-              Economia real para sua obra em São José dos Pinhais. Compare materiais, frete e instalação em uma loja local.
+              Planeje sua obra em São José dos Pinhais. Compare materiais, frete e instalação em uma loja local.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
                <button
@@ -91,8 +91,8 @@ const FactoryPage = () => {
 
               <div className="grid md:grid-cols-2 gap-8 my-12">
                 <div className="bg-orange-50 p-6 rounded-xl border-l-4 border-brand-orange">
-                  <h4 className="font-bold text-gray-900 mb-2">Economia em SJP</h4>
-                  <p className="text-sm text-gray-600">Preços competitivos para quem mora em São José dos Pinhais e busca custo-benefício real.</p>
+                  <h4 className="font-bold text-gray-900 mb-2">Orçamento em SJP</h4>
+                  <p className="text-sm text-gray-600">Compare o conjunto de materiais, preparação, instalação e transporte para seu endereço.</p>
                 </div>
                 <div className="bg-orange-50 p-6 rounded-xl border-l-4 border-brand-orange">
                   <h4 className="font-bold text-gray-900 mb-2">Orçamento da instalação</h4>

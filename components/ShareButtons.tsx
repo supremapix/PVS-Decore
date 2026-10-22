@@ -13,10 +13,12 @@ const ShareButtons: React.FC<ShareButtonsProps> = ({ title, url }) => {
   const encodedUrl = encodeURIComponent(fullUrl);
   const encodedTitle = encodeURIComponent(title);
 
-  const handleCopy = () => {
-    navigator.clipboard.writeText(fullUrl);
+  const handleCopy = async () => {
+    try {
+    await navigator.clipboard.writeText(fullUrl);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
+    } catch { setCopied(false); }
   };
 
   return (

@@ -1,3 +1,5 @@
+import AreasPage from './pages/AreasPage';
+import GuidePage from './pages/GuidePage';
 import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
@@ -20,7 +22,7 @@ export function AnimatedRoutes() {
   return (
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home />} /><Route path="/areas-atendidas" element={<AreasPage/>}/><Route path="/guia-de-pisos" element={<GuidePage/>}/>
         <Route path="/nossos-produtos" element={<BrandsProducts />} />
         <Route path="/piso-laminado-direto-da-fabrica-sao-jose-dos-pinhais" element={<FactoryPage />} />
         <Route path="/bairro/:slug" element={<LocationPage />} />

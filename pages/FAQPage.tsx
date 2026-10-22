@@ -120,7 +120,7 @@ const FAQPage = () => {
                 className="group relative bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-8 hover:bg-white/10 hover:border-yellow-500/50 transition-all duration-300 hover:transform hover:-translate-y-2"
                 style={{ animationDelay: `${idx * 0.1}s` }}
               >
-                <Illustration name={({laminado:"laminado",vinilico:"vinilico",spc:"spc",rodapes:"rodape",instalacao:"residencial",manutencao:"manutencao",escolha:"amostras"} as const)[category.id as "laminado"]} className="mb-4" />
+                <Illustration name={({laminado:"laminado",vinilico:"vinilico",spc:"spc",rodapes:"rodape",instalacao:"residencial",manutencao:"manutencao",escolha:"amostras",orcamento:"medicao",cuidados:"manutencao"} as const)[category.id as "laminado"]} className="mb-4" />
                 <h3 className="text-xl font-bold mb-2">{category.name}</h3>
                 <p className="text-yellow-500 text-sm font-semibold">{category.count} perguntas</p>
                 <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">

@@ -12,8 +12,10 @@ import ImageGallery from '../components/ImageGallery';
 import ShareButtons from '../components/ShareButtons';
 import VideoShowcase from '../components/VideoShowcase';
 
+const LOCAL_CONTEXT:Record<string,[string,string]> = {"Curitiba":["Reforma em apartamento","Antes de combinar a instalação em Curitiba, confirme as regras do condomínio: horários de obra, reserva do elevador e acesso para materiais. Informe se o imóvel estará ocupado para planejar a sequência dos cômodos."],"São José dos Pinhais":["Visita à loja e comparação de amostras","A loja da PVS está na Rua Izabel A Redentora, 1088. Ao consultar materiais em São José dos Pinhais, leve medidas aproximadas e fotos do ambiente. Confirme antes da visita os modelos disponíveis e as condições para medição no imóvel."],"Pinhais":["Materiais e entrega no mesmo planejamento","Para um projeto em Pinhais, inclua o endereço completo na solicitação. Compare a quantidade de piso e rodapés com o acesso ao imóvel e combine a entrega antes da instalação, conforme as orientações do material escolhido."],"Colombo":["Organização dos ambientes durante a reforma","Ao solicitar atendimento em Colombo, indique quais cômodos receberão o piso e onde ficarão os móveis. Essa informação ajuda a discutir a sequência do serviço e o espaço necessário para materiais, sem presumir que a casa ficará disponível de uma só vez."],"Araucária":["Uso residencial ou comercial","Para seu projeto em Araucária, informe se o espaço é residência, escritório ou loja. Tráfego, cadeiras com rodízios e rotina de limpeza orientam a seleção da linha. Combine acesso e preparação da base antes de programar a instalação."]};
 // A service area is never a second business address.
 const generateContent=(name:string,type:'bairro'|'cidade')=>[
+ ...(LOCAL_CONTEXT[name]?[{title:LOCAL_CONTEXT[name][0],content:LOCAL_CONTEXT[name][1]}]:[]),
  {title:'Onde comprar pisos?',content:name==='São José dos Pinhais'?'A PVS Decore fica na Rua Izabel A Redentora, 1088, São José dos Pinhais – PR, CEP 83030-500. Consulte pisos laminados, vinílicos, SPC e rodapés na loja.':'A loja física da PVS Decore fica em São José dos Pinhais. Para seu endereço em '+name+', consulte a disponibilidade de entrega, medição e instalação pelo telefone (41) 3076-6240.'},
  {title:'Como escolher o piso?',content:'Laminados são opções para salas, quartos e áreas secas. Vinílicos e SPC devem ser escolhidos conforme tráfego, limpeza e aprovação do fabricante para o ambiente. Compare amostras, condições do contrapiso e acabamento.'},
  {title:'Como solicitar instalação?',content:'Informe o endereço, o tipo de imóvel e a área aproximada. O orçamento deve considerar preparação do contrapiso, materiais, mão de obra e rodapés. Prazo e condições de garantia são definidos na contratação.'}
@@ -64,7 +66,7 @@ const LocationPage = () => {
               Pisos e Revestimentos em <span className="text-brand-orange">{location.name}</span>
             </h1>
             <p className="text-gray-400 max-w-2xl mx-auto text-lg">
-              Levamos a qualidade e sofisticação da PVS Decore até você em {location.name}.
+              Consulte a disponibilidade para seu endereço em {location.name}.
               Solicite um orçamento sem compromisso.
             </p>
           </div>
@@ -81,7 +83,7 @@ const LocationPage = () => {
                   <Star fill="white" size={24} />
                 </div>
                 <div>
-                  <h2 className="text-xl font-bold text-gray-900 mb-2">Referência em {location.name}</h2>
+                  <h2 className="text-xl font-bold text-gray-900 mb-2">Planeje seu projeto em {location.name}</h2>
                   <p className="text-gray-700">
                     Se você busca transformar seu ambiente residencial ou comercial em {location.name},
                     encontrou a empresa certa. Unimos produtos de primeira linha com mão de obra especializada.
@@ -93,7 +95,7 @@ const LocationPage = () => {
               <div className="space-y-12">
                 {seoContent.map((block, index) => (
                   <div key={index} className="prose max-w-none group">
-                    <Illustration name={(["amostras","vinilico","medicao"] as const)[index]} className="mb-6" />
+                    <Illustration name={(["amostras","vinilico","medicao"] as const)[index % 3]} className="mb-6" />
                     <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
                       <span className="w-2 h-8 bg-brand-orange rounded-full"></span>
                       {block.title}
@@ -120,7 +122,7 @@ const LocationPage = () => {
 
               <nav aria-label="Produtos e instalação" className="flex flex-wrap gap-4 my-8">{PRODUCT_LINKS.map(item=><Link key={item.name} to={item.url} className="text-brand-orange underline">{item.name}</Link>)}<Link to="/service/instalacao-residencial" className="underline">Instalação residencial</Link><Link to="/service/instalacao-comercial" className="underline">Instalação comercial</Link></nav>
               {/* Share Buttons */}
-              <ShareButtons title={`Pisos PVS Decore em ${location.name}`} url={pageUrl} />
+              <p className="my-6"><Link to="/guia-de-pisos" className="underline">Guia de materiais e preparação</Link> · <Link to="/areas-atendidas" className="underline">Diretório de atendimento</Link></p><ShareButtons title={`Pisos PVS Decore em ${location.name}`} url={pageUrl} />
             </div>
 
             {/* Sidebar / Sticky Form */}

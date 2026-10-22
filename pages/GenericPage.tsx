@@ -35,7 +35,7 @@ const GenericPage = () => {
         description={persuasiveDescription}
         url={pageUrl}
         type={data.type}
-        image={ILLUSTRATIONS[PAGE_ILLUSTRATIONS[slug!]].src}
+        image="/og-pvs.png"
         keywords={`${data.title.toLowerCase()}, ${data.title.toLowerCase()} curitiba, ${data.title.toLowerCase()} sao jose dos pinhais, pvs decore`}
       />
 
@@ -95,7 +95,7 @@ const GenericPage = () => {
                          <h4 className="font-bold text-xl mb-3 text-gray-900">Ficou com alguma dúvida?</h4>
                          <p className="text-gray-600 mb-6">Nossa equipe técnica está pronta para responder suas perguntas sobre {data.title}.</p>
                          <a href="#contato-form" className="inline-flex items-center gap-2 text-brand-orange font-bold hover:text-orange-700 transition group/link">
-                           Solicitar consultoria gratuita <ArrowRight size={18} className="group-hover/link:translate-x-1 transition-transform" />
+                           Consultar meu projeto <ArrowRight size={18} className="group-hover/link:translate-x-1 transition-transform" />
                          </a>
                        </div>
                     )}

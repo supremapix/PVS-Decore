@@ -1,0 +1,16 @@
+{
+  "htmlPages": 64,
+  "sitemapEntries": 19,
+  "widths": [
+    320,
+    390,
+    1440
+  ],
+  "routesPerWidth": 8,
+  "assetsAndLinks": "pass",
+  "schema": "pass",
+  "shareChannels": 6,
+  "clipboard": "success and failure paths",
+  "keyboard": "Escape and focus return",
+  "runtimeErrors": []
+}

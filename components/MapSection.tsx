@@ -2,7 +2,7 @@ import React from 'react';
 import { MapPin, Navigation, Clock, Phone } from 'lucide-react';
 import { CONTACT_ADDRESS, CONTACT_DISPLAY } from '../constants';
 
-const MapSection = ({showPhoto=true}:{showPhoto?:boolean}) => {
+const MapSection = ({showPhoto=false}:{showPhoto?:boolean}) => {
   return (
     <section className="bg-gray-900 py-16 relative overflow-hidden">
         {/* Abstract Map Background Pattern */}

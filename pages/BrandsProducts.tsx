@@ -48,7 +48,7 @@ const BRANDS = [
 const FLOOR_TYPES = [
   { id: 'all', label: 'Todos os Tipos', description: 'Veja todas as nossas soluções', icon: Grid },
   { id: 'Laminados', label: 'Pisos Laminados', description: 'Resistentes, práticos e com visual de madeira natural', icon: FileText },
-  { id: 'Vinílicos', label: 'Pisos Vinílicos', description: 'Impermeáveis, silenciosos e versáteis', icon: DropletsIcon },
+  { id: 'Vinílicos', label: 'Pisos Vinílicos', description: 'Sistemas e modelos para diferentes ambientes', icon: DropletsIcon },
   { id: 'SPC', label: 'Pisos SPC', description: 'Tecnologia Stone Plastic Composite - núcleo rígido com encaixe', icon: ShieldIcon },
   { id: 'Rodapés e Acabamentos', label: 'Rodapés e Acabamentos', description: 'Complementos essenciais para um acabamento perfeito', icon: LayoutIcon }
 ];
@@ -90,7 +90,7 @@ const BrandsProducts = () => {
     <PageTransition>
       <EnhancedSEO
         title="Marcas e Produtos | PVS Decore - Eucafloor, Durafloor, Quick-Step, Santa Luzia"
-        description="loja de pisos Eucafloor, Durafloor, Quick-Step e Santa Luzia em Curitiba e SJP. Pisos laminados, vinilicos, SPC e rodapes. Catalogos digitais e orcamento gratis."
+        description="loja de pisos Eucafloor, Durafloor, Quick-Step e Santa Luzia em Curitiba e SJP. Pisos laminados, vinilicos, SPC e rodapes. Catalogos digitais e orçamento."
         url="/nossos-produtos"
         keywords="eucafloor curitiba, durafloor curitiba, quick-step curitiba, santa luzia rodape, pisos laminados marcas, pisos vinilicos marcas, catalogo pisos"
       />
@@ -284,8 +284,8 @@ const BrandsProducts = () => {
               <div className="w-16 h-16 bg-orange-50 text-brand-orange rounded-2xl flex items-center justify-center mx-auto mb-6">
                 <CheckCircle2 size={32} />
               </div>
-              <h3 className="text-xl font-bold mb-2 text-brand-dark">🏆 Qualidade Garantida</h3>
-              <p className="text-gray-500">Produtos certificados das marcas de pisos do mercado</p>
+              <h3 className="text-xl font-bold mb-2 text-brand-dark">🏆 Escolha informada</h3>
+              <p className="text-gray-500">Compare a ficha técnica e a indicação de uso de cada linha</p>
             </div>
             <div className="bg-white p-8 rounded-3xl shadow-md border border-gray-100 text-center hover:shadow-xl transition-shadow">
               <div className="w-16 h-16 bg-green-50 text-green-600 rounded-2xl flex items-center justify-center mx-auto mb-6">

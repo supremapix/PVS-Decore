@@ -1,0 +1,1 @@
+module.exports={content:['./index.html','./*.tsx','./components/**/*.tsx','./pages/**/*.tsx'],theme:{extend:{colors:{brand:{orange:'#a84415',dark:'#202c28',light:'#f5f2ec'}},fontFamily:{sans:['Inter','system-ui','sans-serif']}}},plugins:[]};

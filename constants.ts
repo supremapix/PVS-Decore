@@ -107,128 +107,131 @@ export interface RichPageData {
 }
 
 export const PAGE_CONTENT: Record<string, RichPageData> = {
-  'piso-vinilico': {
-    title: 'Piso Vinílico: modelos e instalação',
-    seoDescription: 'Venda e instalação de Piso Vinílico em LVT e SPC (Click). Resistente à água, térmico e acústico. Ideal para residências e comércios. Confira nossas ofertas!',
-    type: 'product',
-    contentBlocks: [
-      { title: 'O que é o Piso Vinílico?', content: 'O piso vinílico é produzido a partir de PVC, cargas minerais e aditivos, o que o torna um revestimento leve, flexível (na versão LVT) ou rígido (na versão SPC), e extremamente durável. Ele se tornou o favorito em projetos de arquitetura em Curitiba por oferecer conforto térmico, mantendo a temperatura agradável mesmo nos dias frios da nossa região.' },
-      { title: 'Por que é perfeito para o clima de Curitiba?', content: 'Quem mora em Curitiba ou São José dos Pinhais conhece o frio úmido da região. O piso vinílico é um excelente isolante térmico. Diferente da cerâmica, que é "gelada", o vinílico mantém a temperatura ambiente. Isso significa que você pode andar descalço no inverno sem sentir aquele choque térmico, além de ajudar a manter a casa mais aquecida.' },
-      { title: 'Resistência à Água e Umidade', content: "A resistência à água varia conforme a linha e não torna o ambiente impermeabilizado. Cozinhas e lavabos dependem de aprovação do fabricante; banheiros com chuveiro e áreas externas exigem verificação específica. Resolva a umidade do contrapiso antes da instalação." },
-      { title: 'Conforto Acústico Superior', content: 'Mora em apartamento? O piso vinílico absorve o impacto dos passos, reduzindo drasticamente o barulho de "toc-toc" (ruído de impacto). Isso melhora a qualidade de vida dentro de casa e a convivência com os vizinhos do andar de baixo.' },
-      { title: 'Instalação Rápida e Limpa', content: 'Na PVS Decore, realizamos a instalação de vinílicos sobre o contrapiso ou sobre cerâmicas existentes (com o devido nivelamento). O processo é rápido, praticamente sem poeira e sem barulho de serras elétricas, permitindo que você renove sua casa em poucos dias.' },
-      { title: 'Tipos: LVT Colado vs. SPC Click', content: 'Trabalhamos com o LVT (Luxury Vinyl Tile), que é colado ao contrapiso e exige uma base perfeitamente nivelada, e o SPC (Stone Plastic Composite) com sistema de encaixe Click, que é mais rígido, dispensa cola e exige base seca, firme e nivelada dentro das tolerâncias do fabricante.' },
-      { title: 'Facilidade de Limpeza', content: 'A manutenção do vinílico é extremamente simples: basta uma vassoura de cerdas macias e um pano úmido com detergente neutro. Dispensa ceras e produtos abrasivos, mantendo o brilho e a aparência de novo por muitos anos.' },
-      { title: 'Hipoalergênico e Seguro', content: 'Por não acumular poeira e ser fácil de higienizar, o piso vinílico é recomendado para quartos de crianças e pessoas alérgicas. Além disso, muitos modelos possuem proteção antibacteriana em sua camada superficial.' },
-      { title: 'Dica #07: Limpeza Correta', content: 'Remova a poeira e use pano ou mop bem torcido com o produto indicado pelo fabricante. Não encharque sistemas clicados; o método de limpeza depende da linha.' },
-      { title: 'Condições de garantia', content: 'A garantia do produto é definida pelo fabricante e pela linha. As condições do serviço devem constar separadamente no orçamento e contrato. Solicite os termos antes da compra.' }
+  "piso-vinilico": {
+    "title": "Piso vinílico: modelos e instalação",
+    "seoDescription": "Compare piso vinílico colado e SPC clicado com a PVS Decore. Entenda ambiente, contrapiso e limpeza antes de solicitar o orçamento.",
+    "type": "product",
+    "contentBlocks": [
+      {
+        "title": "Onde usar",
+        "content": "Informe se o ambiente é residencial ou comercial, sua rotina de limpeza e a circulação de pessoas. A escolha deve seguir a indicação da linha, não apenas a cor ou espessura."
+      },
+      {
+        "title": "LVT colado e SPC clicado",
+        "content": "O LVT colado depende de base preparada e adesivo compatível. O SPC utiliza núcleo rígido e encaixes. Ambos precisam de avaliação do contrapiso e instalação conforme o manual."
+      },
+      {
+        "title": "Água e contrapiso",
+        "content": "Resistência à água não significa impermeabilização do ambiente. Verifique infiltrações e umidade antes da instalação; o uso em áreas sujeitas a água depende da autorização específica do fabricante."
+      },
+      {
+        "title": "Limpeza e proteção",
+        "content": "Remova a poeira e siga o manual da linha para limpeza úmida. Evite encharcar sistemas clicados e proteja os pés dos móveis. Consulte as instruções do fabricante para produtos de limpeza."
+      }
     ]
   },
-  'piso-laminado': {
-    title: 'Piso Laminado: escolha e instalação',
-    seoDescription: 'Especialistas em Piso Laminado. O melhor custo-benefício para quartos e salas. Instalação rápida sistema Click. Diversos padrões de madeira. Peça orçamento!',
-    type: 'product',
-    contentBlocks: [
-      { title: 'O que é Piso Laminado?', content: 'O piso laminado é composto por camadas de HDF (fibra de madeira de alta densidade), revestido com um papel decorativo e uma proteção superficial (overlay). É a solução mais popular em Curitiba para quem busca a beleza da madeira com um custo acessível.' },
-      { title: 'Ideal para o Inverno Paranaense', content: 'Feito de madeira reconstituída, o laminado é um material "quente". Ele quebra o gelo do contrapiso, tornando quartos e salas de estar ambientes muito mais acolhedores, especialmente nas noites frias de Curitiba e Região Metropolitana.' },
-      { title: 'Instalação com sistema Click', content: 'O sistema Click utiliza encaixes. O prazo depende da área, do contrapiso e dos acabamentos; combine o cronograma e a liberação para uso conforme o fabricante e o instalador.' },
-      { title: 'Custo-Benefício', content: 'Comparado à madeira maciça ou ao vinílico, o laminado costuma ter o menor custo por metro quadrado instalado. É a opção ideal para reformas rápidas em quartos, salas e corredores, valorizando o imóvel com baixo investimento.' },
-      { title: 'Durabilidade e Resistência', content: 'Os laminados modernos possuem alta resistência a riscos e abrasão. Trabalhamos com linhas de resistência AC3 (residencial) e AC4/AC5 (comercial), garantindo que o piso suporte o dia a dia da sua família.' },
-      { title: 'Manta e preparação do contrapiso', content: 'A manta deve ser compatível com o sistema do fabricante. Ela não substitui o nivelamento do contrapiso; a base precisa estar seca, firme e regular.' },
-      { title: 'Piso Laminado e Umidade', content: 'Embora a tecnologia tenha avançado (algumas linhas são resistentes à água por horas), o laminado tradicional não é indicado para áreas molhadas. É perfeito para áreas secas e íntimas da casa.' },
-      { title: 'Design Moderno', content: 'As texturas dos laminados atuais são impressionantes, com relevos que acompanham os veios da madeira (sincronizados), proporcionando um visual e toque muito naturais.' },
-      { title: 'Fácil Manutenção', content: 'Para limpar, basta aspirador de pó e pano levemente umedecido com produtos específicos para laminados. É prático para o dia a dia corrido das famílias modernas.' },
-      { title: 'Dica PVS: Rodapé Branco', content: 'Quer modernizar seu ambiente instantaneamente? Combine o piso laminado madeirado com rodapés brancos de 10cm ou 15cm. Isso cria uma moldura elegante e amplia a sensação de pé-direito.' }
+  "piso-laminado": {
+    "title": "Piso laminado: escolha e instalação",
+    "seoDescription": "Pisos laminados para seu projeto em São José dos Pinhais, Curitiba e região. Compare padrões, instalação e condições de uso na PVS Decore.",
+    "type": "product",
+    "contentBlocks": [
+      {
+        "title": "Visual e uso do ambiente",
+        "content": "Compare amostras com a luz e os móveis do cômodo. Confira a classe de uso e a aplicação indicada para a linha, especialmente em comércio ou ambientes com cadeiras de rodízios."
+      },
+      {
+        "title": "Sistema de encaixe",
+        "content": "A instalação flutuante precisa respeitar juntas, perfis e acessórios especificados. Uma manta não substitui correções no contrapiso. Solicite avaliação antes de fechar o serviço."
+      },
+      {
+        "title": "Cuidados com água",
+        "content": "O laminado convencional é destinado a áreas secas. Linhas com resistência à água têm condições próprias de instalação e limpeza. Consulte o manual e não presuma proteção contra infiltrações."
+      },
+      {
+        "title": "Como planejar a compra",
+        "content": "Inclua rodapés, transições entre ambientes, portas e recortes na medição. Peça orçamento com material e instalação separados, disponibilidade e cronograma definidos."
+      }
     ]
   },
-  'rodape-poliestireno': {
-    title: 'Rodapé de Poliestireno (Santa Luzia e Similares)',
-    seoDescription: 'Rodapés de Poliestireno para diferentes ambientes e acabamentos. Diversas alturas e modelos. O acabamento perfeito para seu piso. Confira!',
-    type: 'product',
-    contentBlocks: [
-      { title: 'A Evolução do Rodapé', content: 'Esqueça os rodapés de madeira que estufam ou de cerâmica que são difíceis de alinhar. O rodapé de poliestireno (EPS) é feito de material reciclado (isopor de alta densidade), sendo resistente à umidade conforme a linha e o manual do fabricante.' },
-      { title: 'Acabamento Perfeito', content: 'Eles já vêm pintados de fábrica (geralmente em branco), mas aceitam pintura se você desejar. O acabamento é liso, moderno e esconde a fiação elétrica em muitos modelos, deixando o ambiente clean.' },
-      { title: 'Não Mofa e Não Apodrece', content: 'Ideal para nossa região úmida. Você pode lavar o chão sem medo de estragar o rodapé. É a combinação perfeita tanto para pisos vinílicos quanto para porcelanatos e laminados.' },
-      { title: 'Variedade de Alturas e Frisos', content: 'Trabalhamos com modelos de 7cm, 10cm, 15cm e até 20cm de altura. Temos opções lisas, frisadas ou com detalhes clássicos, adaptando-se a qualquer estilo de decoração, do minimalista ao provençal.' },
-      { title: 'Instalação sem Sujeira', content: 'A fixação é feita com colas especiais de alta aderência e buchas T (quando necessário), sem pregos aparentes. O acabamento nos cantos e emendas é feito com massa própria, ficando imperceptível.' },
-      { title: 'Rodapé de Sobrepor', content: 'Tem um rodapé de cerâmica antigo embutido na parede e não quer quebrar? Temos modelos de sobrepor (reforma) que são instalados por cima do rodapé existente, renovando o ambiente sem "quebra-quebra".' },
-      { title: 'Sustentabilidade', content: 'O poliestireno utilizado é proveniente da reciclagem de isopor. Ao escolher este produto, você está ajudando a retirar resíduos do meio ambiente e transformá-los em um produto de luxo durável.' },
-      { title: 'Valorização do Imóvel', content: 'Um rodapé alto branco é um item de desejo na decoração de interiores. Ele alonga o pé-direito visualmente e cria uma moldura elegante para o seu piso.' },
-      { title: 'Combinação com Guarnições', content: 'Também oferecemos guarnições de porta no mesmo material, permitindo que você padronize toda a carpintaria da casa com a mesma qualidade e resistência.' },
-      { title: 'Instalação Técnica PVS', content: 'O segredo de um rodapé bonito é o corte em 45 graus perfeito nas esquinas. Nossos instaladores utilizam serras de precisão para garantir quinas afiadas e alinhamento impecável.' }
+  "rodape-poliestireno": {
+    "title": "Rodapés de poliestireno e acabamentos",
+    "seoDescription": "Compare alturas, perfis e cores de rodapés com a PVS Decore. Planeje cantos, portas e acabamento junto com seu piso.",
+    "type": "product",
+    "contentBlocks": [
+      {
+        "title": "Proporção e estilo",
+        "content": "Compare altura e perfil do rodapé com portas, paredes e móveis. Uma amostra ajuda a avaliar a cor no ambiente antes de definir o acabamento."
+      },
+      {
+        "title": "Encontros e recortes",
+        "content": "Meça os trechos de parede e considere cantos, batentes e interrupções. A quantidade de peças deve incluir o aproveitamento dos cortes, sem depender apenas da área do piso."
+      },
+      {
+        "title": "Fixação e pintura",
+        "content": "Cola, preparo da parede, tratamento das emendas e pintura variam por modelo. Verifique o manual do fabricante e registre no orçamento o acabamento contratado."
+      }
     ]
   },
-  'instalacao-residencial': {
-    title: 'Instalação de Pisos Residenciais',
-    seoDescription: 'Serviço especializado de instalação de pisos em residências. Avaliação do contrapiso e orçamento de materiais e mão de obra. Atendemos Curitiba e Região Metropolitana.',
-    type: 'service',
-    contentBlocks: [
-      { title: 'Sua Casa em Boas Mãos', content: 'Sabemos que reformar a casa habitada exige cuidado extra. Nossa equipe de instalação residencial é treinada para trabalhar com organização, protegendo seus móveis e minimizando a poeira.' },
-      { title: 'Evite os 3 Erros Comuns', content: 'Muitas obras dão dor de cabeça por 3 motivos: 1) Contratar "faz-tudo" sem especialização técnica; 2) Ignorar a umidade do contrapiso (o que faz o piso soltar depois); 3) Não deixar o espaço de dilatação correto. Na PVS Decore, seguimos protocolos técnicos rigorosos para reduzir esses riscos.' },
-      { title: 'Avaliação do Contrapiso', content: 'Antes de instalar, fazemos uma análise rigorosa do seu contrapiso. Se houver umidade ou desníveis, indicamos e executamos a correção necessária (impermeabilização ou autonivelante) para garantir a longevidade do piso.' },
-      { title: 'Paginação Personalizada', content: 'Planejamos o sentido das réguas para ampliar visualmente os ambientes e garantir o melhor aproveitamento do material, reduzindo perdas e recortes desnecessários.' },
-      { title: 'Instalação Sobre Piso Existente', content: 'Em muitos casos, podemos instalar o vinílico ou laminado sobre a cerâmica antiga, sem necessidade de quebradeira. Isso reduz drasticamente o tempo de obra e o entulho gerado.' },
-      { title: 'Acabamentos de Portas', content: 'Muitas vezes, ao colocar um piso novo sobre o antigo, as portas precisam ser refiladas (cortadas) embaixo. Nossa equipe realiza esse ajuste para que as portas abram e fechem perfeitamente.' },
-      { title: 'Móveis no Lugar', content: 'Se você não tem onde colocar os móveis durante a troca do piso, nossa equipe pode ajudar a movê-los de um cômodo para o outro conforme a instalação avança (serviço sob consulta).' },
-      { title: 'Limpeza Pós-Obra', content: 'Entregamos o ambiente aspirado e limpo. Recolhemos as sobras de material e embalagens, deixando sua casa pronta para você curtir o novo visual.' },
-      { title: 'Condições de garantia', content: 'A garantia do produto é definida pelo fabricante e pela linha. As condições do serviço devem constar separadamente no orçamento e contrato. Solicite os termos antes da compra.' },
-      { title: 'Regiões Atendidas', content: 'Levamos nossa excelência em instalação para todos os bairros de Curitiba, São José dos Pinhais, Pinhais, Colombo, Araucária e toda a Região Metropolitana conforme disponibilidade para o endereço.' }
+  "instalacao-residencial": {
+    "title": "Instalação de pisos em residências",
+    "seoDescription": "Planeje instalação de pisos em casas e apartamentos com a PVS Decore. Avaliação da base, ambientes ocupados, rodapés e orçamento.",
+    "type": "service",
+    "contentBlocks": [
+      {
+        "title": "Casa ocupada ou imóvel vazio",
+        "content": "Informe se haverá móveis e moradores durante o serviço. Discuta a ordem dos cômodos e o espaço para armazenar materiais antes de marcar a instalação."
+      },
+      {
+        "title": "Avaliação antes do acabamento",
+        "content": "A equipe precisa verificar a base, eventuais infiltrações e a compatibilidade do revestimento existente. A instalação sobre outro piso depende da condição encontrada e do manual da linha."
+      },
+      {
+        "title": "Portas, rodapés e transições",
+        "content": "A altura final do conjunto pode interferir em portas e encontros com outros revestimentos. Inclua esses pontos na avaliação e detalhe no orçamento os ajustes necessários."
+      }
     ]
   },
-  'instalacao-comercial': {
-    title: 'Instalação Comercial e Corporativa',
-    seoDescription: 'Pisos de alto tráfego para lojas, escritórios e empresas. Instalação noturna ou finais de semana para não parar seu negócio. Atendemos Curitiba e SJP.',
-    type: 'service',
-    contentBlocks: [
-      { title: 'Agilidade para seu Negócio', content: 'Tempo é dinheiro. Entendemos que sua loja ou escritório não pode parar. Oferecemos opções de instalação em horários alternativos (noturno ou finais de semana) para minimizar o impacto na sua operação.' },
-      { title: 'Pisos de Alto Tráfego', content: 'Especificamos e instalamos pisos com classificação AC4 e AC5 (Laminados) ou com capa de uso reforçada (Vinílicos) que suportam o fluxo intenso de clientes, rodízios de cadeiras e movimentação de mercadorias.' },
-      { title: 'Durabilidade e Manutenção', content: 'Para ambientes comerciais, indicamos produtos de fácil limpeza e alta resistência a riscos. Isso reduz custos operacionais com limpeza e mantém o aspecto de novo por muito mais tempo, valorizando a imagem da sua empresa.' },
-      { title: 'Acústica para Escritórios', content: 'O ruído em escritórios open-space atrapalha a produtividade. Nossos pisos vinílicos e carpetes em placas oferecem absorção acústica superior, criando um ambiente de trabalho mais focado e agradável.' },
-      { title: 'Design Corporativo', content: 'Trabalhamos com linhas de design sóbrio e moderno, alinhadas com a identidade visual da sua marca. Desde tons de concreto para startups até amadeirados clássicos para escritórios de advocacia.' },
-      { title: 'Regularização de Pisos Elevados', content: 'Temos expertise em preparar contrapisos e instalar revestimentos sobre pisos elevados, garantindo acesso às instalações elétricas e de dados quando necessário.' },
-      { title: 'Segurança e Normas', content: 'Utilizamos produtos que atendem às normas de resistência ao fogo e antiderrapância, garantindo a segurança dos seus colaboradores e clientes conforme exigências do Corpo de Bombeiros.' },
-      { title: 'Grandes Metragens', content: 'Possuímos equipe dimensionada para atender grandes obras em Curitiba e Região Metropolitana, mantendo o padrão de qualidade PVS Decore mesmo em cronogramas apertados.' },
-      { title: 'Condições de garantia', content: 'A garantia do produto é definida pelo fabricante e pela linha. As condições do serviço devem constar separadamente no orçamento e contrato. Solicite os termos antes da compra.' },
-      { title: 'Atendimento Personalizado', content: 'Realizamos visita técnica no seu estabelecimento para entender a dinâmica do local e propor a solução técnica mais viável economicamente e esteticamente.' }
+  "instalacao-comercial": {
+    "title": "Instalação de pisos comerciais",
+    "seoDescription": "Consulte pisos e instalação para lojas e escritórios. Planeje tráfego, limpeza, preparação e organização do serviço com a PVS Decore.",
+    "type": "service",
+    "contentBlocks": [
+      {
+        "title": "A rotina define a especificação",
+        "content": "Informe fluxo de pessoas, equipamentos, mobiliário e método de limpeza. A ficha técnica da linha precisa ser compatível com o uso comercial pretendido."
+      },
+      {
+        "title": "Planejar a operação",
+        "content": "Combine áreas de trabalho, proteção e acesso para materiais com o responsável pelo espaço. Prazo e liberação dependem do sistema escolhido, preparação da base e condições do imóvel."
+      },
+      {
+        "title": "Orçamento e documentação",
+        "content": "Peça descrição dos materiais, preparação, instalação, transporte e condições de garantia. Guarde a identificação do produto e as orientações de manutenção para a equipe de limpeza."
+      }
     ]
   },
-  'manutencao': {
-    title: 'Manutenção e Reparos de Pisos',
-    seoDescription: 'Reparo de pisos laminados e vinílicos, troca de réguas danificadas, recolagem e substituição de rodapés. Revitalize seu piso com a PVS Decore.',
-    type: 'service',
-    contentBlocks: [
-      { title: 'Seu Piso Novo de Novo', content: 'Acidentes acontecem. Um risco profundo, uma régua lascada ou um rodapé que descolou não significam que você precisa trocar todo o piso. A PVS Decore oferece serviço especializado de reparo localizado.' },
-      { title: 'Troca de Réguas Danificadas', content: 'Seja vinílico ou laminado, conseguimos substituir apenas as réguas avariadas (desde que haja material de reposição ou estoque disponível). Nossa técnica minimiza a necessidade de desmontar o ambiente todo.' },
-      { title: 'Recolagem de Vinílico', content: 'Com o tempo ou umidade excessiva, algumas pontas de piso vinílico podem levantar. Realizamos a limpeza da base e a recolagem com adesivos de alta performance, devolvendo a planicidade ao revestimento.' },
-      { title: 'Ajuste de Dilatação', content: 'Pisos laminados que estufaram por falta de espaço de dilatação podem ser salvos. Cortamos o excesso nas bordas e recolocamos o rodapé, permitindo que o piso "respire" e volte a assentar corretamente.' },
-      { title: 'Reparo de Rodapés', content: 'Rodapés soltos, quebrados ou cantos que abriram podem ser reparados. Refazemos a fixação e o acabamento com massa, deixando as emendas invisíveis novamente.' },
-      { title: 'Manutenção de Portas', content: 'Se o piso novo travou a porta ou se ela cedeu com o tempo e começou a riscar o chão, realizamos o refile (corte) e ajuste para garantir o funcionamento perfeito sem danificar o revestimento.' },
-      { title: 'Remoção e Reinstalação', content: 'Vai mudar de endereço comercial ou residencial? Avaliamos a possibilidade de remover seu piso flutuante (click) e reinstalá-lo no novo imóvel, gerando economia e sustentabilidade.' },
-      { title: 'Limpeza Técnica', content: 'Oferecemos orientações e produtos específicos para a limpeza pesada pós-obra ou revitalização periódica do seu piso vinílico ou laminado, removendo resíduos de cola e sujeiras impregnadas.' },
-      { title: 'Avaliação Honesta', content: 'Sempre avaliaremos se o reparo vale a pena. Se o custo do conserto for próximo ao de um piso novo, seremos transparentes. Nosso objetivo é a sua satisfação a longo prazo.' },
-      { title: 'Atendimento Rápido', content: 'Pequenos reparos são agendados com agilidade. Não deixe aquele defeito pequeno virar um problema grande. Chame a equipe de manutenção da PVS Decore.' }
+  "manutencao": {
+    "title": "Cuidados e manutenção de pisos",
+    "seoDescription": "Consulte a PVS sobre cuidados, avaliação e manutenção de pisos laminados e vinílicos. Identifique o material antes de escolher o procedimento.",
+    "type": "service",
+    "contentBlocks": [
+      {
+        "title": "Identifique o material",
+        "content": "Guarde a embalagem ou envie fotos e a identificação da linha, se disponível. Produtos visualmente semelhantes podem exigir cuidados diferentes."
+      },
+      {
+        "title": "Quando pedir avaliação",
+        "content": "Peças soltas, manchas de umidade ou deformações precisam de análise da causa. Evite encobrir um problema de base apenas com um novo revestimento. A possibilidade de reparo depende do sistema e da disponibilidade de peças."
+      },
+      {
+        "title": "Rotina de limpeza",
+        "content": "Siga a orientação do fabricante para o material instalado. Evite abrasivos e excesso de água; use utensílios suaves e proteja móveis para reduzir desgaste."
+      }
     ]
   }
 };
 
-const RAW_BAIRROS = [
-  "Vila Parolin", "Vila Torres", "Jardim Schaffer", "Vila Sabará", "Boqueirão de Baixo", "Boqueirão de Cima", "Tanguá",
-  "Vila Zumbi", "Abranches de Baixo", "Abranches de Cima", "Vila Nossa Senhora da Luz", "Vila Tecnológica", "Vila Oficinas",
-  "Vila Fanny", "Vila Hauer", "Batel Soho", "Alto da Rua XV", "CIC Norte", "CIC Central", "CIC Sul", "Vila Guaíra",
-  "Centro Histórico", "Ecoville", "Carmo Abranches", "Água Verde", "Ahú", "Alto Boqueirão", "Alto da Glória", "Alto da XV",
-  "Atuba", "Augusta", "Bacacheri", "Bairro Alto", "Barreirinha", "Batel", "Bigorrilho", "Boa Vista", "Bom Retiro",
-  "Boqueirão", "Butiatuvinha", "Cabral", "Cachoeira", "Cajuru", "Campina do Siqueira", "Campo Comprido", "Campo de Santana",
-  "Capão da Imbuia", "Capão Raso", "Cascatinha", "Caximba", "Centro", "Centro Cívico", "CIC", "Cristo Rei", "Fanny",
-  "Fazendinha", "Ganchinho", "Guabirotuba", "Guaíra", "Hauer", "Hugo Lange", "Jardim Botânico", "Jardim das Américas",
-  "Jardim Social", "Juvevê", "Lamenha Pequena", "Lindóia", "Mercês", "Mossunguê", "Novo Mundo", "Orleans", "Parolin",
-  "Pilarzinho", "Pinheirinho", "Portão", "Prado Velho", "Rebouças", "Riviera", "Santa Cândida", "Santa Felicidade",
-  "Santa Quitéria", "Santo Inácio", "São Braz", "São Francisco", "São João", "São Lourenço", "São Miguel", "Vila Pantanal",
-  "Seminário", "Sítio Cercado", "Taboão", "Tarumã", "Tatuquara", "Tingui", "Uberaba", "Umbará", "Vila Izabel",
-  "Vista Alegre", "Xaxim", "Santa Quitéria Velha", "Portão Velho", "Guaíra Velho", "Uberaba de Cima", "Uberaba de Baixo",
-  "São Braz Velho", "Vila Verde", "Vila Barigui", "Caiuá", "Xaxim Velho", "Fazendinha-Portão", "Campo Comprido Velho",
-  "Bacacheri Velho", "Capão da Imbuia Velho", "Pinheirinho Velho", "Vila São Pedro", "Vila Osternack", "Conjunto Caiuá",
-  "Conjunto Parigot de Souza", "Vila Reno", "Vila Audi"
-];
+const RAW_BAIRROS = ['Água Verde','Batel','Boa Vista','Boqueirão','Cabral','Cajuru','Campo Comprido','Capão Raso','Centro','Cidade Industrial de Curitiba','Cristo Rei','Fazendinha','Hauer','Jardim das Américas','Portão','Santa Felicidade','Sítio Cercado','Uberaba','Umbará','Xaxim'];
 
 const RAW_CIDADES = [
   "Adrianópolis", "Agudos do Sul", "Almirante Tamandaré", "Araucária", "Balsa Nova", "Bocaiúva do Sul",
