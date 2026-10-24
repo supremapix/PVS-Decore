@@ -1,174 +1,63 @@
-import Illustration from '../components/Illustration';
-import React, { useMemo } from 'react';
-import { useParams, Navigate, Link, useLocation } from 'react-router-dom';
-import { LOCATIONS, CONTACT_DISPLAY } from '../constants';
+import React from 'react';
+import {useParams, useLocation, Link} from 'react-router-dom';
+import {LOCATIONS, CONTACT_PHONE, CONTACT_DISPLAY, CONTACT_ADDRESS} from '../constants';
+import {MAIN_AREAS} from '../data/site';
 import EnhancedSEO from '../components/EnhancedSEO';
-import NotFound from './NotFound';
-import {MAIN_AREAS,PRODUCT_LINKS} from '../data/site';
+import Illustration from '../components/Illustration';
 import LeadForm from '../components/LeadForm';
-import PageTransition from '../components/PageTransition';
-import { CheckCircle2, MapPin, Star, Phone } from 'lucide-react';
-import ImageGallery from '../components/ImageGallery';
-import ShareButtons from '../components/ShareButtons';
 import VideoShowcase from '../components/VideoShowcase';
+import PageTransition from '../components/PageTransition';
+import NotFound from './NotFound';
 
-const LOCAL_CONTEXT:Record<string,[string,string]> = {"Curitiba":["Reforma em apartamento","Antes de combinar a instalação em Curitiba, confirme as regras do condomínio: horários de obra, reserva do elevador e acesso para materiais. Informe se o imóvel estará ocupado para planejar a sequência dos cômodos."],"São José dos Pinhais":["Visita à loja e comparação de amostras","A loja da PVS está na Rua Izabel A Redentora, 1088. Ao consultar materiais em São José dos Pinhais, leve medidas aproximadas e fotos do ambiente. Confirme antes da visita os modelos disponíveis e as condições para medição no imóvel."],"Pinhais":["Materiais e entrega no mesmo planejamento","Para um projeto em Pinhais, inclua o endereço completo na solicitação. Compare a quantidade de piso e rodapés com o acesso ao imóvel e combine a entrega antes da instalação, conforme as orientações do material escolhido."],"Colombo":["Organização dos ambientes durante a reforma","Ao solicitar atendimento em Colombo, indique quais cômodos receberão o piso e onde ficarão os móveis. Essa informação ajuda a discutir a sequência do serviço e o espaço necessário para materiais, sem presumir que a casa ficará disponível de uma só vez."],"Araucária":["Uso residencial ou comercial","Para seu projeto em Araucária, informe se o espaço é residência, escritório ou loja. Tráfego, cadeiras com rodízios e rotina de limpeza orientam a seleção da linha. Combine acesso e preparação da base antes de programar a instalação."]};
-// A service area is never a second business address.
-const generateContent=(name:string,type:'bairro'|'cidade')=>[
- ...(LOCAL_CONTEXT[name]?[{title:LOCAL_CONTEXT[name][0],content:LOCAL_CONTEXT[name][1]}]:[]),
- {title:'Onde comprar pisos?',content:name==='São José dos Pinhais'?'A PVS Decore fica na Rua Izabel A Redentora, 1088, São José dos Pinhais – PR, CEP 83030-500. Consulte pisos laminados, vinílicos, SPC e rodapés na loja.':'A loja física da PVS Decore fica em São José dos Pinhais. Para seu endereço em '+name+', consulte a disponibilidade de entrega, medição e instalação pelo telefone (41) 3076-6240.'},
- {title:'Como escolher o piso?',content:'Laminados são opções para salas, quartos e áreas secas. Vinílicos e SPC devem ser escolhidos conforme tráfego, limpeza e aprovação do fabricante para o ambiente. Compare amostras, condições do contrapiso e acabamento.'},
- {title:'Como solicitar instalação?',content:'Informe o endereço, o tipo de imóvel e a área aproximada. O orçamento deve considerar preparação do contrapiso, materiais, mão de obra e rodapés. Prazo e condições de garantia são definidos na contratação.'}
-];
-
-const LocationPage = () => {
-  const { slug } = useParams();
-  const {pathname}=useLocation();
-  const location = LOCATIONS.find(l => l.slug === slug);
-
-  const seoContent = useMemo(() => {
-    if (!location) return [];
-    return generateContent(location.name, location.type);
-  }, [location]);
-
-  const isSJP = location?.name.toLowerCase().includes('são josé dos pinhais');
-
-  if (!location || !pathname.startsWith(`/${location.type}/`)) {
-    return <NotFound />;
-  }
-
-  const pageUrl = `/${location.type}/${location.slug}`;
-
-  return (
-    <PageTransition>
-      <EnhancedSEO
-        title={`Pisos Vinilicos e Laminados em ${location.name} | PVS Decore - Venda e Instalacao`}
-        description={`Pisos e instalação para ${location.name}. Loja física em São José dos Pinhais, Rua Izabel A Redentora, 1088. Consulte atendimento e orçamento.`}
-        url={pageUrl}
-        type="localbusiness"
-        noindex={location.type==='bairro' || !MAIN_AREAS.includes(location.name)}
-        location={location.name}
-        keywords={`pisos ${location.name.toLowerCase()}, piso vinilico ${location.name.toLowerCase()}, piso laminado ${location.name.toLowerCase()}, instalacao pisos ${location.name.toLowerCase()}, rodape ${location.name.toLowerCase()}, revestimento ${location.name.toLowerCase()}`}
-        breadcrumbs={[
-          { name: location.type === 'bairro' ? 'Bairros' : 'Cidades', url: "/mapa-do-site#areas-atendidas" },
-          { name: location.name, url: pageUrl }
-        ]}
-      />
-
-      <div className="bg-white">
-        {/* Header Region */}
-        <div className="bg-gray-900 text-white py-16">
-          <div className="container mx-auto px-4 text-center">
-            <span className="text-brand-orange font-bold tracking-widest uppercase text-sm">
-              Atendimento Especializado
-            </span>
-            <h1 className="text-3xl md:text-5xl font-black mt-2 mb-4">
-              Pisos e Revestimentos em <span className="text-brand-orange">{location.name}</span>
-            </h1>
-            <p className="text-gray-400 max-w-2xl mx-auto text-lg">
-              Consulte a disponibilidade para seu endereço em {location.name}.
-              Solicite um orçamento sem compromisso.
-            </p>
-          </div>
-        </div>
-
-        <div className="container mx-auto px-4 py-12">
-          <div className="flex flex-col lg:flex-row gap-12">
-
-            {/* Main SEO Content Column */}
-            <div className="lg:w-2/3">
-              {/* Intro Box */}
-              <div className="bg-orange-50 border border-orange-100 p-6 rounded-xl mb-10 flex items-start gap-4">
-                <div className="bg-brand-orange text-white p-3 rounded-full shrink-0">
-                  <Star fill="white" size={24} />
-                </div>
-                <div>
-                  <h2 className="text-xl font-bold text-gray-900 mb-2">Planeje seu projeto em {location.name}</h2>
-                  <p className="text-gray-700">
-                    Se você busca transformar seu ambiente residencial ou comercial em {location.name},
-                    encontrou a empresa certa. Unimos produtos de primeira linha com mão de obra especializada.
-                  </p>
-                </div>
-              </div>
-
-              {/* Dynamic 18 Blocks */}
-              <div className="space-y-12">
-                {seoContent.map((block, index) => (
-                  <div key={index} className="prose max-w-none group">
-                    <Illustration name={(["amostras","vinilico","medicao"] as const)[index % 3]} className="mb-6" />
-                    <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-                      <span className="w-2 h-8 bg-brand-orange rounded-full"></span>
-                      {block.title}
-                    </h3>
-                    <p className="text-gray-600 leading-relaxed text-lg mb-4 text-justify">
-                      {block.content}
-                    </p>
-                    {/* Intermittent CTA every 3 blocks */}
-                    {(index + 1) % 3 === 0 && (
-                      <div className="my-6">
-                        <a
-                          href={`https://wa.me/554130766240?text=Olá, sou de ${location.name} e gostaria de um orçamento.`}
-                          target="_blank"
-                          rel="noreferrer"
-                          className="inline-flex items-center gap-2 text-brand-orange font-bold hover:text-orange-700 transition"
-                        >
-                          <Phone size={18} /> Solicitar atendimento em {location.name}
-                        </a>
-                      </div>
-                    )}
-                  </div>
-                ))}
-              </div>
-
-              <nav aria-label="Produtos e instalação" className="flex flex-wrap gap-4 my-8">{PRODUCT_LINKS.map(item=><Link key={item.name} to={item.url} className="text-brand-orange underline">{item.name}</Link>)}<Link to="/service/instalacao-residencial" className="underline">Instalação residencial</Link><Link to="/service/instalacao-comercial" className="underline">Instalação comercial</Link></nav>
-              {/* Share Buttons */}
-              <p className="my-6"><Link to="/guia-de-pisos" className="underline">Guia de materiais e preparação</Link> · <Link to="/areas-atendidas" className="underline">Diretório de atendimento</Link></p><ShareButtons title={`Pisos PVS Decore em ${location.name}`} url={pageUrl} />
-            </div>
-
-            {/* Sidebar / Sticky Form */}
-            <div className="lg:w-1/3">
-              <div className="sticky top-24 space-y-8">
-                <LeadForm locationName={location.name} />
-
-                <div className="bg-gray-100 p-6 rounded-xl">
-                  <h4 className="font-bold text-gray-900 mb-4 flex items-center gap-2">
-                    <MapPin size={20} className="text-brand-orange" />
-                    Outras áreas de atendimento
-                  </h4>
-                  <ul className="space-y-2 text-sm">
-                    {LOCATIONS
-                      .filter(l => l.type === location.type && l.name !== location.name)
-                      .slice(0, 8) // Show 8 random other locations
-                      .map(l => (
-                        <li key={l.slug}>
-                          <Link to={`/${l.type}/${l.slug}`} className="text-gray-600 hover:text-brand-orange block py-1 border-b border-gray-200">
-                            Pisos em {l.name}
-                          </Link>
-                        </li>
-                      ))
-                    }
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        {/* Video Showcase - only for São José dos Pinhais */}
-        {isSJP && (
-          <VideoShowcase
-            videoId="G221FX8O7Ao"
-            title={`PVS Decore em ${location.name}`}
-            description="Conheça informações sobre pisos e consulte materiais e instalação para seu endereço."
-          />
-        )}
-
-        {/* Gallery at bottom */}
-        <ImageGallery />
-      </div>
-    </PageTransition>
-  );
+// Distinctions use existing service information, never invented local geography.
+const context: Record<string, {title:string; text:string; checklist:string[]}> = {
+ 'São José dos Pinhais': {title:'A escolha começa perto de você.',text:'A loja da PVS Decore fica em São José dos Pinhais. Use esse ponto de contato para comparar amostras, esclarecer diferenças entre sistemas e organizar o pedido de materiais e instalação para o seu imóvel.',checklist:['Antes de sair, confirme os modelos disponíveis para comparação na loja.','Leve fotos dos cômodos, medidas aproximadas e referências de cores.','Informe bairro, CEP e acesso ao imóvel para consultar medição, entrega e instalação.']},
+ 'Curitiba': {title:'Planeje a reforma sem esquecer o condomínio.',text:'Para seu projeto em Curitiba, organize a escolha do piso junto com as condições de acesso ao imóvel. Em apartamento, horários de obra e regras do condomínio precisam entrar na conversa antes de marcar o serviço.',checklist:['Confirme uso do elevador, acesso de materiais e horários permitidos.','Avise se o imóvel estará ocupado durante o trabalho.','Separe as medidas por cômodo e as regras de acabamento entre ambientes.']},
+ 'Pinhais': {title:'Material, entrega e instalação no mesmo roteiro.',text:'Ao consultar um projeto em Pinhais, envie o endereço completo e descreva como os materiais chegam ao ambiente. Definir piso, rodapé e acessórios juntos ajuda a deixar o orçamento mais claro.',checklist:['Informe escadas, elevadores e restrições de descarga, se houver.','Confira se rodapés e perfis estão incluídos no pedido.','Combine recebimento e armazenamento seguindo as instruções do produto.']},
+ 'Colombo': {title:'Uma reforma organizada por ambientes.',text:'Para o seu endereço em Colombo, explique quais cômodos receberão o piso e como a casa ou o comércio será utilizado durante a intervenção. A sequência do serviço deve ser combinada conforme a avaliação do local.',checklist:['Liste os ambientes que precisam continuar em uso.','Defina onde poderão ficar os móveis durante o serviço.','Informe o piso existente e envie fotos de danos ou desníveis.']},
+ 'Araucária': {title:'Escolha a linha a partir do uso do espaço.',text:'Na consulta para Araucária, comece informando se o projeto é uma residência, loja ou escritório. A intensidade de circulação e a rotina de limpeza orientam a comparação dos materiais.',checklist:['Descreva circulação de pessoas e uso de cadeiras com rodízios.','Informe como o espaço é limpo e quais ambientes recebem umidade.','Combine a preparação da base antes de definir a instalação.']}
 };
+const materials = [
+ {image:'laminado',title:'Laminado',text:'Para comparar em salas, quartos e áreas secas. Observe a aparência da madeira, o sistema de encaixe e as condições de uso da linha escolhida.',url:'/product/piso-laminado'},
+ {image:'vinilico',title:'Vinílico',text:'Compare opções coladas e clicadas para a rotina do ambiente. A escolha precisa considerar a base existente, a circulação e as instruções do fabricante.',url:'/product/piso-vinilico'},
+ {image:'spc',title:'SPC',text:'Uma opção vinílica de núcleo rígido com encaixe. Confira a indicação da linha para o ambiente e os requisitos de regularidade do contrapiso.',url:'/product/piso-vinilico#spc'},
+ {image:'rodape',title:'Rodapés',text:'Escolha altura, perfil e cor em conjunto com o piso. Considere encontros com portas, paredes e passagens para definir o acabamento.',url:'/product/rodape-poliestireno'}
+] as const;
 
-export default LocationPage;
+export default function LocationPage(){
+ const {slug}=useParams(); const {pathname}=useLocation();
+ const location=LOCATIONS.find(item=>item.slug===slug);
+ if(!location||!pathname.startsWith('/'+location.type+'/'))return <NotFound/>;
+ const {name,type}=location, path='/'+type+'/'+slug, isSJP=name==='São José dos Pinhais';
+ const local=context[name]||{title:type==='bairro'?'Seu endereço orienta o atendimento.':'Comece pela consulta de disponibilidade.',text:type==='bairro'?`Está planejando um piso para ${name}? Envie também a cidade e o CEP. O nome da localidade ajuda a começar a conversa, mas o endereço completo é necessário para confirmar atendimento e organizar o acesso ao imóvel.`:`Para um projeto em ${name}, consulte primeiro as condições de entrega, medição e instalação. A loja fica em São José dos Pinhais; esta página não representa uma filial.`,checklist:['Envie cidade, bairro, CEP e ponto de acesso ao imóvel.','Informe área aproximada, ambientes e material de interesse.','Confirme disponibilidade e condições antes de organizar a visita ou compra.']};
+ const faq=[
+  {question:`Como consultar pisos e instalação em ${name}?`,answer:`Envie o endereço completo em ${name}, fotos e medidas aproximadas pelo WhatsApp ${CONTACT_DISPLAY}. A equipe confirma disponibilidade, escopo e condições para o imóvel. A loja física fica em São José dos Pinhais.`},
+  {question:isSJP?'O que levar para conhecer os materiais na loja?':'Existe uma loja da PVS nesta localidade?',answer:isSJP?'Leve fotos do ambiente, uma lista dos cômodos e medidas aproximadas. Se possível, inclua referências de móveis e cores. Confirme previamente a disponibilidade das amostras que deseja comparar.':`O endereço de loja informado pela PVS é ${CONTACT_ADDRESS}. As páginas de localidades são referências para consulta de atendimento, sem indicar outras filiais.`},
+  {question:'Posso instalar sobre o piso que já tenho?',answer:'A possibilidade depende do revestimento existente, da firmeza, da umidade e da regularidade da base, além do sistema escolhido. Fotos ajudam no primeiro contato, mas não substituem a avaliação necessária para definir a preparação.'},
+  {question:'Qual piso escolher para uma loja ou escritório?',answer:'Informe o uso do espaço, a circulação, as cadeiras com rodízios e a rotina de limpeza. Compare linhas com indicação comercial do fabricante. A aparência semelhante entre dois modelos não significa que tenham a mesma classe de uso.'},
+  {question:'O que deve aparecer no orçamento?',answer:'Peça a identificação do material e da quantidade, preparação da base, instalação, rodapés, perfis e condições de entrega. Combine medição, acesso, sequência dos ambientes e prazo de liberação conforme os produtos utilizados.'}
+ ];
+ const whatsapp='https://wa.me/'+CONTACT_PHONE+'?text='+encodeURIComponent(`Olá! Quero consultar pisos para ${name}. Meu endereço e CEP: `);
+ const related=LOCATIONS.filter(item=>MAIN_AREAS.includes(item.name)&&item.name!==name);
+ return <PageTransition><div className="locality-page" data-locality={slug}>
+  <EnhancedSEO title={isSJP?'Pisos em São José dos Pinhais: loja, escolha e instalação | PVS Decore':`Pisos em ${name}: materiais e planejamento | PVS Decore`} description={isSJP?'Visite a PVS em São José dos Pinhais. Compare laminados, vinílicos, SPC e rodapés; veja dicas para casas e comércios e organize seu orçamento.':`Planeje seu piso em ${name}: compare laminado, vinílico, SPC e rodapés, prepare o ambiente e consulte atendimento da PVS para seu endereço.`} url={path} type="localbusiness" location={name} noindex={type==='bairro'||!MAIN_AREAS.includes(name)} faq={faq}/>
+  <section className="shell section locality-hero">
+   <div><nav aria-label="Caminho da página" className="locality-breadcrumb"><Link to="/">Início</Link><span aria-hidden="true">/</span><Link to="/areas-atendidas">Localidades</Link></nav><p className="eyebrow">{isSJP?'PVS Decore • Nossa loja em São José dos Pinhais':'PVS Decore • Planejamento para seu endereço'}</p><h1 className="editorial-title">Pisos para viver e trabalhar em <em>{name}.</em></h1><p className="locality-intro">{isSJP?'Da comparação de amostras ao acabamento: um roteiro para escolher pisos para sua casa, loja ou escritório com a PVS.':'Laminados, vinílicos, SPC e rodapés: conheça as escolhas que fazem diferença no seu ambiente e consulte as condições de atendimento.'}</p><div className="locality-actions"><a className="button" href={whatsapp}>Consultar meu projeto</a><a className="button secondary" href="#materiais">Comparar pisos</a></div><p className="locality-note">Loja física em São José dos Pinhais. Entrega, medição e instalação dependem da confirmação do endereço.</p></div>
+   <Illustration name={isSJP?'hero':'amostras'} eager/>
+  </section>
+  <nav aria-label="Nesta página" className="locality-jumps shell"><a href="#planejamento">Seu planejamento</a><a href="#materiais">Pisos e rodapés</a><a href="#preparacao">Antes da instalação</a><a href="#cuidados">Cuidados</a><a href="#duvidas">Dúvidas</a><a href="#orcamento">Orçamento</a></nav>
+  <section id="planejamento" className="shell section locality-split"><div><p className="eyebrow">{name}</p><h2 className="editorial-title">{local.title}</h2><p>{local.text}</p>{isSJP&&<div className="locality-store"><h3>Encontre a PVS em São José dos Pinhais</h3><p>{CONTACT_ADDRESS}</p><a className="button secondary" href={'https://www.google.com/maps?q='+encodeURIComponent(CONTACT_ADDRESS)} target="_blank" rel="noopener noreferrer">Ver endereço no mapa</a><p>Confirme a visita e as amostras pelo telefone <a href={'tel:+'+CONTACT_PHONE}>{CONTACT_DISPLAY}</a>.</p></div>}</div><aside className="card"><h3>Para uma conversa mais produtiva</h3><ul>{local.checklist.map(text=><li key={text}>{text}</li>)}</ul><Link className="locality-text-link" to="/contato">Contato e localização da loja →</Link></aside></section>
+  {isSJP&&<section className="locality-community"><div className="shell section"><p className="eyebrow">Informação útil para quem mora e trabalha aqui</p><h2 className="editorial-title">Decisões melhores para os espaços do dia a dia.</h2><div className="locality-two-cards"><article className="card"><h3>Para moradores de São José dos Pinhais</h3><p>Antes de escolher pela cor, anote como cada cômodo é usado. Um quarto, uma sala com animais de estimação e uma cozinha pedem perguntas diferentes sobre limpeza e indicação de uso. Leve essas informações à PVS para comparar as linhas disponíveis.</p><p>Se a reforma acontecer com a casa ocupada, organize a retirada dos móveis e a circulação entre os cômodos. Em condomínio, consulte as regras de obra antes de combinar a instalação.</p><Link className="locality-text-link" to="/service/instalacao-residencial">Planejar a instalação residencial →</Link></article><article className="card"><h3>Para lojas e escritórios da cidade</h3><p>Explique à equipe como clientes e funcionários circulam, onde há cadeiras com rodízios e como é feita a limpeza. Essas informações ajudam a comparar materiais com indicação para o uso comercial pretendido.</p><p>Inclua no planejamento o acesso para materiais e o período em que cada ambiente poderá ficar livre. O prazo de retorno ao uso depende da preparação, do sistema e dos produtos utilizados.</p><Link className="locality-text-link" to="/service/instalacao-comercial">Planejar a instalação comercial →</Link></article></div></div></section>}
+  <section id="materiais" className="locality-materials"><div className="shell section"><p className="eyebrow">Escolha pelo uso, depois pelo acabamento</p><h2 className="editorial-title">Qual piso combina com a sua rotina?</h2><p>Compare as opções do catálogo PVS para seu projeto em {name}. Disponibilidade, características e condições de instalação variam conforme a linha.</p><div className="locality-product-grid">{materials.map(item=><article className="locality-product" key={item.title}><Illustration name={item.image}/><div><h3>{item.title}</h3><p>{item.text}</p><Link className="locality-text-link" to={item.url}>Conhecer {item.title.toLowerCase()} →</Link></div></article>)}</div><Link className="button secondary" to="/nossos-produtos">Ver marcas e produtos</Link></div></section>
+  <section id="preparacao" className="shell section"><p className="eyebrow">Do primeiro contato à instalação</p><h2 className="editorial-title">Prepare o ambiente, não só a compra.</h2><div className="locality-steps">{[
+   ['01','Registre o estado atual','Fotografe o piso, encontros com portas, rodapés e áreas com danos. Informe sinais de umidade e reformas anteriores; as fotos orientam o contato inicial, sem substituir a avaliação da base.'],
+   ['02','Combine a preparação','Antes de instalar, é necessário verificar limpeza, firmeza, regularidade e umidade do contrapiso conforme o sistema. Não cubra um problema de infiltração com um revestimento novo.'],
+   ['03','Organize o acesso e a liberação','Defina retirada de móveis, recebimento dos materiais e sequência dos cômodos. Confirme o momento de liberar o espaço para circulação e mobiliário conforme as instruções do produto.']
+  ].map(([n,title,text])=><article className="process-step" key={n}><span className="eyebrow">{n}</span><h3>{title}</h3><p>{text}</p></article>)}</div><div className="locality-actions"><Link className="button secondary" to="/service/instalacao-residencial">Instalação residencial</Link><Link className="button secondary" to="/service/instalacao-comercial">Instalação comercial</Link></div></section>
+  <section id="cuidados" className="locality-care"><div className="shell section locality-split"><Illustration name="manutencao"/><div><p className="eyebrow">Depois da instalação</p><h2 className="editorial-title">Uma rotina de cuidado que respeita o material.</h2><p>Guarde a identificação da linha e o manual. Retire partículas com utensílios adequados e siga a orientação de limpeza do fabricante. Evite improvisar produtos ou encharcar o piso.</p><p>Verifique a proteção dos pés dos móveis e as recomendações para rodízios. Em caso de peças soltas, estufamento ou umidade, informe quando o problema apareceu e envie fotos para discutir a avaliação necessária.</p><Link className="locality-text-link" to="/service/manutencao">Consultar manutenção →</Link><Link className="locality-text-link" to="/guia-de-pisos">Ler o guia completo de escolha e cuidados →</Link></div></div></section>
+  <section id="duvidas" className="shell section"><p className="eyebrow">Respostas para planejar com clareza</p><h2 className="editorial-title">Dúvidas sobre pisos em {name}</h2><div className="locality-faq">{faq.map(item=><article key={item.question}><h3>{item.question}</h3><p>{item.answer}</p></article>)}</div></section>
+  <section id="orcamento" className="locality-quote"><div className="shell section locality-split"><div><p className="eyebrow">Vamos conversar sobre seu espaço</p><h2 className="editorial-title">Seu projeto em {name}, com as informações certas.</h2><p>Para começar, informe o endereço, a área aproximada e os ambientes. Depois, combine quais itens precisam constar na proposta:</p><ul><li>Material, linha, quantidade e acabamentos.</li><li>Avaliação e preparação da base.</li><li>Entrega, instalação e condições de acesso.</li><li>Etapas, prazo e condições por escrito.</li></ul><p>Não sabe a metragem? Diga quais cômodos deseja renovar e consulte como organizar a medição.</p><a className="locality-text-link" href={'tel:+'+CONTACT_PHONE}>Prefere ligar? {CONTACT_DISPLAY}</a></div><LeadForm locationName={name}/></div></section>
+  <section className="shell section locality-references"><h2 className="editorial-title">Continue seu planejamento.</h2><nav aria-label="Guias e localidades relacionadas" className="locality-related"><Link to="/guia-de-pisos">Guia de pisos</Link><Link to="/areas-atendidas">Todas as cidades e bairros</Link>{related.map(item=><Link key={item.slug} to={'/cidade/'+item.slug}>{item.name}</Link>)}</nav><h3>Referências técnicas para consulta</h3><p>As orientações gerais não substituem o manual da linha escolhida nem a avaliação do imóvel.</p><ul><li><a href="https://tarkett.com.br/blog/a-importancia-do-contrapiso-no-mundo-dos-pisos-vinilicos/" target="_blank" rel="noopener noreferrer">Tarkett: preparação do contrapiso</a></li><li><a href="https://www.quick-step.com.br/pt-br/pisos-laminados/limpar" target="_blank" rel="noopener noreferrer">Quick-Step: cuidados com laminados</a></li></ul></section>
+  {isSJP&&<VideoShowcase videoId="G221FX8O7Ao" title="PVS Decore em São José dos Pinhais" description="Conheça informações sobre pisos e consulte materiais e instalação para seu endereço."/>}
+ </div></PageTransition>;
+}

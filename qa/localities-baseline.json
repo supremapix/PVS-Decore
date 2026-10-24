@@ -1,0 +1,750 @@
+{
+  "pages": [
+    {
+      "route": "/cidade/adrianpolis",
+      "canonical": "https://www.pvsdecore.com.br/cidade/adrianpolis",
+      "noindex": true
+    },
+    {
+      "route": "/cidade/agudos-do-sul",
+      "canonical": "https://www.pvsdecore.com.br/cidade/agudos-do-sul",
+      "noindex": true
+    },
+    {
+      "route": "/cidade/almirante-tamandar",
+      "canonical": "https://www.pvsdecore.com.br/cidade/almirante-tamandar",
+      "noindex": true
+    },
+    {
+      "route": "/cidade/araucria",
+      "canonical": "https://www.pvsdecore.com.br/cidade/araucria",
+      "noindex": false
+    },
+    {
+      "route": "/cidade/balsa-nova",
+      "canonical": "https://www.pvsdecore.com.br/cidade/balsa-nova",
+      "noindex": true
+    },
+    {
+      "route": "/cidade/bocaiva-do-sul",
+      "canonical": "https://www.pvsdecore.com.br/cidade/bocaiva-do-sul",
+      "noindex": true
+    },
+    {
+      "route": "/cidade/campina-grande-do-sul",
+      "canonical": "https://www.pvsdecore.com.br/cidade/campina-grande-do-sul",
+      "noindex": true
+    },
+    {
+      "route": "/cidade/campo-do-tenente",
+      "canonical": "https://www.pvsdecore.com.br/cidade/campo-do-tenente",
+      "noindex": true
+    },
+    {
+      "route": "/cidade/campo-largo",
+      "canonical": "https://www.pvsdecore.com.br/cidade/campo-largo",
+      "noindex": true
+    },
+    {
+      "route": "/cidade/campo-magro",
+      "canonical": "https://www.pvsdecore.com.br/cidade/campo-magro",
+      "noindex": true
+    },
+    {
+      "route": "/cidade/cerro-azul",
+      "canonical": "https://www.pvsdecore.com.br/cidade/cerro-azul",
+      "noindex": true
+    },
+    {
+      "route": "/cidade/colombo",
+      "canonical": "https://www.pvsdecore.com.br/cidade/colombo",
+      "noindex": false
+    },
+    {
+      "route": "/cidade/contenda",
+      "canonical": "https://www.pvsdecore.com.br/cidade/contenda",
+      "noindex": true
+    },
+    {
+      "route": "/cidade/curitiba",
+      "canonical": "https://www.pvsdecore.com.br/cidade/curitiba",
+      "noindex": false
+    },
+    {
+      "route": "/cidade/doutor-ulysses",
+      "canonical": "https://www.pvsdecore.com.br/cidade/doutor-ulysses",
+      "noindex": true
+    },
+    {
+      "route": "/cidade/fazenda-rio-grande",
+      "canonical": "https://www.pvsdecore.com.br/cidade/fazenda-rio-grande",
+      "noindex": true
+    },
+    {
+      "route": "/cidade/itaperuu",
+      "canonical": "https://www.pvsdecore.com.br/cidade/itaperuu",
+      "noindex": true
+    },
+    {
+      "route": "/cidade/lapa",
+      "canonical": "https://www.pvsdecore.com.br/cidade/lapa",
+      "noindex": true
+    },
+    {
+      "route": "/cidade/mandirituba",
+      "canonical": "https://www.pvsdecore.com.br/cidade/mandirituba",
+      "noindex": true
+    },
+    {
+      "route": "/cidade/pin",
+      "canonical": "https://www.pvsdecore.com.br/cidade/pin",
+      "noindex": true
+    },
+    {
+      "route": "/cidade/pinhais",
+      "canonical": "https://www.pvsdecore.com.br/cidade/pinhais",
+      "noindex": false
+    },
+    {
+      "route": "/cidade/piraquara",
+      "canonical": "https://www.pvsdecore.com.br/cidade/piraquara",
+      "noindex": true
+    },
+    {
+      "route": "/cidade/quatro-barras",
+      "canonical": "https://www.pvsdecore.com.br/cidade/quatro-barras",
+      "noindex": true
+    },
+    {
+      "route": "/cidade/quitandinha",
+      "canonical": "https://www.pvsdecore.com.br/cidade/quitandinha",
+      "noindex": true
+    },
+    {
+      "route": "/cidade/rio-branco-do-sul",
+      "canonical": "https://www.pvsdecore.com.br/cidade/rio-branco-do-sul",
+      "noindex": true
+    },
+    {
+      "route": "/cidade/rio-negro",
+      "canonical": "https://www.pvsdecore.com.br/cidade/rio-negro",
+      "noindex": true
+    },
+    {
+      "route": "/cidade/so-jos-dos-pinhais",
+      "canonical": "https://www.pvsdecore.com.br/cidade/so-jos-dos-pinhais",
+      "noindex": false
+    },
+    {
+      "route": "/cidade/tijucas-do-sul",
+      "canonical": "https://www.pvsdecore.com.br/cidade/tijucas-do-sul",
+      "noindex": true
+    },
+    {
+      "route": "/cidade/tunas-do-paran",
+      "canonical": "https://www.pvsdecore.com.br/cidade/tunas-do-paran",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/abranches-de-baixo",
+      "canonical": "https://www.pvsdecore.com.br/bairro/abranches-de-baixo",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/abranches-de-cima",
+      "canonical": "https://www.pvsdecore.com.br/bairro/abranches-de-cima",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/ah",
+      "canonical": "https://www.pvsdecore.com.br/bairro/ah",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/alto-boqueiro",
+      "canonical": "https://www.pvsdecore.com.br/bairro/alto-boqueiro",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/alto-da-glria",
+      "canonical": "https://www.pvsdecore.com.br/bairro/alto-da-glria",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/alto-da-rua-xv",
+      "canonical": "https://www.pvsdecore.com.br/bairro/alto-da-rua-xv",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/alto-da-xv",
+      "canonical": "https://www.pvsdecore.com.br/bairro/alto-da-xv",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/atuba",
+      "canonical": "https://www.pvsdecore.com.br/bairro/atuba",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/augusta",
+      "canonical": "https://www.pvsdecore.com.br/bairro/augusta",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/bacacheri-velho",
+      "canonical": "https://www.pvsdecore.com.br/bairro/bacacheri-velho",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/bacacheri",
+      "canonical": "https://www.pvsdecore.com.br/bairro/bacacheri",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/bairro-alto",
+      "canonical": "https://www.pvsdecore.com.br/bairro/bairro-alto",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/barreirinha",
+      "canonical": "https://www.pvsdecore.com.br/bairro/barreirinha",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/batel-soho",
+      "canonical": "https://www.pvsdecore.com.br/bairro/batel-soho",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/batel",
+      "canonical": "https://www.pvsdecore.com.br/bairro/batel",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/bigorrilho",
+      "canonical": "https://www.pvsdecore.com.br/bairro/bigorrilho",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/boa-vista",
+      "canonical": "https://www.pvsdecore.com.br/bairro/boa-vista",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/bom-retiro",
+      "canonical": "https://www.pvsdecore.com.br/bairro/bom-retiro",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/boqueiro-de-baixo",
+      "canonical": "https://www.pvsdecore.com.br/bairro/boqueiro-de-baixo",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/boqueiro-de-cima",
+      "canonical": "https://www.pvsdecore.com.br/bairro/boqueiro-de-cima",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/boqueiro",
+      "canonical": "https://www.pvsdecore.com.br/bairro/boqueiro",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/butiatuvinha",
+      "canonical": "https://www.pvsdecore.com.br/bairro/butiatuvinha",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/cabral",
+      "canonical": "https://www.pvsdecore.com.br/bairro/cabral",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/cachoeira",
+      "canonical": "https://www.pvsdecore.com.br/bairro/cachoeira",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/caiu",
+      "canonical": "https://www.pvsdecore.com.br/bairro/caiu",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/cajuru",
+      "canonical": "https://www.pvsdecore.com.br/bairro/cajuru",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/campina-do-siqueira",
+      "canonical": "https://www.pvsdecore.com.br/bairro/campina-do-siqueira",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/campo-comprido-velho",
+      "canonical": "https://www.pvsdecore.com.br/bairro/campo-comprido-velho",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/campo-comprido",
+      "canonical": "https://www.pvsdecore.com.br/bairro/campo-comprido",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/campo-de-santana",
+      "canonical": "https://www.pvsdecore.com.br/bairro/campo-de-santana",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/capo-da-imbuia-velho",
+      "canonical": "https://www.pvsdecore.com.br/bairro/capo-da-imbuia-velho",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/capo-da-imbuia",
+      "canonical": "https://www.pvsdecore.com.br/bairro/capo-da-imbuia",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/capo-raso",
+      "canonical": "https://www.pvsdecore.com.br/bairro/capo-raso",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/carmo-abranches",
+      "canonical": "https://www.pvsdecore.com.br/bairro/carmo-abranches",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/cascatinha",
+      "canonical": "https://www.pvsdecore.com.br/bairro/cascatinha",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/caximba",
+      "canonical": "https://www.pvsdecore.com.br/bairro/caximba",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/centro-cvico",
+      "canonical": "https://www.pvsdecore.com.br/bairro/centro-cvico",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/centro-histrico",
+      "canonical": "https://www.pvsdecore.com.br/bairro/centro-histrico",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/centro",
+      "canonical": "https://www.pvsdecore.com.br/bairro/centro",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/cic-central",
+      "canonical": "https://www.pvsdecore.com.br/bairro/cic-central",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/cic-norte",
+      "canonical": "https://www.pvsdecore.com.br/bairro/cic-norte",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/cic-sul",
+      "canonical": "https://www.pvsdecore.com.br/bairro/cic-sul",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/cidade-industrial-de-curitiba",
+      "canonical": "https://www.pvsdecore.com.br/bairro/cidade-industrial-de-curitiba",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/conjunto-caiu",
+      "canonical": "https://www.pvsdecore.com.br/bairro/conjunto-caiu",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/conjunto-parigot-de-souza",
+      "canonical": "https://www.pvsdecore.com.br/bairro/conjunto-parigot-de-souza",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/cristo-rei",
+      "canonical": "https://www.pvsdecore.com.br/bairro/cristo-rei",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/ecoville",
+      "canonical": "https://www.pvsdecore.com.br/bairro/ecoville",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/fanny",
+      "canonical": "https://www.pvsdecore.com.br/bairro/fanny",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/fazendinha-porto",
+      "canonical": "https://www.pvsdecore.com.br/bairro/fazendinha-porto",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/fazendinha",
+      "canonical": "https://www.pvsdecore.com.br/bairro/fazendinha",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/ganchinho",
+      "canonical": "https://www.pvsdecore.com.br/bairro/ganchinho",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/gua-verde",
+      "canonical": "https://www.pvsdecore.com.br/bairro/gua-verde",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/guabirotuba",
+      "canonical": "https://www.pvsdecore.com.br/bairro/guabirotuba",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/guara-velho",
+      "canonical": "https://www.pvsdecore.com.br/bairro/guara-velho",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/guara",
+      "canonical": "https://www.pvsdecore.com.br/bairro/guara",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/hauer",
+      "canonical": "https://www.pvsdecore.com.br/bairro/hauer",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/hugo-lange",
+      "canonical": "https://www.pvsdecore.com.br/bairro/hugo-lange",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/jardim-botnico",
+      "canonical": "https://www.pvsdecore.com.br/bairro/jardim-botnico",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/jardim-das-amricas",
+      "canonical": "https://www.pvsdecore.com.br/bairro/jardim-das-amricas",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/jardim-schaffer",
+      "canonical": "https://www.pvsdecore.com.br/bairro/jardim-schaffer",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/jardim-social",
+      "canonical": "https://www.pvsdecore.com.br/bairro/jardim-social",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/juvev",
+      "canonical": "https://www.pvsdecore.com.br/bairro/juvev",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/lamenha-pequena",
+      "canonical": "https://www.pvsdecore.com.br/bairro/lamenha-pequena",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/lindia",
+      "canonical": "https://www.pvsdecore.com.br/bairro/lindia",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/mercs",
+      "canonical": "https://www.pvsdecore.com.br/bairro/mercs",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/mossungu",
+      "canonical": "https://www.pvsdecore.com.br/bairro/mossungu",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/novo-mundo",
+      "canonical": "https://www.pvsdecore.com.br/bairro/novo-mundo",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/orleans",
+      "canonical": "https://www.pvsdecore.com.br/bairro/orleans",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/parolin",
+      "canonical": "https://www.pvsdecore.com.br/bairro/parolin",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/pilarzinho",
+      "canonical": "https://www.pvsdecore.com.br/bairro/pilarzinho",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/pinheirinho-velho",
+      "canonical": "https://www.pvsdecore.com.br/bairro/pinheirinho-velho",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/pinheirinho",
+      "canonical": "https://www.pvsdecore.com.br/bairro/pinheirinho",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/porto-velho",
+      "canonical": "https://www.pvsdecore.com.br/bairro/porto-velho",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/porto",
+      "canonical": "https://www.pvsdecore.com.br/bairro/porto",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/prado-velho",
+      "canonical": "https://www.pvsdecore.com.br/bairro/prado-velho",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/rebouas",
+      "canonical": "https://www.pvsdecore.com.br/bairro/rebouas",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/riviera",
+      "canonical": "https://www.pvsdecore.com.br/bairro/riviera",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/santa-cndida",
+      "canonical": "https://www.pvsdecore.com.br/bairro/santa-cndida",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/santa-felicidade",
+      "canonical": "https://www.pvsdecore.com.br/bairro/santa-felicidade",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/santa-quitria-velha",
+      "canonical": "https://www.pvsdecore.com.br/bairro/santa-quitria-velha",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/santa-quitria",
+      "canonical": "https://www.pvsdecore.com.br/bairro/santa-quitria",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/santo-incio",
+      "canonical": "https://www.pvsdecore.com.br/bairro/santo-incio",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/seminrio",
+      "canonical": "https://www.pvsdecore.com.br/bairro/seminrio",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/so-braz-velho",
+      "canonical": "https://www.pvsdecore.com.br/bairro/so-braz-velho",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/so-braz",
+      "canonical": "https://www.pvsdecore.com.br/bairro/so-braz",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/so-francisco",
+      "canonical": "https://www.pvsdecore.com.br/bairro/so-francisco",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/so-joo",
+      "canonical": "https://www.pvsdecore.com.br/bairro/so-joo",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/so-loureno",
+      "canonical": "https://www.pvsdecore.com.br/bairro/so-loureno",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/so-miguel",
+      "canonical": "https://www.pvsdecore.com.br/bairro/so-miguel",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/stio-cercado",
+      "canonical": "https://www.pvsdecore.com.br/bairro/stio-cercado",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/taboo",
+      "canonical": "https://www.pvsdecore.com.br/bairro/taboo",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/tangu",
+      "canonical": "https://www.pvsdecore.com.br/bairro/tangu",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/tarum",
+      "canonical": "https://www.pvsdecore.com.br/bairro/tarum",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/tatuquara",
+      "canonical": "https://www.pvsdecore.com.br/bairro/tatuquara",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/tingui",
+      "canonical": "https://www.pvsdecore.com.br/bairro/tingui",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/uberaba-de-baixo",
+      "canonical": "https://www.pvsdecore.com.br/bairro/uberaba-de-baixo",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/uberaba-de-cima",
+      "canonical": "https://www.pvsdecore.com.br/bairro/uberaba-de-cima",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/uberaba",
+      "canonical": "https://www.pvsdecore.com.br/bairro/uberaba",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/umbar",
+      "canonical": "https://www.pvsdecore.com.br/bairro/umbar",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/vila-audi",
+      "canonical": "https://www.pvsdecore.com.br/bairro/vila-audi",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/vila-barigui",
+      "canonical": "https://www.pvsdecore.com.br/bairro/vila-barigui",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/vila-fanny",
+      "canonical": "https://www.pvsdecore.com.br/bairro/vila-fanny",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/vila-guara",
+      "canonical": "https://www.pvsdecore.com.br/bairro/vila-guara",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/vila-hauer",
+      "canonical": "https://www.pvsdecore.com.br/bairro/vila-hauer",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/vila-izabel",
+      "canonical": "https://www.pvsdecore.com.br/bairro/vila-izabel",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/vila-nossa-senhora-da-luz",
+      "canonical": "https://www.pvsdecore.com.br/bairro/vila-nossa-senhora-da-luz",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/vila-oficinas",
+      "canonical": "https://www.pvsdecore.com.br/bairro/vila-oficinas",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/vila-osternack",
+      "canonical": "https://www.pvsdecore.com.br/bairro/vila-osternack",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/vila-pantanal",
+      "canonical": "https://www.pvsdecore.com.br/bairro/vila-pantanal",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/vila-parolin",
+      "canonical": "https://www.pvsdecore.com.br/bairro/vila-parolin",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/vila-reno",
+      "canonical": "https://www.pvsdecore.com.br/bairro/vila-reno",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/vila-sabar",
+      "canonical": "https://www.pvsdecore.com.br/bairro/vila-sabar",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/vila-so-pedro",
+      "canonical": "https://www.pvsdecore.com.br/bairro/vila-so-pedro",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/vila-tecnolgica",
+      "canonical": "https://www.pvsdecore.com.br/bairro/vila-tecnolgica",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/vila-torres",
+      "canonical": "https://www.pvsdecore.com.br/bairro/vila-torres",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/vila-verde",
+      "canonical": "https://www.pvsdecore.com.br/bairro/vila-verde",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/vila-zumbi",
+      "canonical": "https://www.pvsdecore.com.br/bairro/vila-zumbi",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/vista-alegre",
+      "canonical": "https://www.pvsdecore.com.br/bairro/vista-alegre",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/xaxim-velho",
+      "canonical": "https://www.pvsdecore.com.br/bairro/xaxim-velho",
+      "noindex": true
+    },
+    {
+      "route": "/bairro/xaxim",
+      "canonical": "https://www.pvsdecore.com.br/bairro/xaxim",
+      "noindex": true
+    }
+  ],
+  "sitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:image=\"http://www.google.com/schemas/sitemap-image/1.1\"><url><loc>https://www.pvsdecore.com.br/</loc><image:image><image:loc>https://www.pvsdecore.com.br/imagens/piso-amadeirado-espinha-peixe-jantar.webp</image:loc></image:image><image:image><image:loc>https://www.pvsdecore.com.br/imagens/piso-laminado-carvalho-sala.webp</image:loc></image:image><image:image><image:loc>https://www.pvsdecore.com.br/imagens/piso-vinilico-claro-quarto.webp</image:loc></image:image><image:image><image:loc>https://www.pvsdecore.com.br/imagens/rodape-branco-acabamento-canto.webp</image:loc></image:image><image:image><image:loc>https://www.pvsdecore.com.br/imagens/amostras-pisos-texturas-acabamentos.webp</image:loc></image:image></url>\n<url><loc>https://www.pvsdecore.com.br/areas-atendidas</loc></url>\n<url><loc>https://www.pvsdecore.com.br/guia-de-pisos</loc><image:image><image:loc>https://www.pvsdecore.com.br/imagens/amostras-pisos-texturas-acabamentos.webp</image:loc></image:image></url>\n<url><loc>https://www.pvsdecore.com.br/nossos-produtos</loc><image:image><image:loc>https://www.pvsdecore.com.br/imagens/piso-laminado-carvalho-sala.webp</image:loc></image:image><image:image><image:loc>https://www.pvsdecore.com.br/imagens/piso-vinilico-escritorio-comercial.webp</image:loc></image:image><image:image><image:loc>https://www.pvsdecore.com.br/imagens/piso-amadeirado-espinha-peixe-jantar.webp</image:loc></image:image><image:image><image:loc>https://www.pvsdecore.com.br/imagens/rodape-branco-acabamento-canto.webp</image:loc></image:image></url>\n<url><loc>https://www.pvsdecore.com.br/faq</loc><image:image><image:loc>https://www.pvsdecore.com.br/imagens/amostras-pisos-texturas-acabamentos.webp</image:loc></image:image><image:image><image:loc>https://www.pvsdecore.com.br/imagens/instalacao-piso-residencial-manta.webp</image:loc></image:image><image:image><image:loc>https://www.pvsdecore.com.br/imagens/medicao-contrapiso-instalacao.webp</image:loc></image:image><image:image><image:loc>https://www.pvsdecore.com.br/imagens/limpeza-manutencao-piso-mop.webp</image:loc></image:image></url>\n<url><loc>https://www.pvsdecore.com.br/contato</loc></url>\n<url><loc>https://www.pvsdecore.com.br/mapa-do-site</loc></url>\n<url><loc>https://www.pvsdecore.com.br/piso-laminado-direto-da-fabrica-sao-jose-dos-pinhais</loc></url>\n<url><loc>https://www.pvsdecore.com.br/product/piso-vinilico</loc><image:image><image:loc>https://www.pvsdecore.com.br/imagens/piso-vinilico-claro-quarto.webp</image:loc></image:image></url>\n<url><loc>https://www.pvsdecore.com.br/product/piso-laminado</loc><image:image><image:loc>https://www.pvsdecore.com.br/imagens/piso-laminado-carvalho-sala.webp</image:loc></image:image></url>\n<url><loc>https://www.pvsdecore.com.br/product/rodape-poliestireno</loc><image:image><image:loc>https://www.pvsdecore.com.br/imagens/rodape-branco-acabamento-canto.webp</image:loc></image:image></url>\n<url><loc>https://www.pvsdecore.com.br/service/instalacao-residencial</loc><image:image><image:loc>https://www.pvsdecore.com.br/imagens/instalacao-piso-residencial-manta.webp</image:loc></image:image></url>\n<url><loc>https://www.pvsdecore.com.br/service/instalacao-comercial</loc><image:image><image:loc>https://www.pvsdecore.com.br/imagens/piso-vinilico-escritorio-comercial.webp</image:loc></image:image></url>\n<url><loc>https://www.pvsdecore.com.br/service/manutencao</loc><image:image><image:loc>https://www.pvsdecore.com.br/imagens/limpeza-manutencao-piso-mop.webp</image:loc></image:image></url>\n<url><loc>https://www.pvsdecore.com.br/cidade/araucria</loc><image:image><image:loc>https://www.pvsdecore.com.br/imagens/amostras-pisos-texturas-acabamentos.webp</image:loc></image:image><image:image><image:loc>https://www.pvsdecore.com.br/imagens/piso-vinilico-claro-quarto.webp</image:loc></image:image><image:image><image:loc>https://www.pvsdecore.com.br/imagens/medicao-contrapiso-instalacao.webp</image:loc></image:image></url>\n<url><loc>https://www.pvsdecore.com.br/cidade/colombo</loc><image:image><image:loc>https://www.pvsdecore.com.br/imagens/amostras-pisos-texturas-acabamentos.webp</image:loc></image:image><image:image><image:loc>https://www.pvsdecore.com.br/imagens/piso-vinilico-claro-quarto.webp</image:loc></image:image><image:image><image:loc>https://www.pvsdecore.com.br/imagens/medicao-contrapiso-instalacao.webp</image:loc></image:image></url>\n<url><loc>https://www.pvsdecore.com.br/cidade/pinhais</loc><image:image><image:loc>https://www.pvsdecore.com.br/imagens/amostras-pisos-texturas-acabamentos.webp</image:loc></image:image><image:image><image:loc>https://www.pvsdecore.com.br/imagens/piso-vinilico-claro-quarto.webp</image:loc></image:image><image:image><image:loc>https://www.pvsdecore.com.br/imagens/medicao-contrapiso-instalacao.webp</image:loc></image:image></url>\n<url><loc>https://www.pvsdecore.com.br/cidade/so-jos-dos-pinhais</loc><image:image><image:loc>https://www.pvsdecore.com.br/imagens/amostras-pisos-texturas-acabamentos.webp</image:loc></image:image><image:image><image:loc>https://www.pvsdecore.com.br/imagens/piso-vinilico-claro-quarto.webp</image:loc></image:image><image:image><image:loc>https://www.pvsdecore.com.br/imagens/medicao-contrapiso-instalacao.webp</image:loc></image:image></url>\n<url><loc>https://www.pvsdecore.com.br/cidade/curitiba</loc><image:image><image:loc>https://www.pvsdecore.com.br/imagens/amostras-pisos-texturas-acabamentos.webp</image:loc></image:image><image:image><image:loc>https://www.pvsdecore.com.br/imagens/piso-vinilico-claro-quarto.webp</image:loc></image:image><image:image><image:loc>https://www.pvsdecore.com.br/imagens/medicao-contrapiso-instalacao.webp</image:loc></image:image></url></urlset>"
+}
