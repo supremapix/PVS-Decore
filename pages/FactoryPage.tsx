@@ -1,126 +1,51 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { CONTACT_PHONE, CONTACT_DISPLAY } from '../constants';
+import React, {useState} from 'react';
+import {Link} from 'react-router-dom';
+import {ArrowUpRight,Check,MapPin,MessageCircle,Play,Plus} from 'lucide-react';
+import {CONTACT_PHONE,CONTACT_DISPLAY,CONTACT_ADDRESS} from '../constants';
 import EnhancedSEO from '../components/EnhancedSEO';
 import PageTransition from '../components/PageTransition';
-import { Factory, ShieldCheck, Truck, MessageCircle, ArrowRight, Star, Clock, MapPin } from 'lucide-react';
-import VideoShowcase from '../components/VideoShowcase';
+import './FactoryPage.css';
 
-const FactoryPage = () => {
-  return (
-    <PageTransition>
-      <EnhancedSEO
-        title="Compra de Piso Laminado em Sao Jose dos Pinhais | PVS Decore"
-        description="Como comparar compra de piso laminado, frete, instalação e garantia. PVS Decore: loja em São José dos Pinhais."
-        url="/piso-laminado-direto-da-fabrica-sao-jose-dos-pinhais"
-        type="product"
-        keywords="piso laminado direto da fabrica, piso laminado sjp, piso laminado barato sao jose dos pinhais, eucafloor sjp, durafloor sjp, piso laminado atacado curitiba"
-      />
-
-      <div className="bg-white">
-        {/* Hero Section */}
-        <section className="relative bg-gray-900 text-white py-20 overflow-hidden">
-          <div className="absolute inset-0 opacity-20">
-            <img src="/images/marcas/eucafloor-bg.webp" width={1200} height={800} decoding="async" alt="Ambiente com piso laminado — imagem ilustrativa" className="w-full h-full object-cover" />
-          </div>
-          <div className="container mx-auto px-4 relative z-10 text-center">
-            <span className="bg-brand-orange text-white px-4 py-1 rounded-full text-xs font-black uppercase tracking-widest mb-6 inline-block">
-              Compra de piso em SJP
-            </span>
-            <h1 className="text-4xl md:text-6xl font-black mb-6 leading-tight">
-              Piso Laminado <br/>
-              <span className="text-brand-orange">Compra e Instalação</span>
-            </h1>
-            <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-10">
-              Planeje sua obra em São José dos Pinhais. Compare materiais, frete e instalação em uma loja local.
-            </p>
-            <div className="flex flex-wrap justify-center gap-4">
-               <button
-                onClick={() => window.open(`https://wa.me/${CONTACT_PHONE}?text=Olá, gostaria de um orçamento de piso laminado e instalação em SJP.`, '_blank')}
-                className="bg-brand-orange hover:bg-orange-600 text-white font-black px-10 py-5 rounded-full text-xl shadow-2xl transition-all transform hover:-translate-y-1 flex items-center gap-3"
-              >
-                <MessageCircle size={24} /> SOLICITAR ORÇAMENTO
-              </button>
-            </div>
-          </div>
-        </section>
-
-        {/* Video Showcase */}
-        <VideoShowcase
-          videoId="G221FX8O7Ao"
-          title="Piso laminado: compra e instalação"
-          description="Conheça informações sobre piso laminado. Consulte a linha, o frete e o serviço de instalação antes de contratar."
-        />
-
-        {/* Features */}
-        <section className="py-16 bg-gray-50 border-b border-gray-100">
-          <div className="container mx-auto px-4 grid md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-center text-center">
-              <div className="bg-orange-100 p-4 rounded-full text-brand-orange mb-6">
-                <Factory size={32} />
-              </div>
-              <h3 className="text-xl font-bold mb-3">Disponibilidade de materiais</h3>
-              <p className="text-gray-600">Consulte os modelos disponíveis e os prazos antes de programar a obra.</p>
-            </div>
-            <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-center text-center">
-              <div className="bg-orange-100 p-4 rounded-full text-brand-orange mb-6">
-                <ShieldCheck size={32} />
-              </div>
-              <h3 className="text-xl font-bold mb-3">Condições da compra</h3>
-              <p className="text-gray-600">Solicite identificação da linha, nota fiscal e termos de garantia do fabricante e da instalação.</p>
-            </div>
-            <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-center text-center">
-              <div className="bg-orange-100 p-4 rounded-full text-brand-orange mb-6">
-                <Truck size={32} />
-              </div>
-              <h3 className="text-xl font-bold mb-3">Entrega e instalação</h3>
-              <p className="text-gray-600">Consulte atendimento para seu endereço e combine o cronograma no orçamento.</p>
-            </div>
-          </div>
-        </section>
-
-        {/* Content with SEO Linking */}
-        <section className="py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto prose prose-lg">
-              <h2 className="text-3xl font-black text-gray-900 mb-8">Como comparar a compra e a instalação do piso laminado?</h2>
-
-              <p className="text-gray-700 leading-relaxed mb-6">
-                Muitos clientes buscam <strong>piso laminado direto da fábrica em São José dos Pinhais</strong> para economizar na reforma. No entanto, o custo de frete e a falta de garantia na instalação podem anular essa economia. Na PVS Decore, resolvemos esse problema com orçamento de materiais e instalação em uma <Link to="/cidade/so-jos-dos-pinhais" className="text-brand-orange font-bold underline">loja física em SJP</Link>.
-              </p>
-
-              <div className="grid md:grid-cols-2 gap-8 my-12">
-                <div className="bg-orange-50 p-6 rounded-xl border-l-4 border-brand-orange">
-                  <h4 className="font-bold text-gray-900 mb-2">Orçamento em SJP</h4>
-                  <p className="text-sm text-gray-600">Compare o conjunto de materiais, preparação, instalação e transporte para seu endereço.</p>
-                </div>
-                <div className="bg-orange-50 p-6 rounded-xl border-l-4 border-brand-orange">
-                  <h4 className="font-bold text-gray-900 mb-2">Orçamento da instalação</h4>
-                  <p className="text-sm text-gray-600">Além do piso, cuidamos da <Link to="/service/instalacao-residencial" className="text-brand-orange font-semibold underline">instalação de pisos</Link> com nossa equipe especializada.</p>
-                </div>
-              </div>
-
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Mantenha seu Piso Novo por Mais Tempo</h3>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                Ao adquirir seu piso conosco, consulte também o serviço de <Link to="/service/manutencao" className="text-brand-orange font-semibold underline">manutenção de pisos</Link>. Sabemos que acidentes acontecem, e ter uma equipe local em <Link to="/cidade/so-jos-dos-pinhais" className="text-brand-orange font-semibold underline">São José dos Pinhais, no Paraná</Link>, faz toda a diferença quando você precisa de um ajuste ou reparo rápido.
-              </p>
-
-              <div className="bg-gray-900 text-white p-10 rounded-3xl mt-16 text-center">
-                <h3 className="text-2xl font-bold mb-4">Pronto para transformar sua casa em SJP?</h3>
-                <p className="mb-8 text-gray-400">Fale com nossos consultores agora e consulte os modelos e condições disponíveis.</p>
-                <button
-                  onClick={() => window.open(`https://wa.me/${CONTACT_PHONE}?text=Gostaria de um orçamento para piso laminado em SJP.`, '_blank')}
-                  className="bg-white text-gray-900 font-black px-12 py-4 rounded-full hover:bg-brand-orange hover:text-white transition-all flex items-center gap-2 mx-auto"
-                >
-                  <MessageCircle size={20} /> CHAMAR NO WHATSAPP
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-    </PageTransition>
-  );
-};
-
-export default FactoryPage;
+const route='/piso-laminado-direto-da-fabrica-sao-jose-dos-pinhais';
+const contact='https://wa.me/'+CONTACT_PHONE+'?text='+encodeURIComponent('Olá! Quero planejar um piso laminado em São José dos Pinhais. Meu ambiente e medidas aproximadas: ');
+const faq=[
+ {question:'A PVS vende piso laminado direto da fábrica?',answer:'A PVS é a loja de contato para consultar materiais e instalação em São José dos Pinhais. Não apresentamos esta compra como venda direta de fabricante. Peça a identificação da marca e da linha, a origem do produto, a nota fiscal e as condições da proposta.'},
+ {question:'Laminado é a mesma coisa que piso de PVC ou vinílico?',answer:'Não. São categorias diferentes, com composição, sistemas e orientações de uso próprios. Esta página trata de piso laminado. Se a proposta oferecer vinílico ou SPC, compare a ficha técnica e a indicação para o ambiente antes de decidir.'},
+ {question:'Posso usar laminado em cozinha, banheiro ou área molhada?',answer:'Não presuma que qualquer laminado pode receber água. A autorização depende da linha, do ambiente e das instruções do fabricante. Informe a exposição à umidade antes da compra; resistência à água não dispensa cuidados nem resolve infiltrações na base.'},
+ {question:'É possível instalar por cima do piso existente?',answer:'Depende do revestimento atual, do estado da base e do sistema escolhido. É necessário verificar firmeza, regularidade, umidade, altura junto às portas e requisitos de manta e barreira. Fotos ajudam no contato inicial, mas não substituem a avaliação do imóvel.'},
+ {question:'O que muda na instalação em apartamento?',answer:'Combine as regras de obra do condomínio, acesso pelo elevador, recebimento de materiais e retirada dos móveis. Consulte também os requisitos acústicos aplicáveis ao imóvel e a solução de base indicada para o produto, sem assumir um desempenho acústico universal.'},
+ {question:'Quanto custa e quanto tempo leva a instalação?',answer:'Valor e prazo dependem da linha, da área, da preparação, dos acabamentos e do acesso ao imóvel. Solicite uma proposta discriminada e combine as etapas e as condições de liberação do ambiente antes de contratar.'}
+];
+function CatalogPhoto({kind,className='',eager=false}:{kind:'quickstep'|'durafloor';className?:string;eager?:boolean}){
+ const size=kind==='quickstep'?1045:1536;
+ return <figure className={'lam-photo '+className}><img src={'/images/marcas/'+kind+'-bg.webp'} srcSet={'/images/marcas/'+kind+'-bg-800.webp 800w, /images/marcas/'+kind+'-bg.webp '+size+'w'} sizes="(max-width: 800px) 100vw, 650px" width={size} height={kind==='quickstep'?1045:1152} loading={eager?'eager':'lazy'} decoding="async" alt={kind==='quickstep'?'Ambiente de jantar com piso amadeirado escuro, do acervo de referência Quick-Step':'Ambiente infantil com piso amadeirado claro, do acervo de referência Durafloor'}/><figcaption>Acervo de referência {kind==='quickstep'?'Quick-Step':'Durafloor'}. Consulte a linha e a disponibilidade. Não representa obra da PVS.</figcaption></figure>;
+}
+export default function FactoryPage(){
+ const [video,setVideo]=useState(false);
+ return <PageTransition><div className="lam-page">
+  <EnhancedSEO title="Piso laminado em São José dos Pinhais: escolha e instalação | PVS" description="Planeje seu piso laminado com a PVS em São José dos Pinhais. Compare ambientes, preparação, umidade, manutenção e itens do orçamento de instalação." url={route} type="product" faq={faq}/>
+  <section className="lam-hero"><div className="shell lam-hero-grid"><div className="lam-hero-copy"><nav aria-label="Caminho da página"><Link to="/">Início</Link><span>/</span><Link to="/cidade/so-jos-dos-pinhais">São José dos Pinhais</Link></nav><p className="lam-kicker">PVS Decore / Especial laminados</p><h1>Piso laminado.<br/><em>Do seu jeito.</em></h1><p className="lam-lead">Piso laminado em São José dos Pinhais, escolhido para a sua rotina — da primeira amostra ao acabamento.</p><div className="lam-actions"><a className="button" href={contact}><MessageCircle aria-hidden="true" size={22}/>Planejar meu laminado</a><a className="lam-light-link" href="#lam-ambientes">Explore os ambientes <ArrowUpRight aria-hidden="true" size={20}/></a></div><p className="lam-hero-note">Loja, materiais e consulta de instalação.<br/>Condições confirmadas para o seu endereço.</p></div><div className="lam-hero-image"><CatalogPhoto kind="quickstep" eager/><div className="lam-image-note"><span>01 / O ponto de partida</span><p>Textura, luz e uso.<br/>Escolha além da cor.</p></div></div></div></section>
+  <nav className="lam-index shell" aria-label="Guia desta página"><a href="#lam-ambientes">01 · Ambientes</a><a href="#lam-escolha">02 · Escolha</a><a href="#lam-base">03 · Instalação</a><a href="#lam-cuidados">04 · Cuidados</a><a href="#lam-orcamento">05 · Orçamento</a></nav>
+  <section id="lam-ambientes" className="shell lam-section"><div className="lam-heading"><div><p className="lam-kicker">O seu espaço vem primeiro</p><h2>Uma escolha para<br/>o seu jeito de morar.</h2></div><p>A mesma aparência pode existir em linhas com indicações diferentes. Conte à PVS como cada cômodo é usado antes de comparar o acabamento.</p></div><div className="lam-room-grid"><article className="lam-room-card"><CatalogPhoto kind="durafloor"/><div><span className="lam-number">CASAS / QUARTOS / SALAS</span><h3>Uma casa que acompanha a rotina.</h3><p>Informe circulação, presença de animais e forma de limpeza. Compare amostras com os móveis e a iluminação do ambiente, verificando a indicação de uso da linha.</p><ul><li>Quais cômodos receberão o piso?</li><li>Há sinais de umidade na base?</li><li>Como será feita a retirada dos móveis?</li></ul><Link className="lam-text-link" to="/service/instalacao-residencial">Planejar instalação residencial <ArrowUpRight aria-hidden="true"/></Link></div></article><article className="lam-room-card"><CatalogPhoto kind="quickstep"/><div><span className="lam-number">APARTAMENTOS / ÁREAS INTERNAS</span><h3>O acabamento conversa com o conjunto.</h3><p>Observe o encontro com portas, rodapés e outros revestimentos. Em condomínio, combine horários e acesso de materiais antes de definir o cronograma.</p><ul><li>Confirme regras e requisitos acústicos.</li><li>Verifique alturas e transições entre cômodos.</li><li>Escolha os rodapés junto com o piso.</li></ul><Link className="lam-text-link" to="/product/rodape-poliestireno">Comparar rodapés e acabamentos <ArrowUpRight aria-hidden="true"/></Link></div></article></div><aside className="lam-business"><div><p className="lam-kicker">Lojas e escritórios em São José dos Pinhais</p><h3>Para trabalhar, a indicação de uso conta.</h3></div><div><p>Descreva a circulação, cadeiras com rodízios e rotina de limpeza. Consulte uma linha de laminado indicada pelo fabricante para o uso comercial pretendido e organize a intervenção por ambientes.</p><Link className="lam-light-link" to="/service/instalacao-comercial">Consultar instalação comercial <ArrowUpRight aria-hidden="true"/></Link></div></aside></section>
+  <section id="lam-escolha" className="lam-choice"><div className="shell lam-section"><div className="lam-heading"><div><p className="lam-kicker">Da amostra à decisão</p><h2>Três conversas<br/>antes de comprar.</h2></div><p>Laminado não é PVC nem vinílico. Compare a ficha técnica do material que está efetivamente na proposta.</p></div><div className="lam-three">{[
+   ['01','A aparência','Tonalidade, desenho e dimensão das réguas mudam a leitura do espaço. Veja a amostra junto das cores existentes; a imagem na tela não substitui essa comparação.'],
+   ['02','A linha certa','Confirme marca, linha e indicação de uso. O catálogo PVS inclui marcas como Durafloor, Eucafloor e Quick-Step; modelos e disponibilidade precisam ser consultados.'],
+   ['03','O acabamento','Planeje rodapés, perfis de transição e encontros com portas. Verifique com a equipe os acessórios compatíveis e as condições do ambiente antes da compra.']
+  ].map(([n,title,text])=><article key={n}><span className="lam-big-number">{n}</span><h3>{title}</h3><p>{text}</p></article>)}</div><div className="lam-actions"><Link className="button secondary" to="/product/piso-laminado">Conhecer piso laminado</Link><Link className="lam-text-link" to="/nossos-produtos">Ver marcas do catálogo <ArrowUpRight aria-hidden="true"/></Link></div></div></section>
+  <section id="lam-base" className="shell lam-section lam-install"><div><p className="lam-kicker">A parte que fica por baixo</p><h2>Uma boa instalação<br/>começa na base.</h2><p>O contrapiso precisa ser avaliado antes de receber o laminado. Regularidade, firmeza e umidade orientam a preparação e os materiais complementares.</p><div className="lam-warning"><h3>Umidade pede avaliação.</h3><p>Informe infiltrações, manchas ou histórico de piso estufado. A indicação de resistência à água de uma linha não resolve problemas na base e não autoriza qualquer forma de lavagem.</p></div><Link className="lam-text-link" to="/guia-de-pisos">Consultar o guia de preparação <ArrowUpRight aria-hidden="true"/></Link></div><ol className="lam-process">{[
+   ['Avaliar o ambiente','Fotos e medidas ajudam no primeiro contato. A avaliação define as condições da base e a viabilidade do sistema para o imóvel.'],
+   ['Definir a preparação','Confirme correções necessárias e a manta ou barreira especificada para a linha. Siga as instruções do fabricante sobre armazenamento e instalação.'],
+   ['Instalar e arrematar','Planeje o sentido das réguas, as folgas e os perfis conforme o sistema. Combine rodapés, encontros e ajustes de portas quando necessários.'],
+   ['Conferir e orientar','Ao concluir, confira acabamentos e receba as instruções de limpeza, uso e garantia aplicáveis aos materiais e ao serviço contratado.']
+  ].map(([title,text],i)=><li key={title}><span>{String(i+1).padStart(2,'0')}</span><div><h3>{title}</h3><p>{text}</p></div></li>)}</ol></section>
+  <section id="lam-cuidados" className="lam-care"><div className="shell lam-section"><p className="lam-kicker">Depois da instalação</p><h2>Cuidados simples.<br/>Orientação da linha sempre à mão.</h2><div className="lam-three">{[
+   ['Limpeza adequada','Retire a poeira com utensílios apropriados e siga o manual para a limpeza úmida. Evite excesso de água e produtos não indicados para a linha.'],
+   ['Proteção na rotina','Confira a proteção dos pés dos móveis e a recomendação para rodízios. Movimente o mobiliário com cuidado, sem arrastar sobre o revestimento.'],
+   ['Atenção a mudanças','Peças soltas, estufamento ou sinais de umidade merecem avaliação. Guarde a identificação do produto e envie fotos para consultar manutenção.']
+  ].map(([title,text])=><article key={title}><Check aria-hidden="true"/><h3>{title}</h3><p>{text}</p></article>)}</div><Link className="lam-text-link" to="/service/manutencao">Consultar manutenção de pisos <ArrowUpRight aria-hidden="true"/></Link></div></section>
+  <section id="lam-orcamento" className="shell lam-section lam-budget"><div><p className="lam-kicker">Compra com informação</p><h2>Compare o projeto.<br/>Não só o metro quadrado.</h2><p>Ao buscar “piso laminado direto da fábrica”, confira quem vende, qual produto será entregue e quais serviços estão incluídos. A PVS é o contato de loja para materiais e instalação; não apresentamos esta oferta como venda direta do fabricante.</p><p>Para seu imóvel em São José dos Pinhais, informe endereço, CEP, cômodos e área aproximada. Consulte medição, entrega e instalação antes de organizar a obra.</p><a className="button" href={contact}>Pedir orçamento de laminado <ArrowUpRight aria-hidden="true"/></a></div><aside className="lam-budget-card"><p className="lam-kicker">Peça uma proposta discriminada</p><h3>O que precisa estar claro?</h3><ul>{['Marca, linha, quantidade e acessórios.','Preparação da base e materiais complementares.','Instalação, rodapés e perfis de acabamento.','Frete, acesso e recebimento no imóvel.','Etapas, condições de pagamento e prazo combinado.','Nota fiscal e termos de garantia aplicáveis.'].map(text=><li key={text}><Check aria-hidden="true" size={20}/><span>{text}</span></li>)}</ul><p>O orçamento depende da avaliação e dos itens escolhidos. Confirme as condições por escrito.</p></aside></section>
+  <section className="lam-faq-section"><div className="shell lam-section lam-faq-grid"><div><p className="lam-kicker">Respostas antes da decisão</p><h2>Vale perguntar.</h2><p>Informações para comparar materiais e contratar com clareza.</p></div><div className="lam-faq">{faq.map(item=><details key={item.question}><summary>{item.question}<Plus aria-hidden="true" size={22}/></summary><p>{item.answer}</p></details>)}</div></div></section>
+  <section className="shell lam-section lam-visit"><div><p className="lam-kicker">PVS Decore / São José dos Pinhais</p><h2>Traga a ideia.<br/>Vamos conversar sobre o piso.</h2><p>Leve fotos do ambiente, medidas aproximadas e referências de cores. Confirme antes da visita a disponibilidade das amostras que deseja comparar.</p><p className="lam-address"><MapPin aria-hidden="true"/>{CONTACT_ADDRESS}</p><div className="lam-actions"><a className="button" href={contact}>Conversar com a PVS</a><a className="lam-text-link" href={'tel:+'+CONTACT_PHONE}>Ligar: {CONTACT_DISPLAY}</a></div><a className="lam-text-link" href={'https://www.google.com/maps?q='+encodeURIComponent(CONTACT_ADDRESS)} target="_blank" rel="noopener noreferrer">Abrir localização da loja <ArrowUpRight aria-hidden="true"/></a></div><div className="lam-video"><span className="lam-number">VÍDEO DO ACERVO PVS</span><h3>Continue conhecendo os materiais.</h3>{video?<iframe src="https://www.youtube-nocookie.com/embed/G221FX8O7Ao?rel=0" title="Vídeo PVS sobre pisos" allow="fullscreen; picture-in-picture" allowFullScreen/>:<button onClick={()=>setVideo(true)} className="lam-video-button"><Play size={32} aria-hidden="true"/><span>Abrir vídeo sobre pisos</span></button>}<p>Conteúdo complementar. Confirme a linha de laminado e as condições para seu projeto.</p></div></section>
+  <section className="lam-sources shell"><h2>Orientações de fabricante</h2><p>O manual do produto e a avaliação do imóvel orientam a aplicação. Consulte as referências usadas neste guia:</p><a href="https://www.quick-step.com.br/pt-br/pisos-laminados/instalacao" target="_blank" rel="noopener noreferrer">Quick-Step: instalação de laminados</a><a href="https://www.quick-step.com.br/pt-br/pisos-laminados/limpar" target="_blank" rel="noopener noreferrer">Quick-Step: limpeza e manutenção</a><Link to="/cidade/so-jos-dos-pinhais">Mais informações de atendimento em São José dos Pinhais</Link></section>
+ </div></PageTransition>;
+}
