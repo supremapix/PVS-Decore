@@ -10,28 +10,28 @@
       "oldPath": "/bairro/vila-parolin",
       "target": "/bairro/vila-parolin",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "Vila Torres",
       "oldPath": "/bairro/vila-torres",
       "target": "/bairro/vila-torres",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "Jardim Schaffer",
       "oldPath": "/bairro/jardim-schaffer",
       "target": "/bairro/jardim-schaffer",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "Vila Sabará",
       "oldPath": "/bairro/vila-sabar",
       "target": "/bairro/vila-sabar",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "Boqueirão de Baixo",
@@ -52,14 +52,14 @@
       "oldPath": "/bairro/tangu",
       "target": "/bairro/tangu",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "Vila Zumbi",
       "oldPath": "/bairro/vila-zumbi",
       "target": "/bairro/vila-zumbi",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "Abranches de Baixo",
@@ -80,42 +80,42 @@
       "oldPath": "/bairro/vila-nossa-senhora-da-luz",
       "target": "/bairro/vila-nossa-senhora-da-luz",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "Vila Tecnológica",
       "oldPath": "/bairro/vila-tecnolgica",
       "target": "/bairro/vila-tecnolgica",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "Vila Oficinas",
       "oldPath": "/bairro/vila-oficinas",
       "target": "/bairro/vila-oficinas",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "Vila Fanny",
       "oldPath": "/bairro/vila-fanny",
       "target": "/bairro/vila-fanny",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "Vila Hauer",
       "oldPath": "/bairro/vila-hauer",
       "target": "/bairro/vila-hauer",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "Batel Soho",
       "oldPath": "/bairro/batel-soho",
       "target": "/bairro/batel-soho",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "Alto da Rua XV",
@@ -129,7 +129,7 @@
       "oldPath": "/bairro/cic-norte",
       "target": "/bairro/cic-norte",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "CIC Central",
@@ -143,28 +143,28 @@
       "oldPath": "/bairro/cic-sul",
       "target": "/bairro/cic-sul",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "Vila Guaíra",
       "oldPath": "/bairro/vila-guara",
       "target": "/bairro/vila-guara",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "Centro Histórico",
       "oldPath": "/bairro/centro-histrico",
       "target": "/bairro/centro-histrico",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "Ecoville",
       "oldPath": "/bairro/ecoville",
       "target": "/bairro/ecoville",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "Carmo Abranches",
@@ -619,7 +619,7 @@
       "oldPath": "/bairro/vila-pantanal",
       "target": "/bairro/vila-pantanal",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "Seminário",
@@ -724,14 +724,14 @@
       "oldPath": "/bairro/uberaba-de-cima",
       "target": "/bairro/uberaba-de-cima",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "Uberaba de Baixo",
       "oldPath": "/bairro/uberaba-de-baixo",
       "target": "/bairro/uberaba-de-baixo",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "São Braz Velho",
@@ -745,21 +745,21 @@
       "oldPath": "/bairro/vila-verde",
       "target": "/bairro/vila-verde",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "Vila Barigui",
       "oldPath": "/bairro/vila-barigui",
       "target": "/bairro/vila-barigui",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "Caiuá",
       "oldPath": "/bairro/caiu",
       "target": "/bairro/caiu",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "Xaxim Velho",
@@ -808,42 +808,42 @@
       "oldPath": "/bairro/vila-so-pedro",
       "target": "/bairro/vila-so-pedro",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "Vila Osternack",
       "oldPath": "/bairro/vila-osternack",
       "target": "/bairro/vila-osternack",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "Conjunto Caiuá",
       "oldPath": "/bairro/conjunto-caiu",
       "target": "/bairro/conjunto-caiu",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "Conjunto Parigot de Souza",
       "oldPath": "/bairro/conjunto-parigot-de-souza",
       "target": "/bairro/conjunto-parigot-de-souza",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "Vila Reno",
       "oldPath": "/bairro/vila-reno",
       "target": "/bairro/vila-reno",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "Vila Audi",
       "oldPath": "/bairro/vila-audi",
       "target": "/bairro/vila-audi",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     }
   ]
 }

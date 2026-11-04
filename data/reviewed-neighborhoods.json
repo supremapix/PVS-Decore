@@ -516,5 +516,208 @@
     "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
     "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
     "editorialBasis": "Manter informações do piso para futuras consultas"
+  },
+  "ecoville": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://ippuc.org.br/storage/uploads/766f4f4d-f7e3-4ae7-b19a-c7be6eab2654/45---Mossungue.pdf",
+    "editorialBasis": "Comparar materiais para um projeto na região conhecida como Ecoville"
+  },
+  "vila-torres": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/comunidade-da-vila-torres-celebra-entrega-de-novo-cmei/39730",
+    "editorialBasis": "Organizar medidas e serviços para uma reforma na Vila Torres"
+  },
+  "jardim-schaffer": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://turismo.curitiba.pr.gov.br/conteudo/bosque-alemao/1099",
+    "editorialBasis": "Escolher referências de piso com o endereço bem identificado"
+  },
+  "vila-sabar": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://comunidadeescola.curitiba.pr.gov.br/noticias/contra-o-desperdicio%21-oficina-de-culinaria-sustentavel-bolo-de-casca-de-maca/945",
+    "editorialBasis": "Preparar a consulta de piso para uma residência na Vila Sabará"
+  },
+  "vila-nossa-senhora-da-luz": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/comunidade-da-cic-recebe-farol-frei-miguel-bottacin-revitalizado/35054",
+    "editorialBasis": "Planejar piso e rodapés como partes da mesma reforma"
+  },
+  "vila-oficinas": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/terminais-vila-oficinas-e-barreirinha-passam-a-ter-integracao-temporal-com-armazens-da-familia-e-sacoloes/73571",
+    "editorialBasis": "Consultar piso comercial ou residencial sem misturar requisitos"
+  },
+  "vila-audi": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/projeto-de-urbanizacao-da-vila-audi-concorre-a-premio-nacional/31160",
+    "editorialBasis": "Planejar a troca do revestimento com a base em primeiro lugar"
+  },
+  "caiu": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/conteudo/parque-municipal-caiua/305",
+    "editorialBasis": "Comparar padrões de piso e acabamento para a região do Caiuá"
+  },
+  "conjunto-caiu": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://locais.curitiba.pr.gov.br/parque-municipal-caiua/2392",
+    "editorialBasis": "Organizar etapas de reforma sem confundir os nomes da localidade"
+  },
+  "batel-soho": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/praca-da-espanha-no-roteiro-de-turistas-e-familias-curitibanas/16306",
+    "editorialBasis": "Escolher piso para um ponto comercial na região da Praça da Espanha"
+  },
+  "centro-histrico": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/inscricoes-para-o-walking-tour-pelo-centro-historico-de-curitiba-estao-abertas/76221",
+    "editorialBasis": "Planejar revestimentos respeitando as condições do imóvel existente"
+  },
+  "cic-norte": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/curitiba-com-150-empresas-no-tecnoparque-e-parque-de-sofware/23821",
+    "editorialBasis": "Escolher piso para escritório sem presumir uso industrial"
+  },
+  "cic-sul": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/curitiba-com-150-empresas-no-tecnoparque-e-parque-de-sofware/23821",
+    "editorialBasis": "Organizar fornecimento e instalação para o endereço correto"
+  },
+  "vila-tecnolgica": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://defesaetransito.curitiba.pr.gov.br/conteudo/nucleo-regional-da-defesa-social-bairro-novo/116",
+    "editorialBasis": "Preparar um pedido de piso com fotos, medidas e referências"
+  },
+  "vila-pantanal": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/trincheiras-de-curitiba-recebem-pintura-com-grafismo-colorido-e-antipichacao/67538",
+    "editorialBasis": "Conferir a base antes de definir o acabamento do piso"
+  },
+  "vila-verde": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/em-acao-preventiva-prefeitura-de-curitiba-avanca-em-limpeza-no-rio-barigui/72410",
+    "editorialBasis": "Planejar passagens entre áreas internas e externas"
+  },
+  "vila-barigui": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/ciclovia-na-cic-ganha-primeiro-sistema-de-iluminacao-publica-com-tecnologia-led/65273",
+    "editorialBasis": "Comparar o piso com a rotina de circulação do imóvel"
+  },
+  "conjunto-parigot-de-souza": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/com-os-canteiros-verdinhos-horta-maria-angelica-ja-tem-alface-e-temperos-para-a-primeira-colheita/69082",
+    "editorialBasis": "Escolher piso e organizar a execução em um imóvel ocupado"
+  },
+  "vila-so-pedro": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://locais.curitiba.pr.gov.br/centro-de-referencia-de-assistencia-social-vila-sao-pedro/1026",
+    "editorialBasis": "Identificar o endereço e preparar a comparação de materiais"
+  },
+  "vila-reno": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/comunidade-do-uberaba-ganha-ampliacao-de-linha-de-onibus/70213",
+    "editorialBasis": "Organizar entrega e instalação sem depender de um ponto de referência"
+  },
+  "uberaba-de-baixo": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/uberaba-ganha-pavimentacao-areas-de-lazer-cmei-e-moradia/15931",
+    "editorialBasis": "Avaliar substituição parcial sem confundir nome e limite de região"
+  },
+  "uberaba-de-cima": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/saude-oferece-circuito-especial-aos-sabados-para-publico-feminino-de-curitiba/81925",
+    "editorialBasis": "Planejar a seleção de piso antes de definir o cronograma"
+  },
+  "vila-parolin": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/cohab-curitiba-cadastra-moradores-para-futura-intervencao-no-parolin/73672",
+    "editorialBasis": "Comparar orçamento de material e orçamento de reforma completa"
+  },
+  "vila-zumbi": {
+    "reviewedAt": "2026-11-04",
+    "city": "Colombo",
+    "coverageBasis": "Colombo integra MAIN_AREAS e a cobertura publicada PVS; confirmar condições pelo endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/inclusao-de-jovens-com-deficiencia-como-aprendizes-e-tema-de-palestra-em-curitiba/68299",
+    "editorialBasis": "Consultar pisos para Vila Zumbi com o município correto"
+  },
+  "vila-osternack": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/cmei-vila-osternack-e-reformado-para-receber-140-curitibinhas/67499",
+    "editorialBasis": "Usar o endereço para esclarecer uma referência local ampla"
+  },
+  "vila-fanny": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/quarta-tem-feirinha-de-artesanato-em-quatro-bairros-de-curitiba/83875",
+    "editorialBasis": "Evitar confusão de localização ao solicitar pisos"
+  },
+  "vila-hauer": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/hauer-passa-a-ter-rua-da-cerveja/52131",
+    "editorialBasis": "Localizar o projeto antes de comparar o piso comercial"
+  },
+  "vila-guara": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/renovacao-do-asfalto-entra-na-reta-final-e-anima-moradores-e-comerciantes/76392",
+    "editorialBasis": "Conferir a referência local e comparar os acabamentos"
+  },
+  "tangu": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/conteudo/parque-municipal-tangua/318",
+    "editorialBasis": "Consultar piso para um imóvel na região do Parque Tanguá"
   }
 }

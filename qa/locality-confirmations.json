@@ -1,370 +1,432 @@
 {
   "date": "2026-11-04",
-  "note": "Possível sobreposição não comprova equivalência. Não redirecionar sem mapa/endereço verificável.",
+  "note": "30 nomes conciliados por evidências municipais. Alto da Rua XV permanece noindex por equivalência e intenção duplicada, não por dúvida de cobertura. Nenhum novo redirecionamento.",
   "questions": {
     "cidades": "Quais destes 24 municípios recebem venda/entrega e quais também recebem instalação? Pode responder com as exceções e eventuais limites por CEP.",
-    "bairros": "Para os nomes históricos abaixo, qual município e um CEP/endereço de referência? Há nomes que a PVS considera o mesmo local?"
+    "bairros": "Para os 16 nomes ainda não conciliados, qual município e um CEP/endereço de referência? Não é necessário comprovar novamente as 30 localidades já documentadas por fontes municipais."
   },
   "counts": {
     "coberturaComercial": 24,
-    "possiveisSobreposicoes": 12,
-    "nomesNaoConciliados": 34
+    "nomesNaoConciliados": 16,
+    "equivalenciaConfirmada": 1
   },
   "groups": {
     "coberturaComercial": [
       {
         "name": "Adrianópolis",
+        "type": "cidade",
         "path": "/cidade/adrianpolis",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Agudos do Sul",
+        "type": "cidade",
         "path": "/cidade/agudos-do-sul",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Almirante Tamandaré",
+        "type": "cidade",
         "path": "/cidade/almirante-tamandar",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Balsa Nova",
+        "type": "cidade",
         "path": "/cidade/balsa-nova",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Bocaiúva do Sul",
+        "type": "cidade",
         "path": "/cidade/bocaiva-do-sul",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Campina Grande do Sul",
+        "type": "cidade",
         "path": "/cidade/campina-grande-do-sul",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Campo do Tenente",
+        "type": "cidade",
         "path": "/cidade/campo-do-tenente",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Campo Largo",
+        "type": "cidade",
         "path": "/cidade/campo-largo",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Campo Magro",
+        "type": "cidade",
         "path": "/cidade/campo-magro",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Cerro Azul",
+        "type": "cidade",
         "path": "/cidade/cerro-azul",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Contenda",
+        "type": "cidade",
         "path": "/cidade/contenda",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Doutor Ulysses",
+        "type": "cidade",
         "path": "/cidade/doutor-ulysses",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Fazenda Rio Grande",
+        "type": "cidade",
         "path": "/cidade/fazenda-rio-grande",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Itaperuçu",
+        "type": "cidade",
         "path": "/cidade/itaperuu",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Lapa",
+        "type": "cidade",
         "path": "/cidade/lapa",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Mandirituba",
+        "type": "cidade",
         "path": "/cidade/mandirituba",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Piên",
+        "type": "cidade",
         "path": "/cidade/pin",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Piraquara",
+        "type": "cidade",
         "path": "/cidade/piraquara",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Quatro Barras",
+        "type": "cidade",
         "path": "/cidade/quatro-barras",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Quitandinha",
+        "type": "cidade",
         "path": "/cidade/quitandinha",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Rio Branco do Sul",
+        "type": "cidade",
         "path": "/cidade/rio-branco-do-sul",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Rio Negro",
+        "type": "cidade",
         "path": "/cidade/rio-negro",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Tijucas do Sul",
+        "type": "cidade",
         "path": "/cidade/tijucas-do-sul",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Tunas do Paraná",
+        "type": "cidade",
         "path": "/cidade/tunas-do-paran",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
-      }
-    ],
-    "possiveisSobreposicoes": [
-      {
-        "name": "Vila Parolin",
-        "path": "/bairro/vila-parolin",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
-      },
-      {
-        "name": "Vila Fanny",
-        "path": "/bairro/vila-fanny",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
-      },
-      {
-        "name": "Vila Hauer",
-        "path": "/bairro/vila-hauer",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
-      },
-      {
-        "name": "Batel Soho",
-        "path": "/bairro/batel-soho",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
-      },
-      {
-        "name": "Alto da Rua XV",
-        "path": "/bairro/alto-da-rua-xv",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
-      },
-      {
-        "name": "CIC Norte",
-        "path": "/bairro/cic-norte",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
-      },
-      {
-        "name": "CIC Central",
-        "path": "/bairro/cic-central",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
-      },
-      {
-        "name": "CIC Sul",
-        "path": "/bairro/cic-sul",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
-      },
-      {
-        "name": "Vila Guaíra",
-        "path": "/bairro/vila-guara",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
-      },
-      {
-        "name": "Centro Histórico",
-        "path": "/bairro/centro-histrico",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
-      },
-      {
-        "name": "Fazendinha-Portão",
-        "path": "/bairro/fazendinha-porto",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
-      },
-      {
-        "name": "Conjunto Caiuá",
-        "path": "/bairro/conjunto-caiu",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       }
     ],
     "nomesNaoConciliados": [
       {
-        "name": "Vila Torres",
-        "path": "/bairro/vila-torres",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
-      },
-      {
-        "name": "Jardim Schaffer",
-        "path": "/bairro/jardim-schaffer",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
-      },
-      {
-        "name": "Vila Sabará",
-        "path": "/bairro/vila-sabar",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
-      },
-      {
         "name": "Boqueirão de Baixo",
+        "type": "bairro",
         "path": "/bairro/boqueiro-de-baixo",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Boqueirão de Cima",
+        "type": "bairro",
         "path": "/bairro/boqueiro-de-cima",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
-      },
-      {
-        "name": "Tanguá",
-        "path": "/bairro/tangu",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
-      },
-      {
-        "name": "Vila Zumbi",
-        "path": "/bairro/vila-zumbi",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Abranches de Baixo",
+        "type": "bairro",
         "path": "/bairro/abranches-de-baixo",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Abranches de Cima",
+        "type": "bairro",
         "path": "/bairro/abranches-de-cima",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
-        "name": "Vila Nossa Senhora da Luz",
-        "path": "/bairro/vila-nossa-senhora-da-luz",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
-      },
-      {
-        "name": "Vila Tecnológica",
-        "path": "/bairro/vila-tecnolgica",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
-      },
-      {
-        "name": "Vila Oficinas",
-        "path": "/bairro/vila-oficinas",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
-      },
-      {
-        "name": "Ecoville",
-        "path": "/bairro/ecoville",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "name": "CIC Central",
+        "type": "bairro",
+        "path": "/bairro/cic-central",
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Carmo Abranches",
+        "type": "bairro",
         "path": "/bairro/carmo-abranches",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
-      },
-      {
-        "name": "Vila Pantanal",
-        "path": "/bairro/vila-pantanal",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Santa Quitéria Velha",
+        "type": "bairro",
         "path": "/bairro/santa-quitria-velha",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Portão Velho",
+        "type": "bairro",
         "path": "/bairro/porto-velho",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Guaíra Velho",
+        "type": "bairro",
         "path": "/bairro/guara-velho",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
-      },
-      {
-        "name": "Uberaba de Cima",
-        "path": "/bairro/uberaba-de-cima",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
-      },
-      {
-        "name": "Uberaba de Baixo",
-        "path": "/bairro/uberaba-de-baixo",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "São Braz Velho",
+        "type": "bairro",
         "path": "/bairro/so-braz-velho",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
-      },
-      {
-        "name": "Vila Verde",
-        "path": "/bairro/vila-verde",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
-      },
-      {
-        "name": "Vila Barigui",
-        "path": "/bairro/vila-barigui",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
-      },
-      {
-        "name": "Caiuá",
-        "path": "/bairro/caiu",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Xaxim Velho",
+        "type": "bairro",
         "path": "/bairro/xaxim-velho",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
+      },
+      {
+        "name": "Fazendinha-Portão",
+        "type": "bairro",
+        "path": "/bairro/fazendinha-porto",
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Campo Comprido Velho",
+        "type": "bairro",
         "path": "/bairro/campo-comprido-velho",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Bacacheri Velho",
+        "type": "bairro",
         "path": "/bairro/bacacheri-velho",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Capão da Imbuia Velho",
+        "type": "bairro",
         "path": "/bairro/capo-da-imbuia-velho",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
       },
       {
         "name": "Pinheirinho Velho",
+        "type": "bairro",
         "path": "/bairro/pinheirinho-velho",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
-      },
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "confirmação individual necessária",
+        "reason": "identificação geográfica ou cobertura específica não confirmada",
+        "source": null
+      }
+    ],
+    "equivalenciaConfirmada": [
       {
-        "name": "Vila São Pedro",
-        "path": "/bairro/vila-so-pedro",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
-      },
-      {
-        "name": "Vila Osternack",
-        "path": "/bairro/vila-osternack",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
-      },
-      {
-        "name": "Conjunto Parigot de Souza",
-        "path": "/bairro/conjunto-parigot-de-souza",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
-      },
-      {
-        "name": "Vila Reno",
-        "path": "/bairro/vila-reno",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
-      },
-      {
-        "name": "Vila Audi",
-        "path": "/bairro/vila-audi",
-        "decision": "URL preservada com noindex; sem redirecionamento novo"
+        "name": "Alto da Rua XV",
+        "type": "bairro",
+        "path": "/bairro/alto-da-rua-xv",
+        "beforeIndexed": false,
+        "afterIndexed": false,
+        "coverage": "localidade contextualizada em Curitiba; cobertura municipal publicada, sujeita ao endereço",
+        "reason": "nome equivalente ao mesmo bairro; intenção duplicada, acesso preservado e link para página principal",
+        "source": "https://locais.curitiba.pr.gov.br/administracao-regional-matriz/894",
+        "kind": "nome equivalente",
+        "related": "/bairro/alto-da-xv"
       }
     ]
   }

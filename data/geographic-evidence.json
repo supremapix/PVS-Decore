@@ -1,0 +1,306 @@
+{
+  "ecoville": {
+    "name": "Ecoville",
+    "city": "Curitiba",
+    "kind": "região conhecida",
+    "fact": "O IPPUC registra que Mossunguê é conhecido por moradores como Ecoville; a referência não define todos os limites da região conhecida por esse nome.",
+    "source": "https://ippuc.org.br/storage/uploads/766f4f4d-f7e3-4ae7-b19a-c7be6eab2654/45---Mossungue.pdf",
+    "related": "/bairro/mossungu",
+    "eligible": true,
+    "reviewedAt": "2026-11-04"
+  },
+  "vila-torres": {
+    "name": "Vila Torres",
+    "city": "Curitiba",
+    "kind": "comunidade",
+    "fact": "A Prefeitura situa a comunidade Vila Torres no Prado Velho.",
+    "source": "https://www.curitiba.pr.gov.br/noticias/comunidade-da-vila-torres-celebra-entrega-de-novo-cmei/39730",
+    "related": "/bairro/prado-velho",
+    "eligible": true,
+    "reviewedAt": "2026-11-04"
+  },
+  "jardim-schaffer": {
+    "name": "Jardim Schaffer",
+    "city": "Curitiba",
+    "kind": "localidade",
+    "fact": "O portal municipal de turismo identifica Jardim Schaffer junto a Vista Alegre na localização do Bosque Alemão.",
+    "source": "https://turismo.curitiba.pr.gov.br/conteudo/bosque-alemao/1099",
+    "related": "/bairro/vista-alegre",
+    "eligible": true,
+    "reviewedAt": "2026-11-04"
+  },
+  "vila-sabar": {
+    "name": "Vila Sabará",
+    "city": "Curitiba",
+    "kind": "vila",
+    "fact": "Uma publicação municipal situa a Vila Sabará na Cidade Industrial de Curitiba.",
+    "source": "https://comunidadeescola.curitiba.pr.gov.br/noticias/contra-o-desperdicio%21-oficina-de-culinaria-sustentavel-bolo-de-casca-de-maca/945",
+    "related": "/bairro/cidade-industrial-de-curitiba",
+    "eligible": true,
+    "reviewedAt": "2026-11-04"
+  },
+  "vila-nossa-senhora-da-luz": {
+    "name": "Vila Nossa Senhora da Luz",
+    "city": "Curitiba",
+    "kind": "vila",
+    "fact": "A Prefeitura identifica a Vila Nossa Senhora da Luz na Cidade Industrial de Curitiba.",
+    "source": "https://www.curitiba.pr.gov.br/noticias/comunidade-da-cic-recebe-farol-frei-miguel-bottacin-revitalizado/35054",
+    "related": "/bairro/cidade-industrial-de-curitiba",
+    "eligible": true,
+    "reviewedAt": "2026-11-04"
+  },
+  "vila-oficinas": {
+    "name": "Vila Oficinas",
+    "city": "Curitiba",
+    "kind": "localidade",
+    "fact": "A referência municipal do Terminal Vila Oficinas situa o equipamento no Cajuru. Esse dado orienta o contexto local, sem delimitar toda a vila.",
+    "source": "https://www.curitiba.pr.gov.br/noticias/terminais-vila-oficinas-e-barreirinha-passam-a-ter-integracao-temporal-com-armazens-da-familia-e-sacoloes/73571",
+    "related": "/bairro/cajuru",
+    "eligible": true,
+    "reviewedAt": "2026-11-04"
+  },
+  "vila-audi": {
+    "name": "Vila Audi",
+    "city": "Curitiba",
+    "kind": "vila",
+    "fact": "A fonte municipal relaciona Vila Audi ao Uberaba, no contexto Audi-União. Vila Audi não é tratada aqui como sinônimo de todo o conjunto de vilas Audi-União.",
+    "source": "https://www.curitiba.pr.gov.br/noticias/projeto-de-urbanizacao-da-vila-audi-concorre-a-premio-nacional/31160",
+    "related": "/bairro/uberaba",
+    "eligible": true,
+    "reviewedAt": "2026-11-04"
+  },
+  "caiu": {
+    "name": "Caiuá",
+    "city": "Curitiba",
+    "kind": "região de referência",
+    "fact": "O Parque Municipal Caiuá é situado pela Prefeitura na CIC. A referência identifica o contexto da região, sem estabelecer o perímetro de todos os endereços chamados Caiuá.",
+    "source": "https://www.curitiba.pr.gov.br/conteudo/parque-municipal-caiua/305",
+    "related": "/bairro/cidade-industrial-de-curitiba",
+    "eligible": true,
+    "reviewedAt": "2026-11-04"
+  },
+  "conjunto-caiu": {
+    "name": "Conjunto Caiuá",
+    "city": "Curitiba",
+    "kind": "conjunto/localidade",
+    "fact": "A referência municipal ao Parque Caiuá identifica a região na CIC. Conjunto Caiuá e Caiuá têm sobreposição de uso dos nomes; o endereço completo continua necessário para a consulta.",
+    "source": "https://locais.curitiba.pr.gov.br/parque-municipal-caiua/2392",
+    "related": "/bairro/caiu",
+    "eligible": true,
+    "reviewedAt": "2026-11-04"
+  },
+  "batel-soho": {
+    "name": "Batel Soho",
+    "city": "Curitiba",
+    "kind": "circuito/região",
+    "fact": "A Prefeitura descreve Batel Soho como circuito de compras e lazer na região da Praça da Espanha. O nome não é apresentado nesta página como bairro oficial.",
+    "source": "https://www.curitiba.pr.gov.br/noticias/praca-da-espanha-no-roteiro-de-turistas-e-familias-curitibanas/16306",
+    "related": "/bairro/batel",
+    "eligible": true,
+    "reviewedAt": "2026-11-04"
+  },
+  "alto-da-rua-xv": {
+    "name": "Alto da Rua XV",
+    "city": "Curitiba",
+    "kind": "nome equivalente",
+    "fact": "Alto da Rua XV e Alto da XV são formas usadas pelo município para o mesmo bairro. A página principal de planejamento do bairro permanece em Alto da XV.",
+    "source": "https://locais.curitiba.pr.gov.br/administracao-regional-matriz/894",
+    "related": "/bairro/alto-da-xv",
+    "eligible": false,
+    "reviewedAt": "2026-11-04",
+    "additionalSource": "https://www.curitiba.pr.gov.br/noticias/populacao-recebe-noticias-personalizadas-dos-bairros-via-whatsapp/50663"
+  },
+  "centro-histrico": {
+    "name": "Centro Histórico",
+    "city": "Curitiba",
+    "kind": "região histórica",
+    "fact": "As referências municipais ao Centro Histórico incluem o bairro São Francisco e a região central. Esta página trata da região histórica, sem reduzi-la integralmente a um único bairro ou presumir proteção patrimonial para todo imóvel.",
+    "source": "https://www.curitiba.pr.gov.br/noticias/inscricoes-para-o-walking-tour-pelo-centro-historico-de-curitiba-estao-abertas/76221",
+    "related": "/bairro/so-francisco",
+    "eligible": true,
+    "reviewedAt": "2026-11-04",
+    "additionalSource": "https://www.curitiba.pr.gov.br/noticias/5-programas-para-explorar-o-centro-de-curitiba-a-pe/77918"
+  },
+  "cic-norte": {
+    "name": "CIC Norte",
+    "city": "Curitiba",
+    "kind": "setor",
+    "fact": "A Prefeitura utiliza a denominação Setor CIC-Norte em referência ao Tecnoparque. Esse uso não cria aqui um bairro independente nem define limites de atendimento.",
+    "source": "https://www.curitiba.pr.gov.br/noticias/curitiba-com-150-empresas-no-tecnoparque-e-parque-de-sofware/23821",
+    "related": "/bairro/cidade-industrial-de-curitiba",
+    "eligible": true,
+    "reviewedAt": "2026-11-04"
+  },
+  "cic-sul": {
+    "name": "CIC Sul",
+    "city": "Curitiba",
+    "kind": "setor",
+    "fact": "A fonte municipal utiliza CIC-Sul como referência de setor. O nome é usado para contextualizar o endereço, sem declarar bairro independente ou perímetro próprio.",
+    "source": "https://www.curitiba.pr.gov.br/noticias/curitiba-com-150-empresas-no-tecnoparque-e-parque-de-sofware/23821",
+    "related": "/bairro/cidade-industrial-de-curitiba",
+    "eligible": true,
+    "reviewedAt": "2026-11-04"
+  },
+  "vila-tecnolgica": {
+    "name": "Vila Tecnológica",
+    "city": "Curitiba",
+    "kind": "vila",
+    "fact": "A referência municipal do núcleo Bairro Novo identifica Vila Tecnológica no Sítio Cercado.",
+    "source": "https://defesaetransito.curitiba.pr.gov.br/conteudo/nucleo-regional-da-defesa-social-bairro-novo/116",
+    "related": "/bairro/stio-cercado",
+    "eligible": true,
+    "reviewedAt": "2026-11-04"
+  },
+  "vila-pantanal": {
+    "name": "Vila Pantanal",
+    "city": "Curitiba",
+    "kind": "vila",
+    "fact": "Uma notícia municipal situa Vila Pantanal no Alto Boqueirão.",
+    "source": "https://www.curitiba.pr.gov.br/noticias/trincheiras-de-curitiba-recebem-pintura-com-grafismo-colorido-e-antipichacao/67538",
+    "related": "/bairro/alto-boqueiro",
+    "eligible": true,
+    "reviewedAt": "2026-11-04"
+  },
+  "vila-verde": {
+    "name": "Vila Verde",
+    "city": "Curitiba",
+    "kind": "vila",
+    "fact": "A publicação municipal sobre o Rio Barigui situa Vila Verde na CIC.",
+    "source": "https://www.curitiba.pr.gov.br/noticias/em-acao-preventiva-prefeitura-de-curitiba-avanca-em-limpeza-no-rio-barigui/72410",
+    "related": "/bairro/cidade-industrial-de-curitiba",
+    "eligible": true,
+    "reviewedAt": "2026-11-04"
+  },
+  "vila-barigui": {
+    "name": "Vila Barigui",
+    "city": "Curitiba",
+    "kind": "vila",
+    "fact": "A Prefeitura relaciona Vila Barigui à Cidade Industrial de Curitiba.",
+    "source": "https://www.curitiba.pr.gov.br/noticias/ciclovia-na-cic-ganha-primeiro-sistema-de-iluminacao-publica-com-tecnologia-led/65273",
+    "related": "/bairro/cidade-industrial-de-curitiba",
+    "eligible": true,
+    "reviewedAt": "2026-11-04"
+  },
+  "conjunto-parigot-de-souza": {
+    "name": "Conjunto Parigot de Souza",
+    "city": "Curitiba",
+    "kind": "conjunto",
+    "fact": "A fonte municipal identifica o Conjunto Parigot de Souza no Sítio Cercado.",
+    "source": "https://www.curitiba.pr.gov.br/noticias/com-os-canteiros-verdinhos-horta-maria-angelica-ja-tem-alface-e-temperos-para-a-primeira-colheita/69082",
+    "related": "/bairro/stio-cercado",
+    "eligible": true,
+    "reviewedAt": "2026-11-04"
+  },
+  "vila-so-pedro": {
+    "name": "Vila São Pedro",
+    "city": "Curitiba",
+    "kind": "localidade",
+    "fact": "O cadastro municipal situa o CRAS Vila São Pedro no Xaxim. A localização do equipamento não delimita, por si só, toda a vila.",
+    "source": "https://locais.curitiba.pr.gov.br/centro-de-referencia-de-assistencia-social-vila-sao-pedro/1026",
+    "related": "/bairro/xaxim",
+    "eligible": true,
+    "reviewedAt": "2026-11-04"
+  },
+  "vila-reno": {
+    "name": "Vila Reno",
+    "city": "Curitiba",
+    "kind": "vila",
+    "fact": "A Prefeitura cita Vila Reno no contexto de atendimento de transporte no Uberaba. A fonte é usada somente para identificar a localidade.",
+    "source": "https://www.curitiba.pr.gov.br/noticias/comunidade-do-uberaba-ganha-ampliacao-de-linha-de-onibus/70213",
+    "related": "/bairro/uberaba",
+    "eligible": true,
+    "reviewedAt": "2026-11-04"
+  },
+  "uberaba-de-baixo": {
+    "name": "Uberaba de Baixo",
+    "city": "Curitiba",
+    "kind": "referência local",
+    "fact": "A Prefeitura utiliza Uberaba de Baixo em notícia sobre a região. O uso do nome está documentado, sem estabelecer nesta página um perímetro independente.",
+    "source": "https://www.curitiba.pr.gov.br/noticias/uberaba-ganha-pavimentacao-areas-de-lazer-cmei-e-moradia/15931",
+    "related": "/bairro/uberaba",
+    "eligible": true,
+    "reviewedAt": "2026-11-04"
+  },
+  "uberaba-de-cima": {
+    "name": "Uberaba de Cima",
+    "city": "Curitiba",
+    "kind": "referência local",
+    "fact": "Uma notícia municipal utiliza Uberaba de Cima como referência local. O nome não é tratado como bairro oficial separado do Uberaba.",
+    "source": "https://www.curitiba.pr.gov.br/noticias/saude-oferece-circuito-especial-aos-sabados-para-publico-feminino-de-curitiba/81925",
+    "related": "/bairro/uberaba",
+    "eligible": true,
+    "reviewedAt": "2026-11-04"
+  },
+  "vila-parolin": {
+    "name": "Vila Parolin",
+    "city": "Curitiba",
+    "kind": "comunidade",
+    "fact": "A Prefeitura documenta a comunidade Vila Parolin em publicação da Cohab sobre o Parolin.",
+    "source": "https://www.curitiba.pr.gov.br/noticias/cohab-curitiba-cadastra-moradores-para-futura-intervencao-no-parolin/73672",
+    "related": "/bairro/parolin",
+    "eligible": true,
+    "reviewedAt": "2026-11-04"
+  },
+  "vila-zumbi": {
+    "name": "Vila Zumbi",
+    "city": "Colombo",
+    "kind": "vila",
+    "fact": "A fonte municipal situa Vila Zumbi em Colombo, não em Curitiba. O município correto deve acompanhar rua e CEP na consulta à PVS.",
+    "source": "https://www.curitiba.pr.gov.br/noticias/inclusao-de-jovens-com-deficiencia-como-aprendizes-e-tema-de-palestra-em-curitiba/68299",
+    "related": "/cidade/colombo",
+    "eligible": true,
+    "reviewedAt": "2026-11-04"
+  },
+  "vila-osternack": {
+    "name": "Vila Osternack",
+    "city": "Curitiba",
+    "kind": "localidade de referência ampla",
+    "fact": "Fontes municipais associam referências de Vila Osternack ao Sítio Cercado e ao Ganchinho. Esta página não atribui toda a localidade a um único bairro.",
+    "source": "https://www.curitiba.pr.gov.br/noticias/cmei-vila-osternack-e-reformado-para-receber-140-curitibinhas/67499",
+    "related": "/bairro/ganchinho",
+    "eligible": true,
+    "reviewedAt": "2026-11-04",
+    "additionalSource": "https://locais.curitiba.pr.gov.br/cambio-verde-vila-osternack-ii/1481"
+  },
+  "vila-fanny": {
+    "name": "Vila Fanny",
+    "city": "Curitiba",
+    "kind": "localidade",
+    "fact": "Uma referência municipal de equipamento/evento Vila Fanny aparece em Lindóia. Não é feita equivalência automática entre Vila Fanny e o bairro Fanny.",
+    "source": "https://www.curitiba.pr.gov.br/noticias/quarta-tem-feirinha-de-artesanato-em-quatro-bairros-de-curitiba/83875",
+    "related": "/bairro/lindia",
+    "eligible": true,
+    "reviewedAt": "2026-11-04"
+  },
+  "vila-hauer": {
+    "name": "Vila Hauer",
+    "city": "Curitiba",
+    "kind": "localidade",
+    "fact": "O nome Vila Hauer aparece em referências municipais no contexto de Hauer e Boqueirão. Sem delimitação única comprovada, o endereço deve orientar a localização.",
+    "source": "https://www.curitiba.pr.gov.br/noticias/hauer-passa-a-ter-rua-da-cerveja/52131",
+    "related": "/bairro/hauer",
+    "eligible": true,
+    "reviewedAt": "2026-11-04",
+    "additionalSource": "https://www.curitiba.pr.gov.br/noticias/em-festa-de-natal-de-curitiba-no-boqueirao-eduardo-pimentel-recebe-papai-noel-e-distribui-presentes/71725"
+  },
+  "vila-guara": {
+    "name": "Vila Guaíra",
+    "city": "Curitiba",
+    "kind": "denominação local",
+    "fact": "A Prefeitura usa Vila Guaíra em referência à região de Guaíra. A página preserva o nome de consulta sem declarar um novo bairro oficial ou perímetro separado.",
+    "source": "https://www.curitiba.pr.gov.br/noticias/renovacao-do-asfalto-entra-na-reta-final-e-anima-moradores-e-comerciantes/76392",
+    "related": "/bairro/guara",
+    "eligible": true,
+    "reviewedAt": "2026-11-04"
+  },
+  "tangu": {
+    "name": "Tanguá",
+    "city": "Curitiba",
+    "kind": "região do parque",
+    "fact": "Tanguá é usado aqui como referência à região do Parque Municipal Tanguá, situado entre Taboão e Pilarzinho. Não é apresentado como bairro oficial.",
+    "source": "https://www.curitiba.pr.gov.br/conteudo/parque-municipal-tangua/318",
+    "related": "/bairro/taboo",
+    "eligible": true,
+    "reviewedAt": "2026-11-04"
+  }
+}

@@ -3,9 +3,10 @@
   "counts": {
     "routes": 149,
     "indexableBefore": 5,
-    "indexableAfter": 79,
+    "indexableAfter": 108,
     "editorialPending": 0,
-    "coverageOrGeographyPending": 70
+    "coverageOrGeographyPending": 40,
+    "knownEquivalentNoindex": 1
   },
   "rows": [
     {
@@ -13,40 +14,48 @@
       "type": "bairro",
       "path": "/bairro/vila-parolin",
       "beforeIndexed": false,
-      "afterIndexed": false,
-      "coverage": "confirmação individual necessária",
-      "reason": "identificação geográfica ou cobertura específica não confirmada",
-      "source": null
+      "afterIndexed": true,
+      "coverage": "localidade contextualizada em Curitiba; cobertura municipal publicada, sujeita ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://www.curitiba.pr.gov.br/noticias/cohab-curitiba-cadastra-moradores-para-futura-intervencao-no-parolin/73672",
+      "kind": "comunidade",
+      "related": "/bairro/parolin"
     },
     {
       "name": "Vila Torres",
       "type": "bairro",
       "path": "/bairro/vila-torres",
       "beforeIndexed": false,
-      "afterIndexed": false,
-      "coverage": "confirmação individual necessária",
-      "reason": "identificação geográfica ou cobertura específica não confirmada",
-      "source": null
+      "afterIndexed": true,
+      "coverage": "localidade contextualizada em Curitiba; cobertura municipal publicada, sujeita ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://www.curitiba.pr.gov.br/noticias/comunidade-da-vila-torres-celebra-entrega-de-novo-cmei/39730",
+      "kind": "comunidade",
+      "related": "/bairro/prado-velho"
     },
     {
       "name": "Jardim Schaffer",
       "type": "bairro",
       "path": "/bairro/jardim-schaffer",
       "beforeIndexed": false,
-      "afterIndexed": false,
-      "coverage": "confirmação individual necessária",
-      "reason": "identificação geográfica ou cobertura específica não confirmada",
-      "source": null
+      "afterIndexed": true,
+      "coverage": "localidade contextualizada em Curitiba; cobertura municipal publicada, sujeita ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://turismo.curitiba.pr.gov.br/conteudo/bosque-alemao/1099",
+      "kind": "localidade",
+      "related": "/bairro/vista-alegre"
     },
     {
       "name": "Vila Sabará",
       "type": "bairro",
       "path": "/bairro/vila-sabar",
       "beforeIndexed": false,
-      "afterIndexed": false,
-      "coverage": "confirmação individual necessária",
-      "reason": "identificação geográfica ou cobertura específica não confirmada",
-      "source": null
+      "afterIndexed": true,
+      "coverage": "localidade contextualizada em Curitiba; cobertura municipal publicada, sujeita ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://comunidadeescola.curitiba.pr.gov.br/noticias/contra-o-desperdicio%21-oficina-de-culinaria-sustentavel-bolo-de-casca-de-maca/945",
+      "kind": "vila",
+      "related": "/bairro/cidade-industrial-de-curitiba"
     },
     {
       "name": "Boqueirão de Baixo",
@@ -73,20 +82,24 @@
       "type": "bairro",
       "path": "/bairro/tangu",
       "beforeIndexed": false,
-      "afterIndexed": false,
-      "coverage": "confirmação individual necessária",
-      "reason": "identificação geográfica ou cobertura específica não confirmada",
-      "source": null
+      "afterIndexed": true,
+      "coverage": "localidade contextualizada em Curitiba; cobertura municipal publicada, sujeita ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://www.curitiba.pr.gov.br/conteudo/parque-municipal-tangua/318",
+      "kind": "região do parque",
+      "related": "/bairro/taboo"
     },
     {
       "name": "Vila Zumbi",
       "type": "bairro",
       "path": "/bairro/vila-zumbi",
       "beforeIndexed": false,
-      "afterIndexed": false,
-      "coverage": "confirmação individual necessária",
-      "reason": "identificação geográfica ou cobertura específica não confirmada",
-      "source": null
+      "afterIndexed": true,
+      "coverage": "localidade contextualizada em Colombo; cobertura municipal publicada, sujeita ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://www.curitiba.pr.gov.br/noticias/inclusao-de-jovens-com-deficiencia-como-aprendizes-e-tema-de-palestra-em-curitiba/68299",
+      "kind": "vila",
+      "related": "/cidade/colombo"
     },
     {
       "name": "Abranches de Baixo",
@@ -113,60 +126,72 @@
       "type": "bairro",
       "path": "/bairro/vila-nossa-senhora-da-luz",
       "beforeIndexed": false,
-      "afterIndexed": false,
-      "coverage": "confirmação individual necessária",
-      "reason": "identificação geográfica ou cobertura específica não confirmada",
-      "source": null
+      "afterIndexed": true,
+      "coverage": "localidade contextualizada em Curitiba; cobertura municipal publicada, sujeita ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://www.curitiba.pr.gov.br/noticias/comunidade-da-cic-recebe-farol-frei-miguel-bottacin-revitalizado/35054",
+      "kind": "vila",
+      "related": "/bairro/cidade-industrial-de-curitiba"
     },
     {
       "name": "Vila Tecnológica",
       "type": "bairro",
       "path": "/bairro/vila-tecnolgica",
       "beforeIndexed": false,
-      "afterIndexed": false,
-      "coverage": "confirmação individual necessária",
-      "reason": "identificação geográfica ou cobertura específica não confirmada",
-      "source": null
+      "afterIndexed": true,
+      "coverage": "localidade contextualizada em Curitiba; cobertura municipal publicada, sujeita ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://defesaetransito.curitiba.pr.gov.br/conteudo/nucleo-regional-da-defesa-social-bairro-novo/116",
+      "kind": "vila",
+      "related": "/bairro/stio-cercado"
     },
     {
       "name": "Vila Oficinas",
       "type": "bairro",
       "path": "/bairro/vila-oficinas",
       "beforeIndexed": false,
-      "afterIndexed": false,
-      "coverage": "confirmação individual necessária",
-      "reason": "identificação geográfica ou cobertura específica não confirmada",
-      "source": null
+      "afterIndexed": true,
+      "coverage": "localidade contextualizada em Curitiba; cobertura municipal publicada, sujeita ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://www.curitiba.pr.gov.br/noticias/terminais-vila-oficinas-e-barreirinha-passam-a-ter-integracao-temporal-com-armazens-da-familia-e-sacoloes/73571",
+      "kind": "localidade",
+      "related": "/bairro/cajuru"
     },
     {
       "name": "Vila Fanny",
       "type": "bairro",
       "path": "/bairro/vila-fanny",
       "beforeIndexed": false,
-      "afterIndexed": false,
-      "coverage": "confirmação individual necessária",
-      "reason": "identificação geográfica ou cobertura específica não confirmada",
-      "source": null
+      "afterIndexed": true,
+      "coverage": "localidade contextualizada em Curitiba; cobertura municipal publicada, sujeita ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://www.curitiba.pr.gov.br/noticias/quarta-tem-feirinha-de-artesanato-em-quatro-bairros-de-curitiba/83875",
+      "kind": "localidade",
+      "related": "/bairro/lindia"
     },
     {
       "name": "Vila Hauer",
       "type": "bairro",
       "path": "/bairro/vila-hauer",
       "beforeIndexed": false,
-      "afterIndexed": false,
-      "coverage": "confirmação individual necessária",
-      "reason": "identificação geográfica ou cobertura específica não confirmada",
-      "source": null
+      "afterIndexed": true,
+      "coverage": "localidade contextualizada em Curitiba; cobertura municipal publicada, sujeita ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://www.curitiba.pr.gov.br/noticias/hauer-passa-a-ter-rua-da-cerveja/52131",
+      "kind": "localidade",
+      "related": "/bairro/hauer"
     },
     {
       "name": "Batel Soho",
       "type": "bairro",
       "path": "/bairro/batel-soho",
       "beforeIndexed": false,
-      "afterIndexed": false,
-      "coverage": "confirmação individual necessária",
-      "reason": "identificação geográfica ou cobertura específica não confirmada",
-      "source": null
+      "afterIndexed": true,
+      "coverage": "localidade contextualizada em Curitiba; cobertura municipal publicada, sujeita ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://www.curitiba.pr.gov.br/noticias/praca-da-espanha-no-roteiro-de-turistas-e-familias-curitibanas/16306",
+      "kind": "circuito/região",
+      "related": "/bairro/batel"
     },
     {
       "name": "Alto da Rua XV",
@@ -174,19 +199,23 @@
       "path": "/bairro/alto-da-rua-xv",
       "beforeIndexed": false,
       "afterIndexed": false,
-      "coverage": "confirmação individual necessária",
-      "reason": "identificação geográfica ou cobertura específica não confirmada",
-      "source": null
+      "coverage": "localidade contextualizada em Curitiba; cobertura municipal publicada, sujeita ao endereço",
+      "reason": "nome equivalente ao mesmo bairro; intenção duplicada, acesso preservado e link para página principal",
+      "source": "https://locais.curitiba.pr.gov.br/administracao-regional-matriz/894",
+      "kind": "nome equivalente",
+      "related": "/bairro/alto-da-xv"
     },
     {
       "name": "CIC Norte",
       "type": "bairro",
       "path": "/bairro/cic-norte",
       "beforeIndexed": false,
-      "afterIndexed": false,
-      "coverage": "confirmação individual necessária",
-      "reason": "identificação geográfica ou cobertura específica não confirmada",
-      "source": null
+      "afterIndexed": true,
+      "coverage": "localidade contextualizada em Curitiba; cobertura municipal publicada, sujeita ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://www.curitiba.pr.gov.br/noticias/curitiba-com-150-empresas-no-tecnoparque-e-parque-de-sofware/23821",
+      "kind": "setor",
+      "related": "/bairro/cidade-industrial-de-curitiba"
     },
     {
       "name": "CIC Central",
@@ -203,40 +232,48 @@
       "type": "bairro",
       "path": "/bairro/cic-sul",
       "beforeIndexed": false,
-      "afterIndexed": false,
-      "coverage": "confirmação individual necessária",
-      "reason": "identificação geográfica ou cobertura específica não confirmada",
-      "source": null
+      "afterIndexed": true,
+      "coverage": "localidade contextualizada em Curitiba; cobertura municipal publicada, sujeita ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://www.curitiba.pr.gov.br/noticias/curitiba-com-150-empresas-no-tecnoparque-e-parque-de-sofware/23821",
+      "kind": "setor",
+      "related": "/bairro/cidade-industrial-de-curitiba"
     },
     {
       "name": "Vila Guaíra",
       "type": "bairro",
       "path": "/bairro/vila-guara",
       "beforeIndexed": false,
-      "afterIndexed": false,
-      "coverage": "confirmação individual necessária",
-      "reason": "identificação geográfica ou cobertura específica não confirmada",
-      "source": null
+      "afterIndexed": true,
+      "coverage": "localidade contextualizada em Curitiba; cobertura municipal publicada, sujeita ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://www.curitiba.pr.gov.br/noticias/renovacao-do-asfalto-entra-na-reta-final-e-anima-moradores-e-comerciantes/76392",
+      "kind": "denominação local",
+      "related": "/bairro/guara"
     },
     {
       "name": "Centro Histórico",
       "type": "bairro",
       "path": "/bairro/centro-histrico",
       "beforeIndexed": false,
-      "afterIndexed": false,
-      "coverage": "confirmação individual necessária",
-      "reason": "identificação geográfica ou cobertura específica não confirmada",
-      "source": null
+      "afterIndexed": true,
+      "coverage": "localidade contextualizada em Curitiba; cobertura municipal publicada, sujeita ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://www.curitiba.pr.gov.br/noticias/inscricoes-para-o-walking-tour-pelo-centro-historico-de-curitiba-estao-abertas/76221",
+      "kind": "região histórica",
+      "related": "/bairro/so-francisco"
     },
     {
       "name": "Ecoville",
       "type": "bairro",
       "path": "/bairro/ecoville",
       "beforeIndexed": false,
-      "afterIndexed": false,
-      "coverage": "confirmação individual necessária",
-      "reason": "identificação geográfica ou cobertura específica não confirmada",
-      "source": null
+      "afterIndexed": true,
+      "coverage": "localidade contextualizada em Curitiba; cobertura municipal publicada, sujeita ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://ippuc.org.br/storage/uploads/766f4f4d-f7e3-4ae7-b19a-c7be6eab2654/45---Mossungue.pdf",
+      "kind": "região conhecida",
+      "related": "/bairro/mossungu"
     },
     {
       "name": "Carmo Abranches",
@@ -883,10 +920,12 @@
       "type": "bairro",
       "path": "/bairro/vila-pantanal",
       "beforeIndexed": false,
-      "afterIndexed": false,
-      "coverage": "confirmação individual necessária",
-      "reason": "identificação geográfica ou cobertura específica não confirmada",
-      "source": null
+      "afterIndexed": true,
+      "coverage": "localidade contextualizada em Curitiba; cobertura municipal publicada, sujeita ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://www.curitiba.pr.gov.br/noticias/trincheiras-de-curitiba-recebem-pintura-com-grafismo-colorido-e-antipichacao/67538",
+      "kind": "vila",
+      "related": "/bairro/alto-boqueiro"
     },
     {
       "name": "Seminário",
@@ -1033,20 +1072,24 @@
       "type": "bairro",
       "path": "/bairro/uberaba-de-cima",
       "beforeIndexed": false,
-      "afterIndexed": false,
-      "coverage": "confirmação individual necessária",
-      "reason": "identificação geográfica ou cobertura específica não confirmada",
-      "source": null
+      "afterIndexed": true,
+      "coverage": "localidade contextualizada em Curitiba; cobertura municipal publicada, sujeita ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://www.curitiba.pr.gov.br/noticias/saude-oferece-circuito-especial-aos-sabados-para-publico-feminino-de-curitiba/81925",
+      "kind": "referência local",
+      "related": "/bairro/uberaba"
     },
     {
       "name": "Uberaba de Baixo",
       "type": "bairro",
       "path": "/bairro/uberaba-de-baixo",
       "beforeIndexed": false,
-      "afterIndexed": false,
-      "coverage": "confirmação individual necessária",
-      "reason": "identificação geográfica ou cobertura específica não confirmada",
-      "source": null
+      "afterIndexed": true,
+      "coverage": "localidade contextualizada em Curitiba; cobertura municipal publicada, sujeita ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://www.curitiba.pr.gov.br/noticias/uberaba-ganha-pavimentacao-areas-de-lazer-cmei-e-moradia/15931",
+      "kind": "referência local",
+      "related": "/bairro/uberaba"
     },
     {
       "name": "São Braz Velho",
@@ -1063,30 +1106,36 @@
       "type": "bairro",
       "path": "/bairro/vila-verde",
       "beforeIndexed": false,
-      "afterIndexed": false,
-      "coverage": "confirmação individual necessária",
-      "reason": "identificação geográfica ou cobertura específica não confirmada",
-      "source": null
+      "afterIndexed": true,
+      "coverage": "localidade contextualizada em Curitiba; cobertura municipal publicada, sujeita ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://www.curitiba.pr.gov.br/noticias/em-acao-preventiva-prefeitura-de-curitiba-avanca-em-limpeza-no-rio-barigui/72410",
+      "kind": "vila",
+      "related": "/bairro/cidade-industrial-de-curitiba"
     },
     {
       "name": "Vila Barigui",
       "type": "bairro",
       "path": "/bairro/vila-barigui",
       "beforeIndexed": false,
-      "afterIndexed": false,
-      "coverage": "confirmação individual necessária",
-      "reason": "identificação geográfica ou cobertura específica não confirmada",
-      "source": null
+      "afterIndexed": true,
+      "coverage": "localidade contextualizada em Curitiba; cobertura municipal publicada, sujeita ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://www.curitiba.pr.gov.br/noticias/ciclovia-na-cic-ganha-primeiro-sistema-de-iluminacao-publica-com-tecnologia-led/65273",
+      "kind": "vila",
+      "related": "/bairro/cidade-industrial-de-curitiba"
     },
     {
       "name": "Caiuá",
       "type": "bairro",
       "path": "/bairro/caiu",
       "beforeIndexed": false,
-      "afterIndexed": false,
-      "coverage": "confirmação individual necessária",
-      "reason": "identificação geográfica ou cobertura específica não confirmada",
-      "source": null
+      "afterIndexed": true,
+      "coverage": "localidade contextualizada em Curitiba; cobertura municipal publicada, sujeita ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://www.curitiba.pr.gov.br/conteudo/parque-municipal-caiua/305",
+      "kind": "região de referência",
+      "related": "/bairro/cidade-industrial-de-curitiba"
     },
     {
       "name": "Xaxim Velho",
@@ -1153,60 +1202,72 @@
       "type": "bairro",
       "path": "/bairro/vila-so-pedro",
       "beforeIndexed": false,
-      "afterIndexed": false,
-      "coverage": "confirmação individual necessária",
-      "reason": "identificação geográfica ou cobertura específica não confirmada",
-      "source": null
+      "afterIndexed": true,
+      "coverage": "localidade contextualizada em Curitiba; cobertura municipal publicada, sujeita ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://locais.curitiba.pr.gov.br/centro-de-referencia-de-assistencia-social-vila-sao-pedro/1026",
+      "kind": "localidade",
+      "related": "/bairro/xaxim"
     },
     {
       "name": "Vila Osternack",
       "type": "bairro",
       "path": "/bairro/vila-osternack",
       "beforeIndexed": false,
-      "afterIndexed": false,
-      "coverage": "confirmação individual necessária",
-      "reason": "identificação geográfica ou cobertura específica não confirmada",
-      "source": null
+      "afterIndexed": true,
+      "coverage": "localidade contextualizada em Curitiba; cobertura municipal publicada, sujeita ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://www.curitiba.pr.gov.br/noticias/cmei-vila-osternack-e-reformado-para-receber-140-curitibinhas/67499",
+      "kind": "localidade de referência ampla",
+      "related": "/bairro/ganchinho"
     },
     {
       "name": "Conjunto Caiuá",
       "type": "bairro",
       "path": "/bairro/conjunto-caiu",
       "beforeIndexed": false,
-      "afterIndexed": false,
-      "coverage": "confirmação individual necessária",
-      "reason": "identificação geográfica ou cobertura específica não confirmada",
-      "source": null
+      "afterIndexed": true,
+      "coverage": "localidade contextualizada em Curitiba; cobertura municipal publicada, sujeita ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://locais.curitiba.pr.gov.br/parque-municipal-caiua/2392",
+      "kind": "conjunto/localidade",
+      "related": "/bairro/caiu"
     },
     {
       "name": "Conjunto Parigot de Souza",
       "type": "bairro",
       "path": "/bairro/conjunto-parigot-de-souza",
       "beforeIndexed": false,
-      "afterIndexed": false,
-      "coverage": "confirmação individual necessária",
-      "reason": "identificação geográfica ou cobertura específica não confirmada",
-      "source": null
+      "afterIndexed": true,
+      "coverage": "localidade contextualizada em Curitiba; cobertura municipal publicada, sujeita ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://www.curitiba.pr.gov.br/noticias/com-os-canteiros-verdinhos-horta-maria-angelica-ja-tem-alface-e-temperos-para-a-primeira-colheita/69082",
+      "kind": "conjunto",
+      "related": "/bairro/stio-cercado"
     },
     {
       "name": "Vila Reno",
       "type": "bairro",
       "path": "/bairro/vila-reno",
       "beforeIndexed": false,
-      "afterIndexed": false,
-      "coverage": "confirmação individual necessária",
-      "reason": "identificação geográfica ou cobertura específica não confirmada",
-      "source": null
+      "afterIndexed": true,
+      "coverage": "localidade contextualizada em Curitiba; cobertura municipal publicada, sujeita ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://www.curitiba.pr.gov.br/noticias/comunidade-do-uberaba-ganha-ampliacao-de-linha-de-onibus/70213",
+      "kind": "vila",
+      "related": "/bairro/uberaba"
     },
     {
       "name": "Vila Audi",
       "type": "bairro",
       "path": "/bairro/vila-audi",
       "beforeIndexed": false,
-      "afterIndexed": false,
-      "coverage": "confirmação individual necessária",
-      "reason": "identificação geográfica ou cobertura específica não confirmada",
-      "source": null
+      "afterIndexed": true,
+      "coverage": "localidade contextualizada em Curitiba; cobertura municipal publicada, sujeita ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://www.curitiba.pr.gov.br/noticias/projeto-de-urbanizacao-da-vila-audi-concorre-a-premio-nacional/31160",
+      "kind": "vila",
+      "related": "/bairro/uberaba"
     },
     {
       "name": "Adrianópolis",

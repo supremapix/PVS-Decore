@@ -27,7 +27,7 @@ const SitemapPage = () => {
     <PageTransition>
       <EnhancedSEO
         title="Mapa do Site | PVS Decore - Todas as Paginas"
-        description="Navegue por todas as paginas do site da PVS Decore. Encontre produtos, servicos e todas as cidades e bairros atendidos em Curitiba e Regiao Metropolitana."
+        description="Navegue por produtos, serviços, guias, cidades e localidades da PVS Decore. Consulte disponibilidade de atendimento para seu endereço."
         url="/mapa-do-site"
       />
 
@@ -116,7 +116,7 @@ const SitemapPage = () => {
             <div>
               <section>
                 <h2 className="text-xl font-black text-gray-900 mb-4 flex items-center gap-2 border-b border-gray-100 pb-2">
-                  <MapPin className="text-brand-orange" size={20} /> Bairros de Curitiba
+                  <MapPin className="text-brand-orange" size={20} /> Bairros, vilas e regiões
                 </h2>
                 <div className="max-h-[800px] overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-brand-orange/20 scrollbar-track-transparent">
                   <ul className="grid grid-cols-1 gap-y-2">
