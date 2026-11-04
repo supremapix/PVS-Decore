@@ -127,3 +127,14 @@ Verificação específica: scripts/verify-location-regression.mjs compara todas 
 - Foco inicial no título, contenção por Tab, Escape/Fechar e retorno ao acionador; bloqueio e restauração do scroll, fundo inerte e flutuantes ocultos durante abertura. Filtros/página preservados.
 - TypeScript/build aprovados;8 cenários em320/390/430/1440 com texto100%/200%,4 produtos/estados por cenário, imagens/links/CTA/foco/scroll aprovados. Mais40 cenários de regressão do catálogo e verificador geral165 HTML/123 sitemap aprovados.
 - Publicação inicialmente restrita; autorização específica posterior recebida antes de qualquer push deste diálogo. Banner global adicional será tratado separadamente conforme autorização aplicável.
+
+## Banner global e apresentação factual da home — preparados localmente
+- Pop-up publicado isoladamente em eae4d66, deploy DrAzBgq1YbnecFaowgdqj2Mhf6ET;8 cenários/32 aberturas por domínio aprovados em produção.
+- GlobalContact usa o componente Logo existente em arte SVG250x250, preserva os contatos de constants.ts em HTML e SVG, e aparece uma vez no Layout em todas165 páginas, inclusive404. Loja sempre identificada em São José dos Pinhais, sem filiais implícitas. Flutuantes ocultos quando a seção está visível; footer e showroom preservados.
+- HomeFacts apresenta identidade, loja/showroom, materiais, serviços e condições por endereço, com links para páginas próprias. Sem promessa de recomendação/citação por IA. Dados estruturados Store/HomeAndConstructionBusiness agora derivam NAP de constants.ts; horários não comprovados foram retirados do schema. Sem avaliações, ofertas ou estoque inventados.
+- Build/TypeScript aprovados. Teste global48 cenários em320/390/430/1440 e texto100%/200%,165 HTMLs com seção única, NAP/schema/links aprovados. Diálogo com banner:8 cenários/32 aberturas aprovados; verificação geral de165 HTMLs e123 sitemap aprovada.
+- Estado: somente local, sem commit/push de banner/home. A coordenação informou negação automática de publicação do escopo adicional por ausência de autorização específica. Nenhuma tentativa de publicação desse conjunto foi feita neste checkout. Aguardar confirmação específica; popup autorizado já foi publicado separadamente.
+
+## Autorização específica do banner e da home
+- Confirmação explícita recebida após a restrição anterior, autorizando publicação conjunta com o popup já existente. Antes de publicar, HEAD/main remoto conferidos em eae4d6610df9553c6fb7051041c455ef3cdd252b; nenhuma publicação incerta do banner/home foi encontrada.
+- QA local concluído anteriormente foi recuperado; nenhuma alteração de aplicação ocorreu desde esses resultados. A única adaptação do verificador separa relatórios locais dos relatórios por domínio de produção.
