@@ -121,3 +121,9 @@ Verificação específica: scripts/verify-location-regression.mjs compara todas 
 - A consulta Santa Luzia anterior estava limitada à primeira página de21 itens. Expandida a paginação pública até desaparecer o botão:254 produtos. Incorporadas107 referências de pisos/rodapés, com SKU público, sem afirmar estoque ou fornecimento confirmado. Outros147 produtos de categorias adicionais ficam inventariados para confirmação comercial. Não incorporadas novas fotos sem base de uso.
 - Catálogo agora422 referências:384 de consulta pública e38 BIM;204 imagens Eucafloor preservadas. Política de indexação, rotas, contatos e dependências inalterados.
 - QA da ampliação Santa Luzia: TypeScript/build, integridade204 imagens e422 chaves,40 cenários catálogo/showroom,165 HTMLs,123 entradas sitemap, links/assets/schema/share/clipboard/teclado aprovados. Aviso de bundle Vite830 kB/197 kB gzip mantido como limitação.
+
+## Detalhes do produto em diálogo - 04/11/2026
+- Ampliar a foto agora abre diálogo nativo com imagem fiel, identificação, variante registrada, disponibilidade sob consulta, ficha oficial e WhatsApp com identificação exata. Todos422 itens têm botão de detalhes; acervo BIM continua separado e rotulado. Especificações ausentes não são inferidas.
+- Foco inicial no título, contenção por Tab, Escape/Fechar e retorno ao acionador; bloqueio e restauração do scroll, fundo inerte e flutuantes ocultos durante abertura. Filtros/página preservados.
+- TypeScript/build aprovados;8 cenários em320/390/430/1440 com texto100%/200%,4 produtos/estados por cenário, imagens/links/CTA/foco/scroll aprovados. Mais40 cenários de regressão do catálogo e verificador geral165 HTML/123 sitemap aprovados.
+- Publicação inicialmente restrita; autorização específica posterior recebida antes de qualquer push deste diálogo. Banner global adicional será tratado separadamente conforme autorização aplicável.
