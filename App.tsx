@@ -1,3 +1,4 @@
+import StorePage from './pages/StorePage';
 import AreasPage from './pages/AreasPage';
 import GuidePage from './pages/GuidePage';
 import React from 'react';
@@ -33,6 +34,7 @@ export function AnimatedRoutes() {
         <Route path="/service/:slug" element={<GenericPage />} />
 
         {/* Contact Page */}
+        <Route path="/loja-showroom-sao-jose-dos-pinhais" element={<StorePage/>}/>
         <Route path="/contato" element={<ContactPage />} />
 
         {/* FAQ Page */}

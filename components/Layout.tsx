@@ -7,7 +7,7 @@ import Logo from './Logo';
 import {CONTACT_PHONE,CONTACT_DISPLAY,CONTACT_EMAIL,CONTACT_ADDRESS,CONTACT_INSTAGRAM} from '../constants';
 const products=[['/product/piso-laminado','Piso laminado'],['/product/piso-vinilico','Piso vinílico e SPC'],['/product/rodape-poliestireno','Rodapés'],['/nossos-produtos','Marcas e produtos']];
 const services=[['/service/instalacao-residencial','Instalação residencial'],['/service/instalacao-comercial','Instalação comercial'],['/service/manutencao','Manutenção']];
-const explore=[['/areas-atendidas','Cidades e bairros'],['/guia-de-pisos','Como escolher seu piso'],['/faq','Dúvidas frequentes'],['/contato','Contato e localização'],['/mapa-do-site','Mapa do site']];
+const explore=[['/loja-showroom-sao-jose-dos-pinhais','Loja e showroom'],['/areas-atendidas','Cidades e bairros'],['/guia-de-pisos','Como escolher seu piso'],['/faq','Dúvidas frequentes'],['/contato','Contato e localização'],['/mapa-do-site','Mapa do site']];
 const desktop=[['/nossos-produtos','Produtos'],['/service/instalacao-residencial','Serviços'],['/areas-atendidas','Regiões'],['/guia-de-pisos','Como escolher'],['/contato','Contato']];
 export default function Layout({children}:{children:React.ReactNode}){
  const [open,setOpen]=useState(false),[footerVisible,setFooterVisible]=useState(false);const {pathname}=useLocation();const toggle=useRef<HTMLButtonElement>(null),dialog=useRef<HTMLDialogElement>(null),footer=useRef<HTMLElement>(null);const wasOpen=useRef(false);

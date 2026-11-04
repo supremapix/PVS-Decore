@@ -1,0 +1,1502 @@
+{
+  "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+  "counts": {
+    "routes": 149,
+    "indexableBefore": 5,
+    "indexableAfter": 10,
+    "editorialPending": 69,
+    "coverageOrGeographyPending": 70
+  },
+  "rows": [
+    {
+      "name": "Vila Parolin",
+      "type": "bairro",
+      "path": "/bairro/vila-parolin",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Vila Torres",
+      "type": "bairro",
+      "path": "/bairro/vila-torres",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Jardim Schaffer",
+      "type": "bairro",
+      "path": "/bairro/jardim-schaffer",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Vila Sabará",
+      "type": "bairro",
+      "path": "/bairro/vila-sabar",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Boqueirão de Baixo",
+      "type": "bairro",
+      "path": "/bairro/boqueiro-de-baixo",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Boqueirão de Cima",
+      "type": "bairro",
+      "path": "/bairro/boqueiro-de-cima",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Tanguá",
+      "type": "bairro",
+      "path": "/bairro/tangu",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Vila Zumbi",
+      "type": "bairro",
+      "path": "/bairro/vila-zumbi",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Abranches de Baixo",
+      "type": "bairro",
+      "path": "/bairro/abranches-de-baixo",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Abranches de Cima",
+      "type": "bairro",
+      "path": "/bairro/abranches-de-cima",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Vila Nossa Senhora da Luz",
+      "type": "bairro",
+      "path": "/bairro/vila-nossa-senhora-da-luz",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Vila Tecnológica",
+      "type": "bairro",
+      "path": "/bairro/vila-tecnolgica",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Vila Oficinas",
+      "type": "bairro",
+      "path": "/bairro/vila-oficinas",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Vila Fanny",
+      "type": "bairro",
+      "path": "/bairro/vila-fanny",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Vila Hauer",
+      "type": "bairro",
+      "path": "/bairro/vila-hauer",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Batel Soho",
+      "type": "bairro",
+      "path": "/bairro/batel-soho",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Alto da Rua XV",
+      "type": "bairro",
+      "path": "/bairro/alto-da-rua-xv",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "CIC Norte",
+      "type": "bairro",
+      "path": "/bairro/cic-norte",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "CIC Central",
+      "type": "bairro",
+      "path": "/bairro/cic-central",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "CIC Sul",
+      "type": "bairro",
+      "path": "/bairro/cic-sul",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Vila Guaíra",
+      "type": "bairro",
+      "path": "/bairro/vila-guara",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Centro Histórico",
+      "type": "bairro",
+      "path": "/bairro/centro-histrico",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Ecoville",
+      "type": "bairro",
+      "path": "/bairro/ecoville",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Carmo Abranches",
+      "type": "bairro",
+      "path": "/bairro/carmo-abranches",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Água Verde",
+      "type": "bairro",
+      "path": "/bairro/gua-verde",
+      "beforeIndexed": false,
+      "afterIndexed": true,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Ahú",
+      "type": "bairro",
+      "path": "/bairro/ah",
+      "beforeIndexed": false,
+      "afterIndexed": true,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Alto Boqueirão",
+      "type": "bairro",
+      "path": "/bairro/alto-boqueiro",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Alto da Glória",
+      "type": "bairro",
+      "path": "/bairro/alto-da-glria",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Alto da XV",
+      "type": "bairro",
+      "path": "/bairro/alto-da-xv",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Atuba",
+      "type": "bairro",
+      "path": "/bairro/atuba",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Augusta",
+      "type": "bairro",
+      "path": "/bairro/augusta",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Bacacheri",
+      "type": "bairro",
+      "path": "/bairro/bacacheri",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Bairro Alto",
+      "type": "bairro",
+      "path": "/bairro/bairro-alto",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Barreirinha",
+      "type": "bairro",
+      "path": "/bairro/barreirinha",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Batel",
+      "type": "bairro",
+      "path": "/bairro/batel",
+      "beforeIndexed": false,
+      "afterIndexed": true,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Bigorrilho",
+      "type": "bairro",
+      "path": "/bairro/bigorrilho",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Boa Vista",
+      "type": "bairro",
+      "path": "/bairro/boa-vista",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Bom Retiro",
+      "type": "bairro",
+      "path": "/bairro/bom-retiro",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Boqueirão",
+      "type": "bairro",
+      "path": "/bairro/boqueiro",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Butiatuvinha",
+      "type": "bairro",
+      "path": "/bairro/butiatuvinha",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Cabral",
+      "type": "bairro",
+      "path": "/bairro/cabral",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Cachoeira",
+      "type": "bairro",
+      "path": "/bairro/cachoeira",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Cajuru",
+      "type": "bairro",
+      "path": "/bairro/cajuru",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Campina do Siqueira",
+      "type": "bairro",
+      "path": "/bairro/campina-do-siqueira",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Campo Comprido",
+      "type": "bairro",
+      "path": "/bairro/campo-comprido",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Campo de Santana",
+      "type": "bairro",
+      "path": "/bairro/campo-de-santana",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Capão da Imbuia",
+      "type": "bairro",
+      "path": "/bairro/capo-da-imbuia",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Capão Raso",
+      "type": "bairro",
+      "path": "/bairro/capo-raso",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Cascatinha",
+      "type": "bairro",
+      "path": "/bairro/cascatinha",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Caximba",
+      "type": "bairro",
+      "path": "/bairro/caximba",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Centro",
+      "type": "bairro",
+      "path": "/bairro/centro",
+      "beforeIndexed": false,
+      "afterIndexed": true,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Centro Cívico",
+      "type": "bairro",
+      "path": "/bairro/centro-cvico",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Cidade Industrial de Curitiba",
+      "type": "bairro",
+      "path": "/bairro/cidade-industrial-de-curitiba",
+      "beforeIndexed": false,
+      "afterIndexed": true,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Cristo Rei",
+      "type": "bairro",
+      "path": "/bairro/cristo-rei",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Fanny",
+      "type": "bairro",
+      "path": "/bairro/fanny",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Fazendinha",
+      "type": "bairro",
+      "path": "/bairro/fazendinha",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Ganchinho",
+      "type": "bairro",
+      "path": "/bairro/ganchinho",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Guabirotuba",
+      "type": "bairro",
+      "path": "/bairro/guabirotuba",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Guaíra",
+      "type": "bairro",
+      "path": "/bairro/guara",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Hauer",
+      "type": "bairro",
+      "path": "/bairro/hauer",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Hugo Lange",
+      "type": "bairro",
+      "path": "/bairro/hugo-lange",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Jardim Botânico",
+      "type": "bairro",
+      "path": "/bairro/jardim-botnico",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Jardim das Américas",
+      "type": "bairro",
+      "path": "/bairro/jardim-das-amricas",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Jardim Social",
+      "type": "bairro",
+      "path": "/bairro/jardim-social",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Juvevê",
+      "type": "bairro",
+      "path": "/bairro/juvev",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Lamenha Pequena",
+      "type": "bairro",
+      "path": "/bairro/lamenha-pequena",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Lindóia",
+      "type": "bairro",
+      "path": "/bairro/lindia",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Mercês",
+      "type": "bairro",
+      "path": "/bairro/mercs",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Mossunguê",
+      "type": "bairro",
+      "path": "/bairro/mossungu",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Novo Mundo",
+      "type": "bairro",
+      "path": "/bairro/novo-mundo",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Orleans",
+      "type": "bairro",
+      "path": "/bairro/orleans",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Parolin",
+      "type": "bairro",
+      "path": "/bairro/parolin",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Pilarzinho",
+      "type": "bairro",
+      "path": "/bairro/pilarzinho",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Pinheirinho",
+      "type": "bairro",
+      "path": "/bairro/pinheirinho",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Portão",
+      "type": "bairro",
+      "path": "/bairro/porto",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Prado Velho",
+      "type": "bairro",
+      "path": "/bairro/prado-velho",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Rebouças",
+      "type": "bairro",
+      "path": "/bairro/rebouas",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Riviera",
+      "type": "bairro",
+      "path": "/bairro/riviera",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Santa Cândida",
+      "type": "bairro",
+      "path": "/bairro/santa-cndida",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Santa Felicidade",
+      "type": "bairro",
+      "path": "/bairro/santa-felicidade",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Santa Quitéria",
+      "type": "bairro",
+      "path": "/bairro/santa-quitria",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Santo Inácio",
+      "type": "bairro",
+      "path": "/bairro/santo-incio",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "São Braz",
+      "type": "bairro",
+      "path": "/bairro/so-braz",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "São Francisco",
+      "type": "bairro",
+      "path": "/bairro/so-francisco",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "São João",
+      "type": "bairro",
+      "path": "/bairro/so-joo",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "São Lourenço",
+      "type": "bairro",
+      "path": "/bairro/so-loureno",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "São Miguel",
+      "type": "bairro",
+      "path": "/bairro/so-miguel",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Vila Pantanal",
+      "type": "bairro",
+      "path": "/bairro/vila-pantanal",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Seminário",
+      "type": "bairro",
+      "path": "/bairro/seminrio",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Sítio Cercado",
+      "type": "bairro",
+      "path": "/bairro/stio-cercado",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Taboão",
+      "type": "bairro",
+      "path": "/bairro/taboo",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Tarumã",
+      "type": "bairro",
+      "path": "/bairro/tarum",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Tatuquara",
+      "type": "bairro",
+      "path": "/bairro/tatuquara",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Tingui",
+      "type": "bairro",
+      "path": "/bairro/tingui",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Uberaba",
+      "type": "bairro",
+      "path": "/bairro/uberaba",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Umbará",
+      "type": "bairro",
+      "path": "/bairro/umbar",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Vila Izabel",
+      "type": "bairro",
+      "path": "/bairro/vila-izabel",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Vista Alegre",
+      "type": "bairro",
+      "path": "/bairro/vista-alegre",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Xaxim",
+      "type": "bairro",
+      "path": "/bairro/xaxim",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
+      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
+    },
+    {
+      "name": "Santa Quitéria Velha",
+      "type": "bairro",
+      "path": "/bairro/santa-quitria-velha",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Portão Velho",
+      "type": "bairro",
+      "path": "/bairro/porto-velho",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Guaíra Velho",
+      "type": "bairro",
+      "path": "/bairro/guara-velho",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Uberaba de Cima",
+      "type": "bairro",
+      "path": "/bairro/uberaba-de-cima",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Uberaba de Baixo",
+      "type": "bairro",
+      "path": "/bairro/uberaba-de-baixo",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "São Braz Velho",
+      "type": "bairro",
+      "path": "/bairro/so-braz-velho",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Vila Verde",
+      "type": "bairro",
+      "path": "/bairro/vila-verde",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Vila Barigui",
+      "type": "bairro",
+      "path": "/bairro/vila-barigui",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Caiuá",
+      "type": "bairro",
+      "path": "/bairro/caiu",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Xaxim Velho",
+      "type": "bairro",
+      "path": "/bairro/xaxim-velho",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Fazendinha-Portão",
+      "type": "bairro",
+      "path": "/bairro/fazendinha-porto",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Campo Comprido Velho",
+      "type": "bairro",
+      "path": "/bairro/campo-comprido-velho",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Bacacheri Velho",
+      "type": "bairro",
+      "path": "/bairro/bacacheri-velho",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Capão da Imbuia Velho",
+      "type": "bairro",
+      "path": "/bairro/capo-da-imbuia-velho",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Pinheirinho Velho",
+      "type": "bairro",
+      "path": "/bairro/pinheirinho-velho",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Vila São Pedro",
+      "type": "bairro",
+      "path": "/bairro/vila-so-pedro",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Vila Osternack",
+      "type": "bairro",
+      "path": "/bairro/vila-osternack",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Conjunto Caiuá",
+      "type": "bairro",
+      "path": "/bairro/conjunto-caiu",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Conjunto Parigot de Souza",
+      "type": "bairro",
+      "path": "/bairro/conjunto-parigot-de-souza",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Vila Reno",
+      "type": "bairro",
+      "path": "/bairro/vila-reno",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Vila Audi",
+      "type": "bairro",
+      "path": "/bairro/vila-audi",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Adrianópolis",
+      "type": "cidade",
+      "path": "/cidade/adrianpolis",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Agudos do Sul",
+      "type": "cidade",
+      "path": "/cidade/agudos-do-sul",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Almirante Tamandaré",
+      "type": "cidade",
+      "path": "/cidade/almirante-tamandar",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Araucária",
+      "type": "cidade",
+      "path": "/cidade/araucria",
+      "beforeIndexed": true,
+      "afterIndexed": true,
+      "coverage": "cidade citada pela PVS",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": null
+    },
+    {
+      "name": "Balsa Nova",
+      "type": "cidade",
+      "path": "/cidade/balsa-nova",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Bocaiúva do Sul",
+      "type": "cidade",
+      "path": "/cidade/bocaiva-do-sul",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Campina Grande do Sul",
+      "type": "cidade",
+      "path": "/cidade/campina-grande-do-sul",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Campo do Tenente",
+      "type": "cidade",
+      "path": "/cidade/campo-do-tenente",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Campo Largo",
+      "type": "cidade",
+      "path": "/cidade/campo-largo",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Campo Magro",
+      "type": "cidade",
+      "path": "/cidade/campo-magro",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Cerro Azul",
+      "type": "cidade",
+      "path": "/cidade/cerro-azul",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Colombo",
+      "type": "cidade",
+      "path": "/cidade/colombo",
+      "beforeIndexed": true,
+      "afterIndexed": true,
+      "coverage": "cidade citada pela PVS",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": null
+    },
+    {
+      "name": "Contenda",
+      "type": "cidade",
+      "path": "/cidade/contenda",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Doutor Ulysses",
+      "type": "cidade",
+      "path": "/cidade/doutor-ulysses",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Fazenda Rio Grande",
+      "type": "cidade",
+      "path": "/cidade/fazenda-rio-grande",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Itaperuçu",
+      "type": "cidade",
+      "path": "/cidade/itaperuu",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Lapa",
+      "type": "cidade",
+      "path": "/cidade/lapa",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Mandirituba",
+      "type": "cidade",
+      "path": "/cidade/mandirituba",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Piên",
+      "type": "cidade",
+      "path": "/cidade/pin",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Pinhais",
+      "type": "cidade",
+      "path": "/cidade/pinhais",
+      "beforeIndexed": true,
+      "afterIndexed": true,
+      "coverage": "cidade citada pela PVS",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": null
+    },
+    {
+      "name": "Piraquara",
+      "type": "cidade",
+      "path": "/cidade/piraquara",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Quatro Barras",
+      "type": "cidade",
+      "path": "/cidade/quatro-barras",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Quitandinha",
+      "type": "cidade",
+      "path": "/cidade/quitandinha",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Rio Branco do Sul",
+      "type": "cidade",
+      "path": "/cidade/rio-branco-do-sul",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Rio Negro",
+      "type": "cidade",
+      "path": "/cidade/rio-negro",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "São José dos Pinhais",
+      "type": "cidade",
+      "path": "/cidade/so-jos-dos-pinhais",
+      "beforeIndexed": true,
+      "afterIndexed": true,
+      "coverage": "cidade citada pela PVS",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": null
+    },
+    {
+      "name": "Tijucas do Sul",
+      "type": "cidade",
+      "path": "/cidade/tijucas-do-sul",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Tunas do Paraná",
+      "type": "cidade",
+      "path": "/cidade/tunas-do-paran",
+      "beforeIndexed": false,
+      "afterIndexed": false,
+      "coverage": "confirmação individual necessária",
+      "reason": "identificação geográfica ou cobertura específica não confirmada",
+      "source": null
+    },
+    {
+      "name": "Curitiba",
+      "type": "cidade",
+      "path": "/cidade/curitiba",
+      "beforeIndexed": true,
+      "afterIndexed": true,
+      "coverage": "cidade citada pela PVS",
+      "reason": "cobertura contextual e conteúdo revisado",
+      "source": null
+    }
+  ]
+}

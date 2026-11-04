@@ -178,14 +178,14 @@
       "oldPath": "/bairro/gua-verde",
       "target": "/bairro/gua-verde",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "Ahú",
       "oldPath": "/bairro/ah",
       "target": "/bairro/ah",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "Alto Boqueirão",
@@ -248,7 +248,7 @@
       "oldPath": "/bairro/batel",
       "target": "/bairro/batel",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "Bigorrilho",
@@ -360,7 +360,7 @@
       "oldPath": "/bairro/centro",
       "target": "/bairro/centro",
       "expectedStatus": 200,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "Centro Cívico",
@@ -374,7 +374,7 @@
       "oldPath": "/bairro/cic",
       "target": "/bairro/cidade-industrial-de-curitiba",
       "expectedStatus": 308,
-      "noindex": true
+      "noindex": false
     },
     {
       "name": "Cristo Rei",

@@ -1,0 +1,37 @@
+{
+  "batel": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "constants.ts FAQS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço; Batel no inventário desde antes de af2ed16.",
+    "geographySource": "https://regionais.curitiba.pr.gov.br/conteudo/matriz/1176",
+    "editorialBasis": "Guia próprio de laminados, comparação de linhas e planejamento para apartamentos, casas e salas comerciais; sem filial ou obra local declarada."
+  },
+  "ah": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "constants.ts FAQS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço; bairro no inventário desde antes de af2ed16.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Roteiro próprio em data/neighborhood-guides.json; sem filial ou obra local declarada."
+  },
+  "centro": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "constants.ts FAQS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço; bairro no inventário desde antes de af2ed16.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Roteiro próprio em data/neighborhood-guides.json; sem filial ou obra local declarada."
+  },
+  "gua-verde": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "constants.ts FAQS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço; bairro no inventário desde antes de af2ed16.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Roteiro próprio em data/neighborhood-guides.json; sem filial ou obra local declarada."
+  },
+  "cidade-industrial-de-curitiba": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "constants.ts FAQS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço; bairro no inventário desde antes de af2ed16.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Roteiro próprio em data/neighborhood-guides.json; sem filial ou obra local declarada."
+  }
+}
