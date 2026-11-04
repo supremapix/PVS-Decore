@@ -2839,192 +2839,966 @@
     },
     {
       "brand": "Santa Luzia",
+      "type": "Vinílico",
+      "line": "Diamantina",
+      "name": "Piso Vinílico Diamantina Buriti Santa Luzia",
+      "code": "231186",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/piso-vinilico/piso-vinilico-diamantina-buriti/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Vinílico",
+      "line": "Diamantina",
+      "name": "Piso Vinílico Diamantina Cerrado Santa Luzia",
+      "code": "231187",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/piso-vinilico/piso-vinilico-diamantina-cerrado/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Vinílico",
+      "line": "Diamantina",
+      "name": "Piso Vinílico Diamantina Nevoeiro Santa Luzia",
+      "code": "231188",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/piso-vinilico/piso-vinilico-diamantina-nevoeiro/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Vinílico",
+      "line": "Diamantina",
+      "name": "Piso Vinílico Diamantina Pequi Santa Luzia",
+      "code": "231181",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/piso-vinilico/piso-vinilico-diamantina-pequi/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Vinílico",
+      "line": "Diamantina",
+      "name": "Piso Vinílico Diamantina Planalto Santa Luzia",
+      "code": "231189",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/piso-vinilico/piso-vinilico-diamantina-planalto/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Vinílico",
+      "line": "Diamantina",
+      "name": "Piso Vinílico Diamantina Savana Santa Luzia",
+      "code": "231185",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/piso-vinilico/piso-vinilico-diamantina-savana/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Vinílico",
+      "line": "Paraty",
+      "name": "Piso Vinílico Paraty Enseada Santa Luzia",
+      "code": "231195",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/piso-vinilico/piso-vinilico-paraty-enseada/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Vinílico",
+      "line": "Paraty",
+      "name": "Piso Vinílico Paraty Maresia Santa Luzia",
+      "code": "231196",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/piso-vinilico/piso-vinilico-paraty-maresia/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Vinílico",
+      "line": "Paraty",
+      "name": "Piso Vinílico Paraty Pescaria Santa Luzia",
+      "code": "231197",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/piso-vinilico/piso-vinilico-paraty-pescaria/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Vinílico",
+      "line": "Paraty",
+      "name": "Piso Vinílico Paraty Trindade Santa Luzia",
+      "code": "231194",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/piso-vinilico/piso-vinilico-paraty-trindade/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Vinílico",
+      "line": "Sampa",
+      "name": "Piso Vinílico Sampa Brigadeiro Santa Luzia",
+      "code": "231193",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/piso-vinilico/piso-vinilico-sampa-brigadeiro/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Vinílico",
+      "line": "Sampa",
+      "name": "Piso Vinílico Sampa Ipiranga Santa Luzia",
+      "code": "231190",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/piso-vinilico/piso-vinilico-sampa-ipiranga/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Vinílico",
+      "line": "Sampa",
+      "name": "Piso Vinílico Sampa Paulista Santa Luzia",
+      "code": "231192",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/piso-vinilico/piso-vinilico-sampa-paulista/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Vinílico",
+      "line": "Sampa",
+      "name": "Piso Vinílico Sampa Rebouças Santa Luzia",
+      "code": "231191",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/piso-vinilico/piso-vinilico-sampa-reboucas/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés de alumínio",
+      "name": "Rodapé CLINICUS de alumínio Anodizado Santa Luzia",
+      "code": "230145",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape-e-acessorios-metalicos/rodape-clinicus-de-aluminio-anodizado/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés de alumínio",
+      "name": "Rodapé CLINICUS de alumínio branco Santa Luzia",
+      "code": "230146",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape-e-acessorios-metalicos/rodape-clinicus-de-aluminio-branco/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno 3451 preto com 70mm de altura Santa Luzia",
+      "code": "21365",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-3451-preto-com-70mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno 3457 preto com 100mm altura Santa Luzia",
+      "code": "26445",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-3457-preto-com-100mm-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno 3466 preto com 30mm altura Santa Luzia",
+      "code": "27537",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-3466-preto-com-30mm-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
       "type": "Rodapé",
       "line": "Rodapés",
       "name": "Rodapé de poliestireno 3480 preto com 150mm altura Santa Luzia",
-      "code": "",
+      "code": "26449",
       "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-3480-preto-com-150mm-altura/",
-      "status": "Listagem oficial consultada; confirme acabamento e disponibilidade"
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno 3496 preto com 150mm de altura Santa Luzia",
+      "code": "29293",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-3496-preto-com-150mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno 3547 preto com 100mm de altura Santa Luzia",
+      "code": "29294",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-3547-preto-com-100mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
     },
     {
       "brand": "Santa Luzia",
       "type": "Rodapé",
       "line": "Rodapés",
       "name": "Rodapé de poliestireno 444 branco com 96mm de altura Santa Luzia",
-      "code": "",
+      "code": "20009",
       "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-444-branco-com-96mm-de-altura/",
-      "status": "Listagem oficial consultada; confirme acabamento e disponibilidade"
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
     },
     {
       "brand": "Santa Luzia",
       "type": "Rodapé",
       "line": "Rodapés",
       "name": "Rodapé de poliestireno 446 branco com 70mm altura Santa Luzia",
-      "code": "",
+      "code": "20013",
       "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-446-branco-com-70mm-altura/",
-      "status": "Listagem oficial consultada; confirme acabamento e disponibilidade"
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno 446 castanho escuro com 70mm de altura Santa Luzia",
+      "code": "20219",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-446-castanho-escuro-com-70mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno 446 louro freijó com 70mm de altura Santa Luzia",
+      "code": "20218",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-446-louro-freijo-com-70mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
     },
     {
       "brand": "Santa Luzia",
       "type": "Rodapé",
       "line": "Rodapés",
       "name": "Rodapé de poliestireno 451 branco com 70mm altura Santa Luzia",
-      "code": "",
+      "code": "20229",
       "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-451-branco-com-70mm-altura/",
-      "status": "Listagem oficial consultada; confirme acabamento e disponibilidade"
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno 451 cinza glacial com 70mm de altura Santa Luzia",
+      "code": "21367",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-451-cinza-glacial-com-70mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno 451 cinza titanium com 70mm de altura Santa Luzia",
+      "code": "21369",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-451-cinza-titanium-com-70mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno 451 fendi com 70mm altura Santa Luzia",
+      "code": "23926",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-451-fendi-com-70mm-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
     },
     {
       "brand": "Santa Luzia",
       "type": "Rodapé",
       "line": "Rodapés",
       "name": "Rodapé de poliestireno 454 branco com 100mm altura Santa Luzia",
-      "code": "",
+      "code": "20232",
       "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-454-branco-com-100mm-altura/",
-      "status": "Listagem oficial consultada; confirme acabamento e disponibilidade"
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno 454 cinza glacial com 100mm de altura Santa Luzia",
+      "code": "21375",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-454-cinza-glacial-com-100mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno 454 cinza titanium com 100mm de altura Santa Luzia",
+      "code": "28730",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-454-cinza-titanium-com-100mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno 454 fendi com 100mm altura Santa Luzia",
+      "code": "23593",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-454-fendi-com-100mm-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
     },
     {
       "brand": "Santa Luzia",
       "type": "Rodapé",
       "line": "Rodapés",
       "name": "Rodapé de poliestireno 456 branco com 70mm altura Santa Luzia",
-      "code": "",
+      "code": "20237",
       "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-456-branco-com-70mm-altura/",
-      "status": "Listagem oficial consultada; confirme acabamento e disponibilidade"
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
     },
     {
       "brand": "Santa Luzia",
       "type": "Rodapé",
       "line": "Rodapés",
       "name": "Rodapé de poliestireno 457 branco com 100mm altura Santa Luzia",
-      "code": "",
+      "code": "20239",
       "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-457-branco-com-100mm-altura/",
-      "status": "Listagem oficial consultada; confirme acabamento e disponibilidade"
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
     },
     {
       "brand": "Santa Luzia",
       "type": "Rodapé",
       "line": "Rodapés",
       "name": "Rodapé de poliestireno 466 branco com 30mm altura Santa Luzia",
-      "code": "",
+      "code": "20255",
       "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-466-branco-com-30mm-altura/",
-      "status": "Listagem oficial consultada; confirme acabamento e disponibilidade"
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
     },
     {
       "brand": "Santa Luzia",
       "type": "Rodapé",
       "line": "Rodapés",
       "name": "Rodapé de poliestireno 473 branco com 50mm altura Santa Luzia",
-      "code": "",
+      "code": "24545",
       "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-473-branco-com-50mm-altura/",
-      "status": "Listagem oficial consultada; confirme acabamento e disponibilidade"
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
     },
     {
       "brand": "Santa Luzia",
       "type": "Rodapé",
       "line": "Rodapés",
       "name": "Rodapé de poliestireno 480 branco com 150mm altura Santa Luzia",
-      "code": "",
+      "code": "20299",
       "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-480-branco-com-150mm-altura/",
-      "status": "Listagem oficial consultada; confirme acabamento e disponibilidade"
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
     },
     {
       "brand": "Santa Luzia",
       "type": "Rodapé",
       "line": "Rodapés",
       "name": "Rodapé de poliestireno 493 branco com 120mm altura Santa Luzia",
-      "code": "",
+      "code": "24574",
       "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-493-branco-com-120mm-altura/",
-      "status": "Listagem oficial consultada; confirme acabamento e disponibilidade"
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
     },
     {
       "brand": "Santa Luzia",
       "type": "Rodapé",
       "line": "Rodapés",
       "name": "Rodapé de poliestireno 496 branco com 150mm altura Santa Luzia",
-      "code": "",
+      "code": "24899",
       "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-496-branco-com-150mm-altura/",
-      "status": "Listagem oficial consultada; confirme acabamento e disponibilidade"
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno 496 cinza glacial com 150mm de altura Santa Luzia",
+      "code": "21380",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-496-cinza-glacial-com-150mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno 496 cinza titanium com 150mm de altura Santa Luzia",
+      "code": "21381",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-496-cinza-titanium-com-150mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
     },
     {
       "brand": "Santa Luzia",
       "type": "Rodapé",
       "line": "Rodapés",
       "name": "Rodapé de poliestireno 505 branco com 200mm altura Santa Luzia",
-      "code": "",
+      "code": "25954",
       "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-505-branco-com-200mm-altura/",
-      "status": "Listagem oficial consultada; confirme acabamento e disponibilidade"
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
     },
     {
       "brand": "Santa Luzia",
       "type": "Rodapé",
       "line": "Rodapés",
       "name": "Rodapé de poliestireno 506 branco com 200mm de altura Santa Luzia",
-      "code": "",
+      "code": "25955",
       "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-506-branco-com-200mm-de-altura/",
-      "status": "Listagem oficial consultada; confirme acabamento e disponibilidade"
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
     },
     {
       "brand": "Santa Luzia",
       "type": "Rodapé",
       "line": "Rodapés",
       "name": "Rodapé de poliestireno 518 branco com 150mm altura Santa Luzia",
-      "code": "",
+      "code": "27078",
       "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-518-branco-com-150mm-altura/",
-      "status": "Listagem oficial consultada; confirme acabamento e disponibilidade"
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno 518 fendi com 150mm de altura Santa Luzia",
+      "code": "23801",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-518-fendi-com-150mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
     },
     {
       "brand": "Santa Luzia",
       "type": "Rodapé",
       "line": "Rodapés",
       "name": "Rodapé de poliestireno 546 branco com 250mm de altura Santa Luzia",
-      "code": "",
+      "code": "27857",
       "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-546-branco-com-250mm-de-altura/",
-      "status": "Listagem oficial consultada; confirme acabamento e disponibilidade"
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
     },
     {
       "brand": "Santa Luzia",
       "type": "Rodapé",
       "line": "Rodapés",
       "name": "Rodapé de poliestireno 547 branco com 100mm de altura Santa Luzia",
-      "code": "",
+      "code": "27858",
       "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-547-branco-com-100mm-de-altura/",
-      "status": "Listagem oficial consultada; confirme acabamento e disponibilidade"
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno 560 beige com 70mm de altura Santa Luzia",
+      "code": "231601",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-560-beige-com-70mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno 561 beige com 100mm de altura Santa Luzia",
+      "code": "231602",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-561-beige-com-100mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno 697 Essence branco liso com 50mm de altura Santa Luzia",
+      "code": "231156",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-697-essence-branco-liso-com-50mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno 698 Essence branco liso com 70mm de altura Santa Luzia",
+      "code": "231157",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-698-essence-branco-liso-com-70mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno 699 Essence branco liso com 100mm de altura Santa Luzia",
+      "code": "231158",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-699-essence-branco-liso-com-100mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
     },
     {
       "brand": "Santa Luzia",
       "type": "Rodapé",
       "line": "Rodapés",
       "name": "Rodapé de poliestireno 701 branco com 50mm de altura Santa Luzia",
-      "code": "",
+      "code": "231498",
       "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-701-branco-com-50mm-de-altura/",
-      "status": "Listagem oficial consultada; confirme acabamento e disponibilidade"
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
     },
     {
       "brand": "Santa Luzia",
       "type": "Rodapé",
       "line": "Rodapés",
       "name": "Rodapé de poliestireno 702 branco com 70mm de altura Santa Luzia",
-      "code": "",
+      "code": "231499",
       "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-702-branco-com-70mm-de-altura/",
-      "status": "Listagem oficial consultada; confirme acabamento e disponibilidade"
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
     },
     {
       "brand": "Santa Luzia",
       "type": "Rodapé",
       "line": "Rodapés",
       "name": "Rodapé de poliestireno 703 branco com 100mm de altura Santa Luzia",
-      "code": "",
+      "code": "231500",
       "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-703-branco-com-100mm-de-altura/",
-      "status": "Listagem oficial consultada; confirme acabamento e disponibilidade"
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno B104 branco Frisado (Massa Escura) com 100mm de altura Santa Luzia",
+      "code": "231272",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-b104-branco-frisado-massa-escura-com-100mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno B105 branco Liso (Massa Escura) com 100mm de altura Santa Luzia",
+      "code": "231273",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-b105-branco-liso-massa-escura-com-100mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno B106 Renova branco Frisado com 100mm de altura Santa Luzia",
+      "code": "231670",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-b106-renova-branco-frisado-com-100mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno B107 Renova branco Liso com 100mm de altura Santa Luzia",
+      "code": "231671",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-b107-renova-branco-liso-com-100mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno B154 branco Frisado (Massa Escura) com 150mm de altura Santa Luzia",
+      "code": "231274",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-b154-branco-frisado-massa-escura-com-150mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno B155 branco Liso (Massa Escura) com 150mm de altura Santa Luzia",
+      "code": "231275",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-b155-branco-liso-massa-escura-com-150mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno B156 Renova branco Frisado com 150mm de altura Santa Luzia",
+      "code": "231672",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-b156-renova-branco-frisado-com-150mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno B157 Renova branco Liso com 150mm de altura Santa Luzia",
+      "code": "231673",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-b157-renova-branco-liso-com-150mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno B74 branco Frisado (Massa Escura) com 70mm de altura Santa Luzia",
+      "code": "231270",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-b74-branco-frisado-massa-escura-com-70mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno B75 branco Liso (Massa Escura) com 70mm de altura Santa Luzia",
+      "code": "231271",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-b75-branco-liso-massa-escura-com-70mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno B76 Renova branco Frisado com 70mm de altura Santa Luzia",
+      "code": "231669",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-b76-renova-branco-frisado-com-70mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno B77 Renova branco Liso com 70mm de altura Santa Luzia",
+      "code": "231668",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-b77-renova-branco-liso-com-70mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno LEV101 branco com 100mm de altura Santa Luzia",
+      "code": "21661",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-lev101-branco-com-100mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno LEV101 preto com 100mm de altura Santa Luzia",
+      "code": "231147",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-lev101-preto-com-100mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno LEV102 branco com 100mm de altura Santa Luzia",
+      "code": "21662",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-lev102-branco-com-100mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno LEV151 branco com 150mm de altura Santa Luzia",
+      "code": "21663",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-lev151-branco-com-150mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno LEV151 preto com 150mm de altura Santa Luzia",
+      "code": "231148",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-lev151-preto-com-150mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno LEV152 branco com 150mm de altura Santa Luzia",
+      "code": "21664",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-lev152-branco-com-150mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno LEV31 branco com 30mm de altura Santa Luzia",
+      "code": "231140",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-lev31-branco-com-30mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno LEV31 preto com 30mm de altura Santa Luzia",
+      "code": "231141",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-lev31-preto-com-30mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno LEV51 branco com 50mm de altura Santa Luzia",
+      "code": "21653",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-lev51-branco-com-50mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno LEV51 preto com 50mm de altura Santa Luzia",
+      "code": "231264",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-lev51-preto-com-50mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno LEV52 branco com 50mm de altura Santa Luzia",
+      "code": "21655",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-lev52-branco-com-50mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno LEV71 branco com 70mm de altura Santa Luzia",
+      "code": "21657",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-lev71-branco-com-70mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno LEV71 preto com 70mm de altura Santa Luzia",
+      "code": "231146",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-lev71-preto-com-70mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno LEV72 branco com 70mm de altura Santa Luzia",
+      "code": "21659",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-lev72-branco-com-70mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno SL101 branco liso com 100mm de altura e passa fio Santa Luzia",
+      "code": "29091",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-sl101-branco-liso-com-100mm-de-altura-e-passa-fio/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno SL101 preto com 100mm de altura e passa fio Santa Luzia",
+      "code": "21412",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-sl101-preto-com-100mm-de-altura-e-passa-fio/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno SL101 Pro branco liso com 100mm de altura e passa fio Santa Luzia",
+      "code": "230120",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-sl101-pro-branco-liso-com-100mm-de-altura-e-passa-fio/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno SL102  branco frisado com 100mm de altura e passa fio Santa Luzia",
+      "code": "29072",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-sl102-branco-frisado-com-100mm-de-altura-e-passa-fio/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno SL102 Pro branco frisado com 100mm de altura e passa fio Santa Luzia",
+      "code": "230368",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-sl102-pro-branco-frisado-com-100mm-de-altura-e-passa-fio/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno SL151 preto com 150mm de altura e passa fio Santa Luzia",
+      "code": "21724",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-sl151-preto-com-150mm-de-altura-e-passa-fio/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno SL151 Pro branco liso com 150mm de altura e passa fio Santa Luzia",
+      "code": "230249",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-sl151-pro-branco-liso-com-150mm-de-altura-e-passa-fio/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno SL152 Pro branco frisado com 150mm de altura e passa fio Santa Luzia",
+      "code": "23799",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-sl152-pro-branco-frisado-com-150mm-de-altura-e-passa-fio/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno SL31 branco liso com 30mm de altura Santa Luzia",
+      "code": "231144",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-sl31-branco-liso-com-30mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno SL31 preto com 30mm de altura Santa Luzia",
+      "code": "230741",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-sl31-preto-com-30mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno SL31 Pro branco liso com 30mm de altura Santa Luzia",
+      "code": "231087",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-sl31-pro-branco-liso-com-30mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno SL51 branco liso com 50mm de altura Santa Luzia",
+      "code": "231324",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-sl51-branco-liso-com-50mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno SL51 preto com 50mm de altura Santa Luzia",
+      "code": "231262",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-sl51-preto-com-50mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno SL51 Pro branco liso com 50mm de altura Santa Luzia",
+      "code": "231325",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-sl51-pro-branco-liso-com-50mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno SL71 branco liso com 70mm de altura Santa Luzia",
+      "code": "29089",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-sl71-branco-liso-com-70mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno SL71 preto com 70mm de altura Santa Luzia",
+      "code": "230535",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-sl71-preto-com-70mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno SL71 Pro branco liso com 70mm de altura Santa Luzia",
+      "code": "230629",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-sl71-pro-branco-liso-com-70mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno SL72 branco frisado com 70mm de altura Santa Luzia",
+      "code": "29090",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-sl72-branco-frisado-com-70mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés",
+      "name": "Rodapé de poliestireno SL72 Pro branco frisado com 70mm de altura Santa Luzia",
+      "code": "230864",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-poliestireno-sl72-pro-branco-frisado-com-70mm-de-altura/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
     },
     {
       "brand": "Santa Luzia",
       "type": "Rodapé",
       "line": "Rodapés",
       "name": "Rodapé de sobrepor 548 poliestireno branco com 110mm de altura Santa Luzia",
-      "code": "",
+      "code": "27856",
       "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape/rodape-de-sobrepor-548-poliestireno-branco-com-110mm-de-altura/",
-      "status": "Listagem oficial consultada; confirme acabamento e disponibilidade"
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés de alumínio",
+      "name": "Rodapé inverso curvo de alumínio branco Santa Luzia",
+      "code": "230072",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape-e-acessorios-metalicos/rodape-inverso-curvo-de-aluminio-branco/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés de alumínio",
+      "name": "Rodapé inverso curvo de alumínio preto Santa Luzia",
+      "code": "230073",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape-e-acessorios-metalicos/rodape-inverso-curvo-de-aluminio-preto/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés de alumínio",
+      "name": "Rodapé inverso de alumínio branco Santa Luzia",
+      "code": "21483",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape-e-acessorios-metalicos/rodape-inverso-de-aluminio-branco/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
+    },
+    {
+      "brand": "Santa Luzia",
+      "type": "Rodapé",
+      "line": "Rodapés de alumínio",
+      "name": "Rodapé inverso de alumínio preto Santa Luzia",
+      "code": "21484",
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodape-e-acessorios-metalicos/rodape-inverso-de-aluminio-preto/",
+      "status": "Referência do fabricante; fornecimento pela PVS, amostra e acabamento sob consulta"
     }
   ]
 }

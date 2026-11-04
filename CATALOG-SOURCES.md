@@ -1,6 +1,6 @@
 # Cobertura do catálogo PVS — 04/11/2026
 
-336 referências: 298 da consulta comercial pública e 38 do acervo BIM Durafloor, separado para identificação/reposição. Nenhuma representa confirmação de estoque PVS. 204 referências Eucafloor têm imagem oficial incorporada, vinculada ao URL exato do produto/padrão.
+422 referências: 384 da consulta comercial pública e 38 do acervo BIM Durafloor, separado para identificação/reposição. Nenhuma representa confirmação de estoque PVS. 204 referências Eucafloor têm imagem oficial incorporada, vinculada ao URL exato do produto/padrão.
 
 | Marca | Tipo | Linha | Referências |
 |---|---|---|---:|
@@ -38,13 +38,17 @@
 | Quick-Step | Laminado | Vision | 8 |
 | Quick-Step | Vinílico | Vivre Planks | 6 |
 | Quick-Step | Vinílico | Vivre Tiles | 2 |
-| Santa Luzia | Rodapé | Rodapés | 21 |
+| Santa Luzia | Rodapé | Rodapés | 87 |
+| Santa Luzia | Rodapé | Rodapés de alumínio | 6 |
+| Santa Luzia | Vinílico | Diamantina | 6 |
+| Santa Luzia | Vinílico | Paraty | 4 |
+| Santa Luzia | Vinílico | Sampa | 4 |
 
 ## Cobertura e correção da coleta Eucafloor
 
 A primeira coleta capturou somente 31 padrões porque algumas páginas ainda não tinham concluído o carregamento. A nova consulta aguardou o conteúdo completo: 53 laminados em oito linhas, 24 vinílicos em duas linhas e 127 opções de rodapés/perfis Estilo e Acqua New. Opções de altura/acabamento são contadas separadamente somente quando o fabricante fornece um link próprio, inclusive o parâmetro type. Não são 127 cores distintas. A coleção atual de pisos e rodapés consultada está inventariada; acessórios não foram integralmente inventariados, nem se afirma catálogo completo de toda a Eucatex.
 
-Quick-Step: 59 laminados e 14 vinílicos conferidos contra as listagens expandidas; acessórios não inventariados. Santa Luzia: 21 rodapés, sem comprovação de enumeração integral das demais páginas/categorias. Durafloor: 38 itens do acervo BIM; coleção comercial atual não confirmada devido ao HTTP 403 no site comercial e /downloads, sem contorno.
+Quick-Step: 59 laminados e 14 vinílicos conferidos contra as listagens expandidas; acessórios não inventariados. Santa Luzia: a paginação pública foi expandida até o botão desaparecer, reunindo 254 links de produtos. Incorporados 107 itens das categorias pisos e rodapés: 87 rodapés de poliestireno, 6 de alumínio e 14 pisos vinílicos. Outros 147 produtos (guarnições, revestimentos, ripados, perfis e acessórios, entre outros) permanecem no inventário de pesquisa, sem afirmar que todas essas categorias são comercializadas pela PVS. Referências do fabricante não comprovam fornecimento ou estoque PVS. Durafloor: 38 itens do acervo BIM; coleção comercial atual não confirmada devido ao HTTP 403 no site comercial e /downloads, sem contorno.
 
 ## Uso das imagens Eucafloor: base oficial confirmada
 

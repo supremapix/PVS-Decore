@@ -1,0 +1,596 @@
+{
+  "checkedAt": "2026-11-04",
+  "source": "https://www.industriasantaluzia.com.br/produtos/",
+  "publicListingCount": 254,
+  "includedCount": 107,
+  "excluded": [
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/acessorios-para-fixacao/pote-de-cola-com-5-kg/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/acessorios-para-fixacao/sache-de-cola-com-3-kg/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/acessorios-para-fixacao/pote-de-cola-com-1-kg/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/acessorios-para-fixacao/tubo-de-cola-com-400g/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/acessorios-para-fixacao/super-adesivo-branco-400g/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/acessorios-para-fixacao/ultra-adesivo-cinza-400g/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodameio/versaled-branco-de-poliestireno-com-70mm-de-altura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/guarnicao/guarnicao-de-poliestireno-454-branca-com-100mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/guarnicao/guarnicao-de-poliestireno-457-branca-com-100mm-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/guarnicao/guarnicao-de-poliestireno-456-branca-com-70mm-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/guarnicao/guarnicao-de-poliestireno-451-branca-com-70mm-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/guarnicao/guarnicao-de-poliestireno-473-branca-com-50mm-de-altura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/acessorios-para-fixacao/fita-dupla-face-com-10-metros/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/guarnicao/guarnicao-de-poliestireno-lev72-branca-com-70mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/acessorios-para-fixacao/fita-dupla-face-com-2-metros/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/acessorios-para-fixacao/buchat-com-30-unidades-para-fixacao-de-perfis/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/guarnicao/guarnicao-de-poliestireno-lev71-branca-com-70mm-de-altura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/acessorios-para-acabamento/calafetador-400g-base-dagua/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/acessorios-para-acabamento/massa-premium-branca-com-340g/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/guarnicao/guarnicao-de-poliestireno-lev51-branca-com-50mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/acessorios-para-acabamento/massa-premium-branca-com-90g/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/guarnicao/guarnicao-de-poliestireno-b74-branca-frisada-massa-escura-com-70mm-de-altura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodameio/rodameio-de-poliestireno-466-branco-com-30mm-altura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/acessorios-para-acabamento/massa-premium-prata-com-90g/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodameio/rodameio-de-poliestireno-467-branco-com-60mm-de-altura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/acessorios-para-acabamento/massa-premium-fendi-com-90g/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodameio/rodameio-de-poliestireno-465-branco-com-40mm-altura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/acessorios-para-acabamento/massa-premium-carvalho-prata-com-90g/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/acessorios-para-acabamento/massa-premium-ipe-escuro-com-90g/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/acessorios-para-acabamento/massa-premium-cinza-titanium-com-90g/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodameio/rodameio-de-poliestireno-448-branco-com-29mm-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodameio/rodameio-de-poliestireno-468-branco-com-27mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/acessorios-para-acabamento/massa-premium-verde-oliva-com-90g/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodameio/rodameio-de-poliestireno-3466-preto-com-30mm-de-altura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/acessorios-para-acabamento/massa-premium-ouro-com-90g/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/rodateto/rodateto-de-poliestireno-475-branco-com-70mm-de-altura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/acessorios-para-acabamento/massa-premium-champanhe-com-90g/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/acessorios-para-acabamento/massa-premium-cobre-com-90g/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/meia-curva/meia-curva-de-poliestireno-599-fendi-com-37mm-de-altura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/acessorios-para-acabamento/massa-premium-cinza-glacial-com-90g/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/meia-curva/meia-curva-de-poliestireno-599-champanhe-com-37mm-de-altura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/acessorios-para-acabamento/massa-premium-black-com-90g/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/meia-curva/meia-curva-de-poliestireno-599-branco-com-37mm-de-altura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/meia-curva/meia-curva-de-poliestireno-598-fendi-com-25mm-de-altura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/meia-curva/meia-curva-de-poliestireno-598-champanhe-com-25mm-de-altura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/meia-curva/meia-curva-de-poliestireno-598-branca-com-25mm-de-altura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/meia-curva/meia-curva-de-poliestireno-597-fendi-com-16mm-de-altura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/meia-curva/meia-curva-de-poliestireno-597-champanhe-com-16mm-de-altura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/meia-curva/meia-curva-de-poliestireno-597-branco-com-16mm-de-altura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/ripados-de-encaixe-de-poliestireno/ripado-de-poliestireno-branco-com-105-mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/ripados-de-encaixe-de-poliestireno/ripado-de-poliestireno-cumaru-com-105-mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/ripas-e-filetes-de-poliestireno/ripa-de-poliestireno-fendi-com-30mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/ripas-e-filetes-de-poliestireno/ripa-de-poliestireno-cumaru-com-30mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/ripas-e-filetes-de-poliestireno/ripa-de-poliestireno-ouro-com-30mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/ripas-e-filetes-de-poliestireno/ripa-de-poliestireno-branca-com-30mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/ripas-e-filetes-de-poliestireno/filete-de-poliestireno-fendi-com-235mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/ripas-e-filetes-de-poliestireno/filete-de-poliestireno-cumaru-com-235mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/ripas-e-filetes-de-poliestireno/filete-de-poliestireno-branco-com-235mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/ripas-e-filetes-de-poliestireno/filete-de-poliestireno-ouro-com-235mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/lambris/lambri-de-poliestireno-656-tauari-com-100-mm-de-largura-e-280m-de-comprimento/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/lambris/lambri-de-poliestireno-656-fendi-com-100-mm-de-largura-e-280m-de-comprimento/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/lambris/lambri-de-poliestireno-656-branco-com-100-mm-de-largura-e-280m-de-comprimento/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/lambris/lambri-de-poliestireno-656-branco-com-100-mm-de-largura-e-120m-de-comprimento/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/painel-modulare-15-tauari-de-poliestireno-com-150-mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/painel-modulare-15-fendi-de-poliestireno-com-150-mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/painel-modulare-15-alabama-de-poliestireno-com-150-mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/painel-modulare-10-tauari-de-poliestireno-com-100-mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/painel-modulare-10-fendi-de-poliestireno-com-100-mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/socalos-e-rosetas/socalo-de-poliestireno-182-branco-com-270mm-de-altura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/painel-modulare-10-alabama-de-poliestireno-com-100-mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/socalos-e-rosetas/socalo-de-poliestireno-181-branco-com-220mm-de-altura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/painel-modulare-5-alabama-de-poliestireno-com-50-mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/socalos-e-rosetas/socalo-de-poliestireno-186-branco-com-160mm-de-altura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/painel-modulare-5-tauari-de-poliestireno-com-50-mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/socalos-e-rosetas/socalo-de-poliestireno-187-branco-com-160mm-de-altura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/painel-modulare-5-fendi-de-poliestireno-com-50-mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/socalos-e-rosetas/socalo-de-poliestireno-183-branco-com-150mm-de-altura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/painel-uba-branco-de-poliestireno-com-100-mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/socalos-e-rosetas/socalo-de-poliestireno-178-branco-com-120mm-de-altura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/painel-uba-couro-gelo-de-poliestireno-com-100-mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/socalos-e-rosetas/roseta-de-poliestireno-176-branca-com-100mm-de-altura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/painel-uba-cumaru-de-poliestireno-com-100-mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/painel-uba-freijo-de-poliestireno-com-100-mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/socalos-e-rosetas/roseta-de-poliestireno-175-branca-com-70mm-de-altura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/painel-uba-carvalho-de-poliestireno-com-100-mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/revestimento-de-poliestireno-duna-branco-com-150mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/revestimento-de-poliestireno-duna-artico-com-150mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/revestimento-de-poliestireno-duna-areia-com-150mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/revestimento-de-poliestireno-duna-mangue-com-150mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/painel-waves-branco-de-poliestireno-com-155-mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/painel-waves-fendi-de-poliestireno-com-155-mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/painel-waves-cinza-glacial-de-poliestireno-com-155-mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/painel-waves-cinza-titanium-de-poliestireno-com-155-mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/painel-waves-champanhe-de-poliestireno-com-155-mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/revestimento-de-poliestireno-nero-liso-naturale-tauari-com-162mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/revestimento-de-poliestireno-nero-liso-naturale-jequitiba-com-162mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/revestimento-de-poliestireno-nero-liso-jequitiba-com-162mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/revestimento-de-poliestireno-nero-frisado-jequitiba-com-162mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/revestimento-de-poliestireno-nero-linhas-jequitiba-com-162mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/revestimento-de-poliestireno-nero-frisado-mangue-com-162mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/revestimento-de-poliestireno-nero-frisado-areia-com-162mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/revestimento-de-poliestireno-nero-frisado-artico-com-162mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/revestimento-de-poliestireno-nero-frisado-nuvem-com-162mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/painel-gize-branco-de-poliestireno-com-144-mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/painel-gize-champanhe-de-poliestireno-com-144-mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/painel-gize-cinza-glacial-de-poliestireno-com-144-mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/painel-gize-oliva-de-poliestireno-com-144-mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/revestimentos/painel-gize-fendi-de-poliestireno-com-144-mm-de-largura/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/kit-porta/kit-porta-em-mdf-ultra-210x100-cm-branca-lisa/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/kit-porta/kit-porta-em-mdf-ultra-210x90-cm-branca-lisa/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/kit-porta/kit-porta-em-mdf-ultra-210x80-cm-branca-lisa/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/kit-porta/kit-porta-em-mdf-ultra-210x70-cm-branca-lisa/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/kit-porta/kit-porta-em-mdf-ultra-210x60-cm-branca-lisa/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/acabamento-de-poliestireno-branco-para-o-lambri/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/acabamento-de-poliestireno-para-modulare-alabama/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/acabamento-de-poliestireno-para-modulare-tauari/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/acabamento-de-poliestireno-para-modulare-fendi/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/perfil-de-borda-de-poliestireno-para-modulare-alabama/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/perfil-de-borda-de-poliestireno-para-modulare-tauari/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/perfil-de-borda-de-poliestireno-para-modulare-fendi/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/acabamento-de-poliestireno-para-uba-couro-gelo/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/acabamento-de-poliestireno-para-uba-cumaru/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/acabamento-de-poliestireno-para-uba-freijo/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/acabamento-de-poliestireno-para-uba-carvalho/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/acabamento-de-poliestireno-para-uba-branco/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/acabamento-de-poliestireno-tauari-para-painel-nero-naturale-lambri/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/acabamento-de-poliestireno-jequitiba-para-o-revestimento-nero-naturale/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/acabamento-de-poliestireno-jequitiba-para-o-revestimento-nero/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/acabamento-de-poliestireno-areia-fendi-para-painel-nero-lambri/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/acabamento-de-poliestireno-nuvem-para-o-revestimento-nero/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/acabamento-de-poliestireno-mangue-para-o-revestimento-nero/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/acabamento-de-poliestireno-artico-para-o-revestimento-nero/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/acabamento-de-poliestireno-para-gize-champanhe/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/acabamento-de-poliestireno-para-gize-branco/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/acabamento-de-poliestireno-para-gize-cinza-glacial/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/acabamento-de-poliestireno-para-gize-oliva/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/acabamento-de-poliestireno-para-gize-fendi/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/acabamento-de-poliestireno-cinza-titanium-para-painel-ripado/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/acabamento-de-poliestireno-fendi-areia-para-o-painel-waves-ripado-duna/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/acabamento-de-poliestireno-champanhe-para-painel-waves-ripado/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/acabamento-de-poliestireno-cumaru-para-painel-ripado/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/acabamento-de-poliestireno-cinza-glacial-para-painel-ripado/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/acabamento-de-poliestireno-branco-para-o-painel-waves-ripado-duna/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/acabamento-de-poliestireno-cinza-titanium-para-o-painel-waves/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/acabamento-de-poliestireno-cinza-glacial-para-o-painel-waves/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/acabamento-de-poliestireno-artico-para-o-revestimento-duna/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    },
+    {
+      "url": "https://www.industriasantaluzia.com.br/produtos/detalhes/perfis-de-acabamento/acabamento-de-poliestireno-mangue-para-o-revestimento-duna/",
+      "reason": "Categoria adicional ainda não confirmada no escopo comercial PVS"
+    }
+  ]
+}
