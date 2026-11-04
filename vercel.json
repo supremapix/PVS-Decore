@@ -3,6 +3,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/bairro",
+      "destination": "/areas-atendidas",
+      "permanent": true
+    },
+    {
       "source": "/bairro/cic",
       "destination": "/bairro/cidade-industrial-de-curitiba",
       "permanent": true

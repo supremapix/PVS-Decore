@@ -145,3 +145,8 @@ Verificação específica: scripts/verify-location-regression.mjs compara todas 
 - Cards HomeFacts e guias prioritários ilustrados com acervo claramente rotulado e padrão oficial, sem foto fictícia de loja/obra. Popup reutilizado.
 - QA: TypeScript/build,309 cenários editoriais,110 de localidades,56 novo conteúdo/visual,40 catálogo,120 URLs históricas e verificador geral aprovados. Fonte/data/limites registrados em data/locality-content-sources.json.
 - GSC: exemplos atuais /contato,/faq,/service/instalacao-comercial e catálogo sem Product;165 HTMLs confirmados por scripts/audit-schema.mjs. Não foi modificado schema correto para simular correção. URLs específicas de404/duplicada ainda não recebidas; não houve envio/validação GSC por este executor.
+
+## GSC: raiz de navegação /bairro
+- Lote editorial25c3e3c publicado e validado nos dois domínios:56 cenários novos,110 localidades e120 URLs históricas por domínio aprovados;165 páginas ao vivo sem Product/Offer/Review/AggregateRating,108 localidades elegíveis/41 noindex e123 sitemap preservados.
+- /bairro confirmado404; /bairro/ normaliza com308 para/bairro. /areas-atendidas responde200, canonical próprio e lista120 URLs de bairros (121 links incluindo destaque Batel). Não foi encontrado hub histórico implementado em App.tsx; a equivalência adotada é de intenção de navegação da raiz do namespace para o diretório atual, não restauração de conteúdo antigo inexistente.
+- Regra exata permanente /bairro→/areas-atendidas. A normalização de slash permanece existente. Não adicionada regra curinga, não alteradas URLs específicas ou sitemap. Desconhecidas devem continuar404.
