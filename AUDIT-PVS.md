@@ -138,3 +138,10 @@ Verificação específica: scripts/verify-location-regression.mjs compara todas 
 ## Autorização específica do banner e da home
 - Confirmação explícita recebida após a restrição anterior, autorizando publicação conjunta com o popup já existente. Antes de publicar, HEAD/main remoto conferidos em eae4d6610df9553c6fb7051041c455ef3cdd252b; nenhuma publicação incerta do banner/home foi encontrada.
 - QA local concluído anteriormente foi recuperado; nenhuma alteração de aplicação ocorreu desde esses resultados. A única adaptação do verificador separa relatórios locais dos relatórios por domínio de produção.
+
+## Localidades: comparação útil e cards ilustrados
+- Base40c003e. Relatório LOCALITY-DEPTH-REVIEW.md e inventário antes/depois em qa/locality-depth-*.json. Prioridades Batel/CIC/Portão com perguntas próprias, roteiros CIC/Portão reescritos, H1 específico;5 cidades com perguntas de planejamento; comparação por uso/base/acabamento em149 rotas usando3 fotos reais Eucafloor.
+- Mantidos108 elegíveis e41 noindex. Em40 referências sem confirmação, aviso de cobertura pendente; alias Alto da Rua XV com explicação própria. Service/areaServed da localidade removido das41 não indexáveis, sem alterar canonicals/URLs/sitemap.
+- Cards HomeFacts e guias prioritários ilustrados com acervo claramente rotulado e padrão oficial, sem foto fictícia de loja/obra. Popup reutilizado.
+- QA: TypeScript/build,309 cenários editoriais,110 de localidades,56 novo conteúdo/visual,40 catálogo,120 URLs históricas e verificador geral aprovados. Fonte/data/limites registrados em data/locality-content-sources.json.
+- GSC: exemplos atuais /contato,/faq,/service/instalacao-comercial e catálogo sem Product;165 HTMLs confirmados por scripts/audit-schema.mjs. Não foi modificado schema correto para simular correção. URLs específicas de404/duplicada ainda não recebidas; não houve envio/validação GSC por este executor.

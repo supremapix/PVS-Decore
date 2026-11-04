@@ -1,0 +1,20 @@
+{
+  "reviewedAt": "2026-11-04",
+  "base": "40c003e",
+  "geography": "geographic-evidence.json",
+  "officialNeighborhoods": "curitiba-official-neighborhoods.json",
+  "coverageDecisions": "../qa/locality-review-2026-11-04.json",
+  "technical": [
+    {
+      "url": "https://www.quick-step.com.br/pt-br/pisos-laminados/instalacao",
+      "scope": "Avaliação da base e consulta ao manual; sem extrapolar sistema ou medidas a outras marcas"
+    },
+    {
+      "url": "https://www.quick-step.com.br/pt-br/pisos-laminados/limpar",
+      "scope": "Consulta ao manual de manutenção e identificação do material; sem recomendar produto de limpeza universal"
+    }
+  ],
+  "productImages": "supplier-images.json",
+  "catalogAvailability": "Referências sob consulta, sem comprovação de estoque",
+  "municipalLimits": "As fontes geográficas não comprovam obras, filiais ou atendimento da PVS; cobertura segue política existente."
+}

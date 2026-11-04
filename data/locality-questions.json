@@ -1,0 +1,66 @@
+{
+  "batel": [
+    {
+      "question": "Como comparar piso e exigência de condomínio em um endereço no Batel?",
+      "answer": "Peça ao condomínio as regras aplicáveis ao seu imóvel e envie-as junto da linha de interesse. Uma manta ou um piso não deve ser declarado adequado a uma exigência acústica apenas pela aparência ou pelo bairro. A proposta precisa identificar o sistema e a documentação usada na avaliação."
+    },
+    {
+      "question": "Batel e Batel Soho indicam duas lojas da PVS?",
+      "answer": "Não. Batel é um bairro de Curitiba; Batel Soho é uma referência de circuito na região da Praça Espanha. Essas denominações ajudam a localizar a consulta, mas não representam filiais da PVS. A loja e o showroom informados ficam em São José dos Pinhais; envie rua, número e CEP."
+    }
+  ],
+  "cidade-industrial-de-curitiba": [
+    {
+      "question": "Um piso para escritório também pode ser usado em qualquer área industrial na CIC?",
+      "answer": "Não é possível concluir isso pelo nome do bairro nem pelo uso em escritório. Descreva a atividade, equipamentos, circulação e limpeza de cada área. A indicação deve ser conferida na documentação da linha antes de incluir o material na proposta; a PVS não apresenta nesta página um piso como solução universal para uso industrial."
+    },
+    {
+      "question": "Como identificar o endereço quando a consulta usa a sigla CIC?",
+      "answer": "CIC é a referência histórica desta página de Cidade Industrial de Curitiba. Envie também rua, número, CEP e acesso ao imóvel. A referência municipal de regional não é um perímetro de entrega nem comprovação de filial da PVS; disponibilidade e logística são confirmadas na consulta."
+    }
+  ],
+  "porto": [
+    {
+      "question": "Devo informar bairro Portão ou Regional Portão no orçamento?",
+      "answer": "Informe o bairro do endereço, além de rua, número e CEP. A Prefeitura relaciona Portão entre vários bairros da Regional Portão, portanto o nome da regional sozinho não identifica o imóvel. Essa informação ajuda a esclarecer acesso e consulta de atendimento, sem presumir condições de entrega."
+    },
+    {
+      "question": "Como comparar propostas de piso para uma reforma no Portão?",
+      "answer": "Compare a mesma linha, quantidade e escopo. Verifique preparação da base, retirada do revestimento quando necessária, rodapés, perfis, instalação e transporte. Se as propostas usam sistemas diferentes, peça as diferenças de execução e manutenção. O nome da localidade não determina preço, prazo ou condição do contrapiso."
+    }
+  ],
+  "so-jos-dos-pinhais": [
+    {
+      "question": "Ter a loja na mesma cidade garante que a amostra esteja disponível?",
+      "answer": "Não. Antes de visitar o showroom, envie marca, linha e padrão e confirme a amostra e o horário. O catálogo reúne referências dos fabricantes, incluindo acervo para reposição, e não representa estoque em tempo real."
+    },
+    {
+      "question": "O que levar do imóvel de São José dos Pinhais para a comparação presencial?",
+      "answer": "Leve fotos sem filtros, medidas aproximadas por cômodo e referências de portas e móveis. Informe também a rotina de uso e limpeza. A visita ajuda a discutir materiais; as condições da base e de instalação continuam dependendo da avaliação do endereço."
+    }
+  ],
+  "curitiba": [
+    {
+      "question": "As regras de reforma são iguais em todos os condomínios de Curitiba?",
+      "answer": "Não presuma uma regra única. Consulte a administração do seu condomínio sobre obra, recebimento, elevador e documentação necessária. Envie as condições junto das informações do imóvel para que o planejamento não dependa de uma suposição baseada no bairro."
+    }
+  ],
+  "pinhais": [
+    {
+      "question": "Como preparar a consulta de entrega para um imóvel em Pinhais?",
+      "answer": "Informe o endereço completo, quem receberá o material e o caminho entre o ponto de descarga e o ambiente. Descreva escadas, elevadores ou restrições que existirem. Entrega e movimentação interna precisam ser esclarecidas na proposta; não são deduzidas apenas pela cidade."
+    }
+  ],
+  "colombo": [
+    {
+      "question": "Como organizar uma reforma em Colombo com parte do imóvel ocupada?",
+      "answer": "Liste quais cômodos devem permanecer acessíveis, onde ficarão os móveis e quais trechos dependem da passagem por outro ambiente. A sequência precisa ser combinada após avaliar base e sistema. Não há prazo universal de liberação de uso para toda reforma."
+    }
+  ],
+  "araucria": [
+    {
+      "question": "O que informar para escolher piso comercial em Araucária?",
+      "answer": "Descreva a atividade, circulação, mobiliário com rodízios e rotina de limpeza. Essas condições orientam a consulta da ficha do fabricante. A aparência e o nome da cidade não comprovam classe de uso ou compatibilidade; peça a indicação da versão oferecida."
+    }
+  ]
+}
