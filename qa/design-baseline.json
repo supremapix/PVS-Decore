@@ -1,0 +1,82 @@
+[
+  {
+    "route": "/contato",
+    "width": 390,
+    "status": 200,
+    "title": "Fale Conosco | PVS Decore - Orçamento de pisos em Curitiba e SJP",
+    "canonical": "https://www.pvsdecore.com.br/contato",
+    "robots": "index, follow, max-image-preview:large"
+  },
+  {
+    "route": "/faq",
+    "width": 390,
+    "status": 200,
+    "title": "FAQ Completo — Dúvidas sobre Pisos Vinílicos, Laminados e SPC | PVS Decore",
+    "canonical": "https://www.pvsdecore.com.br/faq",
+    "robots": "index, follow, max-image-preview:large"
+  },
+  {
+    "route": "/product/piso-laminado",
+    "width": 390,
+    "status": 200,
+    "title": "Piso laminado: escolha e instalação | PVS Decore",
+    "canonical": "https://www.pvsdecore.com.br/product/piso-laminado",
+    "robots": "index, follow, max-image-preview:large"
+  },
+  {
+    "route": "/service/instalacao-comercial",
+    "width": 390,
+    "status": 200,
+    "title": "Instalação de pisos comerciais | PVS Decore",
+    "canonical": "https://www.pvsdecore.com.br/service/instalacao-comercial",
+    "robots": "index, follow, max-image-preview:large"
+  },
+  {
+    "route": "/mapa-do-site",
+    "width": 390,
+    "status": 200,
+    "title": "Mapa do Site | PVS Decore - Todas as Paginas",
+    "canonical": "https://www.pvsdecore.com.br/mapa-do-site",
+    "robots": "index, follow, max-image-preview:large"
+  },
+  {
+    "route": "/contato",
+    "width": 1440,
+    "status": 200,
+    "title": "Fale Conosco | PVS Decore - Orçamento de pisos em Curitiba e SJP",
+    "canonical": "https://www.pvsdecore.com.br/contato",
+    "robots": "index, follow, max-image-preview:large"
+  },
+  {
+    "route": "/faq",
+    "width": 1440,
+    "status": 200,
+    "title": "FAQ Completo — Dúvidas sobre Pisos Vinílicos, Laminados e SPC | PVS Decore",
+    "canonical": "https://www.pvsdecore.com.br/faq",
+    "robots": "index, follow, max-image-preview:large"
+  },
+  {
+    "route": "/product/piso-laminado",
+    "width": 1440,
+    "status": 200,
+    "title": "Piso laminado: escolha e instalação | PVS Decore",
+    "canonical": "https://www.pvsdecore.com.br/product/piso-laminado",
+    "robots": "index, follow, max-image-preview:large"
+  },
+  {
+    "route": "/service/instalacao-comercial",
+    "width": 1440,
+    "status": 200,
+    "title": "Instalação de pisos comerciais | PVS Decore",
+    "canonical": "https://www.pvsdecore.com.br/service/instalacao-comercial",
+    "robots": "index, follow, max-image-preview:large"
+  },
+  {
+    "route": "/mapa-do-site",
+    "width": 1440,
+    "status": 200,
+    "title": "Mapa do Site | PVS Decore - Todas as Paginas",
+    "canonical": "https://www.pvsdecore.com.br/mapa-do-site",
+    "robots": "index, follow, max-image-preview:large"
+  }
+]

@@ -1,3 +1,4 @@
+import verifiedSpecifications from '../data/product-specifications.json';
 import React, {useEffect, useRef} from 'react';
 import {createPortal} from 'react-dom';
 import {CONTACT_PHONE} from '../constants';
@@ -15,6 +16,7 @@ export default function ProductDialog({product,photo,opener,onDismiss}:{product:
   body.setAttribute('data-product-dialog','open');el.showModal();heading.current?.focus({preventScroll:true});
   return()=>{el.close();body.style.position=previous.position;body.style.top=previous.top;body.style.width=previous.width;root.style.overflow=previous.overflow;body.removeAttribute('data-product-dialog');window.scrollTo({left:scrollX,top:scrollY,behavior:'instant'});if(opener?.isConnected)opener.focus({preventScroll:true});};
  },[opener]);
+ const specification=verifiedSpecifications[product.url as keyof typeof verifiedSpecifications];
  const legacy=product.brand==='Durafloor';
  const variant=product.brand==='Eucafloor'?new URL(product.url).searchParams.get('type'):null;
  return createPortal(<dialog ref={dialog} className="product-dialog" aria-labelledby="product-dialog-title" aria-describedby="product-dialog-availability" onCancel={event=>{event.preventDefault();onDismiss()}} onKeyDown={event=>{
@@ -28,7 +30,7 @@ export default function ProductDialog({product,photo,opener,onDismiss}:{product:
     <div>{photo?<figure><img src={photo.src} width={photo.width} height={photo.height} alt={photo.alt} decoding="async"/><figcaption>Imagem oficial do padrão · {photo.credit}. A cor na tela pode variar. Confirme a amostra física; esta imagem não representa obra PVS.</figcaption></figure>:<div className="product-dialog-no-photo"><h3>Confira a imagem na fonte oficial</h3><p>A foto deste item não está incorporada ao catálogo. Use o link do fabricante para consultar sua aparência e ficha.</p></div>}</div>
     <section aria-labelledby="product-dialog-specs"><h3 id="product-dialog-specs">Identificação e especificações</h3><dl>
      <div><dt>Fabricante / marca</dt><dd>{product.brand}</dd></div><div><dt>Tipo</dt><dd>{product.type}</dd></div><div><dt>Linha / família</dt><dd>{product.line}</dd></div><div><dt>Padrão / modelo</dt><dd>{product.name}</dd></div><div><dt>Código no catálogo</dt><dd>{product.code||'Não registrado nesta referência'}</dd></div>{variant&&<div><dt>Variante indicada pelo fabricante</dt><dd>{variant}</dd></div>}
-    </dl><p>Dimensões, instalação, classe de uso e demais características devem ser conferidas na ficha oficial da versão selecionada. Não são inferidas pela fotografia ou por outra linha.</p>
+    </dl>{specification&&<div className="product-verified-specs"><h3>Dados verificados de {specification.code}</h3><dl>{specification.fields.map(([label,value])=><div key={label}><dt>{label}</dt><dd>{value}</dd></div>)}</dl><p>Consulta à ficha oficial em {specification.checkedAt}. Estes dados se referem ao código indicado e não devem ser generalizados para toda a linha.</p></div>}<p>Confirme as características e os requisitos de instalação na ficha oficial da versão selecionada. Informações não registradas aqui não são inferidas pela fotografia ou por outra linha.</p>
     <a className="product-dialog-source" href={product.url} target="_blank" rel="noopener noreferrer">{legacy?'Consultar acervo BIM oficial':'Consultar ficha oficial do fabricante'} <span>(nova aba)</span></a></section>
    </div>
    <section className="product-dialog-consult" aria-labelledby="product-dialog-consult-title"><h3 id="product-dialog-consult-title">{legacy?'Consulta para identificação e reposição':'Consulte este material com a PVS'}</h3><p id="product-dialog-availability">Disponibilidade sob consulta. A referência não confirma estoque, preço, amostra disponível ou fornecimento pela PVS.</p>{legacy&&<p>Acervo BIM: pode conter linhas fora de coleção. Confirme fabricação atual, medidas e compatibilidade antes de planejar uma reposição.</p>}<p>{product.status}</p><a className="product-dialog-cta" href={productInquiry(product)} target="_blank" rel="noopener noreferrer">Consultar este produto no WhatsApp</a><p>Você revisa e envia a mensagem no WhatsApp. Abrir a consulta não reserva o material.</p></section>

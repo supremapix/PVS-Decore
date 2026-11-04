@@ -1,7 +1,8 @@
+import './LeadForm.css';
 import React, { useState } from 'react';
 import { CONTACT_PHONE } from '../constants';
 
-const LeadForm = ({ locationName }: { locationName?: string }) => {
+const LeadForm = ({ locationName, subject }: { locationName?: string; subject?: string }) => {
   const [formData, setFormData] = useState({
     name: '',
     location: locationName || '',
@@ -11,15 +12,16 @@ const LeadForm = ({ locationName }: { locationName?: string }) => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const text = encodeURIComponent(`Solicitação PVS Decore\nNome: ${formData.name}\nRegião: ${formData.location}\nInteresse: ${formData.type}\nMensagem: ${formData.message}`);
+    const text = encodeURIComponent(`Solicitação PVS Decore\n${subject?'Assunto: '+subject+'\n':''}Nome: ${formData.name}\nRegião: ${formData.location}\nInteresse: ${formData.type}\nMensagem: ${formData.message}`);
     window.open(`https://wa.me/${CONTACT_PHONE}?text=${text}`, '_blank', 'noopener,noreferrer');
   };
 
   return (
-    <div className="bg-white p-6 md:p-8 rounded-2xl shadow-xl border border-gray-100">
+    <div className="lead-form bg-white p-6 md:p-8 rounded-2xl shadow-xl border border-gray-100">
       <h3 className="text-2xl font-bold text-gray-900 mb-2">Solicite um Orçamento</h3>
       <p className="text-gray-500 mb-6">Revise sua mensagem no WhatsApp antes de enviar. A disponibilidade é confirmada para o endereço.</p>
 
+      {subject&&<p>Consulta: {subject}</p>}
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
           <label htmlFor="lead-name" className="block text-sm font-medium text-gray-700 mb-1">Seu Nome</label>

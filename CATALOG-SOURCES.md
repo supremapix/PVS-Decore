@@ -65,3 +65,6 @@ Foram utilizadas imagens públicas dos padrões nas páginas oficiais, com créd
 - Durafloor: canal oficial /downloads anuncia imagens em alta resolução, mas retornou 403 nesta consulta. O acervo BIM não foi interpretado como licença universal de marketing.
 
 Ação pendente para Quick-Step, Santa Luzia e Durafloor: confirmar kit/autorização aplicável ou fotos próprias de amostras identificadas. A pergunta ao usuário permanece pertinente somente às marcas sem base confirmada. Não houve negação de publicação do projeto. O catálogo visual foi ampliado com Eucafloor; não é visualmente completo para todas as marcas.
+
+## Conferência durante a harmonização visual
+Max Elegance Click(8 padrões) e Natura Matt Click/Cumaru Nativo já constam no inventário; nenhum nome foi substituído pelo catálogo do concorrente. Ficha oficial QSSM8818/Carvalho cacau conferida em04/11/2026:1200×190×7mm,2,508m²/embalagem,11 réguas,classe32,Uniclic,marrom escuro. Dados específicos salvos em data/product-specifications.json e exibidos apenas nesse código. Não incorporada foto Quick-Step sem autorização. Sonata não foi incluída: consulta pública por SKU/URL específica ainda não produziu item verificável neste lote. Contagem422 e204 imagens preservada.

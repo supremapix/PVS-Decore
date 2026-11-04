@@ -1,106 +1,11 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import EnhancedSEO from '../components/EnhancedSEO';
 import PageTransition from '../components/PageTransition';
-import MapSection from '../components/MapSection';
 import LeadForm from '../components/LeadForm';
 import FAQSection from '../components/FAQSection';
-import { Mail, Phone, MapPin } from 'lucide-react';
-import { CONTACT_EMAIL, CONTACT_DISPLAY, CONTACT_ADDRESS } from '../constants';
-
-const ContactPage = () => {
-  return (
-    <PageTransition>
-      <EnhancedSEO
-        title="Fale Conosco | PVS Decore - Orçamento de pisos em Curitiba e SJP"
-        description="Entre em contato com a PVS Decore. Solicite orçamento de piso vinilico ou laminado. Loja em Sao Jose dos Pinhais, atendemos Curitiba e regiao. (41) 3076-6240."
-        url="/contato"
-        keywords="contato pvs decore, orcamento pisos curitiba, orcamento pisos sao jose dos pinhais, loja pisos sjp, telefone pvs decore"
-      />
-
-      {/* Header */}
-      <div className="bg-gray-900 text-white py-16">
-        <div className="container mx-auto px-4 text-center">
-          <span className="text-brand-orange font-bold tracking-widest uppercase text-sm">
-            Atendimento Personalizado
-          </span>
-          <h1 className="text-3xl md:text-5xl font-black mt-2 mb-4">
-            Fale com a PVS Decore
-          </h1>
-          <p className="text-gray-400 max-w-2xl mx-auto text-lg">
-            Estamos prontos para transformar o seu projeto. Visite nossa loja ou nos envie uma mensagem.
-          </p>
-        </div>
-      </div>
-
-      {/* Map Section (Contains Store Info) */}
-      <MapSection />
-
-      {/* Contact Form & Info Grid */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-            <div className="grid md:grid-cols-2 gap-12 lg:gap-20">
-                {/* Form Side */}
-                <div>
-                   <h2 className="text-3xl font-black text-gray-900 mb-6">Envie uma Mensagem</h2>
-                   <p className="text-gray-600 mb-8">
-                     Preencha o formulário abaixo para solicitar um orçamento ou tirar dúvidas. 
-                     Você poderá revisar o texto no WhatsApp antes de enviar.
-                   </p>
-                   <LeadForm locationName="Curitiba e Região" />
-                </div>
-
-                {/* Info Text Side */}
-                <div className="space-y-8">
-                    <div>
-                        <h3 className="text-xl font-bold text-gray-900 mb-4">Canais de Atendimento</h3>
-                        <ul className="space-y-4 text-gray-600">
-                             <li className="flex items-center gap-3 p-4 bg-gray-50 rounded-xl hover:bg-orange-50 transition border border-gray-100">
-                                <div className="bg-brand-orange text-white p-2 rounded-full">
-                                   <Phone size={20} />
-                                </div>
-                                <div>
-                                   <span className="block text-xs font-bold uppercase text-gray-400">Telefone / WhatsApp</span>
-                                   <span className="font-bold text-lg text-gray-900">{CONTACT_DISPLAY}</span>
-                                </div>
-                             </li>
-                             <li className="flex items-center gap-3 p-4 bg-gray-50 rounded-xl hover:bg-orange-50 transition border border-gray-100">
-                                <div className="bg-brand-orange text-white p-2 rounded-full">
-                                   <Mail size={20} />
-                                </div>
-                                <div>
-                                   <span className="block text-xs font-bold uppercase text-gray-400">E-mail</span>
-                                   <span className="font-bold text-lg text-gray-900">{CONTACT_EMAIL}</span>
-                                </div>
-                             </li>
-                             <li className="flex items-center gap-3 p-4 bg-gray-50 rounded-xl hover:bg-orange-50 transition border border-gray-100">
-                                <div className="bg-brand-orange text-white p-2 rounded-full">
-                                   <MapPin size={20} />
-                                </div>
-                                <div>
-                                   <span className="block text-xs font-bold uppercase text-gray-400">Loja física</span>
-                                   <span className="font-bold text-sm text-gray-900 leading-tight">{CONTACT_ADDRESS}</span>
-                                </div>
-                             </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-      </section>
-
-      {/* FAQs */}
-      <section className="py-20 bg-gray-50">
-          <div className="container mx-auto px-4">
-              <div className="text-center mb-12">
-                  <h2 className="text-3xl font-black text-gray-900 mb-4">Dúvidas Frequentes</h2>
-                  <p className="text-gray-600">Perguntas comuns antes de entrar em contato.</p>
-              </div>
-              <FAQSection />
-          </div>
-      </section>
-
-    </PageTransition>
-  );
-};
-
-export default ContactPage;
+import Illustration from '../components/Illustration';
+import {Mail,Phone,MapPin} from 'lucide-react';
+import {CONTACT_EMAIL,CONTACT_PHONE,CONTACT_DISPLAY,CONTACT_ADDRESS} from '../constants';
+import '../components/EditorialPage.css';
+export default function ContactPage(){return <PageTransition><div className="editorial-page contact-page"><EnhancedSEO title="Fale Conosco | PVS Decore - Orçamento de pisos em Curitiba e SJP" description="Entre em contato com a PVS Decore. Solicite orçamento de piso vinilico ou laminado. Loja em Sao Jose dos Pinhais, atendemos Curitiba e regiao. (41) 3076-6240." url="/contato"/><section className="shell section editorial-hero"><div><p className="eyebrow">Contato e planejamento</p><h1 className="editorial-title">Vamos conversar<br/>sobre o seu piso.</h1><p>Conte o que deseja renovar, quais ambientes receberão o material e onde fica o imóvel. A PVS confirma as condições de atendimento para o seu endereço.</p><div className="editorial-actions"><a className="button" href="#contato-form">Preparar minha mensagem</a><a className="button secondary" href={'https://wa.me/'+CONTACT_PHONE}>Abrir WhatsApp</a></div><a href={'tel:+'+CONTACT_PHONE}>Prefere ligar? {CONTACT_DISPLAY}</a></div><div><Illustration name="amostras"/><p className="text-sm">Referência ilustrativa de materiais; não é fotografia do showroom.</p></div></section><section className="editorial-surface"><div className="shell section editorial-grid"><div><p className="eyebrow">Loja em São José dos Pinhais</p><h2 className="editorial-title">Um endereço para conhecer.<br/>Canais para falar com a PVS.</h2><address>{CONTACT_ADDRESS}</address><div className="editorial-contact-links"><a href={'tel:+'+CONTACT_PHONE}><Phone aria-hidden="true"/>Ligar: {CONTACT_DISPLAY}</a><a href={'https://wa.me/'+CONTACT_PHONE}>WhatsApp: {CONTACT_DISPLAY}</a><a href={'mailto:'+CONTACT_EMAIL}><Mail aria-hidden="true"/>{CONTACT_EMAIL}</a><a href={'https://www.google.com/maps/dir//'+encodeURIComponent(CONTACT_ADDRESS)} target="_blank" rel="noopener noreferrer"><MapPin aria-hidden="true"/>Abrir rota para a loja no Google Maps</a></div><p>Antes de visitar, confirme o horário e as amostras disponíveis. A presença de uma referência no catálogo não indica estoque ou amostra na loja.</p><Link className="button secondary" to="/loja-showroom-sao-jose-dos-pinhais">Planejar visita ao showroom</Link></div><div id="contato-form"><h2 className="editorial-title">Prepare sua consulta.</h2><p>O formulário organiza os dados do projeto. Você revisa a mensagem no WhatsApp antes de enviar.</p><LeadForm/></div></div></section><section className="shell section editorial-grid"><div><Illustration name="medicao"/><h2 className="editorial-title">O que ajuda no primeiro contato?</h2><ul className="list-disc pl-6"><li>Cidade, bairro, rua e CEP do imóvel.</li><li>Medidas aproximadas e ambientes que serão renovados.</li><li>Fotos do piso atual e informações sobre acesso.</li><li>Marca, linha ou padrão que deseja comparar.</li></ul><Link to="/nossos-produtos">Consultar materiais e fotos do catálogo</Link></div><div><p className="eyebrow">Antes de conversar</p><h2 className="editorial-title">Dúvidas frequentes.</h2><FAQSection/><Link to="/faq">Ver todas as dúvidas sobre pisos</Link></div></section></div></PageTransition>}

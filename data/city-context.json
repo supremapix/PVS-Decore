@@ -1,0 +1,198 @@
+{
+  "checkedAt": "2026-11-04",
+  "places": {
+    "curitiba": {
+      "kind": "Município e capital do Paraná",
+      "text": "Curitiba é a capital do Paraná. A divisão municipal em bairros e regionais ajuda a localizar as referências deste diretório; para o projeto, a PVS precisa do endereço completo do imóvel.",
+      "source": "https://www.curitiba.pr.gov.br/conteudo/perfil-da-cidade-de-curitiba/174"
+    },
+    "so-jos-dos-pinhais": {
+      "kind": "Município da Região Metropolitana de Curitiba",
+      "text": "São José dos Pinhais integra a Região Metropolitana de Curitiba. É o município da loja e do showroom informados pela PVS: a visita serve para conversar sobre materiais e consultar amostras, sem substituir a avaliação da base no imóvel.",
+      "source": "https://www.amep.pr.gov.br/FAQ/Municipios-da-Regiao-Metropolitana-de-Curitiba"
+    },
+    "pinhais": {
+      "kind": "Município da Região Metropolitana de Curitiba",
+      "text": "Pinhais é um dos municípios da Região Metropolitana de Curitiba relacionados pela Amep. O município identifica a consulta, mas não determina sozinho como receber os materiais; rua, CEP e acesso ao ambiente entram no planejamento.",
+      "source": "https://www.amep.pr.gov.br/FAQ/Municipios-da-Regiao-Metropolitana-de-Curitiba"
+    },
+    "colombo": {
+      "kind": "Município da Região Metropolitana de Curitiba",
+      "text": "Colombo consta na relação de municípios da Região Metropolitana de Curitiba publicada pela Amep. Informe também o bairro e o CEP: referências locais não substituem o endereço necessário para discutir entrega e instalação.",
+      "source": "https://www.amep.pr.gov.br/FAQ/Municipios-da-Regiao-Metropolitana-de-Curitiba"
+    },
+    "araucria": {
+      "kind": "Município da Região Metropolitana de Curitiba",
+      "text": "Araucária integra a Região Metropolitana de Curitiba segundo a Amep. Essa referência geográfica não define o tipo de imóvel nem a exigência do piso; a consulta deve distinguir residência, loja, escritório e qualquer outra atividade.",
+      "source": "https://www.amep.pr.gov.br/FAQ/Municipios-da-Regiao-Metropolitana-de-Curitiba"
+    },
+    "adrianpolis": {
+      "kind": "Município da Região Metropolitana de Curitiba; atendimento sob consulta",
+      "text": "Adrianópolis fica no nordeste do Paraná; sua referência territorial inclui o rio Ribeira na divisa com São Paulo. Informe a localidade e o CEP para distinguir o endereço do projeto.",
+      "source": "https://biblioteca.ibge.gov.br/visualizacao/dtb/parana/adrianopolis.pdf",
+      "coverageConfirmed": false,
+      "regionalSource": "https://www.amep.pr.gov.br/Pagina/Sobre-RM-de-Curitiba"
+    },
+    "agudos-do-sul": {
+      "kind": "Município da Região Metropolitana de Curitiba; atendimento sob consulta",
+      "text": "A Prefeitura de Agudos do Sul apresenta localidades como Lagoa dos Souzas e Rio da Várzea. Ao pedir uma consulta, acrescente a localidade ao município, sem dispensar rua e CEP.",
+      "source": "https://www.agudosdosul.pr.gov.br/a-cidade/localidades",
+      "coverageConfirmed": false,
+      "regionalSource": "https://www.amep.pr.gov.br/Pagina/Sobre-RM-de-Curitiba"
+    },
+    "almirante-tamandar": {
+      "kind": "Município da Região Metropolitana de Curitiba; atendimento sob consulta",
+      "text": "A referência municipal de Almirante Tamandaré contempla espaços urbanos e rurais, além do Parque Aníbal Khury junto ao Barigui. Descreva o endereço e o acesso do imóvel, sem deduzir condições de atendimento pelo nome do município.",
+      "source": "https://tamandare.pr.gov.br/servicos/turismo/turismo-rural",
+      "coverageConfirmed": false,
+      "regionalSource": "https://www.amep.pr.gov.br/Pagina/Sobre-RM-de-Curitiba"
+    },
+    "balsa-nova": {
+      "kind": "Município da Região Metropolitana de Curitiba; atendimento sob consulta",
+      "text": "São Luiz do Purunã é uma referência distrital de Balsa Nova mencionada pela Amep. Informe o distrito ou a localidade na consulta; este guia não define limites territoriais em discussão.",
+      "source": "https://www.amep.pr.gov.br/Noticia/Amep-apresenta-proposta-de-ajuste-nos-limites-entre-Campo-Largo-e-Balsa-Nova",
+      "coverageConfirmed": false,
+      "regionalSource": "https://www.amep.pr.gov.br/Pagina/Sobre-RM-de-Curitiba"
+    },
+    "bocaiva-do-sul": {
+      "kind": "Município da Região Metropolitana de Curitiba; atendimento sob consulta",
+      "text": "A história municipal de Bocaiúva do Sul registra a antiga denominação Arraial Queimado, no contexto do planalto curitibano. Para um projeto atual, use município, rua e CEP, além da referência local.",
+      "source": "https://www.ibge.gov.br/biblioteca/visualizacao/dtb/parana/bocaiuvadosul.pdf",
+      "coverageConfirmed": false,
+      "regionalSource": "https://www.amep.pr.gov.br/Pagina/Sobre-RM-de-Curitiba"
+    },
+    "campina-grande-do-sul": {
+      "kind": "Município da Região Metropolitana de Curitiba; atendimento sob consulta",
+      "text": "A Prefeitura apresenta a Praça Bento Munhoz da Rocha Neto como referência do centro de Campina Grande do Sul, junto a prédios públicos e à Igreja São João Batista. Pontos de referência ajudam, mas não substituem o endereço do imóvel.",
+      "source": "https://campinagrandedosul.pr.gov.br/campina-grande-do-sul",
+      "coverageConfirmed": false,
+      "regionalSource": "https://www.amep.pr.gov.br/Pagina/Sobre-RM-de-Curitiba"
+    },
+    "campo-do-tenente": {
+      "kind": "Município da Região Metropolitana de Curitiba; atendimento sob consulta",
+      "text": "Campo do Tenente tem sua formação municipal vinculada ao desmembramento de Rio Negro, conforme a história territorial do IBGE. Na consulta atual, identifique Campo do Tenente e o endereço completo, evitando confundir municípios.",
+      "source": "https://www.ibge.gov.br/biblioteca/visualizacao/dtb/parana/campodotenente.pdf",
+      "coverageConfirmed": false,
+      "regionalSource": "https://www.amep.pr.gov.br/Pagina/Sobre-RM-de-Curitiba"
+    },
+    "campo-largo": {
+      "kind": "Município da Região Metropolitana de Curitiba; atendimento sob consulta",
+      "text": "A Câmara Municipal distingue a sede de Campo Largo e referências distritais como Bateias, Ferraria, Três Córregos e São Silvestre. Informe também o distrito ou localidade para esclarecer o endereço do projeto.",
+      "source": "https://www.campolargo.pr.leg.br/institucional/noticias/novo-programa-levara-acoes-da-camara-aos-bairros-e-distritos-de-campo-largo",
+      "coverageConfirmed": false,
+      "regionalSource": "https://www.amep.pr.gov.br/Pagina/Sobre-RM-de-Curitiba"
+    },
+    "campo-magro": {
+      "kind": "Município da Região Metropolitana de Curitiba; atendimento sob consulta",
+      "text": "A formação de Campo Magro é relacionada ao território de Almirante Tamandaré na história municipal do IBGE. A referência histórica não substitui o município e o CEP atuais que devem acompanhar a consulta.",
+      "source": "https://biblioteca.ibge.gov.br/visualizacao/dtb/parana/campomagro.pdf",
+      "coverageConfirmed": false,
+      "regionalSource": "https://www.amep.pr.gov.br/Pagina/Sobre-RM-de-Curitiba"
+    },
+    "cerro-azul": {
+      "kind": "Município da Região Metropolitana de Curitiba; atendimento sob consulta",
+      "text": "Cerro Azul é apresentado pela Prefeitura no contexto do Vale do Ribeira, com rios e relevo montanhoso. Essa descrição geográfica não informa a umidade ou a condição do contrapiso de um imóvel específico.",
+      "source": "https://www.cerroazul.pr.gov.br/index.php?idNot=5206&mod=988",
+      "coverageConfirmed": false,
+      "regionalSource": "https://www.amep.pr.gov.br/Pagina/Sobre-RM-de-Curitiba"
+    },
+    "contenda": {
+      "kind": "Município da Região Metropolitana de Curitiba; atendimento sob consulta",
+      "text": "A história de Contenda registra um núcleo colonial próximo ao rio Iguaçu. Use essa informação como contexto municipal; a consulta do projeto precisa de rua, número, localidade e CEP atuais.",
+      "source": "https://www.ibge.gov.br/biblioteca/visualizacao/dtb/parana/contenda.pdf",
+      "coverageConfirmed": false,
+      "regionalSource": "https://www.amep.pr.gov.br/Pagina/Sobre-RM-de-Curitiba"
+    },
+    "doutor-ulysses": {
+      "kind": "Município da Região Metropolitana de Curitiba; atendimento sob consulta",
+      "text": "Doutor Ulysses tem sua formação municipal ligada ao desmembramento de Cerro Azul. Informe o município atual e o endereço completo para que uma referência histórica não cause confusão na consulta.",
+      "source": "https://www.ibge.gov.br/biblioteca/visualizacao/dtb/parana/doutorulysses.pdf",
+      "coverageConfirmed": false,
+      "regionalSource": "https://www.amep.pr.gov.br/Pagina/Sobre-RM-de-Curitiba"
+    },
+    "fazenda-rio-grande": {
+      "kind": "Município da Região Metropolitana de Curitiba; atendimento sob consulta",
+      "text": "A formação municipal de Fazenda Rio Grande está ligada a Mandirituba na documentação histórica do IBGE. Hoje, a consulta deve identificar Fazenda Rio Grande e o CEP do imóvel, além do bairro.",
+      "source": "https://www.ibge.gov.br/biblioteca/visualizacao/dtb/parana/fazendariogrande.pdf",
+      "coverageConfirmed": false,
+      "regionalSource": "https://www.amep.pr.gov.br/Pagina/Sobre-RM-de-Curitiba"
+    },
+    "itaperuu": {
+      "kind": "Município da Região Metropolitana de Curitiba; atendimento sob consulta",
+      "text": "Itaperuçu tem formação territorial ligada a Rio Branco do Sul. Diferencie o município atual e a referência local ao informar o endereço do projeto.",
+      "source": "https://www.ibge.gov.br/biblioteca/visualizacao/dtb/parana/itaperucu.pdf",
+      "coverageConfirmed": false,
+      "regionalSource": "https://www.amep.pr.gov.br/Pagina/Sobre-RM-de-Curitiba"
+    },
+    "lapa": {
+      "kind": "Município da Região Metropolitana de Curitiba; atendimento sob consulta",
+      "text": "O Setor Histórico da Lapa é documentado pelo patrimônio cultural do Paraná, em ligação com o tropeirismo e o Caminho de Viamão. Isso não significa que todo imóvel seja protegido nem que a PVS tenha especialização em restauro; eventuais restrições do imóvel precisam ser verificadas.",
+      "source": "https://www.patrimoniocultural.pr.gov.br/Bem-Tombado/Setor-Historico-da-Lapa",
+      "coverageConfirmed": false,
+      "regionalSource": "https://www.amep.pr.gov.br/Pagina/Sobre-RM-de-Curitiba"
+    },
+    "mandirituba": {
+      "kind": "Município da Região Metropolitana de Curitiba; atendimento sob consulta",
+      "text": "A história territorial de Mandirituba inclui a referência a Areia Branca do Assis. A menção histórica não define a situação atual de todos os distritos; informe o endereço e o CEP usados atualmente.",
+      "source": "https://www.ibge.gov.br/biblioteca/visualizacao/dtb/parana/mandirituba.pdf",
+      "coverageConfirmed": false,
+      "regionalSource": "https://www.amep.pr.gov.br/Pagina/Sobre-RM-de-Curitiba"
+    },
+    "pin": {
+      "kind": "Município da Região Metropolitana de Curitiba; atendimento sob consulta",
+      "text": "Piên fica no contexto da divisa paranaense com Santa Catarina, com referência a Campo Alegre. Informe município e estado junto do CEP para identificar corretamente o destino da consulta.",
+      "source": "https://www.pien.pr.gov.br/licitacoes/concorrencia-eletronica-n-011-2025",
+      "coverageConfirmed": false,
+      "regionalSource": "https://www.amep.pr.gov.br/Pagina/Sobre-RM-de-Curitiba"
+    },
+    "piraquara": {
+      "kind": "Município da Região Metropolitana de Curitiba; atendimento sob consulta",
+      "text": "Mananciais da Serra e Reservatório do Carvalho são referências apresentadas pelo município de Piraquara. A paisagem e os mananciais não permitem concluir a condição de umidade da base de um imóvel; essa avaliação é específica do projeto.",
+      "source": "https://www.piraquara.pr.gov.br/portal/noticias/0/3/1717/mananciais-da-serra-e-reservatorio-do-carvalho-abrem-para-visitacoes",
+      "coverageConfirmed": false,
+      "regionalSource": "https://www.amep.pr.gov.br/Pagina/Sobre-RM-de-Curitiba"
+    },
+    "quatro-barras": {
+      "kind": "Município da Região Metropolitana de Curitiba; atendimento sob consulta",
+      "text": "O Caminho do Itupava é apresentado por Quatro Barras como ligação histórica entre planalto e litoral em direção a Morretes. Esse contexto não representa uma rota de entrega da PVS; informe o endereço atual para consultar a possibilidade de atendimento.",
+      "source": "https://www.quatrobarras.pr.gov.br/turismo/caminho-do-itupava",
+      "coverageConfirmed": false,
+      "regionalSource": "https://www.amep.pr.gov.br/Pagina/Sobre-RM-de-Curitiba"
+    },
+    "quitandinha": {
+      "kind": "Município da Região Metropolitana de Curitiba; atendimento sob consulta",
+      "text": "A história municipal de Quitandinha registra a referência de origem Areia Branca. Na consulta, diferencie município, localidade e CEP atuais, pois nomes locais podem se repetir em outras regiões.",
+      "source": "https://www.ibge.gov.br/biblioteca/visualizacao/dtb/parana/quitandinha.pdf",
+      "coverageConfirmed": false,
+      "regionalSource": "https://www.amep.pr.gov.br/Pagina/Sobre-RM-de-Curitiba"
+    },
+    "rio-branco-do-sul": {
+      "kind": "Município da Região Metropolitana de Curitiba; atendimento sob consulta",
+      "text": "Votuverava aparece na história da formação de Rio Branco do Sul. Use o nome atual do município e a localização do imóvel para consultar materiais e serviços, sem depender apenas de uma denominação histórica.",
+      "source": "https://www.ibge.gov.br/biblioteca/visualizacao/dtb/parana/riobrancodosul.pdf",
+      "coverageConfirmed": false,
+      "regionalSource": "https://www.amep.pr.gov.br/Pagina/Sobre-RM-de-Curitiba"
+    },
+    "rio-negro": {
+      "kind": "Município da Região Metropolitana de Curitiba; atendimento sob consulta",
+      "text": "A ponte histórica Rio Negro–Mafra é uma referência da divisa entre Paraná e Santa Catarina. Informe em qual município e estado fica o imóvel; a proximidade geográfica não confirma cobertura comercial da PVS.",
+      "source": "https://www.patrimoniocultural.pr.gov.br/Bem-Tombado/Ponte-Metalica-Rio-Negro-Mafra",
+      "coverageConfirmed": false,
+      "regionalSource": "https://www.amep.pr.gov.br/Pagina/Sobre-RM-de-Curitiba"
+    },
+    "tijucas-do-sul": {
+      "kind": "Município da Região Metropolitana de Curitiba; atendimento sob consulta",
+      "text": "Tijucas do Sul apresenta em sua localização referências de divisa com municípios paranaenses e Santa Catarina. Município, localidade e CEP devem acompanhar a consulta para distinguir o endereço de nomes e pontos próximos.",
+      "source": "https://www.tijucasdosul.pr.gov.br/cidade/localizacao",
+      "coverageConfirmed": false,
+      "regionalSource": "https://www.amep.pr.gov.br/Pagina/Sobre-RM-de-Curitiba"
+    },
+    "tunas-do-paran": {
+      "kind": "Município da Região Metropolitana de Curitiba; atendimento sob consulta",
+      "text": "A formação municipal de Tunas do Paraná está ligada a Bocaiúva do Sul na história territorial do IBGE. Identifique o município atual e a localidade do imóvel ao iniciar a consulta.",
+      "source": "https://www.ibge.gov.br/biblioteca/visualizacao/dtb/parana/tunasdoparana.pdf",
+      "coverageConfirmed": false,
+      "regionalSource": "https://www.amep.pr.gov.br/Pagina/Sobre-RM-de-Curitiba"
+    }
+  }
+}

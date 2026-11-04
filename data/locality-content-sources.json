@@ -16,5 +16,7 @@
   ],
   "productImages": "supplier-images.json",
   "catalogAvailability": "Referências sob consulta, sem comprovação de estoque",
-  "municipalLimits": "As fontes geográficas não comprovam obras, filiais ou atendimento da PVS; cobertura segue política existente."
+  "municipalLimits": "As fontes geográficas não comprovam obras, filiais ou atendimento da PVS; cobertura segue política existente.",
+  "cityContext": "city-context.json",
+  "cityContextScope": "29 municipios com fontes primarias; 24 continuam sem cobertura comercial confirmada. Fontes especificas fornecidas pela pesquisa municipal do projeto; AMEP confirma composicao regional. Nenhuma inferencia sobre umidade, material ou logistica decorre da geografia."
 }
