@@ -3,6 +3,1842 @@
   "complete": false,
   "items": [
     {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Gran Elegance Click",
+      "name": "Pietra Serena",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-gran-elegance-click/pietra-serena",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Gran Elegance Click",
+      "name": "Mármore Imperador",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-gran-elegance-click/marmore-imperador",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Gran Elegance Click",
+      "name": "Carvalho Ouro",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-gran-elegance-click/carvalho-ouro",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Gran Elegance Click",
+      "name": "Concreto",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-gran-elegance-click/concreto",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Max Elegance Click",
+      "name": "Freijó Brasil",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-max-elegance-click/freijo-brasil",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Max Elegance Click",
+      "name": "Nogueira Terracota",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-max-elegance-click/nogueira-terracota",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Max Elegance Click",
+      "name": "Cadiz Oak",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-max-elegance-click/cadiz-oak",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Max Elegance Click",
+      "name": "Carvalho Chamonix",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-max-elegance-click/carvalho-chamonix",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Max Elegance Click",
+      "name": "Claire Oak",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-max-elegance-click/claire-oak",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Max Elegance Click",
+      "name": "Elmo Imperial",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-max-elegance-click/elmo-imperial",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Max Elegance Click",
+      "name": "Elmo Macciato",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-max-elegance-click/elmo-macciato",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Max Elegance Click",
+      "name": "Noce Borgonha",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-max-elegance-click/noce-borgonha",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Natura Matt Click",
+      "name": "Carvalho Duna",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/natura-matt-click/carvalho-duna",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Natura Matt Click",
+      "name": "Cumaru Nativo",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/natura-matt-click/cumaru-nativo",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Natura Matt Click",
+      "name": "Imbuia Caiapó",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/natura-matt-click/imbuia-caiapo",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Natura Matt Click",
+      "name": "Itaparica",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/natura-matt-click/itaparica",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Natura Matt Click",
+      "name": "Louro Freijó",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/natura-matt-click/louro-freijo",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Natura Matt Click",
+      "name": "Tauari Amazônia",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/natura-matt-click/tauari-amazonia",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "New Evidence Click",
+      "name": "Carvalho Córdoba",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/new-evidence-click/carvalho-cordoba",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "New Evidence Click",
+      "name": "Celtic Oak",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/new-evidence-click/celtic-oak",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "New Evidence Click",
+      "name": "Classic Oak",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/new-evidence-click/classic-oak",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "New Evidence Click",
+      "name": "Freijó Âmbar",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/new-evidence-click/freijo-ambar",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "New Evidence Click",
+      "name": "Legno Crema",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/new-evidence-click/legno-crema",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "New Evidence Click",
+      "name": "Moka",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/new-evidence-click/moka",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "New Evidence Click",
+      "name": "Mont Blanc New",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/new-evidence-click/mont-blanc-new",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "New Evidence Click",
+      "name": "Sbiancato",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/new-evidence-click/sbiancato",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "New Evidence Click",
+      "name": "Smart Oak",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/new-evidence-click/smart-oak",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "New Evidence Click",
+      "name": "Veneto",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/new-evidence-click/veneto",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Prime Click",
+      "name": "Andorra New",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-prime-click/andorra-new",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Prime Click",
+      "name": "Cacau",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-prime-click/cacau",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Prime Click",
+      "name": "Cappuccino",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-prime-click/cappuccino",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Prime Click",
+      "name": "Carvalho Canela",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-prime-click/carvalho-canela",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Prime Click",
+      "name": "Carvalho Maiorca",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-prime-click/carvalho-maiorca",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Prime Click",
+      "name": "Carvalho New",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-prime-click/carvalho-new",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Prime Click",
+      "name": "Fresno Decapê New",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-prime-click/fresno-decape-new",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Prime Click",
+      "name": "Italian Noce",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-prime-click/italian-noce",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Prime Click",
+      "name": "Lâmina Amêndoa",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-prime-click/lamina-amendoa",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Prime Click",
+      "name": "Nogueira Málaga",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-prime-click/nogueira-malaga",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Prime Click",
+      "name": "Nogueira Natural",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-prime-click/nogueira-natural",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Prime Click",
+      "name": "Valência",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-prime-click/valencia",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Square",
+      "name": "Pietra Serena",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-square/pietra-serena",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Square",
+      "name": "Botticino",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-square/botticino",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Square",
+      "name": "Concreto",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-square/concreto",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Square",
+      "name": "Mármore Imperador",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-square/marmore-imperador",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Square",
+      "name": "Stone",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-square/stone",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Prime",
+      "name": "Cacau",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-prime/cacau",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Prime",
+      "name": "Cappuccino",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-prime/cappuccino",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Prime",
+      "name": "Carvalho Maiorca",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-prime/carvalho-maiorca",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Prime",
+      "name": "Carvalho New",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-prime/carvalho-new",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Prime",
+      "name": "Nogueira Natural",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-prime/nogueira-natural",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Prime Pró Click",
+      "name": "Carvalho Maiorca",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/prime-pro-click/carvalho-maiorca",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Prime Pró Click",
+      "name": "Carvalho New",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/prime-pro-click/carvalho-new",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Laminado",
+      "line": "Prime Pró Click",
+      "name": "Nogueira Natural",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/prime-pro-click/nogueira-natural",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Vinílico",
+      "line": "Basic",
+      "name": "Bali",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-basic/bali",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Vinílico",
+      "line": "Basic",
+      "name": "Buenos Aires",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-basic/buenos-aires",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Vinílico",
+      "line": "Basic",
+      "name": "California New",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-basic/california-new",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Vinílico",
+      "line": "Basic",
+      "name": "Chicago",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-basic/chicago",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Vinílico",
+      "line": "Basic",
+      "name": "Denver",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-basic/denver",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Vinílico",
+      "line": "Basic",
+      "name": "Houston",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-basic/houston",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Vinílico",
+      "line": "Basic",
+      "name": "Kansas",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-basic/kansas",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Vinílico",
+      "line": "Basic",
+      "name": "Las Vegas",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-basic/las-vegas",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Vinílico",
+      "line": "Basic",
+      "name": "Miami",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-basic/miami",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Vinílico",
+      "line": "Basic",
+      "name": "New York",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-basic/new-york",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Vinílico",
+      "line": "Basic",
+      "name": "Phoenix",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-basic/phoenix",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Vinílico",
+      "line": "Basic",
+      "name": "Sacramento",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-basic/sacramento",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Vinílico",
+      "line": "Basic",
+      "name": "Santa Fé",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-basic/santa-fe",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Vinílico",
+      "line": "Basic",
+      "name": "Santiago",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-basic/santiago",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Vinílico",
+      "line": "Basic",
+      "name": "Seattle",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-basic/seattle",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Vinílico",
+      "line": "Basic",
+      "name": "Tucson",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-basic/tucson",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Vinílico",
+      "line": "Working +",
+      "name": "Brisbane",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-working-plus/brisbane",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Vinílico",
+      "line": "Working +",
+      "name": "California New",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-working-plus/california-new",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Vinílico",
+      "line": "Working +",
+      "name": "Canyon",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-working-plus/canyon",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Vinílico",
+      "line": "Working +",
+      "name": "Chicago",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-working-plus/chicago",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Vinílico",
+      "line": "Working +",
+      "name": "Houston",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-working-plus/houston",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Vinílico",
+      "line": "Working +",
+      "name": "Lisboa",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-working-plus/lisboa",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Vinílico",
+      "line": "Working +",
+      "name": "New York",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-working-plus/new-york",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Vinílico",
+      "line": "Working +",
+      "name": "Roma",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-working-plus/roma",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Branco — 50 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/branco?type=50mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé 50mm - nº2 — 50 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-50mm---no2?type=50mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé 50mm - nº6 — 50 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-50mm---no6?type=50mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé 50mm - nº7 — 50 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-50mm---no7?type=50mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé 50mm - nº8 — 50 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-50mm---no8?type=50mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé 50mm - nº9 — 50 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-50mm---no9?type=50mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé 50mm - nº10 — 50 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-50mm---no10?type=50mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé 50mm - nº16 — 50 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-50mm---no16?type=50mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé 50mm - nº17 — 50 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-50mm---no17?type=50mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé 50mm - nº18 — 50 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-50mm---no18?type=50mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé 50mm - nº22 — 50 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-50mm---no22?type=50mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé 50mm - nº23 — 50 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-50mm---no23?type=50mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé 50mm - nº27 — 50 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-50mm---no27?type=50mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé 50mm - nº28 — 50 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-50mm---no28?type=50mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Branco — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/branco?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé 70mm - nº2 — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-70mm---no2?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé 70mm - nº6 — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-70mm---no6?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé 70mm - nº7 — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-70mm---no7?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé 70mm - nº8 — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-70mm---no8?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé 70mm - nº9 — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-70mm---no9?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé 70mm - nº10 — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-70mm---no10?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé 70mm - nº16 — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-70mm---no16?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé 70mm - nº17 — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-70mm---no17?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé 70mm - nº18 — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-70mm---no18?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé 70mm - nº19 (EXCLUSIVO PARA 70MM) — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-70mm---no19-exclusivo-para-70mm?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé 70mm - nº21 (EXCLUSIVO PARA 70MM) — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-70mm---no21-exclusivo-para-70mm?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé 70mm - nº22 — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-70mm---no22?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé 70mm - nº23 — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-70mm---no23?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé 70mm - nº25 — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-70mm---no25?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé 70mm - nº27 — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-70mm---no27?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé 70mm - nº28 — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-70mm---no28?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Branco com friso — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/branco-com-friso?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Branco sem friso — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/branco-sem-friso?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Branco — Cordão",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/branco?type=Cord%C3%A3o",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé Cordão - nº2 — Cordão",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-cordao---no2?type=Cord%C3%A3o",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé Cordão - nº6 — Cordão",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-cordao---no6?type=Cord%C3%A3o",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé Cordão - nº7 — Cordão",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-cordao---no7?type=Cord%C3%A3o",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé Cordão - nº8 — Cordão",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-cordao---no8?type=Cord%C3%A3o",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé Cordão - nº9 — Cordão",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-cordao---no9?type=Cord%C3%A3o",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé Cordão - nº10 — Cordão",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-cordao---no10?type=Cord%C3%A3o",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé Cordão - nº16 — Cordão",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-cordao---no16?type=Cord%C3%A3o",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé Cordão - nº17 — Cordão",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-cordao---no17?type=Cord%C3%A3o",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé Cordão - nº18 — Cordão",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-cordao---no18?type=Cord%C3%A3o",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé Cordão - nº19 — Cordão",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-cordao---no19?type=Cord%C3%A3o",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé Cordão - nº21 — Cordão",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-cordao---no21?type=Cord%C3%A3o",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé Cordão - nº22 — Cordão",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-cordao---no22?type=Cord%C3%A3o",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé Cordão - nº23 — Cordão",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-cordao---no23?type=Cord%C3%A3o",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé Cordão - nº25 — Cordão",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-cordao---no25?type=Cord%C3%A3o",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé Cordão - nº27 — Cordão",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-cordao---no27?type=Cord%C3%A3o",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Estilo",
+      "name": "Rodapé Cordão - nº28 — Cordão",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-estilo/rodape-cordao---no28?type=Cord%C3%A3o",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Arenas — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/arenas?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Blue Sky — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/blue-sky?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Branco Max — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/branco-max?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Cinza Italia — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/cinza-italia?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Cinza Supremo — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/cinza-supremo?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Fumê Clássico — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/fume-classico?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Preto — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/preto?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Sand Color — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/sand-color?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 2 — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-2?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 6 — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-6?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 7 — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-7?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "N° 8 — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/n-8?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "N° 9 — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/n-9?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "N° 10 — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/n-10?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "N° 16 — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/n-16?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "N° 17 — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/n-17?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "N° 18 — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/n-18?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "N° 21 — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/n-21?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "N° 22 — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/n-22?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "N° 23 — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/n-23?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "N° 25 — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/n-25?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "N° 27 — 70 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/n-27?type=70mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Arenas — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/arenas?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Blue Sky — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/blue-sky?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Branco Max — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/branco-max?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Cinza Itália — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/cinza-italia?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Cinza Supremo — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/cinza-supremo?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Fumê Clássico — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/fume-classico?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Preto — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/preto?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Sand Color — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/sand-color?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 2 — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-2?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 6 — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-6?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 7 — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-7?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 8 — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-8?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 9 — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-9?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 10 — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-10?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 16 — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-16?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 17 — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-17?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 18 — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-18?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 21 — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-21?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 22 — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-22?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 23 — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-23?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 25 — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-25?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 27 — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-27?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 31 — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-31?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 32 — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-32?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 33 — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-33?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 34 — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-34?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 35 — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-35?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 36 — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-36?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 37 — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-37?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 38 — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-38?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 39 — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-39?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 40 — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-40?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 41 — 100 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-41?type=100mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Arenas — 150 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/arenas?type=150mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Blue Sky — 150 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/blue-sky?type=150mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Branco Max — 150 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/branco-max?type=150mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Cinza Italia — 150 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/cinza-italia?type=150mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Cinza Supremo — 150 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/cinza-supremo?type=150mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Fumê Clássico — 150 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/fume-classico?type=150mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Preto — 150 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/preto?type=150mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Sand Color — 150 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/sand-color?type=150mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 2 — 150 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-2?type=150mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 6 — 150 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-6?type=150mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 7 — 150 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-7?type=150mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 8 — 150 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-8?type=150mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 9 — 150 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-9?type=150mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 10 — 150 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-10?type=150mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 16 — 150 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-16?type=150mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 17 — 150 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-17?type=150mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 18 — 150 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-18?type=150mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 21 — 150 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-21?type=150mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 22 — 150 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-22?type=150mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 23 — 150 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-23?type=150mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 25 — 150 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-25?type=150mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
+      "brand": "Eucafloor",
+      "type": "Rodapé",
+      "line": "Acqua New",
+      "name": "Nº 27 — 150 mm",
+      "code": "",
+      "url": "https://www.eucatex.com.br/pisos/produto/rodapes/linha-acqua-new/no-27?type=150mm",
+      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
+    },
+    {
       "brand": "Durafloor",
       "type": "Laminado",
       "line": "Harmony",
@@ -343,285 +2179,6 @@
       "code": "",
       "url": "https://www.downloads.durafloor.com.br/",
       "status": "Referência BIM oficial; pode ser histórica. Confirme coleção vigente e disponibilidade."
-    },
-    {
-      "brand": "Eucafloor",
-      "type": "Laminado",
-      "line": "Eucafloor Gran Elegance Click",
-      "name": "Carvalho Ouro Eucafloor Gran Elegance Click",
-      "code": "",
-      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-gran-elegance-click/carvalho-ouro",
-      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
-    },
-    {
-      "brand": "Eucafloor",
-      "type": "Laminado",
-      "line": "Eucafloor Gran Elegance Click",
-      "name": "Concreto Eucafloor Gran Elegance Click",
-      "code": "",
-      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-gran-elegance-click/concreto",
-      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
-    },
-    {
-      "brand": "Eucafloor",
-      "type": "Laminado",
-      "line": "Eucafloor Gran Elegance Click",
-      "name": "Mármore Imperador Eucafloor Gran Elegance Click",
-      "code": "",
-      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-gran-elegance-click/marmore-imperador",
-      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
-    },
-    {
-      "brand": "Eucafloor",
-      "type": "Laminado",
-      "line": "Eucafloor Gran Elegance Click",
-      "name": "Pietra Serena Eucafloor Gran Elegance Click",
-      "code": "",
-      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-gran-elegance-click/pietra-serena",
-      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
-    },
-    {
-      "brand": "Eucafloor",
-      "type": "Laminado",
-      "line": "Eucafloor Prime",
-      "name": "Cacau Eucafloor Prime",
-      "code": "",
-      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-prime/cacau",
-      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
-    },
-    {
-      "brand": "Eucafloor",
-      "type": "Laminado",
-      "line": "Eucafloor Prime",
-      "name": "Cappuccino Eucafloor Prime",
-      "code": "",
-      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-prime/cappuccino",
-      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
-    },
-    {
-      "brand": "Eucafloor",
-      "type": "Laminado",
-      "line": "Eucafloor Prime",
-      "name": "Carvalho Maiorca Eucafloor Prime",
-      "code": "",
-      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-prime/carvalho-maiorca",
-      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
-    },
-    {
-      "brand": "Eucafloor",
-      "type": "Laminado",
-      "line": "Eucafloor Prime",
-      "name": "Carvalho New Eucafloor Prime",
-      "code": "",
-      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-prime/carvalho-new",
-      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
-    },
-    {
-      "brand": "Eucafloor",
-      "type": "Laminado",
-      "line": "Eucafloor Prime",
-      "name": "Nogueira Natural Eucafloor Prime",
-      "code": "",
-      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-prime/nogueira-natural",
-      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
-    },
-    {
-      "brand": "Eucafloor",
-      "type": "Laminado",
-      "line": "Eucafloor Square",
-      "name": "Botticino Eucafloor Square",
-      "code": "",
-      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-square/botticino",
-      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
-    },
-    {
-      "brand": "Eucafloor",
-      "type": "Laminado",
-      "line": "Eucafloor Square",
-      "name": "Concreto Eucafloor Square",
-      "code": "",
-      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-square/concreto",
-      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
-    },
-    {
-      "brand": "Eucafloor",
-      "type": "Laminado",
-      "line": "Eucafloor Square",
-      "name": "Mármore Imperador Eucafloor Square",
-      "code": "",
-      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-square/marmore-imperador",
-      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
-    },
-    {
-      "brand": "Eucafloor",
-      "type": "Laminado",
-      "line": "Eucafloor Square",
-      "name": "Pietra Serena Eucafloor Square",
-      "code": "",
-      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-square/pietra-serena",
-      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
-    },
-    {
-      "brand": "Eucafloor",
-      "type": "Laminado",
-      "line": "Eucafloor Square",
-      "name": "Stone Eucafloor Square",
-      "code": "",
-      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/eucafloor-square/stone",
-      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
-    },
-    {
-      "brand": "Eucafloor",
-      "type": "Vinílico",
-      "line": "Eucafloor Working Plus",
-      "name": "Brisbane Eucafloor Working +",
-      "code": "",
-      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-working-plus/brisbane",
-      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
-    },
-    {
-      "brand": "Eucafloor",
-      "type": "Vinílico",
-      "line": "Eucafloor Working Plus",
-      "name": "California New Eucafloor Working +",
-      "code": "",
-      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-working-plus/california-new",
-      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
-    },
-    {
-      "brand": "Eucafloor",
-      "type": "Vinílico",
-      "line": "Eucafloor Working Plus",
-      "name": "Canyon Eucafloor Working +",
-      "code": "",
-      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-working-plus/canyon",
-      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
-    },
-    {
-      "brand": "Eucafloor",
-      "type": "Vinílico",
-      "line": "Eucafloor Working Plus",
-      "name": "Chicago Eucafloor Working +",
-      "code": "",
-      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-working-plus/chicago",
-      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
-    },
-    {
-      "brand": "Eucafloor",
-      "type": "Vinílico",
-      "line": "Eucafloor Working Plus",
-      "name": "Houston Eucafloor Working +",
-      "code": "",
-      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-working-plus/houston",
-      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
-    },
-    {
-      "brand": "Eucafloor",
-      "type": "Vinílico",
-      "line": "Eucafloor Working Plus",
-      "name": "Lisboa Eucafloor Working +",
-      "code": "",
-      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-working-plus/lisboa",
-      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
-    },
-    {
-      "brand": "Eucafloor",
-      "type": "Vinílico",
-      "line": "Eucafloor Working Plus",
-      "name": "New York Eucafloor Working +",
-      "code": "",
-      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-working-plus/new-york",
-      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
-    },
-    {
-      "brand": "Eucafloor",
-      "type": "Vinílico",
-      "line": "Eucafloor Working Plus",
-      "name": "Roma Eucafloor Working +",
-      "code": "",
-      "url": "https://www.eucatex.com.br/pisos/produto/pisos-vinilicos-lvt/eucafloor-working-plus/roma",
-      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
-    },
-    {
-      "brand": "Eucafloor",
-      "type": "Laminado",
-      "line": "Natura Matt Click",
-      "name": "Carvalho Duna Natura Matt Click",
-      "code": "",
-      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/natura-matt-click/carvalho-duna",
-      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
-    },
-    {
-      "brand": "Eucafloor",
-      "type": "Laminado",
-      "line": "Natura Matt Click",
-      "name": "Cumaru Nativo Natura Matt Click",
-      "code": "",
-      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/natura-matt-click/cumaru-nativo",
-      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
-    },
-    {
-      "brand": "Eucafloor",
-      "type": "Laminado",
-      "line": "Natura Matt Click",
-      "name": "Imbuia Caiapó Natura Matt Click",
-      "code": "",
-      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/natura-matt-click/imbuia-caiapo",
-      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
-    },
-    {
-      "brand": "Eucafloor",
-      "type": "Laminado",
-      "line": "Natura Matt Click",
-      "name": "Itaparica Natura Matt Click",
-      "code": "",
-      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/natura-matt-click/itaparica",
-      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
-    },
-    {
-      "brand": "Eucafloor",
-      "type": "Laminado",
-      "line": "Natura Matt Click",
-      "name": "Louro Freijó Natura Matt Click",
-      "code": "",
-      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/natura-matt-click/louro-freijo",
-      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
-    },
-    {
-      "brand": "Eucafloor",
-      "type": "Laminado",
-      "line": "Natura Matt Click",
-      "name": "Tauari Amazônia Natura Matt Click",
-      "code": "",
-      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/natura-matt-click/tauari-amazonia",
-      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
-    },
-    {
-      "brand": "Eucafloor",
-      "type": "Laminado",
-      "line": "Prime Pro Click",
-      "name": "Carvalho Maiorca Prime Pró Click",
-      "code": "",
-      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/prime-pro-click/carvalho-maiorca",
-      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
-    },
-    {
-      "brand": "Eucafloor",
-      "type": "Laminado",
-      "line": "Prime Pro Click",
-      "name": "Carvalho New Prime Pró Click",
-      "code": "",
-      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/prime-pro-click/carvalho-new",
-      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
-    },
-    {
-      "brand": "Eucafloor",
-      "type": "Laminado",
-      "line": "Prime Pro Click",
-      "name": "Nogueira Natural Prime Pró Click",
-      "code": "",
-      "url": "https://www.eucatex.com.br/pisos/produto/pisos-laminados/prime-pro-click/nogueira-natural",
-      "status": "Catálogo oficial; disponibilidade PVS sob consulta"
     },
     {
       "brand": "Quick-Step",
