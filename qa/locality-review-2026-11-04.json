@@ -3,8 +3,8 @@
   "counts": {
     "routes": 149,
     "indexableBefore": 5,
-    "indexableAfter": 10,
-    "editorialPending": 69,
+    "indexableAfter": 79,
+    "editorialPending": 0,
     "coverageOrGeographyPending": 70
   },
   "rows": [
@@ -273,9 +273,9 @@
       "type": "bairro",
       "path": "/bairro/alto-boqueiro",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -283,9 +283,9 @@
       "type": "bairro",
       "path": "/bairro/alto-da-glria",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -293,9 +293,9 @@
       "type": "bairro",
       "path": "/bairro/alto-da-xv",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -303,9 +303,9 @@
       "type": "bairro",
       "path": "/bairro/atuba",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -313,9 +313,9 @@
       "type": "bairro",
       "path": "/bairro/augusta",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -323,9 +323,9 @@
       "type": "bairro",
       "path": "/bairro/bacacheri",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -333,9 +333,9 @@
       "type": "bairro",
       "path": "/bairro/bairro-alto",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -343,9 +343,9 @@
       "type": "bairro",
       "path": "/bairro/barreirinha",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -363,9 +363,9 @@
       "type": "bairro",
       "path": "/bairro/bigorrilho",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -373,9 +373,9 @@
       "type": "bairro",
       "path": "/bairro/boa-vista",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -383,9 +383,9 @@
       "type": "bairro",
       "path": "/bairro/bom-retiro",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -393,9 +393,9 @@
       "type": "bairro",
       "path": "/bairro/boqueiro",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -403,9 +403,9 @@
       "type": "bairro",
       "path": "/bairro/butiatuvinha",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -413,9 +413,9 @@
       "type": "bairro",
       "path": "/bairro/cabral",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -423,9 +423,9 @@
       "type": "bairro",
       "path": "/bairro/cachoeira",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -433,9 +433,9 @@
       "type": "bairro",
       "path": "/bairro/cajuru",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -443,9 +443,9 @@
       "type": "bairro",
       "path": "/bairro/campina-do-siqueira",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -453,9 +453,9 @@
       "type": "bairro",
       "path": "/bairro/campo-comprido",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -463,9 +463,9 @@
       "type": "bairro",
       "path": "/bairro/campo-de-santana",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -473,9 +473,9 @@
       "type": "bairro",
       "path": "/bairro/capo-da-imbuia",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -483,9 +483,9 @@
       "type": "bairro",
       "path": "/bairro/capo-raso",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -493,9 +493,9 @@
       "type": "bairro",
       "path": "/bairro/cascatinha",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -503,9 +503,9 @@
       "type": "bairro",
       "path": "/bairro/caximba",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -523,9 +523,9 @@
       "type": "bairro",
       "path": "/bairro/centro-cvico",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -543,9 +543,9 @@
       "type": "bairro",
       "path": "/bairro/cristo-rei",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -553,9 +553,9 @@
       "type": "bairro",
       "path": "/bairro/fanny",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -563,9 +563,9 @@
       "type": "bairro",
       "path": "/bairro/fazendinha",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -573,9 +573,9 @@
       "type": "bairro",
       "path": "/bairro/ganchinho",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -583,9 +583,9 @@
       "type": "bairro",
       "path": "/bairro/guabirotuba",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -593,9 +593,9 @@
       "type": "bairro",
       "path": "/bairro/guara",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -603,9 +603,9 @@
       "type": "bairro",
       "path": "/bairro/hauer",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -613,9 +613,9 @@
       "type": "bairro",
       "path": "/bairro/hugo-lange",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -623,9 +623,9 @@
       "type": "bairro",
       "path": "/bairro/jardim-botnico",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -633,9 +633,9 @@
       "type": "bairro",
       "path": "/bairro/jardim-das-amricas",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -643,9 +643,9 @@
       "type": "bairro",
       "path": "/bairro/jardim-social",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -653,9 +653,9 @@
       "type": "bairro",
       "path": "/bairro/juvev",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -663,9 +663,9 @@
       "type": "bairro",
       "path": "/bairro/lamenha-pequena",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -673,9 +673,9 @@
       "type": "bairro",
       "path": "/bairro/lindia",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -683,9 +683,9 @@
       "type": "bairro",
       "path": "/bairro/mercs",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -693,9 +693,9 @@
       "type": "bairro",
       "path": "/bairro/mossungu",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -703,9 +703,9 @@
       "type": "bairro",
       "path": "/bairro/novo-mundo",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -713,9 +713,9 @@
       "type": "bairro",
       "path": "/bairro/orleans",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -723,9 +723,9 @@
       "type": "bairro",
       "path": "/bairro/parolin",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -733,9 +733,9 @@
       "type": "bairro",
       "path": "/bairro/pilarzinho",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -743,9 +743,9 @@
       "type": "bairro",
       "path": "/bairro/pinheirinho",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -753,9 +753,9 @@
       "type": "bairro",
       "path": "/bairro/porto",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -763,9 +763,9 @@
       "type": "bairro",
       "path": "/bairro/prado-velho",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -773,9 +773,9 @@
       "type": "bairro",
       "path": "/bairro/rebouas",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -783,9 +783,9 @@
       "type": "bairro",
       "path": "/bairro/riviera",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -793,9 +793,9 @@
       "type": "bairro",
       "path": "/bairro/santa-cndida",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -803,9 +803,9 @@
       "type": "bairro",
       "path": "/bairro/santa-felicidade",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -813,9 +813,9 @@
       "type": "bairro",
       "path": "/bairro/santa-quitria",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -823,9 +823,9 @@
       "type": "bairro",
       "path": "/bairro/santo-incio",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -833,9 +833,9 @@
       "type": "bairro",
       "path": "/bairro/so-braz",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -843,9 +843,9 @@
       "type": "bairro",
       "path": "/bairro/so-francisco",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -853,9 +853,9 @@
       "type": "bairro",
       "path": "/bairro/so-joo",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -863,9 +863,9 @@
       "type": "bairro",
       "path": "/bairro/so-loureno",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -873,9 +873,9 @@
       "type": "bairro",
       "path": "/bairro/so-miguel",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -893,9 +893,9 @@
       "type": "bairro",
       "path": "/bairro/seminrio",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -903,9 +903,9 @@
       "type": "bairro",
       "path": "/bairro/stio-cercado",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -913,9 +913,9 @@
       "type": "bairro",
       "path": "/bairro/taboo",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -923,9 +923,9 @@
       "type": "bairro",
       "path": "/bairro/tarum",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -933,9 +933,9 @@
       "type": "bairro",
       "path": "/bairro/tatuquara",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -943,9 +943,9 @@
       "type": "bairro",
       "path": "/bairro/tingui",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -953,9 +953,9 @@
       "type": "bairro",
       "path": "/bairro/uberaba",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -963,9 +963,9 @@
       "type": "bairro",
       "path": "/bairro/umbar",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -973,9 +973,9 @@
       "type": "bairro",
       "path": "/bairro/vila-izabel",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -983,9 +983,9 @@
       "type": "bairro",
       "path": "/bairro/vista-alegre",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {
@@ -993,9 +993,9 @@
       "type": "bairro",
       "path": "/bairro/xaxim",
       "beforeIndexed": false,
-      "afterIndexed": false,
+      "afterIndexed": true,
       "coverage": "bairro de Curitiba; cobertura municipal declarada pela PVS, sujeito ao endereço",
-      "reason": "cobertura municipal sustentada; revisão editorial individual pendente",
+      "reason": "cobertura contextual e conteúdo revisado",
       "source": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912"
     },
     {

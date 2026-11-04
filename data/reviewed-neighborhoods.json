@@ -33,5 +33,488 @@
     "coverageBasis": "constants.ts FAQS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço; bairro no inventário desde antes de af2ed16.",
     "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
     "editorialBasis": "Roteiro próprio em data/neighborhood-guides.json; sem filial ou obra local declarada."
+  },
+  "alto-da-glria": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Escolher piso para consultório ou sala de atendimento"
+  },
+  "alto-da-xv": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Reformar um imóvel alugado com decisões documentadas"
+  },
+  "atuba": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Informar o endereço completo evita erro na consulta de atendimento"
+  },
+  "augusta": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Comparar um piso único com materiais diferentes em cada ambiente"
+  },
+  "bacacheri": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Preparar o quarto para a troca de piso"
+  },
+  "bairro-alto": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Escolher piso para um pequeno comércio sem olhar só a vitrine"
+  },
+  "barreirinha": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Comparar tons de madeira com móveis que já fazem parte da casa"
+  },
+  "bigorrilho": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Trocar o piso de apartamento com atenção às regras do condomínio"
+  },
+  "boa-vista": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Entender o que uma amostra pequena consegue mostrar"
+  },
+  "bom-retiro": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Conservar acabamentos durante uma renovação parcial"
+  },
+  "boqueiro": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Orçar sala e corredor como um projeto integrado"
+  },
+  "butiatuvinha": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Planejar piso interno quando a casa também tem quintal"
+  },
+  "cabral": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Comparar laminado e vinílico para um escritório em casa"
+  },
+  "cachoeira": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Investigar sinais de umidade antes de cobrir a base"
+  },
+  "cajuru": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Organizar a reforma quando há muitos móveis para retirar"
+  },
+  "campina-do-siqueira": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Escolher rodapés junto com o piso, não depois"
+  },
+  "campo-comprido": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Fazer o orçamento por etapas sem perder a visão do conjunto"
+  },
+  "campo-de-santana": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Preparar uma casa nova para receber o revestimento"
+  },
+  "capo-da-imbuia": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Avaliar um piso existente antes de instalar outro por cima"
+  },
+  "capo-raso": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Ler uma proposta de piso com escopo comparável"
+  },
+  "cascatinha": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Comparar madeira clara e escura sem escolher pela moda"
+  },
+  "caximba": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Organizar a primeira consulta de piso com informações simples"
+  },
+  "centro-cvico": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Planejar circulação e acabamento em uma sala de reuniões"
+  },
+  "cristo-rei": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Comparar referências de piso para sala de estar e jantar"
+  },
+  "fanny": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Definir rodapés quando há armários planejados"
+  },
+  "fazendinha": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Reformar um cômodo sem danificar os ambientes vizinhos"
+  },
+  "ganchinho": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Receber e conferir as caixas antes da instalação"
+  },
+  "guabirotuba": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Escolher piso para um ambiente de uso misto"
+  },
+  "guara": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Planejar a retirada de rodapés antigos"
+  },
+  "hauer": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Selecionar piso para recepção de um estabelecimento"
+  },
+  "hugo-lange": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Usar o showroom para comparar poucas opções bem escolhidas"
+  },
+  "jardim-botnico": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Planejar o piso de uma sala que recebe luz em horários diferentes"
+  },
+  "jardim-das-amricas": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Preparar um quarto que também funciona como área de estudo"
+  },
+  "jardim-social": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Combinar rodapé e guarnição sem presumir que todo branco é igual"
+  },
+  "juvev": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Entender a diferença entre o piso e o sistema instalado"
+  },
+  "lamenha-pequena": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Planejar recebimento e movimentação do material até o ambiente"
+  },
+  "lindia": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Entender os cuidados de limpeza antes de comprar"
+  },
+  "mercs": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Renovar o piso mantendo portas existentes"
+  },
+  "mossungu": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Comparar pisos para uma sala com mobiliário pesado"
+  },
+  "novo-mundo": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Escolher o piso quando a reforma precisa respeitar um orçamento definido"
+  },
+  "orleans": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Identificar um padrão antigo para consultar reposição"
+  },
+  "parolin": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Planejar a reforma de um imóvel destinado à locação"
+  },
+  "pilarzinho": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Observar variação de desenho antes de escolher um amadeirado"
+  },
+  "pinheirinho": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Conferir o acabamento ao receber o serviço"
+  },
+  "porto": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Comparar laminado, vinílico colado e SPC pela aplicação"
+  },
+  "prado-velho": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Organizar piso para uma sala de treinamento"
+  },
+  "rebouas": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Escolher piso para um estúdio de trabalho criativo"
+  },
+  "riviera": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Avaliar um ambiente térreo sem presumir que a base está pronta"
+  },
+  "santa-cndida": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Planejar a troca de piso com animais em casa"
+  },
+  "alto-boqueiro": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Planejar uma reforma de piso sem perder o acesso aos cômodos"
+  },
+  "santa-felicidade": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Escolher piso para uma sala de jantar com atenção ao uso"
+  },
+  "santa-quitria": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Decidir quando reparar e quando avaliar a troca do piso"
+  },
+  "santo-incio": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Planejar uma sala integrada sem eliminar detalhes técnicos"
+  },
+  "so-braz": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Escolher acabamento para paredes que não estão perfeitamente regulares"
+  },
+  "so-francisco": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Renovar o piso respeitando elementos que precisam permanecer"
+  },
+  "so-joo": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Organizar piso e pintura na mesma reforma"
+  },
+  "so-loureno": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Comparar piso para um espaço de leitura e descanso"
+  },
+  "so-miguel": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Consultar instalação quando o imóvel ainda está em obra"
+  },
+  "seminrio": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Comparar cores do piso com portas amadeiradas"
+  },
+  "stio-cercado": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Planejar uma troca de piso com crianças no imóvel"
+  },
+  "taboo": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Comparar uma proposta feita a partir de fotos com a avaliação do imóvel"
+  },
+  "tarum": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Planejar o piso de um espaço com cadeiras de rodízios"
+  },
+  "tatuquara": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Conferir quantidades sem transformar metragem aproximada em pedido"
+  },
+  "tingui": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Entender acabamento superficial sem confundir com resistência"
+  },
+  "uberaba": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Organizar a passagem entre quarto e banheiro"
+  },
+  "umbar": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Escolher piso quando ainda faltam portas ou marcenaria"
+  },
+  "vila-izabel": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Planejar acabamento branco com atenção a manutenção e encontros"
+  },
+  "vista-alegre": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Montar uma seleção de pisos para visitar a loja"
+  },
+  "xaxim": {
+    "reviewedAt": "2026-11-04",
+    "city": "Curitiba",
+    "coverageBasis": "FAQ histórica PVS: atendimento em Curitiba inteira, sujeito à disponibilidade para o endereço.",
+    "geographySource": "https://www.curitiba.pr.gov.br/noticias/veja-como-entrar-em-contato-com-as-regionais-e-qual-delas-cuida-do-seu-bairro/40912",
+    "editorialBasis": "Manter informações do piso para futuras consultas"
   }
 }

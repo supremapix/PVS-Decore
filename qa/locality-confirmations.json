@@ -1,0 +1,371 @@
+{
+  "date": "2026-11-04",
+  "note": "Possível sobreposição não comprova equivalência. Não redirecionar sem mapa/endereço verificável.",
+  "questions": {
+    "cidades": "Quais destes 24 municípios recebem venda/entrega e quais também recebem instalação? Pode responder com as exceções e eventuais limites por CEP.",
+    "bairros": "Para os nomes históricos abaixo, qual município e um CEP/endereço de referência? Há nomes que a PVS considera o mesmo local?"
+  },
+  "counts": {
+    "coberturaComercial": 24,
+    "possiveisSobreposicoes": 12,
+    "nomesNaoConciliados": 34
+  },
+  "groups": {
+    "coberturaComercial": [
+      {
+        "name": "Adrianópolis",
+        "path": "/cidade/adrianpolis",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Agudos do Sul",
+        "path": "/cidade/agudos-do-sul",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Almirante Tamandaré",
+        "path": "/cidade/almirante-tamandar",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Balsa Nova",
+        "path": "/cidade/balsa-nova",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Bocaiúva do Sul",
+        "path": "/cidade/bocaiva-do-sul",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Campina Grande do Sul",
+        "path": "/cidade/campina-grande-do-sul",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Campo do Tenente",
+        "path": "/cidade/campo-do-tenente",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Campo Largo",
+        "path": "/cidade/campo-largo",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Campo Magro",
+        "path": "/cidade/campo-magro",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Cerro Azul",
+        "path": "/cidade/cerro-azul",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Contenda",
+        "path": "/cidade/contenda",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Doutor Ulysses",
+        "path": "/cidade/doutor-ulysses",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Fazenda Rio Grande",
+        "path": "/cidade/fazenda-rio-grande",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Itaperuçu",
+        "path": "/cidade/itaperuu",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Lapa",
+        "path": "/cidade/lapa",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Mandirituba",
+        "path": "/cidade/mandirituba",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Piên",
+        "path": "/cidade/pin",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Piraquara",
+        "path": "/cidade/piraquara",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Quatro Barras",
+        "path": "/cidade/quatro-barras",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Quitandinha",
+        "path": "/cidade/quitandinha",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Rio Branco do Sul",
+        "path": "/cidade/rio-branco-do-sul",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Rio Negro",
+        "path": "/cidade/rio-negro",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Tijucas do Sul",
+        "path": "/cidade/tijucas-do-sul",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Tunas do Paraná",
+        "path": "/cidade/tunas-do-paran",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      }
+    ],
+    "possiveisSobreposicoes": [
+      {
+        "name": "Vila Parolin",
+        "path": "/bairro/vila-parolin",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Vila Fanny",
+        "path": "/bairro/vila-fanny",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Vila Hauer",
+        "path": "/bairro/vila-hauer",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Batel Soho",
+        "path": "/bairro/batel-soho",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Alto da Rua XV",
+        "path": "/bairro/alto-da-rua-xv",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "CIC Norte",
+        "path": "/bairro/cic-norte",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "CIC Central",
+        "path": "/bairro/cic-central",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "CIC Sul",
+        "path": "/bairro/cic-sul",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Vila Guaíra",
+        "path": "/bairro/vila-guara",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Centro Histórico",
+        "path": "/bairro/centro-histrico",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Fazendinha-Portão",
+        "path": "/bairro/fazendinha-porto",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Conjunto Caiuá",
+        "path": "/bairro/conjunto-caiu",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      }
+    ],
+    "nomesNaoConciliados": [
+      {
+        "name": "Vila Torres",
+        "path": "/bairro/vila-torres",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Jardim Schaffer",
+        "path": "/bairro/jardim-schaffer",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Vila Sabará",
+        "path": "/bairro/vila-sabar",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Boqueirão de Baixo",
+        "path": "/bairro/boqueiro-de-baixo",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Boqueirão de Cima",
+        "path": "/bairro/boqueiro-de-cima",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Tanguá",
+        "path": "/bairro/tangu",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Vila Zumbi",
+        "path": "/bairro/vila-zumbi",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Abranches de Baixo",
+        "path": "/bairro/abranches-de-baixo",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Abranches de Cima",
+        "path": "/bairro/abranches-de-cima",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Vila Nossa Senhora da Luz",
+        "path": "/bairro/vila-nossa-senhora-da-luz",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Vila Tecnológica",
+        "path": "/bairro/vila-tecnolgica",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Vila Oficinas",
+        "path": "/bairro/vila-oficinas",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Ecoville",
+        "path": "/bairro/ecoville",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Carmo Abranches",
+        "path": "/bairro/carmo-abranches",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Vila Pantanal",
+        "path": "/bairro/vila-pantanal",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Santa Quitéria Velha",
+        "path": "/bairro/santa-quitria-velha",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Portão Velho",
+        "path": "/bairro/porto-velho",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Guaíra Velho",
+        "path": "/bairro/guara-velho",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Uberaba de Cima",
+        "path": "/bairro/uberaba-de-cima",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Uberaba de Baixo",
+        "path": "/bairro/uberaba-de-baixo",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "São Braz Velho",
+        "path": "/bairro/so-braz-velho",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Vila Verde",
+        "path": "/bairro/vila-verde",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Vila Barigui",
+        "path": "/bairro/vila-barigui",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Caiuá",
+        "path": "/bairro/caiu",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Xaxim Velho",
+        "path": "/bairro/xaxim-velho",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Campo Comprido Velho",
+        "path": "/bairro/campo-comprido-velho",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Bacacheri Velho",
+        "path": "/bairro/bacacheri-velho",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Capão da Imbuia Velho",
+        "path": "/bairro/capo-da-imbuia-velho",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Pinheirinho Velho",
+        "path": "/bairro/pinheirinho-velho",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Vila São Pedro",
+        "path": "/bairro/vila-so-pedro",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Vila Osternack",
+        "path": "/bairro/vila-osternack",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Conjunto Parigot de Souza",
+        "path": "/bairro/conjunto-parigot-de-souza",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Vila Reno",
+        "path": "/bairro/vila-reno",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      },
+      {
+        "name": "Vila Audi",
+        "path": "/bairro/vila-audi",
+        "decision": "URL preservada com noindex; sem redirecionamento novo"
+      }
+    ]
+  }
+}

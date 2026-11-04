@@ -1,6 +1,1389 @@
 {
- "ah":{"name":"Ahú","focus":"Trocar o piso sem perder de vista o que já existe","intro":"O Ahú está na Regional Matriz de Curitiba, conforme o município. Para uma reforma no bairro, este roteiro ajuda a comparar a troca do revestimento e o reaproveitamento dos acabamentos. A PVS atende Curitiba a partir da loja em São José dos Pinhais, com disponibilidade confirmada pelo endereço.","sections":[["Inventário do ambiente antes da retirada","Anote o piso existente, o estado dos rodapés e a abertura das portas. Fotografe encontros com outros revestimentos e áreas com ruído, peças soltas ou manchas. Peça que a proposta identifique o que será retirado, o que poderá permanecer e quem ficará responsável pela destinação dos materiais removidos."],["Quando a altura muda","A combinação de preparação, manta e novo piso pode alterar a altura final. Antes da instalação, confira passagens, portas e encontros com áreas que não receberão o revestimento. Não presuma que um laminado ou vinílico pode cobrir qualquer base: umidade e firmeza precisam de avaliação."],["Escolher a cor com móveis que permanecem","Se a reforma preservar armários e portas, compare amostras ao lado deles. Separe duas ou três referências e registre os nomes completos das linhas. Fotos sem filtro, de dia e à noite, ajudam na conversa, mas não substituem a amostra física do padrão escolhido."]]},
- "centro":{"name":"Centro","focus":"Planejar o piso de uma sala comercial por etapas","intro":"O Centro integra a Regional Matriz de Curitiba. Este guia trata do planejamento de lojas, escritórios e salas de atendimento, sem presumir a atividade de cada imóvel. A consulta PVS começa pelo endereço e pelo uso; a loja física fica em São José dos Pinhais.","sections":[["Descreva a operação, não apenas a metragem","Informe a circulação esperada, cadeiras com rodízios, mobiliário fixo e rotina de limpeza. O fabricante precisa indicar a linha para o uso pretendido. Não escolha apenas pelo tom da madeira: linhas com a mesma aparência podem ter especificações diferentes."],["Organize a mudança de um ambiente para outro","Liste áreas que poderão ficar vazias, pontos de passagem e restrições para receber materiais. Combine a sequência de retirada de móveis, preparação e instalação. A possibilidade de manter atividades no imóvel depende dessa avaliação; não conte com execução sem interrupção ou horário especial sem contratar essas condições."],["Orçamento que permite comparar propostas","Peça marca, linha, quantidade, preparação, mão de obra e acabamento separados. Registre entrega, acesso ao imóvel, responsabilidades de retirada e liberação para uso. Antes da compra, confirme prazo e condições por escrito e compare o mesmo escopo entre propostas."]]},
- "gua-verde":{"name":"Água Verde","focus":"Reformar com a casa ocupada: organizar antes de instalar","intro":"Água Verde aparece no inventário municipal de bairros de Curitiba. Para quem planeja renovar o piso sem desocupar completamente o imóvel, o roteiro abaixo ajuda a organizar a consulta à PVS. A disponibilidade de entrega e instalação é confirmada para o endereço, a partir da loja em São José dos Pinhais.","sections":[["Monte um plano de circulação","Indique quais cômodos precisam continuar acessíveis e onde poderão ficar móveis e caixas. Converse sobre a ordem das etapas antes de combinar a instalação. Em apartamento, acrescente horários de obra, reserva de elevador e regras de recebimento do condomínio."],["Compare o sistema com a rotina de limpeza","Informe se há animais, crianças, água próxima ao ambiente ou limpeza frequente. Laminado, vinílico colado e SPC têm requisitos diferentes. A decisão depende da indicação da linha, da base e da rotina real; resistência à água não significa autorização para encharcar o piso."],["Confira acabamentos antes de finalizar o pedido","Some rodapés, perfis e encontros entre os ambientes ao orçamento. Guarde a identificação do padrão e do lote quando receber o material e siga as recomendações para armazenamento. Após a instalação, peça instruções para circulação, movimentação de móveis e limpeza."]]},
- "cidade-industrial-de-curitiba":{"name":"Cidade Industrial de Curitiba","focus":"Pisos para o uso certo: residência, escritório ou comércio","intro":"Cidade Industrial de Curitiba é a denominação usada nesta página para o acesso histórico CIC. A referência municipal inclui CIC entre os bairros atendidos pela administração regional. O nome do bairro não define o uso do imóvel: a escolha do piso começa pela atividade de cada ambiente.","sections":[["Não extrapole a indicação comercial para uso industrial","Explique se o espaço é uma casa, escritório, loja ou área com equipamentos e cargas específicas. Laminado e vinílico não devem ser indicados para qualquer atividade apenas por estarem em um endereço na CIC. A ficha técnica e a avaliação do ambiente precisam sustentar a escolha."],["Acesso e preparação no mesmo levantamento","Informe como o material será recebido, a distância até o ambiente e a existência de escadas ou restrições de circulação. Fotografe a base atual e avise sobre umidade, fissuras ou desníveis. A avaliação deve ocorrer antes de definir o sistema e a preparação necessária."],["Escolha documentada para comprar com clareza","Compare a linha, o padrão e os acessórios aprovados para o uso. Peça que entrega, preparação, instalação e acabamentos estejam discriminados. Confirme atendimento ao endereço com a PVS; a empresa tem loja em São José dos Pinhais, sem filial declarada na CIC."]]}
+  "ah": {
+    "name": "Ahú",
+    "focus": "Trocar o piso sem perder de vista o que já existe",
+    "intro": "O Ahú está na Regional Matriz de Curitiba, conforme o município. Para uma reforma no bairro, este roteiro ajuda a comparar a troca do revestimento e o reaproveitamento dos acabamentos. A PVS atende Curitiba a partir da loja em São José dos Pinhais, com disponibilidade confirmada pelo endereço.",
+    "sections": [
+      [
+        "Inventário do ambiente antes da retirada",
+        "Anote o piso existente, o estado dos rodapés e a abertura das portas. Fotografe encontros com outros revestimentos e áreas com ruído, peças soltas ou manchas. Peça que a proposta identifique o que será retirado, o que poderá permanecer e quem ficará responsável pela destinação dos materiais removidos."
+      ],
+      [
+        "Quando a altura muda",
+        "A combinação de preparação, manta e novo piso pode alterar a altura final. Antes da instalação, confira passagens, portas e encontros com áreas que não receberão o revestimento. Não presuma que um laminado ou vinílico pode cobrir qualquer base: umidade e firmeza precisam de avaliação."
+      ],
+      [
+        "Escolher a cor com móveis que permanecem",
+        "Se a reforma preservar armários e portas, compare amostras ao lado deles. Separe duas ou três referências e registre os nomes completos das linhas. Fotos sem filtro, de dia e à noite, ajudam na conversa, mas não substituem a amostra física do padrão escolhido."
+      ]
+    ]
+  },
+  "centro": {
+    "name": "Centro",
+    "focus": "Planejar o piso de uma sala comercial por etapas",
+    "intro": "O Centro integra a Regional Matriz de Curitiba. Este guia trata do planejamento de lojas, escritórios e salas de atendimento, sem presumir a atividade de cada imóvel. A consulta PVS começa pelo endereço e pelo uso; a loja física fica em São José dos Pinhais.",
+    "sections": [
+      [
+        "Descreva a operação, não apenas a metragem",
+        "Informe a circulação esperada, cadeiras com rodízios, mobiliário fixo e rotina de limpeza. O fabricante precisa indicar a linha para o uso pretendido. Não escolha apenas pelo tom da madeira: linhas com a mesma aparência podem ter especificações diferentes."
+      ],
+      [
+        "Organize a mudança de um ambiente para outro",
+        "Liste áreas que poderão ficar vazias, pontos de passagem e restrições para receber materiais. Combine a sequência de retirada de móveis, preparação e instalação. A possibilidade de manter atividades no imóvel depende dessa avaliação; não conte com execução sem interrupção ou horário especial sem contratar essas condições."
+      ],
+      [
+        "Orçamento que permite comparar propostas",
+        "Peça marca, linha, quantidade, preparação, mão de obra e acabamento separados. Registre entrega, acesso ao imóvel, responsabilidades de retirada e liberação para uso. Antes da compra, confirme prazo e condições por escrito e compare o mesmo escopo entre propostas."
+      ]
+    ]
+  },
+  "gua-verde": {
+    "name": "Água Verde",
+    "focus": "Reformar com a casa ocupada: organizar antes de instalar",
+    "intro": "Água Verde aparece no inventário municipal de bairros de Curitiba. Para quem planeja renovar o piso sem desocupar completamente o imóvel, o roteiro abaixo ajuda a organizar a consulta à PVS. A disponibilidade de entrega e instalação é confirmada para o endereço, a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Monte um plano de circulação",
+        "Indique quais cômodos precisam continuar acessíveis e onde poderão ficar móveis e caixas. Converse sobre a ordem das etapas antes de combinar a instalação. Em apartamento, acrescente horários de obra, reserva de elevador e regras de recebimento do condomínio."
+      ],
+      [
+        "Compare o sistema com a rotina de limpeza",
+        "Informe se há animais, crianças, água próxima ao ambiente ou limpeza frequente. Laminado, vinílico colado e SPC têm requisitos diferentes. A decisão depende da indicação da linha, da base e da rotina real; resistência à água não significa autorização para encharcar o piso."
+      ],
+      [
+        "Confira acabamentos antes de finalizar o pedido",
+        "Some rodapés, perfis e encontros entre os ambientes ao orçamento. Guarde a identificação do padrão e do lote quando receber o material e siga as recomendações para armazenamento. Após a instalação, peça instruções para circulação, movimentação de móveis e limpeza."
+      ]
+    ]
+  },
+  "cidade-industrial-de-curitiba": {
+    "name": "Cidade Industrial de Curitiba",
+    "focus": "Pisos para o uso certo: residência, escritório ou comércio",
+    "intro": "Cidade Industrial de Curitiba é a denominação usada nesta página para o acesso histórico CIC. A referência municipal inclui CIC entre os bairros atendidos pela administração regional. O nome do bairro não define o uso do imóvel: a escolha do piso começa pela atividade de cada ambiente.",
+    "sections": [
+      [
+        "Não extrapole a indicação comercial para uso industrial",
+        "Explique se o espaço é uma casa, escritório, loja ou área com equipamentos e cargas específicas. Laminado e vinílico não devem ser indicados para qualquer atividade apenas por estarem em um endereço na CIC. A ficha técnica e a avaliação do ambiente precisam sustentar a escolha."
+      ],
+      [
+        "Acesso e preparação no mesmo levantamento",
+        "Informe como o material será recebido, a distância até o ambiente e a existência de escadas ou restrições de circulação. Fotografe a base atual e avise sobre umidade, fissuras ou desníveis. A avaliação deve ocorrer antes de definir o sistema e a preparação necessária."
+      ],
+      [
+        "Escolha documentada para comprar com clareza",
+        "Compare a linha, o padrão e os acessórios aprovados para o uso. Peça que entrega, preparação, instalação e acabamentos estejam discriminados. Confirme atendimento ao endereço com a PVS; a empresa tem loja em São José dos Pinhais, sem filial declarada na CIC."
+      ]
+    ]
+  },
+  "alto-da-glria": {
+    "name": "Alto da Glória",
+    "focus": "Escolher piso para consultório ou sala de atendimento",
+    "intro": "Alto da Glória integra a Regional Matriz de Curitiba no inventário municipal. Este roteiro trata de uma situação de projeto para quem consulta atendimento no bairro; não descreve obras locais nem presume o perfil de todos os imóveis. A PVS recebe consultas a partir de São José dos Pinhais e confirma o serviço pelo endereço.",
+    "sections": [
+      [
+        "A atividade define os requisitos",
+        "Informe o tipo de atendimento, equipamentos, cadeiras e produtos usados na limpeza. A indicação comercial de uma linha não confirma, por si só, adequação a qualquer serviço de saúde. Requisitos específicos da atividade devem ser definidos pelo responsável pelo espaço."
+      ],
+      [
+        "Amostra também serve para avaliar manutenção",
+        "Compare superfície, juntas e acabamento com a rotina prevista. Leve a identificação dos produtos de limpeza à consulta e confira compatibilidade no manual. Não substitua uma exigência técnica por preferência de cor ou pela expressão genérica de piso resistente."
+      ],
+      [
+        "Organize a sala antes de contratar",
+        "Separe área livre, móveis fixos e passagens. Peça uma proposta que discrimine preparação, revestimento e rodapé, além da condição de liberação para uso. Combine o período de indisponibilidade da sala sem presumir instalação durante o atendimento."
+      ]
+    ]
+  },
+  "alto-da-xv": {
+    "name": "Alto da XV",
+    "focus": "Reformar um imóvel alugado com decisões documentadas",
+    "intro": "Alto da XV integra a Regional Matriz de Curitiba no inventário municipal. Este roteiro trata de uma situação de projeto para quem consulta atendimento no bairro; não descreve obras locais nem presume o perfil de todos os imóveis. A PVS recebe consultas a partir de São José dos Pinhais e confirma o serviço pelo endereço.",
+    "sections": [
+      [
+        "Combine o que pode ser modificado",
+        "Antes de comprar, confirme com o proprietário e, quando aplicável, o condomínio quais alterações estão autorizadas. Fotografe piso, portas e rodapés existentes. A escolha de um sistema de encaixe não garante que a intervenção seja reversível sem marcas ou reparos."
+      ],
+      [
+        "Compare retirada e sobreposição",
+        "Peça avaliação da firmeza, nivelamento e umidade da base. A possibilidade de manter o revestimento atual depende do sistema e das instruções da linha. Inclua no levantamento a altura final junto a portas e armários, mesmo quando a retirada parece dispensável."
+      ],
+      [
+        "Guarde a identificação da escolha",
+        "Registre marca, linha, padrão e serviços contratados. Organize orientações de limpeza e informações de eventual reserva de material com o responsável pelo imóvel. Não confunda o nome comercial de uma cor com garantia de encontrar o mesmo lote no futuro."
+      ]
+    ]
+  },
+  "atuba": {
+    "name": "Atuba",
+    "focus": "Informar o endereço completo evita erro na consulta de atendimento",
+    "intro": "Atuba integra a Regional Boa Vista de Curitiba no inventário municipal. Este roteiro trata de uma situação de projeto para quem consulta atendimento no bairro; não descreve obras locais nem presume o perfil de todos os imóveis. A PVS recebe consultas a partir de São José dos Pinhais e confirma o serviço pelo endereço.",
+    "sections": [
+      [
+        "Comece pelo município e pelo CEP",
+        "Esta página se refere ao bairro Atuba de Curitiba, conforme o inventário municipal. Ao consultar a PVS, envie município, rua, número e CEP; o nome do bairro sozinho não define entrega, medição ou instalação. A disponibilidade é confirmada para o endereço."
+      ],
+      [
+        "Descreva o acesso até o cômodo",
+        "Informe escadas, elevador, portão e local permitido para receber caixas. Não é necessário estimar frete por conta própria: peça que entrega e movimentação estejam discriminadas na proposta. A distância no mapa não revela todas as condições de acesso."
+      ],
+      [
+        "Prepare uma seleção identificável",
+        "Escolha dois ou três nomes completos do catálogo e envie fotos do ambiente. Indique se busca laminado, vinílico ou apenas reposição de rodapé. Assim a conversa pode separar dúvida de material, avaliação da base e disponibilidade logística."
+      ]
+    ]
+  },
+  "augusta": {
+    "name": "Augusta",
+    "focus": "Comparar um piso único com materiais diferentes em cada ambiente",
+    "intro": "Augusta integra a Regional CIC de Curitiba no inventário municipal. Este roteiro trata de uma situação de projeto para quem consulta atendimento no bairro; não descreve obras locais nem presume o perfil de todos os imóveis. A PVS recebe consultas a partir de São José dos Pinhais e confirma o serviço pelo endereço.",
+    "sections": [
+      [
+        "Mapeie usos antes de padronizar",
+        "Liste quartos, sala, circulação e pontos sujeitos à água. Usar a mesma aparência não exige aplicar o mesmo sistema em todos os espaços. Confirme a indicação de cada produto, especialmente na passagem para cozinha, banheiro e área de serviço."
+      ],
+      [
+        "Planeje os encontros entre revestimentos",
+        "Registre onde o piso novo termina e o existente permanece. Perfis, soleiras e diferenças de altura precisam aparecer no levantamento. Peça uma solução compatível com o movimento previsto para o sistema, sem improvisar uniões apenas por estética."
+      ],
+      [
+        "Compare o conjunto por escrito",
+        "No orçamento, organize metragem por ambiente, tipo de preparação e respectivos acabamentos. Materiais visualmente parecidos podem exigir mão de obra e cuidados diferentes. A PVS pode receber essas informações para avaliar o escopo no endereço informado."
+      ]
+    ]
+  },
+  "bacacheri": {
+    "name": "Bacacheri",
+    "focus": "Preparar o quarto para a troca de piso",
+    "intro": "Bacacheri integra a Regional Boa Vista de Curitiba no inventário municipal. Este roteiro trata de uma situação de projeto para quem consulta atendimento no bairro; não descreve obras locais nem presume o perfil de todos os imóveis. A PVS recebe consultas a partir de São José dos Pinhais e confirma o serviço pelo endereço.",
+    "sections": [
+      [
+        "Retire as medidas do papel",
+        "Anote comprimento, largura, recortes e posição de armários. Informe quais móveis podem sair e quais são fixos. A área aproximada ajuda a iniciar a consulta, mas quantidade de compra, recortes e perdas devem ser definidos no levantamento do projeto."
+      ],
+      [
+        "Pense no uso diário do quarto",
+        "Compare a amostra com cama, portas e iluminação. Se o espaço também recebe uma mesa de trabalho, informe rodízios e movimentação da cadeira. Cor, espessura e aparência não substituem a indicação de uso e os acessórios compatíveis."
+      ],
+      [
+        "Organize a volta dos móveis",
+        "Combine retirada, guarda e retorno do mobiliário, sem arrastá-lo sobre o revestimento pronto. Peça a orientação de proteção dos apoios e limpeza inicial da linha. O momento de liberação para uso depende do sistema e dos materiais aplicados."
+      ]
+    ]
+  },
+  "bairro-alto": {
+    "name": "Bairro Alto",
+    "focus": "Escolher piso para um pequeno comércio sem olhar só a vitrine",
+    "intro": "Bairro Alto integra a Regional Boa Vista de Curitiba no inventário municipal. Este roteiro trata de uma situação de projeto para quem consulta atendimento no bairro; não descreve obras locais nem presume o perfil de todos os imóveis. A PVS recebe consultas a partir de São José dos Pinhais e confirma o serviço pelo endereço.",
+    "sections": [
+      [
+        "Diferencie atendimento e apoio",
+        "Separe no desenho entrada, balcão, circulação, estoque e áreas com água. Cada espaço pode ter exigências próprias; um laminado indicado para determinada circulação não está automaticamente indicado para cargas concentradas ou movimentação de equipamentos."
+      ],
+      [
+        "Descreva a limpeza real",
+        "Informe frequência, equipamentos e produtos usados na conservação. Compare essa rotina com as instruções do fabricante antes de fechar a linha. Se a operação exige lavagem abundante, explique isso na consulta em vez de adaptar os cuidados depois da instalação."
+      ],
+      [
+        "Defina o que precisa parar",
+        "Planeje recebimento de caixas, retirada de móveis e isolamento do ambiente de trabalho. Solicite cronograma e responsabilidades por escrito. Não conte com manutenção da loja aberta durante todas as etapas sem avaliação e acordo específicos."
+      ]
+    ]
+  },
+  "barreirinha": {
+    "name": "Barreirinha",
+    "focus": "Comparar tons de madeira com móveis que já fazem parte da casa",
+    "intro": "Barreirinha integra a Regional Boa Vista de Curitiba no inventário municipal. Este roteiro trata de uma situação de projeto para quem consulta atendimento no bairro; não descreve obras locais nem presume o perfil de todos os imóveis. A PVS recebe consultas a partir de São José dos Pinhais e confirma o serviço pelo endereço.",
+    "sections": [
+      [
+        "Use referências próximas, não apenas a tela",
+        "Fotografe portas, armários e móveis sob a iluminação habitual. Escolha poucos padrões para comparar fisicamente, preservando os nomes e códigos. Fotografias ajudam a explicar a preferência, mas tela e luz podem alterar bastante a percepção do tom."
+      ],
+      [
+        "Observe o conjunto da amostra",
+        "Além da cor de fundo, veja os veios, o contraste e o acabamento de superfície. Pergunte como o desenho varia entre réguas e consulte a ficha oficial. Uma pequena amostra não representa necessariamente toda a variação visual do piso instalado."
+      ],
+      [
+        "Leve a escolha ao orçamento técnico",
+        "Depois de reduzir as opções, confirme indicação de uso, preparação e acessórios de cada linha. Se uma alternativa muda a espessura ou o sistema, confira novamente portas e transições. A escolha visual deve permanecer ligada às condições do imóvel."
+      ]
+    ]
+  },
+  "bigorrilho": {
+    "name": "Bigorrilho",
+    "focus": "Trocar o piso de apartamento com atenção às regras do condomínio",
+    "intro": "Bigorrilho integra a Regional Matriz de Curitiba no inventário municipal. Este roteiro trata de uma situação de projeto para quem consulta atendimento no bairro; não descreve obras locais nem presume o perfil de todos os imóveis. A PVS recebe consultas a partir de São José dos Pinhais e confirma o serviço pelo endereço.",
+    "sections": [
+      [
+        "Reúna as regras antes da proposta",
+        "Consulte horários de obra, recebimento de materiais e reserva de elevador. Informe andar, acesso e restrições à equipe que prepara o orçamento. A possibilidade de instalação depende também da organização do prédio, não apenas da metragem do apartamento."
+      ],
+      [
+        "Não escolha manta por uma promessa genérica",
+        "Se houver requisito acústico, solicite a especificação exigida pelo condomínio e compare o sistema completo aprovado pelo fabricante. Não some mantas ou adapte camadas por conta própria. A avaliação acústica não pode ser deduzida somente da espessura anunciada do piso."
+      ],
+      [
+        "Confira portas e circulação",
+        "Registre soleiras, encontros com áreas molhadas e portas que abrem sobre o revestimento. Planeje a guarda dos móveis e a passagem entre cômodos durante a obra. Inclua os ajustes necessários no escopo para comparar propostas equivalentes."
+      ]
+    ]
+  },
+  "boa-vista": {
+    "name": "Boa Vista",
+    "focus": "Entender o que uma amostra pequena consegue mostrar",
+    "intro": "Boa Vista integra a Regional Boa Vista de Curitiba no inventário municipal. Este roteiro trata de uma situação de projeto para quem consulta atendimento no bairro; não descreve obras locais nem presume o perfil de todos os imóveis. A PVS recebe consultas a partir de São José dos Pinhais e confirma o serviço pelo endereço.",
+    "sections": [
+      [
+        "Comece pela identificação",
+        "Anote marca, linha, padrão e código da amostra. Nomes parecidos podem existir em produtos diferentes. Ao consultar o showroom PVS, envie a referência escolhida e confirme se a amostra está disponível antes de sair de casa."
+      ],
+      [
+        "Compare em mais de uma luz",
+        "Observe a amostra perto das paredes e móveis com luz natural e iluminação artificial. Procure perceber fundo, veios e brilho, sem aplicar filtros nas fotos usadas na conversa. A percepção muda conforme a luz; não espere equivalência exata entre tela e material físico."
+      ],
+      [
+        "Pergunte sobre a área completa",
+        "Consulte fotos oficiais do padrão e sua variação entre réguas. Depois confira indicação de uso e manual, que a amostra visual não revela. Para escolher entre dois produtos semelhantes, compare também sistema, preparação e acessórios previstos para o ambiente."
+      ]
+    ]
+  },
+  "bom-retiro": {
+    "name": "Bom Retiro",
+    "focus": "Conservar acabamentos durante uma renovação parcial",
+    "intro": "Bom Retiro integra a Regional Matriz de Curitiba no inventário municipal. Este roteiro trata de uma situação de projeto para quem consulta atendimento no bairro; não descreve obras locais nem presume o perfil de todos os imóveis. A PVS recebe consultas a partir de São José dos Pinhais e confirma o serviço pelo endereço.",
+    "sections": [
+      [
+        "Defina os limites da intervenção",
+        "Marque no desenho os cômodos que receberão o piso e os que permanecerão como estão. Fotografe rodapés, portas e encontros. Peça que a proposta identifique retirada, reaproveitamento condicionado à avaliação e materiais novos necessários."
+      ],
+      [
+        "Avalie reaproveitamento sem prometer integridade",
+        "Uma peça existente pode não suportar desmontagem ou combinar com a nova altura. Pergunte sobre alternativas antes de depender do reaproveitamento para fechar o orçamento. Diferenças de cor e sinais de uso também devem ser considerados na decisão."
+      ],
+      [
+        "Planeje a entrega do ambiente",
+        "Combine proteção dos espaços que ficam fora da obra e destinação dos materiais retirados. Na conferência final, verifique transições e orientações de limpeza. Guarde os nomes dos produtos aplicados para futuras consultas de manutenção ou reposição."
+      ]
+    ]
+  },
+  "boqueiro": {
+    "name": "Boqueirão",
+    "focus": "Orçar sala e corredor como um projeto integrado",
+    "intro": "Boqueirão integra a Regional Boqueirão de Curitiba no inventário municipal. Este roteiro trata de uma situação de projeto para quem consulta atendimento no bairro; não descreve obras locais nem presume o perfil de todos os imóveis. A PVS recebe consultas a partir de São José dos Pinhais e confirma o serviço pelo endereço.",
+    "sections": [
+      [
+        "Meça a circulação inteira",
+        "Além da área da sala, registre comprimento do corredor, portas laterais e recortes. Informe se o piso continuará nos quartos. A quantidade e o desenho da instalação dependem dessa configuração, por isso uma medida total isolada não descreve todo o trabalho."
+      ],
+      [
+        "Converse sobre direção e interrupções",
+        "Avalie o sentido visual das réguas junto com os limites previstos pelo fabricante. Não elimine juntas ou perfis apenas para obter uma aparência contínua. A equipe deve conferir dimensões e encontros antes de definir a solução de instalação."
+      ],
+      [
+        "Compare a proposta por etapas",
+        "Separe preparação, material, rodapés, perfis e mão de obra. Se houver móveis grandes na sala, explique como poderão ser deslocados. Peça orientação para proteção dos apoios e circulação após o serviço, conforme o sistema contratado."
+      ]
+    ]
+  },
+  "butiatuvinha": {
+    "name": "Butiatuvinha",
+    "focus": "Planejar piso interno quando a casa também tem quintal",
+    "intro": "Butiatuvinha consta na Regional Santa Felicidade no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Separe interior e exterior",
+        "Mostre à equipe onde termina o ambiente interno e começa a área descoberta. A proximidade do quintal pede atenção à entrada de água e sujeira, mas não autoriza usar qualquer laminado ou vinílico fora da indicação do fabricante."
+      ],
+      [
+        "Confira a porta de passagem",
+        "Fotografe soleira, desnível e abertura da folha. Inclua esse encontro na avaliação da base e dos acabamentos; a escolha de uma cor semelhante à área externa não resolve diferenças técnicas entre os revestimentos."
+      ],
+      [
+        "Organize os cuidados da entrada",
+        "Consulte proteção compatível e rotina de limpeza indicada para a linha. Explique se animais ou calçados passam frequentemente pelo quintal. Esses dados ajudam a discutir uso real sem prometer que um material resistirá a qualquer condição."
+      ]
+    ]
+  },
+  "cabral": {
+    "name": "Cabral",
+    "focus": "Comparar laminado e vinílico para um escritório em casa",
+    "intro": "Cabral consta na Regional Matriz no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Informe o uso da cadeira",
+        "Descreva rodízios, tempo de uso e movimentação sobre o piso. Consulte a compatibilidade e proteção recomendada para a linha. Um produto residencial não deve ser escolhido apenas por combinar com a mesa."
+      ],
+      [
+        "Avalie a base e os encontros",
+        "Fotografe o revestimento atual, a passagem para outros cômodos e móveis fixos. Laminado e vinílico podem pedir preparações diferentes; compare o custo do conjunto instalado, sem limitar a decisão ao preço do material."
+      ],
+      [
+        "Teste a aparência no ambiente de trabalho",
+        "Observe amostras sob a luz utilizada durante o expediente. Compare contraste com armários e acabamento superficial. Registre códigos das opções para consultar disponibilidade, sem tratar a fotografia do catálogo como garantia de cor."
+      ]
+    ]
+  },
+  "cachoeira": {
+    "name": "Cachoeira",
+    "focus": "Investigar sinais de umidade antes de cobrir a base",
+    "intro": "Cachoeira consta na Regional Boa Vista no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Registre os sinais sem diagnosticar pela foto",
+        "Manchas, odor e partes soltas devem ser informados na consulta. A fotografia ajuda a localizar o problema, mas não identifica sozinha a origem da umidade nem substitui a avaliação do ambiente."
+      ],
+      [
+        "Resolva a causa antes do acabamento",
+        "Peça orientação sobre a verificação necessária e as condições exigidas pelo fabricante. Não use manta ou novo revestimento para esconder umidade ativa. A solução depende da causa e pode exigir trabalho anterior à instalação."
+      ],
+      [
+        "Retome a escolha com a base definida",
+        "Depois da avaliação, compare apenas sistemas indicados para as condições encontradas. Solicite na proposta os serviços de preparação e seus responsáveis. A existência de uma linha resistente à água não elimina os requisitos do contrapiso."
+      ]
+    ]
+  },
+  "cajuru": {
+    "name": "Cajuru",
+    "focus": "Organizar a reforma quando há muitos móveis para retirar",
+    "intro": "Cajuru consta na Regional Cajuru no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Faça um inventário por cômodo",
+        "Liste armários, camas, sofás e objetos frágeis. Indique o que é fixo e o que pode sair. A equipe precisa conhecer essas condições antes de propor sequência de preparação e instalação."
+      ],
+      [
+        "Combine movimentação e guarda",
+        "Defina quem desmonta, transporta e remonta cada item. Não presuma que essas tarefas estejam incluídas na instalação do piso. Garanta passagem e espaço de armazenamento sem apoiar caixas em áreas que ainda estão sendo preparadas."
+      ],
+      [
+        "Planeje a devolução dos ambientes",
+        "Peça instruções sobre liberação para uso e proteção dos pés dos móveis. A volta do mobiliário deve respeitar o sistema aplicado. Evite arrastar peças pesadas e mantenha identificação do material para consultas posteriores."
+      ]
+    ]
+  },
+  "campina-do-siqueira": {
+    "name": "Campina do Siqueira",
+    "focus": "Escolher rodapés junto com o piso, não depois",
+    "intro": "Campina do Siqueira consta na Regional Santa Felicidade no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Meça paredes e interrupções",
+        "Registre portas, armários e trechos que não receberão rodapé. A metragem do piso não determina automaticamente a quantidade de acabamento. Inclua cantos e encontros na conferência para reduzir decisões improvisadas durante a instalação."
+      ],
+      [
+        "Compare altura e interferências",
+        "Observe tomadas, guarnições e móveis próximos às paredes. Uma altura maior pode interferir nesses elementos. Leve fotos e medidas ao showroom para comparar perfis sem escolher somente pela aparência de um ambiente de referência."
+      ],
+      [
+        "Identifique material e montagem",
+        "Consulte o rodapé específico, acabamento, acessórios e modo de fixação indicado. Confirme o estado da parede e o escopo de preparação. Não extrapole características de um modelo Santa Luzia para toda a categoria."
+      ]
+    ]
+  },
+  "campo-comprido": {
+    "name": "Campo Comprido",
+    "focus": "Fazer o orçamento por etapas sem perder a visão do conjunto",
+    "intro": "Campo Comprido consta na Regional Santa Felicidade no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Desenhe a reforma completa",
+        "Mesmo que só um cômodo seja executado agora, indique os espaços que poderão mudar depois. Informe os revestimentos que permanecem e peça orientação sobre transições. Isso ajuda a avaliar a primeira etapa com seus limites reais."
+      ],
+      [
+        "Não dependa de lote futuro idêntico",
+        "Consulte eventual reserva de material e condições de armazenamento, sem assumir disponibilidade permanente do padrão. Cor, coleção e lote podem mudar. Registre a identificação da escolha para comparar opções quando a próxima etapa chegar."
+      ],
+      [
+        "Separe custos por fase",
+        "Peça material, preparação, acabamento e serviços discriminados para cada área. Entrega e deslocamento podem variar entre etapas; confirme na proposta. Uma comparação justa considera o escopo de cada fase, não apenas a soma da metragem."
+      ]
+    ]
+  },
+  "campo-de-santana": {
+    "name": "Campo de Santana",
+    "focus": "Preparar uma casa nova para receber o revestimento",
+    "intro": "Campo de Santana consta na Regional Tatuquara no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Confira a sequência dos serviços",
+        "Informe quais etapas da obra ainda estão em execução, incluindo pintura, portas e marcenaria. A instalação do piso deve ser coordenada com os trabalhos restantes. Não marque entrega e aplicação apenas pela data prevista de mudança."
+      ],
+      [
+        "A base precisa estar liberada",
+        "Consulte as condições de umidade, regularidade e limpeza exigidas pelo sistema escolhido. Um contrapiso recente não está automaticamente pronto. Peça avaliação e definição de responsabilidades para correções antes de contratar a instalação."
+      ],
+      [
+        "Proteja o material recebido",
+        "Combine local e condições de armazenamento conforme o manual. Confira embalagens e identificação do produto na entrega. Se outros profissionais ainda circularão no imóvel, planeje proteção compatível sem presumir que qualquer cobertura pode ser usada."
+      ]
+    ]
+  },
+  "capo-da-imbuia": {
+    "name": "Capão da Imbuia",
+    "focus": "Avaliar um piso existente antes de instalar outro por cima",
+    "intro": "Capão da Imbuia consta na Regional Cajuru no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Identifique o revestimento atual",
+        "Informe se a base visível é cerâmica, madeira ou outro piso e mostre juntas, peças soltas e recortes. A possibilidade de sobreposição depende do conjunto existente e da linha nova; não é uma regra válida para todos os materiais."
+      ],
+      [
+        "Inclua a altura final na análise",
+        "Meça passagens de portas e transições para áreas que permanecerão. Preparação, manta ou adesivo e revestimento podem alterar o encontro. Evite fechar o pedido antes de saber quais ajustes e perfis serão necessários."
+      ],
+      [
+        "Compare as duas alternativas",
+        "Peça que retirada e eventual sobreposição sejam avaliadas com seus serviços associados. Além de custo, considere firmeza e condição da base. A solução precisa atender ao manual, não apenas evitar uma etapa de obra."
+      ]
+    ]
+  },
+  "capo-raso": {
+    "name": "Capão Raso",
+    "focus": "Ler uma proposta de piso com escopo comparável",
+    "intro": "Capão Raso consta na Regional Pinheirinho no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Identifique exatamente o produto",
+        "Procure marca, linha, padrão, unidade de venda e quantidade. Uma descrição como piso amadeirado é insuficiente para comparar propostas. Se houver alternativa de material, peça uma nova identificação completa, não apenas a troca de preço."
+      ],
+      [
+        "Separe o que acompanha a instalação",
+        "Confira preparação, manta ou adesivo quando aplicáveis, rodapés, perfis, retirada e transporte. Pergunte quais serviços dependem de avaliação presencial. Itens ausentes precisam ser esclarecidos antes de considerar dois orçamentos equivalentes."
+      ],
+      [
+        "Registre condições e responsáveis",
+        "Combine entrega, acesso, forma de pagamento e prazo na proposta. A página não estabelece condições comerciais fixas. Guarde a documentação da escolha e as orientações da linha para que a conferência final use o mesmo escopo contratado."
+      ]
+    ]
+  },
+  "cascatinha": {
+    "name": "Cascatinha",
+    "focus": "Comparar madeira clara e escura sem escolher pela moda",
+    "intro": "Cascatinha consta na Regional Santa Felicidade no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Observe a iluminação que já existe",
+        "Compare amostras em horários diferentes e perto das paredes. Luz natural e lâmpadas alteram a leitura do tom. Fotografias de referência servem para conversar sobre preferências, mas não substituem a amostra identificada."
+      ],
+      [
+        "Considere contraste e desenho",
+        "Avalie o fundo da madeira, a intensidade dos veios e a relação com móveis. Uma cor escura não define sozinha o resultado, assim como uma clara não garante sensação de amplitude. O conjunto do ambiente orienta a escolha."
+      ],
+      [
+        "Volte aos requisitos técnicos",
+        "Depois de escolher a aparência, confira uso indicado, sistema e cuidados. Produtos parecidos podem exigir preparações distintas. Consulte a PVS com os códigos selecionados para verificar fornecimento e amostras, sem presumir estoque pelo catálogo."
+      ]
+    ]
+  },
+  "caximba": {
+    "name": "Caximba",
+    "focus": "Organizar a primeira consulta de piso com informações simples",
+    "intro": "Caximba consta na Regional Tatuquara no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Envie uma visão geral e detalhes",
+        "Fotografe o cômodo inteiro e depois os pontos de passagem, danos e manchas. Evite filtros que alterem cores. Informe qual piso existe hoje e se o ambiente ficará vazio durante o serviço."
+      ],
+      [
+        "Anote medidas sem fechar a compra",
+        "Comprimento e largura aproximados ajudam na conversa inicial. Avise sobre recortes e móveis fixos. A quantidade final e eventuais perdas dependem do levantamento e do desenho da instalação, não de um percentual genérico nesta página."
+      ],
+      [
+        "Separe dúvidas de material e de serviço",
+        "Diga se procura fornecimento, instalação ou manutenção. Envie endereço completo e tipo de uso. A PVS poderá confirmar disponibilidade e o próximo passo adequado; uma conversa por mensagem não substitui toda avaliação técnica necessária."
+      ]
+    ]
+  },
+  "centro-cvico": {
+    "name": "Centro Cívico",
+    "focus": "Planejar circulação e acabamento em uma sala de reuniões",
+    "intro": "Centro Cívico consta na Regional Matriz no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Descreva mesa, cadeiras e frequência",
+        "Informe quantidade de assentos, movimentação de rodízios e como o ambiente é limpo. A escolha precisa considerar o uso real e a indicação do fabricante. A aparência de escritório numa foto não comprova adequação da linha."
+      ],
+      [
+        "Confira portas e pontos de passagem",
+        "Marque entradas, encontros com corredores e mobiliário fixo. Se houver equipamentos ou instalações no piso, mostre como são acessados. A solução deve preservar o uso do ambiente sem improvisar recortes depois da compra."
+      ],
+      [
+        "Combine a entrega da sala",
+        "Organize retirada e retorno dos móveis, período sem reuniões e condição de liberação para uso. Peça documentação de material e cuidados. Não conte com uma troca sem interrupção das atividades sem avaliação do cronograma."
+      ]
+    ]
+  },
+  "cristo-rei": {
+    "name": "Cristo Rei",
+    "focus": "Comparar referências de piso para sala de estar e jantar",
+    "intro": "Cristo Rei consta na Regional Matriz no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Veja o espaço como um conjunto",
+        "Registre a posição de sofá, mesa e portas antes de selecionar o padrão. Compare amostras perto dos móveis que permanecerão. A fotografia de um ambiente parecido não reproduz necessariamente a iluminação ou as proporções do seu imóvel."
+      ],
+      [
+        "Inclua movimentação de cadeiras",
+        "Informe uso da sala de jantar e tipo de apoio do mobiliário. Consulte proteção e cuidados compatíveis com o piso. Resistência não significa autorização para arrastar cadeiras ou móveis sem as medidas recomendadas pelo fabricante."
+      ],
+      [
+        "Planeje os limites da instalação",
+        "Identifique passagem para cozinha, sacada e corredor. Peça orientação sobre perfis e juntas do sistema. Uma aparência contínua deve respeitar as dimensões e condições de instalação, sem suprimir detalhes técnicos por preferência estética."
+      ]
+    ]
+  },
+  "fanny": {
+    "name": "Fanny",
+    "focus": "Definir rodapés quando há armários planejados",
+    "intro": "Fanny consta na Regional Pinheirinho no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Mapeie o mobiliário fixo",
+        "Fotografe bases dos armários e meça os trechos livres de parede. Informe o que será mantido ou instalado depois. O planejamento do rodapé precisa considerar acessos e encontros, não apenas o perímetro total do cômodo."
+      ],
+      [
+        "Converse sobre a ordem dos trabalhos",
+        "Combine piso, marcenaria e acabamento com os responsáveis. Não prenda um sistema flutuante de modo incompatível com seu manual. A solução junto ao móvel deve ser definida antes da montagem, conforme o produto e o projeto."
+      ],
+      [
+        "Confira aparência e manutenção",
+        "Compare amostra do rodapé com portas e armários sob a mesma luz. Consulte modo de limpeza e eventuais cuidados de fixação. Guarde o código do perfil escolhido para futuras consultas, sem assumir que todo rodapé branco é equivalente."
+      ]
+    ]
+  },
+  "fazendinha": {
+    "name": "Fazendinha",
+    "focus": "Reformar um cômodo sem danificar os ambientes vizinhos",
+    "intro": "Fazendinha consta na Regional Portão no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Delimite a área de trabalho",
+        "Marque o espaço que será renovado e o caminho de entrada dos materiais. Informe quais cômodos continuam em uso. Combine proteção, circulação e local de armazenamento, com responsabilidades claras antes do início do serviço."
+      ],
+      [
+        "Resolva o encontro com o piso antigo",
+        "Fotografe a passagem e meça diferenças de altura. A escolha de perfil ou soleira precisa considerar ambos os revestimentos. Não presuma que uma cor semelhante ou uma régua de mesma largura garantirá compatibilidade."
+      ],
+      [
+        "Organize a limpeza final",
+        "Peça orientação para retirar resíduos de acordo com a linha instalada. Evite produtos abrasivos ou soluções caseiras sem indicação. Confira os limites do serviço de limpeza na proposta e guarde o manual do material escolhido."
+      ]
+    ]
+  },
+  "ganchinho": {
+    "name": "Ganchinho",
+    "focus": "Receber e conferir as caixas antes da instalação",
+    "intro": "Ganchinho consta na Regional Bairro Novo no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Confira a identificação na entrega",
+        "Compare marca, linha, padrão e quantidade com o pedido. Registre o estado das embalagens e comunique divergências pelo canal combinado. Não descarte etiquetas antes da conferência, pois elas ajudam a identificar material e lote."
+      ],
+      [
+        "Reserve um local adequado",
+        "Pergunte sobre armazenamento e preparação do produto antes da instalação. Siga o manual específico, sem adotar prazo universal de aclimatação. Evite deixar caixas expostas à água ou em local incompatível com as orientações da linha."
+      ],
+      [
+        "Separe entrega de liberação da base",
+        "Material no imóvel não significa contrapiso pronto. Confirme que avaliação e preparação foram concluídas antes de agendar a aplicação. Combine também quem movimenta as caixas do ponto de recebimento até o ambiente de trabalho."
+      ]
+    ]
+  },
+  "guabirotuba": {
+    "name": "Guabirotuba",
+    "focus": "Escolher piso para um ambiente de uso misto",
+    "intro": "Guabirotuba consta na Regional Cajuru no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Liste as atividades do espaço",
+        "Uma sala pode receber descanso, refeições e trabalho. Explique cadeiras, equipamentos e limpeza para comparar a indicação de uso. A seleção deve atender ao conjunto de atividades, sem se apoiar só no nome do cômodo."
+      ],
+      [
+        "Compare opções com o mesmo escopo",
+        "Laminado, vinílico e SPC podem exigir bases e acessórios diferentes. Peça que a proposta detalhe preparação e acabamentos de cada alternativa. Não compare apenas o valor por metro quadrado de materiais que pedem serviços distintos."
+      ],
+      [
+        "Registre a escolha e os cuidados",
+        "Anote o código do padrão e consulte a ficha oficial. Antes de fechar, confira disponibilidade e condições PVS. Depois da instalação, siga o manual para proteção de móveis e limpeza, sem extrapolar orientações de outra linha."
+      ]
+    ]
+  },
+  "guara": {
+    "name": "Guaíra",
+    "focus": "Planejar a retirada de rodapés antigos",
+    "intro": "Guaíra consta na Regional Portão no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Avalie peças e parede",
+        "Fotografe o acabamento atual, pontos soltos e encontros com guarnições. A retirada pode revelar necessidades de reparo que não aparecem de longe. Peça que a avaliação considere a parede, além da instalação do novo perfil."
+      ],
+      [
+        "Defina reaproveitamento com cautela",
+        "Se quiser preservar peças, informe isso antes da proposta e confirme a viabilidade. Não conte com desmontagem sem danos como condição garantida. Compare alternativas de substituição para não interromper o projeto caso o reaproveitamento não seja possível."
+      ],
+      [
+        "Inclua serviços auxiliares",
+        "Esclareça quem remove, destina os resíduos e prepara a superfície para o rodapé novo. Confira se pintura e reparos estão incluídos ou serão contratados separadamente. O acabamento final depende dessa sequência, não apenas da compra do perfil."
+      ]
+    ]
+  },
+  "hauer": {
+    "name": "Hauer",
+    "focus": "Selecionar piso para recepção de um estabelecimento",
+    "intro": "Hauer consta na Regional Boqueirão no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Explique a circulação prevista",
+        "Informe entrada de clientes, assentos, balcão e acesso à rua. A recomendação depende da atividade e da ficha da linha. Não presuma que todo piso comercial suporta qualquer carga, limpeza ou equipamento."
+      ],
+      [
+        "Observe a área de entrada",
+        "Descreva exposição à água e sujeira e a rotina de conservação. Compare as exigências do uso com o manual antes da escolha. A entrada pode precisar de solução diferente da área interna, conforme avaliação do projeto."
+      ],
+      [
+        "Planeje apresentação e funcionamento",
+        "Escolha amostras junto às cores de móveis e paredes, mas inclua acesso e manutenção no orçamento. Combine retirada do mobiliário e período de indisponibilidade. O prazo de execução deve ser confirmado para o serviço concreto."
+      ]
+    ]
+  },
+  "hugo-lange": {
+    "name": "Hugo Lange",
+    "focus": "Usar o showroom para comparar poucas opções bem escolhidas",
+    "intro": "Hugo Lange consta na Regional Matriz no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Faça uma lista curta antes da visita",
+        "Selecione até três referências com marca, linha e código. Envie-as à PVS para confirmar amostras disponíveis. Leve fotos de portas e móveis; isso torna a comparação presencial mais objetiva que uma busca sem critérios."
+      ],
+      [
+        "Compare aparência e ficha em separado",
+        "Observe cor, veios e acabamento nas amostras. Depois confira indicação de uso e sistema de instalação. Uma opção visualmente semelhante pode ter requisitos diferentes, por isso não substitua a leitura da ficha pela percepção ao toque."
+      ],
+      [
+        "Saia com as referências registradas",
+        "Anote o que foi comparado e quais informações ainda faltam sobre a base. Peça uma proposta identificada para o endereço. A visita ao showroom não implica reserva de material ou confirmação automática de estoque."
+      ]
+    ]
+  },
+  "jardim-botnico": {
+    "name": "Jardim Botânico",
+    "focus": "Planejar o piso de uma sala que recebe luz em horários diferentes",
+    "intro": "Jardim Botânico consta na Regional Matriz no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Observe antes de escolher",
+        "Fotografe o ambiente pela manhã e à tarde, sem filtros. Compare a amostra com a iluminação artificial também. Não atribua ao padrão uma cor única de tela: a percepção depende das condições em que ele é visto."
+      ],
+      [
+        "Informe exposição do ambiente",
+        "Mostre janelas, portas e incidência de luz à equipe. Consulte as condições de aplicação e proteção descritas para a linha. Características relacionadas à exposição devem ser confirmadas no manual, sem presumir desempenho pela tonalidade da madeira."
+      ],
+      [
+        "Considere móveis e acabamento",
+        "Compare a relação do piso com tecidos, paredes e rodapés. Registre o código escolhido e confira a disponibilidade. Se mudar de linha durante a compra, reavalie os requisitos de instalação, mesmo que a aparência seja próxima."
+      ]
+    ]
+  },
+  "jardim-das-amricas": {
+    "name": "Jardim das Américas",
+    "focus": "Preparar um quarto que também funciona como área de estudo",
+    "intro": "Jardim das Américas consta na Regional Cajuru no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Descreva os dois usos",
+        "Informe cama, mesa, cadeira e circulação entre os móveis. A área de estudo pode acrescentar rodízios e movimentação frequente. Consulte a indicação do piso e as medidas de proteção adequadas a essa rotina."
+      ],
+      [
+        "Planeje a posição dos móveis",
+        "Registre armários fixos e espaço necessário para retirar o mobiliário durante o serviço. Confira a abertura de portas com a altura final prevista. Essas informações devem fazer parte do levantamento, não ficar para o dia da instalação."
+      ],
+      [
+        "Combine manutenção com a rotina",
+        "Peça instruções de limpeza e proteção de apoios da linha escolhida. Evite receitas de manutenção baseadas apenas no tipo geral de piso. Guarde a ficha do produto e identifique eventuais peças de reserva."
+      ]
+    ]
+  },
+  "jardim-social": {
+    "name": "Jardim Social",
+    "focus": "Combinar rodapé e guarnição sem presumir que todo branco é igual",
+    "intro": "Jardim Social consta na Regional Matriz no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Compare as peças lado a lado",
+        "Leve referência de portas e guarnições ao showroom. Observe tom, brilho e desenho do perfil na mesma iluminação. Produtos chamados brancos podem ter aparências diferentes; o nome da cor não garante equivalência entre marcas."
+      ],
+      [
+        "Confira espessura e encontros",
+        "Meça os pontos onde o rodapé encontra a guarnição e móveis. A altura escolhida precisa respeitar interferências existentes. Peça avaliação do conjunto para evitar um acabamento que exija ajustes não previstos."
+      ],
+      [
+        "Identifique os itens da proposta",
+        "Solicite modelo, material, comprimento das peças e acessórios necessários. Confirme fixação e preparação da parede conforme a linha. Não use especificações de outro perfil como referência automática para o produto selecionado."
+      ]
+    ]
+  },
+  "juvev": {
+    "name": "Juvevê",
+    "focus": "Entender a diferença entre o piso e o sistema instalado",
+    "intro": "Juvevê consta na Regional Matriz no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Olhe além da régua",
+        "A solução pode envolver preparação, manta ou adesivo, perfis e rodapés. Cada sistema tem requisitos próprios. Peça que a proposta identifique os componentes aplicáveis ao produto, sem adicionar camadas por suposição."
+      ],
+      [
+        "Relacione a escolha com a base",
+        "Informe o revestimento atual e sinais de irregularidade ou umidade. A aparência final depende de uma instalação compatível com essas condições. Um material de boa qualidade não dispensa avaliação e preparação adequadas."
+      ],
+      [
+        "Compare propostas equivalentes",
+        "Ao analisar duas opções, confira se ambas incluem o mesmo serviço e acessórios. Registre marca e linha dos materiais. O menor valor isolado da régua não informa o custo completo nem resolve diferenças de escopo."
+      ]
+    ]
+  },
+  "lamenha-pequena": {
+    "name": "Lamenha Pequena",
+    "focus": "Planejar recebimento e movimentação do material até o ambiente",
+    "intro": "Lamenha Pequena consta na Regional Santa Felicidade no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Descreva o percurso",
+        "Informe portão, escadas, corredores e ponto permitido para descarga. Envie município e CEP junto ao nome do bairro. A equipe precisa dessas informações para confirmar condições de atendimento e entrega."
+      ],
+      [
+        "Defina quem faz cada etapa",
+        "Pergunte se transporte interno, subida de caixas e retirada de resíduos estão incluídos. Não considere entrega e instalação como serviços automaticamente iguais. Registre os limites da proposta para organizar ajuda e acesso quando necessários."
+      ],
+      [
+        "Prepare o local de guarda",
+        "Confirme no manual as condições de armazenamento e mantenha identificação das embalagens. Evite improvisar um depósito exposto à água. O recebimento deve ocorrer em momento compatível com a preparação e a sequência dos serviços."
+      ]
+    ]
+  },
+  "lindia": {
+    "name": "Lindóia",
+    "focus": "Entender os cuidados de limpeza antes de comprar",
+    "intro": "Lindóia consta na Regional Pinheirinho no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Descreva como o ambiente é limpo hoje",
+        "Informe equipamentos, produtos e frequência. Se a rotina envolve muita água, diga isso antes de escolher. O material precisa ser indicado para o uso e para a manutenção possível no imóvel."
+      ],
+      [
+        "Consulte o manual da linha",
+        "Orientações de laminado e vinílico não devem ser tratadas como idênticas. Verifique produtos permitidos, método e cuidados com excesso de água. Evite misturas caseiras ou abrasivos sem recomendação expressa do fabricante."
+      ],
+      [
+        "Organize a limpeza após a obra",
+        "Peça instruções para resíduos da instalação e para o uso cotidiano. A limpeza inicial pode exigir cuidados diferentes da conservação normal. Guarde as orientações junto à identificação do piso para não depender de memória ou de dicas genéricas."
+      ]
+    ]
+  },
+  "mercs": {
+    "name": "Mercês",
+    "focus": "Renovar o piso mantendo portas existentes",
+    "intro": "Mercês consta na Regional Matriz no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Registre as folgas",
+        "Fotografe a parte inferior das portas e meça passagens entre cômodos. Informe quais folhas abrem sobre a área que receberá o piso. A altura final inclui as camadas previstas para o sistema, não somente a régua."
+      ],
+      [
+        "Combine ajustes previamente",
+        "Peça avaliação de possíveis interferências e identifique quem será responsável pelos ajustes. Não presuma que cortar ou regular portas esteja incluído no serviço. A proposta deve deixar claras as tarefas do instalador e de outros profissionais."
+      ],
+      [
+        "Confira transições e acabamento",
+        "Observe soleiras, guarnições e encontros com áreas que permanecem. Compare perfis apropriados ao projeto e ao manual. A solução deve permitir o uso das portas sem improvisar fixações que prejudiquem o sistema instalado."
+      ]
+    ]
+  },
+  "mossungu": {
+    "name": "Mossunguê",
+    "focus": "Comparar pisos para uma sala com mobiliário pesado",
+    "intro": "Mossunguê consta na Regional Santa Felicidade no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Informe os móveis e seus apoios",
+        "Descreva estantes, mesas, sofás e peças fixas, com fotos dos pontos de contato. A avaliação depende das cargas e do sistema. Não conclua que uma linha serve apenas porque tem maior espessura."
+      ],
+      [
+        "Planeje instalação e montagem",
+        "Combine a ordem dos serviços com marcenaria e movimentação do mobiliário. Sistemas flutuantes precisam respeitar as condições de movimento previstas pelo fabricante. A solução junto a peças fixas deve ser definida no projeto."
+      ],
+      [
+        "Peça cuidados de proteção",
+        "Consulte apoios e formas adequadas de deslocar os móveis. Não arraste peças pesadas sobre o acabamento novo. Registre orientações de uso da linha escolhida e confirme quando o ambiente poderá receber novamente o mobiliário."
+      ]
+    ]
+  },
+  "novo-mundo": {
+    "name": "Novo Mundo",
+    "focus": "Escolher o piso quando a reforma precisa respeitar um orçamento definido",
+    "intro": "Novo Mundo consta na Regional Pinheirinho no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Priorize o escopo essencial",
+        "Liste ambientes, preparação conhecida e acabamentos necessários antes de comparar padrões. Não retire uma etapa técnica apenas para reduzir o valor. Peça alternativas de produto compatíveis com o uso e a base."
+      ],
+      [
+        "Compare custo instalado",
+        "Some material, acessórios, mão de obra, entrega e eventuais retiradas. Uma diferença no preço da régua pode ser compensada por serviços distintos. Solicite propostas discriminadas para saber onde a escolha realmente altera o orçamento."
+      ],
+      [
+        "Defina o que pode ficar para depois",
+        "Converse sobre fases de execução e transições entre áreas. Não conte com encontrar o mesmo lote indefinidamente. Se houver material de reserva, confirme quantidade e armazenamento com a equipe, sem percentuais universais nesta página."
+      ]
+    ]
+  },
+  "orleans": {
+    "name": "Orleans",
+    "focus": "Identificar um padrão antigo para consultar reposição",
+    "intro": "Orleans consta na Regional Santa Felicidade no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Procure a etiqueta original",
+        "Marca, linha, código e lote ajudam mais que a descrição de uma cor. Fotografe embalagens ou documentos que ainda existam. Se não houver identificação, registre dimensões e detalhes da régua sem desmontar o piso de forma improvisada."
+      ],
+      [
+        "Não confunda aparência com compatibilidade",
+        "Uma peça visualmente próxima pode ter espessura, encaixe e acabamento diferentes. Compare a ficha e consulte a viabilidade técnica. O acervo BIM Durafloor serve como referência histórica, não como prova de fabricação ou estoque atual."
+      ],
+      [
+        "Avalie alternativas com clareza",
+        "Explique extensão do reparo e condição da base. A substituição parcial pode não ser viável ou apresentar diferença visual. Peça avaliação e proposta antes de comprar uma caixa apenas pelo nome parecido com o piso existente."
+      ]
+    ]
+  },
+  "parolin": {
+    "name": "Parolin",
+    "focus": "Planejar a reforma de um imóvel destinado à locação",
+    "intro": "Parolin consta na Regional Portão no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Defina o uso que será atendido",
+        "Informe tipo de imóvel, ambientes e rotina de manutenção prevista. Compare linhas adequadas a essas condições. Não escolha somente por uma promessa genérica de durabilidade; a indicação depende do produto e do modo de uso."
+      ],
+      [
+        "Documente material e serviço",
+        "Peça identificação completa, escopo de preparação e acabamento. Guarde notas e instruções de conservação para compartilhar com quem ocupará o imóvel. Esse registro também ajuda a consultar uma eventual reposição sem depender de fotos antigas."
+      ],
+      [
+        "Combine a entrega entre ocupações",
+        "Organize retirada de móveis, serviços restantes e liberação para uso. O cronograma deve considerar a base e o sistema escolhido. Não prometa uma data ao próximo ocupante antes de confirmar as condições concretas da obra."
+      ]
+    ]
+  },
+  "pilarzinho": {
+    "name": "Pilarzinho",
+    "focus": "Observar variação de desenho antes de escolher um amadeirado",
+    "intro": "Pilarzinho consta na Regional Boa Vista no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Veja mais que uma régua",
+        "Consulte imagens oficiais do padrão e compare amostras quando disponíveis. Veios, nós e tonalidades podem variar entre peças. Uma fotografia aproximada não mostra necessariamente a composição visual de todo o ambiente."
+      ],
+      [
+        "Separe preferência de desempenho",
+        "Desenho rústico ou suave descreve aparência, não resistência. Depois da escolha visual, confira indicação de uso e sistema da linha. Produtos de aspecto semelhante podem pedir diferentes condições de base e manutenção."
+      ],
+      [
+        "Leve códigos para a consulta",
+        "Anote referências que agradaram e confirme amostra e fornecimento com a PVS. Compare perto dos móveis e paredes que permanecerão. A decisão deve considerar o produto identificado, sem tratar uma inspiração de ambiente como SKU."
+      ]
+    ]
+  },
+  "pinheirinho": {
+    "name": "Pinheirinho",
+    "focus": "Conferir o acabamento ao receber o serviço",
+    "intro": "Pinheirinho consta na Regional Pinheirinho no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Use o escopo contratado como referência",
+        "Tenha marca, linha e serviços previstos à mão. Confira transições, rodapés e áreas incluídas junto à equipe. Dúvidas devem ser registradas no atendimento, sem tentar corrigir por conta própria um sistema recém-instalado."
+      ],
+      [
+        "Peça as orientações de uso",
+        "Confirme quando circular, posicionar móveis e realizar limpeza conforme os materiais aplicados. Não adote um prazo genérico para todos os pisos. Guarde o manual e os cuidados específicos da linha escolhida."
+      ],
+      [
+        "Organize os documentos",
+        "Mantenha proposta, notas, identificação do lote e canal de contato. Se houver peças de reserva, siga a orientação de armazenamento. Esses registros facilitam uma consulta futura, mas não substituem as condições de garantia documentadas para o produto e serviço."
+      ]
+    ]
+  },
+  "porto": {
+    "name": "Portão",
+    "focus": "Comparar laminado, vinílico colado e SPC pela aplicação",
+    "intro": "Portão consta na Regional Portão no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Comece pelo ambiente",
+        "Informe uso, presença de água, mobiliário e rotina de limpeza. Os nomes dos materiais não bastam para indicar uma solução. A linha específica e a condição da base precisam ser avaliadas."
+      ],
+      [
+        "Pergunte sobre preparação",
+        "Vinílico colado e sistemas de encaixe têm exigências próprias. Solicite uma descrição do preparo necessário e dos acessórios. Não assuma que um material mais espesso dispensa correções do contrapiso."
+      ],
+      [
+        "Compare a proposta completa",
+        "Coloque lado a lado os produtos identificados, mão de obra, acabamento e manutenção. Se a escolha mudar de sistema, reavalie portas e transições. Consulte disponibilidade pelo endereço e confirme as condições antes de comprar."
+      ]
+    ]
+  },
+  "prado-velho": {
+    "name": "Prado Velho",
+    "focus": "Organizar piso para uma sala de treinamento",
+    "intro": "Prado Velho consta na Regional Matriz no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Descreva a configuração de uso",
+        "Informe quantidade de mesas, cadeiras e mudanças de disposição. A circulação e os apoios influenciam a escolha. Consulte a indicação da linha para a atividade, sem deduzir adequação apenas por ser chamada de comercial."
+      ],
+      [
+        "Planeje cabos e circulação",
+        "Mostre pontos de passagem e instalações existentes que precisam continuar acessíveis. O piso não deve ser escolhido antes de entender esses encontros. Combine soluções com os responsáveis pelo espaço, evitando recortes improvisados na execução."
+      ],
+      [
+        "Prepare manutenção e agenda",
+        "Explique produtos de limpeza usados e períodos em que a sala pode ficar vazia. Peça cronograma específico e instruções para retorno dos móveis. A instalação precisa ser coordenada com as atividades previstas, sem presumir ausência de interrupção."
+      ]
+    ]
+  },
+  "rebouas": {
+    "name": "Rebouças",
+    "focus": "Escolher piso para um estúdio de trabalho criativo",
+    "intro": "Rebouças consta na Regional Matriz no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Explique o que acontece no estúdio",
+        "Informe circulação, equipamentos, cadeiras e materiais que podem cair no chão. Uso comercial não significa resistência a qualquer substância ou carga. A linha deve ser compatível com a atividade e com a limpeza necessária."
+      ],
+      [
+        "Compare a aparência com a luz de trabalho",
+        "Observe amostras no tipo de iluminação utilizado para trabalhar. Brilho e desenho podem interferir na percepção do ambiente. Fotos de catálogo ajudam na seleção inicial, mas não reproduzem todas as condições do espaço."
+      ],
+      [
+        "Inclua preparação e proteção",
+        "Fotografe a base e defina movimentação dos equipamentos. Consulte proteção de apoios e manutenção no manual. Se o uso exigir condições que o produto não atende, reveja a alternativa antes de fechar o pedido."
+      ]
+    ]
+  },
+  "riviera": {
+    "name": "Riviera",
+    "focus": "Avaliar um ambiente térreo sem presumir que a base está pronta",
+    "intro": "Riviera consta na Regional CIC no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Informe o que existe sob o revestimento",
+        "Descreva o piso atual e histórico conhecido de manchas ou reparos. Não diagnostique a base somente pela aparência. A avaliação deve verificar as condições exigidas pelo sistema pretendido."
+      ],
+      [
+        "Separe causa e acabamento",
+        "Se houver umidade, peça orientação sobre investigação e correção antes da instalação. Um produto resistente à água na superfície não resolve toda condição do contrapiso. Evite cobrir sinais de problema para apenas melhorar o aspecto."
+      ],
+      [
+        "Retome a escolha após a avaliação",
+        "Com a preparação definida, compare linhas e acessórios apropriados. Peça que a proposta registre responsabilidades e serviços anteriores à aplicação. O orçamento inicial por mensagem pode precisar de revisão conforme o estado real do ambiente."
+      ]
+    ]
+  },
+  "santa-cndida": {
+    "name": "Santa Cândida",
+    "focus": "Planejar a troca de piso com animais em casa",
+    "intro": "Santa Cândida consta na Regional Boa Vista no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Descreva a rotina, não apenas o animal",
+        "Informe circulação, locais de alimentação e como o ambiente é limpo. Consulte a indicação da linha para essas condições. Não existe autorização genérica para qualquer uso baseada apenas na expressão piso para pets."
+      ],
+      [
+        "Organize a segurança durante o serviço",
+        "Combine onde os animais ficarão enquanto houver materiais, ferramentas e circulação de profissionais. A organização da casa deve permitir preparação e instalação sem acesso à área de trabalho. Confirme a liberação para retorno conforme o sistema aplicado."
+      ],
+      [
+        "Peça cuidados de conservação",
+        "Consulte limpeza de ocorrências pontuais e proteção recomendada no manual. Não deixe líquidos acumulados nem improvise produtos fortes. Registre a identificação do piso para obter orientação específica quando surgir uma dúvida."
+      ]
+    ]
+  },
+  "alto-boqueiro": {
+    "name": "Alto Boqueirão",
+    "focus": "Planejar uma reforma de piso sem perder o acesso aos cômodos",
+    "intro": "Alto Boqueirão consta na Regional Boqueirão no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Desenhe o caminho diário",
+        "Marque entrada, banheiro e áreas que precisam continuar acessíveis. Informe quem permanecerá no imóvel e onde os móveis poderão ficar. A sequência de trabalho deve considerar essa circulação antes da definição do serviço."
+      ],
+      [
+        "Separe etapas possíveis de promessas",
+        "Pergunte se a instalação pode ser organizada por ambientes conforme o sistema e a base. Não presuma que sempre será possível manter a casa ocupada. A equipe precisa avaliar o espaço livre e a preparação necessária."
+      ],
+      [
+        "Combine comunicação e liberação",
+        "Defina um responsável para acompanhar dúvidas e registrar mudanças de escopo. Peça orientação de quando voltar a usar cada área. Evite antecipar movimentação de móveis ou limpeza sem a liberação adequada ao material aplicado."
+      ]
+    ]
+  },
+  "santa-felicidade": {
+    "name": "Santa Felicidade",
+    "focus": "Escolher piso para uma sala de jantar com atenção ao uso",
+    "intro": "Santa Felicidade consta na Regional Santa Felicidade no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Observe cadeira e mesa",
+        "Informe quantidade de assentos, frequência de movimentação e formato dos apoios. Consulte proteção compatível e indicação da linha. Uma aparência amadeirada semelhante não garante o mesmo comportamento entre produtos."
+      ],
+      [
+        "Considere a passagem para a cozinha",
+        "Fotografe soleira, desníveis e pontos próximos à água. A solução para a sala pode precisar de uma transição específica. Não prolongue o revestimento para outro uso sem conferir as instruções do fabricante."
+      ],
+      [
+        "Compare a amostra com o conjunto",
+        "Veja o padrão perto de mesa, cadeiras e iluminação. Observe fundo, veios e acabamento, registrando o código escolhido. Confirme fornecimento e preparação com a PVS antes de transformar uma referência visual em pedido."
+      ]
+    ]
+  },
+  "santa-quitria": {
+    "name": "Santa Quitéria",
+    "focus": "Decidir quando reparar e quando avaliar a troca do piso",
+    "intro": "Santa Quitéria consta na Regional Portão no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Registre a extensão do problema",
+        "Fotografe peças danificadas e o entorno. Informe quando o sinal apareceu e se houve água ou movimentação de móveis. A consulta precisa avaliar a causa, não apenas a aparência da área afetada."
+      ],
+      [
+        "Identifique o sistema existente",
+        "Procure etiqueta, nota ou nome da linha. Encaixe, espessura e base influenciam a possibilidade de reparo. Uma peça parecida não confirma compatibilidade e pode não reproduzir a cor do material já em uso."
+      ],
+      [
+        "Compare alternativas sem garantia antecipada",
+        "Peça avaliação de reparo localizado e de substituição da área quando necessário. Disponibilidade de reposição e diferença visual devem ser discutidas. Não desmonte partes do piso antes de receber orientação adequada ao sistema."
+      ]
+    ]
+  },
+  "santo-incio": {
+    "name": "Santo Inácio",
+    "focus": "Planejar uma sala integrada sem eliminar detalhes técnicos",
+    "intro": "Santo Inácio consta na Regional Santa Felicidade no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Identifique os ambientes conectados",
+        "Desenhe sala, corredor e demais áreas que receberão o revestimento. Informe dimensões e pontos de mudança de uso. A continuidade visual precisa ser avaliada junto aos limites de instalação da linha."
+      ],
+      [
+        "Converse sobre perfis e juntas",
+        "Peça explicação para os encontros previstos no projeto. Não suprima uma solução indicada pelo fabricante apenas para evitar uma divisão aparente. Cor e desenho do acabamento podem ser comparados depois que sua função estiver definida."
+      ],
+      [
+        "Compare o efeito com referências reais",
+        "Observe amostras e fotos oficiais do padrão, incluindo variação entre réguas. Registre códigos e confirme condições PVS. Imagens de ambientes são inspiração e não uma previsão exata do resultado no seu imóvel."
+      ]
+    ]
+  },
+  "so-braz": {
+    "name": "São Braz",
+    "focus": "Escolher acabamento para paredes que não estão perfeitamente regulares",
+    "intro": "São Braz consta na Regional Santa Felicidade no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Mostre a superfície existente",
+        "Fotografe trechos com irregularidade, umidade ou pintura solta antes de escolher rodapé. A instalação do perfil não substitui automaticamente o preparo da parede. Peça avaliação do que precisa ser corrigido."
+      ],
+      [
+        "Compare o perfil adequado ao projeto",
+        "Considere altura, espessura e encontros com portas. Não espere que qualquer peça esconda todos os defeitos. O modo de fixação e a condição da superfície precisam atender às orientações do fabricante."
+      ],
+      [
+        "Separe preparação e instalação",
+        "Confirme quem realiza reparos, pintura e acabamento e quais itens estão incluídos na proposta. Essa definição evita atribuir ao rodapé uma função que depende de outro serviço. Guarde o modelo escolhido para futuras consultas."
+      ]
+    ]
+  },
+  "so-francisco": {
+    "name": "São Francisco",
+    "focus": "Renovar o piso respeitando elementos que precisam permanecer",
+    "intro": "São Francisco consta na Regional Matriz no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Identifique limites da intervenção",
+        "Informe portas, rodapés, mobiliário e revestimentos que não poderão ser alterados. Se o imóvel tiver restrições específicas de conservação ou condomínio, apresente-as à equipe. Não se presume nenhuma condição patrimonial pelo nome do bairro."
+      ],
+      [
+        "Peça avaliação dos encontros",
+        "Fotografe transições e diferenças de altura. A solução nova deve ser compatível com os elementos preservados e com o manual da linha. Reaproveitamento e retirada sem danos precisam ser avaliados, não prometidos previamente."
+      ],
+      [
+        "Documente escolhas e responsabilidades",
+        "Defina o que será mantido, substituído ou reparado na proposta. Registre materiais e cuidados de proteção durante o trabalho. A consulta PVS deve considerar esse escopo antes de estabelecer condições de execução."
+      ]
+    ]
+  },
+  "so-joo": {
+    "name": "São João",
+    "focus": "Organizar piso e pintura na mesma reforma",
+    "intro": "São João consta na Regional Santa Felicidade no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Defina a sequência com os responsáveis",
+        "Informe quais paredes serão preparadas e pintadas e quando o piso será instalado. A ordem depende do projeto e dos serviços envolvidos. Combine acesso e proteção para que uma etapa não prejudique a outra."
+      ],
+      [
+        "Planeje o rodapé com antecedência",
+        "Escolha altura e acabamento antes de fechar a pintura. Confira encontros com portas e móveis. Peça que reparos de parede e eventual retoque sejam previstos, sem assumir que integram automaticamente a instalação do perfil."
+      ],
+      [
+        "Confira proteção e limpeza",
+        "Consulte coberturas compatíveis e evite aplicar fitas ou produtos sem orientação sobre o revestimento. Combine limpeza dos resíduos conforme o manual. A entrega de um ambiente pronto depende de responsabilidades claras entre os serviços."
+      ]
+    ]
+  },
+  "so-loureno": {
+    "name": "São Lourenço",
+    "focus": "Comparar piso para um espaço de leitura e descanso",
+    "intro": "São Lourenço consta na Regional Boa Vista no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Observe o ambiente que você usa",
+        "Considere poltronas, estantes, tapetes e iluminação. Compare amostras com esses elementos e registre os códigos. A sensação visual depende do conjunto; não é determinada somente pelo nome claro ou escuro do padrão."
+      ],
+      [
+        "Informe mobiliário e apoios",
+        "Peças pesadas e móveis fixos devem ser descritos na consulta. Consulte proteção e condições do sistema escolhido. A indicação para um ambiente residencial não elimina cuidados de carga e movimentação do mobiliário."
+      ],
+      [
+        "Escolha com base e manutenção em vista",
+        "Fotografe o piso existente e informe como o espaço é limpo. Compare o preparo e os cuidados das linhas finalistas. A visita ao showroom ajuda na percepção do material, mas a condição do imóvel continua necessária à proposta."
+      ]
+    ]
+  },
+  "so-miguel": {
+    "name": "São Miguel",
+    "focus": "Consultar instalação quando o imóvel ainda está em obra",
+    "intro": "São Miguel consta na Regional CIC no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Mostre as etapas em andamento",
+        "Informe contrapiso, pintura, portas e serviços que ainda precisam acontecer. Fotos gerais e dos pontos de passagem ajudam a planejar a avaliação. A previsão de término da obra não confirma, sozinha, que a base estará pronta."
+      ],
+      [
+        "Defina a condição de início",
+        "Peça os requisitos do sistema escolhido e quem verificará a preparação. Umidade, firmeza e regularidade precisam atender ao manual. Não antecipe a aplicação para cumprir uma data sem conferir essas condições."
+      ],
+      [
+        "Coordene recebimento e proteção",
+        "Combine local para guardar material e circulação de outros profissionais. Consulte orientações de armazenamento e proteção. A proposta deve esclarecer responsabilidades para entrega, movimentação e serviços anteriores à instalação."
+      ]
+    ]
+  },
+  "seminrio": {
+    "name": "Seminário",
+    "focus": "Comparar cores do piso com portas amadeiradas",
+    "intro": "Seminário consta na Regional Portão no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Observe o fundo de cada madeira",
+        "Compare a amostra junto à porta em vez de usar fotografias separadas. Veja contraste, veios e brilho sob a mesma luz. Duas referências com nome de madeira semelhante podem ter tonalidades distintas."
+      ],
+      [
+        "Escolha harmonia sem buscar igualdade impossível",
+        "Você pode avaliar aproximação ou contraste, conforme sua preferência. Não espere correspondência exata entre materiais diferentes. Reduza a seleção a poucos padrões identificados e consulte amostras disponíveis na PVS."
+      ],
+      [
+        "Confira a transição física",
+        "Além da cor, verifique guarnições, altura final e abertura da folha. Peça preparação e perfis na proposta. Uma boa combinação visual precisa respeitar o funcionamento das portas e o sistema de instalação."
+      ]
+    ]
+  },
+  "stio-cercado": {
+    "name": "Sítio Cercado",
+    "focus": "Planejar uma troca de piso com crianças no imóvel",
+    "intro": "Sítio Cercado consta na Regional Bairro Novo no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Organize os ambientes livres",
+        "Informe quais cômodos precisam continuar em uso e onde móveis e objetos poderão ficar. A área de trabalho deve ser separada da circulação das crianças. A viabilidade de reforma com o imóvel ocupado precisa ser avaliada."
+      ],
+      [
+        "Escolha pela rotina completa",
+        "Descreva brincadeiras, mobiliário e forma de limpeza para comparar linhas indicadas. Não trate uma foto de quarto infantil como comprovação técnica de adequação. Consulte o produto específico e seus cuidados de uso."
+      ],
+      [
+        "Combine o retorno ao ambiente",
+        "Peça orientações sobre liberação, limpeza inicial e proteção de móveis. Não adote um prazo único para todos os sistemas. Guarde o manual e esclareça dúvidas de manutenção pelo canal de atendimento."
+      ]
+    ]
+  },
+  "taboo": {
+    "name": "Taboão",
+    "focus": "Comparar uma proposta feita a partir de fotos com a avaliação do imóvel",
+    "intro": "Taboão consta na Regional Boa Vista no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Use fotos para iniciar a conversa",
+        "Envie visão geral, revestimento atual e detalhes de manchas ou peças soltas. Informe área aproximada e endereço completo. Essas informações permitem organizar a consulta, mas não mostram todas as condições da base."
+      ],
+      [
+        "Identifique o que depende de conferência",
+        "Pergunte quais itens são estimados e quais precisam de medição ou avaliação. Preparação e quantidade podem mudar após o levantamento. Registre essa diferença antes de usar um valor inicial como orçamento fechado."
+      ],
+      [
+        "Confirme a proposta final",
+        "Peça produto, serviços, acabamentos e condições discriminados depois das verificações necessárias. Compare o mesmo escopo entre alternativas. A clareza sobre o que foi avaliado evita escolher somente por um preço inicial incompleto."
+      ]
+    ]
+  },
+  "tarum": {
+    "name": "Tarumã",
+    "focus": "Planejar o piso de um espaço com cadeiras de rodízios",
+    "intro": "Tarumã consta na Regional Boa Vista no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Informe a movimentação prevista",
+        "Descreva quantidade de cadeiras, frequência de uso e formato dos rodízios. A indicação depende da linha e da proteção recomendada. Não deduza compatibilidade pelo desenho amadeirado ou pela espessura anunciada."
+      ],
+      [
+        "Consulte o sistema completo",
+        "Confira base, acessórios e aplicação com a equipe. Se houver proteção de piso, pergunte quais materiais são compatíveis. Uma solução inadequada pode interferir na manutenção ou no uso do revestimento."
+      ],
+      [
+        "Organize cuidados após a instalação",
+        "Peça orientações para limpeza dos apoios e deslocamento dos móveis. Evite arrastar peças ou improvisar produtos de conservação. Guarde a ficha da linha para manter a rotina conforme o fabricante."
+      ]
+    ]
+  },
+  "tatuquara": {
+    "name": "Tatuquara",
+    "focus": "Conferir quantidades sem transformar metragem aproximada em pedido",
+    "intro": "Tatuquara consta na Regional Tatuquara no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Anote ambientes separadamente",
+        "Registre comprimento, largura, recortes e áreas excluídas. Um total aproximado inicia a consulta, mas não descreve o desenho de instalação. Informe passagens e cômodos conectados antes de fechar a compra."
+      ],
+      [
+        "Pergunte como a quantidade será definida",
+        "Dimensão das réguas, paginação e recortes influenciam o material necessário. Não aplique um percentual universal de perda. Peça levantamento e cálculo correspondentes ao projeto e à apresentação comercial do produto."
+      ],
+      [
+        "Inclua acessórios no fechamento",
+        "Rodapés, perfis e materiais de instalação precisam de quantidades próprias. Confira tudo com os serviços previstos e as condições de entrega. Se houver reserva para manutenção, confirme orientação de armazenamento e identificação das peças."
+      ]
+    ]
+  },
+  "tingui": {
+    "name": "Tingui",
+    "focus": "Entender acabamento superficial sem confundir com resistência",
+    "intro": "Tingui consta na Regional Boa Vista no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Compare brilho e textura",
+        "Observe amostras sob diferentes ângulos e junto aos móveis. Fotos e nomes comerciais não mostram integralmente a superfície. Identifique o padrão para consultar a ficha oficial e confirmar o acabamento da versão ofertada."
+      ],
+      [
+        "Leia a indicação de uso em separado",
+        "Aparência fosca, rústica ou lisa não estabelece classe ou adequação do produto. Confira as especificações da linha e descreva o ambiente. Evite transferir características de um modelo para outro visualmente semelhante."
+      ],
+      [
+        "Leve a escolha à proposta",
+        "Peça fornecimento, preparação e cuidados correspondentes ao item identificado. Confirme amostra e disponibilidade com a PVS. A comparação visual deve complementar a avaliação técnica, sem substituir as condições de instalação e manutenção."
+      ]
+    ]
+  },
+  "uberaba": {
+    "name": "Uberaba",
+    "focus": "Organizar a passagem entre quarto e banheiro",
+    "intro": "Uberaba consta na Regional Cajuru no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Defina onde cada material termina",
+        "Fotografe soleira, porta e desnível entre os ambientes. O piso do quarto não deve avançar para outro uso sem indicação específica. A escolha precisa considerar exposição à água e requisitos de cada sistema."
+      ],
+      [
+        "Planeje o encontro e a altura",
+        "Peça orientação sobre perfis, folgas e acabamento de bordas conforme o manual. Não improvise uma união rígida para obter aparência contínua. Confira também a abertura da porta após a composição final do piso."
+      ],
+      [
+        "Registre a rotina de limpeza",
+        "Informe como água e umidade podem chegar à passagem. Consulte cuidados e proteção compatíveis com a linha. Se houver infiltração ou sinais na base, a causa precisa ser avaliada antes de instalar o revestimento."
+      ]
+    ]
+  },
+  "umbar": {
+    "name": "Umbará",
+    "focus": "Escolher piso quando ainda faltam portas ou marcenaria",
+    "intro": "Umbará consta na Regional Bairro Novo no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Reúna as medidas previstas",
+        "Informe o projeto de portas, armários e outros elementos fixos. A equipe precisa conhecer a altura final e os encontros, mesmo quando esses itens ainda não estão montados. Combine informações entre os responsáveis pelos serviços."
+      ],
+      [
+        "Defina a ordem de execução",
+        "A sequência depende do sistema de piso e do mobiliário. Não fixe um conjunto flutuante de forma incompatível com seu movimento previsto. Peça que limites e detalhes sejam resolvidos antes da compra dos acabamentos."
+      ],
+      [
+        "Confirme alterações de projeto",
+        "Se a marcenaria ou a porta mudar, reavalie transições, recortes e quantidades. Uma pequena alteração pode afetar o escopo contratado. Registre a versão final da escolha para orientar instalação e conferência."
+      ]
+    ]
+  },
+  "vila-izabel": {
+    "name": "Vila Izabel",
+    "focus": "Planejar acabamento branco com atenção a manutenção e encontros",
+    "intro": "Vila Izabel consta na Regional Portão no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Escolha o perfil, não só a cor",
+        "Compare altura, desenho e material do rodapé. Observe guarnições e tomadas próximas à parede. O mesmo nome de cor pode aparecer em produtos diferentes, por isso registre o modelo completo."
+      ],
+      [
+        "Confira preparo e fixação",
+        "Informe condição da parede e peças existentes. Peça orientação para retirada e instalação segundo a linha. Rodapé novo não elimina automaticamente necessidade de reparar pintura ou irregularidades da superfície."
+      ],
+      [
+        "Guarde instruções de conservação",
+        "Consulte produtos de limpeza permitidos e cuidados com a superfície. Não aplique solventes ou abrasivos por tentativa. Identifique peças e acabamento para futuras consultas de manutenção, sem assumir equivalência entre todos os perfis brancos."
+      ]
+    ]
+  },
+  "vista-alegre": {
+    "name": "Vista Alegre",
+    "focus": "Montar uma seleção de pisos para visitar a loja",
+    "intro": "Vista Alegre consta na Regional Santa Felicidade no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Escolha por critérios objetivos",
+        "Liste tipo de ambiente, rotina de limpeza e preferência de aparência. Selecione nomes e códigos no catálogo oficial. Essa lista ajuda a comparar opções pertinentes em vez de reunir fotografias sem identificação."
+      ],
+      [
+        "Confirme o que poderá ver",
+        "Envie as referências à PVS e pergunte quais amostras estão disponíveis no showroom. Combine a visita e leve fotos de móveis e portas. A presença do item no catálogo do fabricante não significa amostra ou estoque na loja."
+      ],
+      [
+        "Registre o que falta decidir",
+        "Depois da comparação visual, confirme base, metragem e serviço necessário. Peça uma proposta para o endereço completo. Não transforme a escolha de uma cor em aprovação automática de sistema, preparação ou condições comerciais."
+      ]
+    ]
+  },
+  "xaxim": {
+    "name": "Xaxim",
+    "focus": "Manter informações do piso para futuras consultas",
+    "intro": "Xaxim consta na Regional Boqueirão no inventário municipal de Curitiba. Este guia aborda uma situação de escolha ou reforma para quem consulta a PVS no bairro, sem atribuí-la a todos os imóveis. Informe rua, número e CEP para confirmar atendimento a partir da loja em São José dos Pinhais.",
+    "sections": [
+      [
+        "Guarde a identificação completa",
+        "Organize marca, linha, padrão, código e lote quando informado. Preserve documentos de compra e serviço. Fotografias do ambiente ajudam, mas não substituem esses dados para identificar uma possível reposição."
+      ],
+      [
+        "Conserve o manual acessível",
+        "Registre orientações de limpeza, proteção de móveis e condições de uso. Quando surgir uma dúvida, consulte a linha específica. Evite aplicar recomendações de outro material apenas porque ambos têm aparência amadeirada."
+      ],
+      [
+        "Consulte reparos antes de comprar peças",
+        "Se aparecer um dano, informe extensão e circunstâncias à equipe. Disponibilidade e compatibilidade precisam ser verificadas. Uma referência histórica ou um nome parecido no catálogo não garante peça intercambiável ou resultado visual idêntico."
+      ]
+    ]
+  }
 }
