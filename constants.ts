@@ -127,6 +127,18 @@ export const PAGE_CONTENT: Record<string, RichPageData> = {
       {
         "title": "Limpeza e proteção",
         "content": "Remova a poeira e siga o manual da linha para limpeza úmida. Evite encharcar sistemas clicados e proteja os pés dos móveis. Consulte as instruções do fabricante para produtos de limpeza."
+      },
+      {
+        "title": "Vinílico colado e SPC: como comparar a proposta",
+        "content": "No colado, inclua preparação, regularização e adesivo indicado para a linha. No SPC clicado, confira o manual de encaixe, a base admitida e os acessórios exigidos; não acrescente manta por conta própria. Peça a identificação do fabricante e do modelo, não apenas a descrição genérica vinílico. Sistemas diferentes podem mudar tanto o orçamento quanto a forma de reparar uma peça."
+      },
+      {
+        "title": "Pode colocar vinílico na cozinha?",
+        "content": "Depende da linha e das condições do ambiente. Uma cozinha residencial não tem a mesma exposição à água que um box, uma lavanderia com ralo ou uma área externa. Resistência do revestimento à água não corrige infiltração e não torna o contrapiso impermeável. Confirme por escrito a aplicação admitida pelo fabricante e informe à equipe como o local é usado e lavado."
+      },
+      {
+        "title": "Sol direto, móveis e rotina de uso",
+        "content": "Ao enviar fotos, mostre portas envidraçadas, pontos que recebem sol e móveis pesados. Limites de temperatura, dilatação, cargas e rodízios dependem do produto. Para salas comerciais, compare a classe de uso e a camada de uso quando aplicável; a espessura total isolada não explica o desempenho. Registre na proposta os acessórios e os cuidados exigidos para aquela linha."
       }
     ]
   },
@@ -150,6 +162,18 @@ export const PAGE_CONTENT: Record<string, RichPageData> = {
       {
         "title": "Como planejar a compra",
         "content": "Inclua rodapés, transições entre ambientes, portas e recortes na medição. Peça orçamento com material e instalação separados, disponibilidade e cronograma definidos."
+      },
+      {
+        "title": "Laminado ou vinílico: o que muda na decisão?",
+        "content": "Não escolha apenas pela aparência de madeira. Compare a composição, o sistema de instalação, a indicação de uso e o manual de limpeza de cada linha. Para quartos e salas secas, o laminado pode entrar na comparação; exposição à água, base existente e mobiliário exigem avaliação própria. Leve à loja fotos com luz natural e artificial e identifique duas ou três amostras pelo nome completo, evitando decidir apenas por uma foto na tela."
+      },
+      {
+        "title": "O preço por metro quadrado não é o custo completo",
+        "content": "Uma proposta de laminado deve discriminar quantidade de réguas, manta e acessórios compatíveis, rodapés, perfis, preparação da base e instalação. A área dos cômodos não determina sozinha a quantidade comprada: recortes, paginação e embalagem influenciam o aproveitamento. Peça medição e comparação do mesmo escopo, sem aplicar uma porcentagem de sobra universal."
+      },
+      {
+        "title": "Apartamento: confira as exigências antes da compra",
+        "content": "Consulte o regulamento de reforma, a documentação solicitada pelo condomínio e os horários permitidos. Manta e revestimento devem ser avaliados como um sistema; não trate qualquer manta como garantia de isolamento acústico. Quando houver requisito de desempenho, solicite a documentação técnica pertinente e orientação do responsável pelo projeto antes de fechar a especificação."
       }
     ]
   },
@@ -169,6 +193,18 @@ export const PAGE_CONTENT: Record<string, RichPageData> = {
       {
         "title": "Fixação e pintura",
         "content": "Cola, preparo da parede, tratamento das emendas e pintura variam por modelo. Verifique o manual do fabricante e registre no orçamento o acabamento contratado."
+      },
+      {
+        "title": "Como calcular rodapé sem confundir metro linear e metro quadrado",
+        "content": "O piso costuma ser quantificado por área; o rodapé, pelo comprimento das paredes que receberão acabamento. Meça os trechos, desconte as aberturas pertinentes e identifique cantos, pilares e armários. Depois confira o comprimento das barras e a distribuição dos cortes. A mesma metragem de piso pode exigir quantidades muito diferentes de rodapé em dois imóveis."
+      },
+      {
+        "title": "Parede com umidade ou desnível pede preparação",
+        "content": "O rodapé não deve esconder a origem de infiltrações. Antes da fixação, verifique o estado da pintura, o alinhamento e a firmeza da superfície. Alguns pontos exigem correção prévia para permitir um acabamento adequado. Combine quem fará a preparação, quais produtos são compatíveis e o que será entregue em relação a juntas, emendas e pintura."
+      },
+      {
+        "title": "O que comparar na amostra",
+        "content": "Observe altura, espessura, desenho do perfil e encontro com os batentes. Compare o branco ou a cor escolhida sob a iluminação do ambiente. Confirme se a linha aceita pintura e qual preparação é indicada. A ficha e a identificação do modelo ajudam a solicitar complementos futuros, mas disponibilidade e correspondência de lotes devem ser consultadas."
       }
     ]
   },
@@ -188,6 +224,18 @@ export const PAGE_CONTENT: Record<string, RichPageData> = {
       {
         "title": "Portas, rodapés e transições",
         "content": "A altura final do conjunto pode interferir em portas e encontros com outros revestimentos. Inclua esses pontos na avaliação e detalhe no orçamento os ajustes necessários."
+      },
+      {
+        "title": "Antes de marcar a reforma em São José dos Pinhais e região",
+        "content": "Envie cidade, bairro e CEP junto com fotos dos cômodos. A loja da PVS fica em São José dos Pinhais; condições de visita, transporte e execução são confirmadas para o endereço. Informe se existem escadas, elevador ou horários restritos. Essas informações permitem discutir o planejamento sem presumir atendimento imediato ou prazo fixo para qualquer imóvel."
+      },
+      {
+        "title": "Um roteiro para casas com moradores",
+        "content": "Liste os ambientes que precisam permanecer em uso, identifique um local protegido para materiais e combine a movimentação de móveis. Confirme se a remoção de revestimentos ou rodapés faz parte do serviço. Preparação, cura e liberação não devem ser comprimidas para antecipar o uso: siga os produtos e procedimentos especificados para cada etapa."
+      },
+      {
+        "title": "Conferência final e orientações de entrega",
+        "content": "Antes de considerar o serviço encerrado, confira com o responsável os encontros entre ambientes, perfis, rodapés e portas. Peça as orientações de liberação para circulação e móveis, além do manual de manutenção. Guarde proposta, notas, identificação da linha e eventual sobra, pois esses registros ajudam em futuras dúvidas ou consultas sobre reparo."
       }
     ]
   },
@@ -207,6 +255,18 @@ export const PAGE_CONTENT: Record<string, RichPageData> = {
       {
         "title": "Orçamento e documentação",
         "content": "Peça descrição dos materiais, preparação, instalação, transporte e condições de garantia. Guarde a identificação do produto e as orientações de manutenção para a equipe de limpeza."
+      },
+      {
+        "title": "Loja, escritório ou sala de atendimento: especifique o uso real",
+        "content": "Descreva quantas áreas terão circulação, onde haverá cadeiras com rodízios e como ocorrerá a limpeza. Compare a indicação comercial da linha e os requisitos do projeto, em vez de presumir que todo vinílico ou laminado atende qualquer operação. Exigências de acessibilidade e segurança devem ser verificadas pelo profissional responsável, considerando o imóvel e a atividade."
+      },
+      {
+        "title": "Troca de piso sem prometer funcionamento sem interrupções",
+        "content": "Separar a obra por áreas pode ajudar no planejamento, mas a viabilidade depende de acessos, preparação e produtos utilizados. Combine isolamento das áreas de trabalho, transporte e armazenamento, responsabilidades e autorização de acesso. Registre as condições para reabrir cada ambiente. Um cronograma precisa considerar a situação encontrada e não apenas a metragem anunciada."
+      },
+      {
+        "title": "Compare propostas técnicas, não apenas o menor total",
+        "content": "Verifique se as propostas incluem a mesma linha, quantidade, preparação, retirada do material existente, instalação e acabamento. Confirme condições de pagamento, entrega e garantia diretamente com a equipe. Para a limpeza posterior, deixe uma orientação acessível aos funcionários com produtos e procedimentos aprovados para o revestimento escolhido."
       }
     ]
   },
@@ -226,6 +286,18 @@ export const PAGE_CONTENT: Record<string, RichPageData> = {
       {
         "title": "Rotina de limpeza",
         "content": "Siga a orientação do fabricante para o material instalado. Evite abrasivos e excesso de água; use utensílios suaves e proteja móveis para reduzir desgaste."
+      },
+      {
+        "title": "Piso levantando ou fazendo ruído: registre antes de intervir",
+        "content": "Fotografe o local e os encontros com paredes e portas, anote quando começou e informe mudanças recentes, vazamentos ou deslocamento de móveis. Não tente resolver com cola ou cortes sem conhecer o sistema. Peças levantadas podem ter causas diferentes; uma avaliação é necessária antes de definir se há reparo, substituição ou correção da base."
+      },
+      {
+        "title": "É possível trocar apenas uma régua?",
+        "content": "A possibilidade depende do sistema, do acesso à peça e da disponibilidade de material compatível. Cor parecida não garante o mesmo encaixe, dimensão ou acabamento. Envie identificação da linha e lote, se disponíveis, e informe se há sobras guardadas. O orçamento deve esclarecer a intervenção e seus limites, sem garantir que uma peça nova terá aparência idêntica ao restante."
+      },
+      {
+        "title": "Limpeza preventiva sem receitas improvisadas",
+        "content": "Siga o manual para remover partículas e fazer a limpeza recomendada. Evite adotar cera, solvente, abrasivo ou equipamento a vapor sem autorização do fabricante. Confira feltros e rodízios e remova resíduos que possam riscar a superfície. Se houver umidade persistente, investigue a origem antes de intensificar a limpeza ou trocar o revestimento."
       }
     ]
   }
