@@ -93,7 +93,7 @@ export const FAQS = [
   },
   {
     question: "Preciso quebrar o piso antigo?",
-    answer: "Na maioria das vezes, NÃO! Tanto o vinílico quanto o laminado podem ser instalados sobre cerâmica, porcelanato ou cimento queimado, desde que a base esteja nivelada. Avaliamos isso gratuitamente para você."
+    answer: "A instalação sobre revestimento existente depende do estado da base e das instruções do sistema escolhido. Solicite avaliação antes de decidir sobre a remoção do piso antigo e confirme as condições e eventuais custos dessa avaliação com a PVS."
   }
 ];
 
