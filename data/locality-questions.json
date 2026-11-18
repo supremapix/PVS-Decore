@@ -49,18 +49,30 @@
     {
       "question": "Como preparar a consulta de entrega para um imóvel em Pinhais?",
       "answer": "Informe o endereço completo, quem receberá o material e o caminho entre o ponto de descarga e o ambiente. Descreva escadas, elevadores ou restrições que existirem. Entrega e movimentação interna precisam ser esclarecidas na proposta; não são deduzidas apenas pela cidade."
+    },
+    {
+      "question": "Como planejar o encontro do piso novo com a porta em um imóvel de Pinhais?",
+      "answer": "Fotografe o vão com a porta aberta e fechada. Mostre a soleira e o piso do cômodo vizinho. Peça que a proposta detalhe a transição entre as alturas e o perfil previsto antes de decidir se a porta precisa de ajuste."
     }
   ],
   "colombo": [
     {
       "question": "Como organizar uma reforma em Colombo com parte do imóvel ocupada?",
       "answer": "Liste quais cômodos devem permanecer acessíveis, onde ficarão os móveis e quais trechos dependem da passagem por outro ambiente. A sequência precisa ser combinada após avaliar base e sistema. Não há prazo universal de liberação de uso para toda reforma."
+    },
+    {
+      "question": "O que enviar para orçar rodapés junto com o piso em Colombo?",
+      "answer": "Envie as medidas aproximadas das paredes, marque as portas e os móveis fixos e fotografe os cantos. Peça que o orçamento discrimine rodapés, arremates e instalação, porque a metragem do piso não informa o comprimento dos rodapés."
     }
   ],
   "araucria": [
     {
       "question": "O que informar para escolher piso comercial em Araucária?",
       "answer": "Descreva a atividade, circulação, mobiliário com rodízios e rotina de limpeza. Essas condições orientam a consulta da ficha do fabricante. A aparência e o nome da cidade não comprovam classe de uso ou compatibilidade; peça a indicação da versão oferecida."
+    },
+    {
+      "question": "Como comparar propostas para trocar o piso sem misturar escopos em Araucária?",
+      "answer": "Confirme se ambas incluem retirada e descarte do revestimento, preparo da base e acabamentos nas portas. Em imóveis comerciais, indique também quais áreas precisam continuar acessíveis durante o serviço. Compare os totais somente depois de alinhar esses itens."
     }
   ]
 }
