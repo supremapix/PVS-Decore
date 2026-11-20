@@ -3,9 +3,10 @@ import {renderToString} from 'react-dom/server';
 import {StaticRouter} from 'react-router-dom/server';
 import {HelmetProvider} from 'react-helmet-async';
 import {SiteContent} from '../App';
+import {PVS_BLOG_PATH,PVS_FIRST_POST} from '../pages/BlogPage';
 import {LOCATIONS,PAGE_CONTENT} from '../constants';
 
-export const routes = ['/', '/loja-showroom-sao-jose-dos-pinhais', '/areas-atendidas', '/guia-de-pisos', '/nossos-produtos', '/faq', '/contato', '/mapa-do-site', '/piso-laminado-direto-da-fabrica-sao-jose-dos-pinhais', ...Object.entries(PAGE_CONTENT).map(([slug,page])=>`/${page.type}/${slug}`), ...LOCATIONS.map(place=>`/${place.type}/${place.slug}`)];
+export const routes = ['/', '/loja-showroom-sao-jose-dos-pinhais', '/areas-atendidas', '/guia-de-pisos', PVS_BLOG_PATH, PVS_FIRST_POST, '/nossos-produtos', '/faq', '/contato', '/mapa-do-site', '/piso-laminado-direto-da-fabrica-sao-jose-dos-pinhais', ...Object.entries(PAGE_CONTENT).map(([slug,page])=>`/${page.type}/${slug}`), ...LOCATIONS.map(place=>`/${place.type}/${place.slug}`)];
 export function render(path:string){
   const context:any={};
   const html=renderToString(<HelmetProvider context={context}><StaticRouter location={path}><SiteContent/></StaticRouter></HelmetProvider>);
