@@ -16,6 +16,7 @@ import FAQPage from './pages/FAQPage';
 import ScrollToTop from './components/ScrollToTop';
 
 import BrandsProducts from './pages/BrandsProducts';
+import {BlogIndex, PisoSobreCeramica, PVS_BLOG_PATH, PVS_FIRST_POST} from './pages/BlogPage';
 
 export function AnimatedRoutes() {
   const location = useLocation();
@@ -24,6 +25,8 @@ export function AnimatedRoutes() {
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Home />} /><Route path="/areas-atendidas" element={<AreasPage/>}/><Route path="/guia-de-pisos" element={<GuidePage/>}/>
+        <Route path={PVS_BLOG_PATH} element={<BlogIndex />} />
+        <Route path={PVS_FIRST_POST} element={<PisoSobreCeramica />} />
         <Route path="/nossos-produtos" element={<BrandsProducts />} />
         <Route path="/piso-laminado-direto-da-fabrica-sao-jose-dos-pinhais" element={<FactoryPage />} />
         <Route path="/bairro/:slug" element={<LocationPage />} />
