@@ -20,7 +20,7 @@ export const PVS_ATENDIMENTO_STEPS = [
   {
     title: 'Compare materiais e acabamentos',
     frame: 2,
-    alt: 'Duas pessoas comparando amostras de piso e rodapé sobre uma mesa',
+    alt: 'Duas pessoas comparando amostras de pisos sobre uma mesa',
     speaker: 'Você',
     dialogue: 'Prefiro um visual de madeira, mas qual opção combina com a rotina da casa?',
     action: 'Compare laminado, vinílico e SPC conforme o ambiente, o sistema escolhido e os cuidados do fabricante. Se houver rodapé ou transições entre cômodos, decida esses detalhes junto com o piso.',
@@ -36,7 +36,7 @@ export const PVS_ATENDIMENTO_STEPS = [
   {
     title: 'Combine a instalação',
     frame: 3,
-    alt: 'Profissionais encaixando réguas de piso em um cômodo preparado',
+    alt: 'Profissional com joelheiras medindo réguas de piso em um cômodo preparado',
     speaker: 'Você',
     dialogue: 'O que deixo pronto para o dia da instalação?',
     action: 'Data e sequência dependem da confirmação do escopo, da disponibilidade do material e das condições da base. Combine antes como liberar o acesso, proteger os móveis e organizar os cômodos.',
