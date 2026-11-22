@@ -12,6 +12,7 @@ import GenericPage from './pages/GenericPage';
 import ContactPage from './pages/ContactPage';
 import SitemapPage from './pages/SitemapPage';
 import FactoryPage from './pages/FactoryPage';
+import FloorHistory, {PVS_HISTORY_PATH} from './pages/FloorHistory';
 import FAQPage from './pages/FAQPage';
 import ScrollToTop from './components/ScrollToTop';
 
@@ -27,6 +28,7 @@ export function AnimatedRoutes() {
         <Route path="/" element={<Home />} /><Route path="/areas-atendidas" element={<AreasPage/>}/><Route path="/guia-de-pisos" element={<GuidePage/>}/>
         <Route path={PVS_BLOG_PATH} element={<BlogIndex />} />
         <Route path={PVS_FIRST_POST} element={<PisoSobreCeramica />} />
+        <Route path={PVS_HISTORY_PATH} element={<FloorHistory />} />
         <Route path="/nossos-produtos" element={<BrandsProducts />} />
         <Route path="/piso-laminado-direto-da-fabrica-sao-jose-dos-pinhais" element={<FactoryPage />} />
         <Route path="/bairro/:slug" element={<LocationPage />} />
