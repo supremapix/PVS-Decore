@@ -1,3 +1,5 @@
+import AtendimentoPage from './pages/AtendimentoPage';
+import {PVS_ATENDIMENTO_PATH} from './data/atendimento';
 import StorePage from './pages/StorePage';
 import AreasPage from './pages/AreasPage';
 import GuidePage from './pages/GuidePage';
@@ -29,6 +31,7 @@ export function AnimatedRoutes() {
         <Route path={PVS_BLOG_PATH} element={<BlogIndex />} />
         <Route path={PVS_FIRST_POST} element={<PisoSobreCeramica />} />
         <Route path={PVS_HISTORY_PATH} element={<FloorHistory />} />
+        <Route path={PVS_ATENDIMENTO_PATH} element={<AtendimentoPage />} />
         <Route path="/nossos-produtos" element={<BrandsProducts />} />
         <Route path="/piso-laminado-direto-da-fabrica-sao-jose-dos-pinhais" element={<FactoryPage />} />
         <Route path="/bairro/:slug" element={<LocationPage />} />
