@@ -7,7 +7,7 @@ export default function AtendimentoPage() {
   return <>
     <EnhancedSEO
       title="Do primeiro contato à instalação do piso | PVS Decore"
-      description="Veja em seis quadrinhos como planejar a instalação do piso: enviar fotos, avaliar a base, escolher o material, conferir o orçamento e cuidar do acabamento."
+      description="Veja neste guia em quadrinhos com seis etapas como planejar a instalação do piso: enviar fotos, avaliar a base, escolher o material, conferir o orçamento e cuidar do acabamento."
       url={PVS_ATENDIMENTO_PATH}
       image={PVS_ATENDIMENTO_COVER}
     />
@@ -48,3 +48,4 @@ export default function AtendimentoPage() {
     </article>
   </>;
 }
+

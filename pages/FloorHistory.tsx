@@ -3,10 +3,13 @@ import {Helmet} from 'react-helmet-async';
 import {Link} from 'react-router-dom';
 import EnhancedSEO from '../components/EnhancedSEO';
 import {SITE_URL} from '../data/site';
-import data from '../data/floorHistory.json';
+import series from '../data/floorHistory.json';
+import laminado from '../data/floorLaminateHistory.json';
 
-export const PVS_HISTORY_PATH=data.path;
-export default function FloorHistory(){
+export const PVS_HISTORY_PATH=series.path;
+export const PVS_LAMINATE_HISTORY_PATH=laminado.path;
+export default function FloorHistory({chapter = 1}:{chapter?:1|2}){
+ const data=chapter===2 ? laminado : series;
  const canonical=SITE_URL+data.path;
  const image=SITE_URL+data.image;
  const schema={
@@ -31,7 +34,7 @@ export default function FloorHistory(){
  </Helmet>
  <article className="shell section max-w-5xl">
    <nav aria-label="Você está aqui" className="mb-5 flex flex-wrap gap-2"><Link className="underline" to="/">Início</Link><span aria-hidden="true">/</span><Link className="underline" to="/blog">Blog</Link></nav>
-   <p className="eyebrow">Série: história dos pisos · Capítulo 1</p>
+   <p className="eyebrow">Série: história dos pisos · Capítulo {chapter}</p>
    <h1 className="editorial-title mt-4 text-4xl md:text-6xl">{data.title}</h1>
    <p className="mt-4 text-sm">PVS Decore · <time dateTime={data.date}>{data.humanDate}</time></p>
    <p className="mb-7 mt-4 max-w-3xl text-lg">{data.description}</p>
@@ -40,6 +43,10 @@ export default function FloorHistory(){
      <figcaption className="mt-2 text-sm">{data.caption}</figcaption>
    </figure>
    <div className="max-w-3xl space-y-4 break-words leading-relaxed [&_h2]:mt-9 [&_h2]:text-2xl [&_h2]:font-semibold [&_ol]:list-decimal [&_ol]:space-y-2 [&_ol]:pl-6 [&_a]:font-semibold [&_a]:underline [&_a]:underline-offset-2" dangerouslySetInnerHTML={{__html:data.body}}/>
+   <aside className="card mt-10">
+     <h2 className="text-2xl font-semibold">{chapter===1 ? 'Continue a série: a história do piso laminado' : 'Leia também o primeiro capítulo'}</h2>
+     <p className="mt-4"><Link className="underline" to={chapter===1 ? laminado.path : series.path}>{chapter===1 ? laminado.title : series.title}</Link></p>
+   </aside>
    <aside className="card mt-10">
      <h2 className="text-2xl font-semibold">Conheça as linhas atuais da PVS</h2>
      <ul className="mt-4 flex flex-wrap gap-x-6 gap-y-3">
@@ -51,3 +58,4 @@ export default function FloorHistory(){
    </aside>
  </article></>;
 }
+

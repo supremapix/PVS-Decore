@@ -5,6 +5,7 @@ import EnhancedSEO from '../components/EnhancedSEO';
 import Illustration from '../components/Illustration';
 import {SITE_URL} from '../data/site';
 import floorHistory from '../data/floorHistory.json';
+import floorLaminateHistory from '../data/floorLaminateHistory.json';
 
 export const PVS_BLOG_PATH='/blog';
 export const PVS_FIRST_POST='/blog/piso-vinilico-sobre-ceramica';
@@ -20,7 +21,7 @@ const checklist=[
 ];
 
 export function BlogIndex(){
- return <><EnhancedSEO title="Blog de pisos e reformas | PVS Decore" description="Guias sobre laminado, vinílico, rodapés e preparação da base. Aprenda a planejar a troca de piso e a comparar propostas de instalação." url={PVS_BLOG_PATH}/><section className="shell section max-w-5xl"><p className="eyebrow">Blog PVS Decore</p><h1 className="editorial-title text-4xl md:text-6xl mt-4">Pisos e reformas, sem improviso</h1><p className="text-lg mt-6 mb-10">Orientações para planejar o piso, entender a proposta e fazer perguntas melhores antes de reformar.</p><article className="card mb-6"><p className="eyebrow">Série: história dos pisos</p><h2 className="mt-2 text-2xl font-bold"><Link className="underline" to={floorHistory.path}>{floorHistory.title}</Link></h2><p className="my-4">{floorHistory.description}</p><Link className="button secondary" to={floorHistory.path}>Ler o primeiro capítulo</Link></article><article className="card"><h2 className="text-2xl font-bold"><Link className="underline" to={PVS_FIRST_POST}>{headline}</Link></h2><p className="my-4">{description}</p><Link className="button secondary" to={PVS_FIRST_POST}>Ler o guia</Link></article></section></>;
+ return <><EnhancedSEO title="Blog de pisos e reformas | PVS Decore" description="Guias sobre laminado, vinílico, rodapés e preparação da base. Aprenda a planejar a troca de piso e a comparar propostas de instalação." url={PVS_BLOG_PATH}/><section className="shell section max-w-5xl"><p className="eyebrow">Blog PVS Decore</p><h1 className="editorial-title text-4xl md:text-6xl mt-4">Pisos e reformas, sem improviso</h1><p className="text-lg mt-6 mb-10">Orientações para planejar o piso, entender a proposta e fazer perguntas melhores antes de reformar.</p><article className="card mb-6"><p className="eyebrow">Série: história dos pisos</p><h2 className="mt-2 text-2xl font-bold"><Link className="underline" to={floorHistory.path}>{floorHistory.title}</Link></h2><p className="my-4">{floorHistory.description}</p><Link className="button secondary" to={floorHistory.path}>Ler o primeiro capítulo</Link></article><article className="card mb-6"><p className="eyebrow">Série: história dos pisos · Capítulo 2</p><h2 className="mt-2 text-2xl font-bold"><Link className="underline" to={floorLaminateHistory.path}>{floorLaminateHistory.title}</Link></h2><p className="my-4">{floorLaminateHistory.description}</p><Link className="button secondary" to={floorLaminateHistory.path}>Ler o capítulo do laminado</Link></article><article className="card"><h2 className="text-2xl font-bold"><Link className="underline" to={PVS_FIRST_POST}>{headline}</Link></h2><p className="my-4">{description}</p><Link className="button secondary" to={PVS_FIRST_POST}>Ler o guia</Link></article></section></>;
 }
 
 export function PisoSobreCeramica(){
@@ -39,3 +40,4 @@ export function PisoSobreCeramica(){
  <nav aria-label="Próximos passos" className="flex flex-wrap gap-4 mt-10"><Link className="button" to="/contato">Consultar a PVS</Link><Link className="button secondary" to="/product/piso-vinilico">Conhecer pisos vinílicos</Link><Link className="button secondary" to="/guia-de-pisos">Comparar tipos de piso</Link></nav>
  </article></>;
 }
+
